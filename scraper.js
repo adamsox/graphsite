@@ -5,15 +5,16 @@
  * Course Web Scraper
  */
 
+// Importing required objects
 import playwright from 'playwright'
 import fs from 'fs'
 
 (async () => {
-  // array for all courses
+  // Array of JSON objects storing information for each course
   let allData = []
 
-  // accessing all programs offered at Guelph 
-  // with their respective links to access all courses 
+  // Accessing all programs offered at Guelph 
+  // with their respective links in order to access all courses 
   const browser = await playwright.chromium.launch();
   const page = await browser.newPage();
   await page.goto(
@@ -21,74 +22,78 @@ import fs from 'fs'
   );
 
   const programUrls = await page.$eval(".az_sitemap", (all_items) => {
+    
+    // Array of links to courses within programs
     const data = [];
 
     const links = all_items.getElementsByTagName('a');    
-    // pushing all links that were scraped from the 'az_sitemap' html dom 
+    
+    // Pushing all links that were scraped from the 'az_sitemap' HTML DOM 
     for (let c = 0; c < links.length; c++){
         data.push(links[c].href);
     }
 
-    // returning array of links
+    // Returning array of links
     return data;
   });
 
-  // iterating thro
+  // Iterating through links to each course's info
   programUrls.forEach( async url => {
       if (!url.includes("#") && url.length > 0){
-        // getting all courses in tmp array
+        
+        // Storing all course info objects in a temp array
         let tmp = await scrapFunc(url);
         tmp.forEach( courseObj => {
-          // pushing program specific courses to all courses array
+          
+          // Pushing course info object to array of all courses
           allData.push(courseObj)
         });
         
-        // writing all data out to JSON file
+        // Writing all data to JSON file
         fs.writeFile('courses.json', JSON.stringify(allData), err => {if (err) throw err});
       }
   });
 
-  // closing browser
+  // Closing browser
   await browser.close();
 })();
 
 /**
- * simple function for scraping program specific courses web page
- * and storing them in array of JSON objects 
- * @param {*} url // url with program specific course information 
+ * Simple function for scraping program-specific courses' web pages
+ * and storing them in array of JSON objects
+ * @param {*} url // url with program-specific course information 
  */
 async function scrapFunc(url) {
-    // launching browser and creating page
+    // Launching browser and creating page
     const browser = await playwright.chromium.launch();
     const page = await browser.newPage();
-    // going to program specific web page 
+    // Accessing program-specific web page 
     await page.goto(url);
 
-    // accessing all 'courseblock' classes 
-    // they hold all information regarding each course (relative to program)
+    // Accessing all 'courseblock' classes 
+    // 'courseblock' classes hold all information regarding each course (relative to program)
     const courses = await page.$$eval(".courseblock", (all_items) => {
       const data = [];
   
       all_items.forEach((course) => {
-        // getting course code 
+        // Getting course code 
         const cc = course.querySelector(".detail-code").innerText;
-        // getting course title/description 
+        // Getting course title/description 
         const desc =  course.querySelector('.detail-title').innerText
-        // getting credit worth
+        // Getting credit worth
         const cred = course.querySelector(".detail-hours_html").innerText;
-        // getting offered courses  
+        // Getting semesters that the course is offered in  
         const off = course.querySelector('.detail-typically_offered')?.innerText;
 
-        // pushing extracted data to array of JSON objects 
+        // Pushing extracted data to array of JSON objects 
         data.push({ cc, cred, desc, off });
       });
       return data;
     });
 
     
-    // const divsCounts = await page.$$eval(".courseblock", (divs) => divs.length);
 
-    // closing browser
+    // Closing browser
     await browser.close();
 
     return courses;
