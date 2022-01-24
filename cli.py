@@ -20,10 +20,10 @@ def main():
         print(val)
 
         if val == "":
-            print("Error please input a valid command")
+            print("Critical Error please input a valid command!")
             return None
 
-        if val == "exit":
+        if val == "exit" or val == "quit" or val == "q":
             exit = True
 
         elif arguments[0] == "coursesearch":
@@ -31,8 +31,8 @@ def main():
 
         # case where the user inputs a command other than exit or coursesearch.
         else:
-            print("Error please input a valid command")
-            return None
+            print("Error please input a valid command:")
+            # return None
     return None
 
 code = ""
