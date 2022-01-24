@@ -39,7 +39,10 @@ def main():
 
         # If user enters a command other than exit or coursesearch.
         else:
-            print("Error please input a valid command:")
+            print("usage: coursesearch course_code course_year credit_count season")
+            print("Put \'x\' for anything you do not wish to specify.")
+            print ("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
+            print ("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
             # return None
     return None
 
@@ -92,7 +95,7 @@ def courseSearch(args_list):
     # case where the only argument is the program name
     if len(args_list) < 4 or len(args_list) > 4:
         print("usage: coursesearch course_code course_year credit_count season")
-        print("Put x for anything you do not wish to specify.")
+        print("Put \'x\' for anything you do not wish to specify.")
         print ("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
         print ("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
     else:
