@@ -90,7 +90,7 @@ async function scrapFunc(url) {
         const cred = course.querySelector(".detail-hours_html").innerText;
 
         // Getting semesters that the course is offered in  
-        const off = course.querySelector('.detail-typically_offered')?.innerText ? course.querySelector('.detail-typically_offered')?.innerText : "N/A";
+        const off = course.querySelector('.detail-typically_offered')?.innerText ? course.querySelector('.detail-typically_offered')?.innerText : " ";
 
         // Pushing extracted data to array of JSON objects 
         courseInfoObjs.push({ cc, cred, desc, off });
