@@ -1,55 +1,71 @@
 #
-# CIS3760_Team 10
-# cli.py
+# CIS*3760 
+# Team 10
 # 23 Jan 2022
+# Program allowing user to search courses database using command-line interface
 #
 
+#Importing required objects
 import json
 
-# list of courses from the courses.json file
+# List of courses from the courses.json file
 courses = []
 
+# Main
 def main():
+    #Setting exit boolean to be false by default.
     exit = False
 
-    # taking user input until user inputs exit command.
+    # Taking user input until user inputs exit command.
     while not(exit):
         print('coursesearch: ', end="")
         val = input()
+<<<<<<< HEAD
         val = val.lower()
         # spliting the user inputed string by the whitespaces and populating a list with those values.
+=======
+        # Spliting the input string by the whitespaces and populating a list with those values.
+>>>>>>> 05d0b6ab8eefa3b91da76d6b6b97775e2202322b
         arguments = val.split()
 
+        # If user enters blank string as input.
         if val == "":
             print("Critical Error please input a valid command!")
             return None
 
+        # If user quits/exits program.
         if val == "exit" or val == "quit" or val == "q":
             exit = True
 
+<<<<<<< HEAD
         elif len(arguments) == 4:
+=======
+        # If user enters coursesearch command.
+        elif arguments[0] == "coursesearch":
+>>>>>>> 05d0b6ab8eefa3b91da76d6b6b97775e2202322b
             courseSearch(arguments)
             print()
 
-        # case where the user inputs a command other than exit or coursesearch.
+        # If user enters a command other than exit or coursesearch.
         else:
             print("Error please input a valid command:")
             # return None
     return None
 
+# Initializing variables
 code = ""
 year = ""
 credit_count = ""
 semester = ""
 
-# checks if a course matches the requested code
+# Checking if a course matches the requested code
 def check_code(course):    
     if code.lower() in course['cc'].lower():
         return True
     else:
         return False
 
-# checks if a course matches the requested year
+# Checking if a course matches the requested year
 def check_year(course):
     course_year = (course['cc'].split("*", 1)[1])
     
@@ -58,14 +74,14 @@ def check_year(course):
     else:
         return False
 
-# checks if a course matches the requested credits
+# Checking if a course matches the requested credits
 def check_credit(course):
     if credit_count in course['cred']:
         return True
     else:
         return False
 
-# checks if a course matches the requested semester
+# Checking if a course matches the requested semester
 def check_semester(course):
     sem = semester.lower()
     
@@ -79,11 +95,16 @@ def check_semester(course):
     else:
         return False
         
-
+# courseSearch function
 def courseSearch(args_list):
 
+<<<<<<< HEAD
     # case where the only argument is the program name
     if len(args_list) < 4 or len(args_list) > 4:
+=======
+    # Case where the only argument is the program name
+    if len(args_list) < 5 or len(args_list) > 5:
+>>>>>>> 05d0b6ab8eefa3b91da76d6b6b97775e2202322b
         print("usage: coursesearch course_code course_year credit_count season")
         print("Put x for anything you do not wish to specify.")
         print ("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
@@ -95,24 +116,24 @@ def courseSearch(args_list):
         credit_count = args_list[2]
         semester = args_list[3]
 
-        # filtering course list
+        # Filtering course list
         filtered_courses = courses
-        # code
+        # Code
         if code != "x":
             courses_iterator = filter(check_code, filtered_courses)
             filtered_courses = list(courses_iterator)
         
-        # year
+        # Year
         if year != "x":
             courses_iterator = filter(check_year, filtered_courses)
             filtered_courses = list(courses_iterator)
         
-        # credits
+        # Credits
         if credit_count != "x":
             courses_iterator = filter(check_credit, filtered_courses)
             filtered_courses = list(courses_iterator)
         
-        # semester
+        # Semester
         if semester != "x":
             courses_iterator = filter(check_semester, filtered_courses)
             filtered_courses = list(courses_iterator)
