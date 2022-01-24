@@ -20,12 +20,8 @@ def main():
     while not(exit):
         print('coursesearch: ', end="")
         val = input()
-<<<<<<< HEAD
         val = val.lower()
         # spliting the user inputed string by the whitespaces and populating a list with those values.
-=======
-        # Spliting the input string by the whitespaces and populating a list with those values.
->>>>>>> 05d0b6ab8eefa3b91da76d6b6b97775e2202322b
         arguments = val.split()
 
         # If user enters blank string as input.
@@ -37,12 +33,7 @@ def main():
         if val == "exit" or val == "quit" or val == "q":
             exit = True
 
-<<<<<<< HEAD
         elif len(arguments) == 4:
-=======
-        # If user enters coursesearch command.
-        elif arguments[0] == "coursesearch":
->>>>>>> 05d0b6ab8eefa3b91da76d6b6b97775e2202322b
             courseSearch(arguments)
             print()
 
@@ -98,13 +89,8 @@ def check_semester(course):
 # courseSearch function
 def courseSearch(args_list):
 
-<<<<<<< HEAD
     # case where the only argument is the program name
     if len(args_list) < 4 or len(args_list) > 4:
-=======
-    # Case where the only argument is the program name
-    if len(args_list) < 5 or len(args_list) > 5:
->>>>>>> 05d0b6ab8eefa3b91da76d6b6b97775e2202322b
         print("usage: coursesearch course_code course_year credit_count season")
         print("Put x for anything you do not wish to specify.")
         print ("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
