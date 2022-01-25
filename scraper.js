@@ -92,21 +92,8 @@ async function scrapFunc(url) {
         // Getting semesters that the course is offered in  
         const off = course.querySelector('.detail-typically_offered')?.innerText ? course.querySelector('.detail-typically_offered')?.innerText : " ";
 
-        // getting prequisites 
-        const preq = course.querySelector('.detail-prerequisite_s_')?.innerText ? course.querySelector('.detail-prerequisite_s_')?.innerText : "";
-        // splitting line of prerequisites into indivdual strings  
-        let tmpArr = preq.split(" ");
-        let preqArr = [];
-        // extracting course codes from list of prerequisites
-        tmpArr.forEach(word => {
-            if(word.includes('*')){
-                preqArr.push(word);
-            }
-        });
-
-
         // Pushing extracted data to array of JSON objects 
-        courseInfoObjs.push({ cc, cred, desc, off, preqArr});
+        courseInfoObjs.push({ cc, cred, desc, off });
       });
       return courseInfoObjs;
     });
