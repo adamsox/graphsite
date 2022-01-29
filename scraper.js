@@ -95,14 +95,35 @@ async function scrapFunc(url) {
         // getting prequisites 
         const preq = course.querySelector('.detail-prerequisite_s_')?.innerText ? course.querySelector('.detail-prerequisite_s_')?.innerText : "";
         // splitting line of prerequisites into indivdual strings  
-        let tmpArr = preq.split(" ");
-        let preqArr = [];
-        // extracting course codes from list of prerequisites
-        tmpArr.forEach(word => {
-            if(word.includes('*')){
-                preqArr.push(word);
-            }
-        });
+        let tmpArr = preq.split(",");
+        tmpArr[0] = tmpArr[0].slice(17);
+        let preqArr = []
+
+        for(let idx = 0; idx < tmpArr.length; idx++) {
+          if(tmpArr[idx].includes('or') && !tmpArr[idx].includes("above")){
+              preqArr.push({preq: tmpArr[idx], type: 'or'});
+          }else if(tmpArr[idx].includes('of')){
+              let tmpPreq = "";
+              let tmpIdx;
+              for (tmpIdx = idx; tmpIdx < tmpArr.length; tmpIdx++){
+                  tmpPreq = tmpPreq + tmpArr[tmpIdx];
+              }
+              preqArr.push({preq: tmpPreq, type: 'numOf'});
+              idx = tmpIdx;
+          }else if (tmpArr[idx] !== "" ) {
+              if(tmpArr[idx].includes("including")){
+                  let tmpPreq = tmpArr[idx].replaceAll(" ", "").split('including');
+                  tmpPreq.forEach(req => {
+                    if(req !== ""){
+                        preqArr.push({preq: req, type: 'mand'});
+                    }
+                })
+              }else{
+                  preqArr.push({preq: tmpArr[idx], type: 'mand'});
+              }
+              
+          }
+      }
 
 
         // Pushing extracted data to array of JSON objects 
