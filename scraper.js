@@ -134,6 +134,8 @@ async function scrapFunc(url) {
                 }
                 idx = tmpIdx;
                 preqArr.push({preq: tmpPreq, type: 'mand'});
+              }else if(tmpArr[idx].includes("recommended")){
+                preqArr.push({preq: tmpArr[idx], type: 'rec'});
               }else{
                   preqArr.push({preq: tmpArr[idx], type: 'mand'});
               }
