@@ -96,28 +96,44 @@ async function scrapFunc(url) {
         const preq = course.querySelector('.detail-prerequisite_s_')?.innerText ? course.querySelector('.detail-prerequisite_s_')?.innerText : "";
         // splitting line of prerequisites into indivdual strings  
         let tmpArr = preq.split(",");
+        // removing subtitle
         tmpArr[0] = tmpArr[0].slice(17);
+        // array that will store the parsed data
         let preqArr = []
 
+        // looping through all words in prerequisites 
         for(let idx = 0; idx < tmpArr.length; idx++) {
-          if(tmpArr[idx].includes('or') && !tmpArr[idx].includes("above")){
+          if(tmpArr[idx].includes(" or ") && !tmpArr[idx].includes("above")){
+              // checking if prerequisite has selection
               preqArr.push({preq: tmpArr[idx], type: 'or'});
           }else if(tmpArr[idx].includes('of')){
+              // assuming prerequsite is "# of "
+              // e.g. "1 of CIS*1300, CIS1500, or CIS*1200"
               let tmpPreq = "";
               let tmpIdx;
+              // get all 
               for (tmpIdx = idx; tmpIdx < tmpArr.length; tmpIdx++){
                   tmpPreq = tmpPreq + tmpArr[tmpIdx];
               }
               preqArr.push({preq: tmpPreq, type: 'numOf'});
               idx = tmpIdx;
           }else if (tmpArr[idx] !== "" ) {
-              if(tmpArr[idx].includes("including")){
-                  let tmpPreq = tmpArr[idx].replaceAll(" ", "").split('including');
+              if(tmpArr[idx].includes("including") && !(tmpArr[idx].includes("from"))){
+                  let tmpPreq = tmpArr[idx].split('including');
                   tmpPreq.forEach(req => {
                     if(req !== ""){
                         preqArr.push({preq: req, type: 'mand'});
                     }
                 })
+              }else if(tmpArr[idx].includes("including") && tmpArr[idx].includes("from")){
+                let tmpPreq = "";
+                let tmpIdx;
+                // get all 
+                for (tmpIdx = idx; tmpIdx < tmpArr.length; tmpIdx++){
+                    tmpPreq = tmpPreq + tmpArr[tmpIdx];
+                }
+                idx = tmpIdx;
+                preqArr.push({preq: tmpPreq, type: 'mand'});
               }else{
                   preqArr.push({preq: tmpArr[idx], type: 'mand'});
               }
@@ -132,8 +148,7 @@ async function scrapFunc(url) {
       return courseInfoObjs;
     });
 
-    
-
+  
     // Closing browser
     await browser.close();
 
