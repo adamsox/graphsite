@@ -119,7 +119,7 @@ async function scrapFunc(url) {
               idx = tmpIdx;
           }else if (tmpArr[idx] !== "" ) {
               if(tmpArr[idx].toLowerCase().includes("including") && !(tmpArr[idx].toLowerCase().includes("from"))){
-                  let tmpPreq = tmpArr[idx].toLowerCase().split('including');
+                  let tmpPreq = tmpArr[idx].split('including');
                   tmpPreq.forEach(req => {
                     if(req !== ""){
                         preqArr.push({preq: req, type: 'mand'});
