@@ -103,10 +103,10 @@ async function scrapFunc(url) {
 
         // looping through all words in prerequisites 
         for(let idx = 0; idx < tmpArr.length; idx++) {
-          if(tmpArr[idx].includes(" or ") && !tmpArr[idx].includes("above")){
+          if(tmpArr[idx].toLowerCase().includes(" or ") && !tmpArr[idx].toLowerCase().includes("above")){
               // checking if prerequisite has selection
               preqArr.push({preq: tmpArr[idx], type: 'or'});
-          }else if(tmpArr[idx].includes('of')){
+          }else if(tmpArr[idx].toLowerCase().includes('of')){
               // assuming prerequsite is "# of "
               // e.g. "1 of CIS*1300, CIS1500, or CIS*1200"
               let tmpPreq = "";
@@ -118,14 +118,14 @@ async function scrapFunc(url) {
               preqArr.push({preq: tmpPreq, type: 'numOf'});
               idx = tmpIdx;
           }else if (tmpArr[idx] !== "" ) {
-              if(tmpArr[idx].includes("including") && !(tmpArr[idx].includes("from"))){
-                  let tmpPreq = tmpArr[idx].split('including');
+              if(tmpArr[idx].toLowerCase().includes("including") && !(tmpArr[idx].toLowerCase().includes("from"))){
+                  let tmpPreq = tmpArr[idx].toLowerCase().split('including');
                   tmpPreq.forEach(req => {
                     if(req !== ""){
                         preqArr.push({preq: req, type: 'mand'});
                     }
                 })
-              }else if(tmpArr[idx].includes("including") && tmpArr[idx].includes("from")){
+              }else if(tmpArr[idx].toLowerCase().includes("including") && tmpArr[idx].toLowerCase().includes("from")){
                 let tmpPreq = "";
                 let tmpIdx;
                 // get all 
@@ -134,7 +134,7 @@ async function scrapFunc(url) {
                 }
                 idx = tmpIdx;
                 preqArr.push({preq: tmpPreq, type: 'mand'});
-              }else if(tmpArr[idx].includes("recommended")){
+              }else if(tmpArr[idx].toLowerCase().includes("recommended")){
                 preqArr.push({preq: tmpArr[idx], type: 'rec'});
               }else{
                   preqArr.push({preq: tmpArr[idx], type: 'mand'});
