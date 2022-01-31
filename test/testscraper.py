@@ -18,7 +18,7 @@ class TestScraper(unittest.TestCase):
         f.close()
 
     
-    # testing that first course is scraped
+    # testing that first math course is scraped
     def testFirstCourseScraper(self):
         os.system('node course_scraper_test.js > test_singlecourse.txt')
 
@@ -26,7 +26,7 @@ class TestScraper(unittest.TestCase):
         self.assertIn('cc: \'MATH*1030\'',f.read())
         f.close()
 
-    # testing that last course is scraped
+    # testing that last math course is scraped
     def testLastCourse(self):
         f = open('test_singlecourse.txt')
         self.assertIn('cc: \'MATH*4600\'',f.read())
