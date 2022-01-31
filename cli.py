@@ -109,32 +109,46 @@ def courseSearch(args_list):
         filtered_courses = courses
         # Code
         if code != "x":
-            courses_iterator = filter(check_code, filtered_courses)
-            filtered_courses = list(courses_iterator)
-        
+            filtered_courses = filterCode(check_code, filtered_courses)
         # Year
         if year != "x":
-            courses_iterator = filter(check_year, filtered_courses)
-            filtered_courses = list(courses_iterator)
+            filtered_courses = filterYear(check_year, filtered_courses)
         
         # Credits
         if credit_count != "x":
-            courses_iterator = filter(check_credit, filtered_courses)
-            filtered_courses = list(courses_iterator)
+            filtered_courses = filterCredit(check_credit, filtered_courses)
         
         # Semester
         if semester != "x":
-            courses_iterator = filter(check_semester, filtered_courses)
-            filtered_courses = list(courses_iterator)
+            filtered_courses = filterSemester(check_semester, filtered_courses)
         #print(filtered_courses)
         if not filtered_courses:
             print("No results found")
         else:
-            #print(filtered_courses)
             filtered_courses = sorted(filtered_courses, key=lambda x : x['cc'])
             for course in filtered_courses:
                 print(str(course['cc']) + " " + str(course['cred']) + " " + str(course['desc']) + " " +  str(course['off']))
+            return filtered_courses
 
+def filterCode(check_code, filtered_courses):
+    courses_iterator = filter(check_code, filtered_courses)
+    filtered_courses = list(courses_iterator)
+    return filtered_courses
+
+def filterCredit(check_credit, filtered_courses):
+    courses_iterator = filter(check_credit, filtered_courses)
+    filtered_courses = list(courses_iterator)
+    return filtered_courses
+
+def filterYear(check_year, filtered_courses):
+    courses_iterator = filter(check_year, filtered_courses)
+    filtered_courses = list(courses_iterator)
+    return filtered_courses
+
+def filterSemester(check_semester, filtered_courses):
+    courses_iterator = filter(check_semester, filtered_courses)
+    filtered_courses = list(courses_iterator)
+    return filtered_courses
 
 
 # This function opens the courses.json file and takes its contents
