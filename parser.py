@@ -71,7 +71,7 @@ for course in courses:
                 
                 # If more than 1 course is present
                 if numCourses > 1:
-                    print(reqName)
+                    #print(reqName)
 
                     courseString = reqName.split(" ")
 
@@ -154,6 +154,11 @@ for course in courses:
         elif reqType == "numOf":
             #print(reqName)
 
+            reqName = reqName.replace("(", "")
+            reqName = reqName.replace(")", "")
+            reqName = reqName.replace("[", "")
+            reqName = reqName.replace("]", "")
+
             if " of " in reqName:
                 splitOf = reqName.split(" of ")
                 numSplits = len(splitOf)
@@ -235,10 +240,13 @@ f.close()
 # example user input
 user_input_example = "CIS" #or "CIS*2750"
 
-textFileName = "output.txt"
+textFileName = "output.dot"
 
 # clear output file
 open(textFileName, 'w').close()
+
+with open(textFileName, "a") as textFile:
+    textFile.write("digraph CourseMap {\n")
 
 if "*" in user_input_example:
     # course code
@@ -272,3 +280,6 @@ else:
         if prefix in mapping[1]:
             with open(textFileName, "a") as textFile:
                 textFile.write(mapping[0] + mapping[1] + "\n")
+
+with open(textFileName, "a") as textFile:
+    textFile.write("}\n")
