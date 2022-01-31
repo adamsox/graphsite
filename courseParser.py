@@ -8,6 +8,7 @@
 # Importing required objects
 import json
 import re
+import os
 
 
 courses_list = []
@@ -59,7 +60,8 @@ def readCourses():
                         graphString = "\"" + reqName + "\" -> \"" + course['cc'] + "\""
                         temp = graphString.split(">")
                         temp[0] += ">"
-                        courses_list.append(temp)
+                        if(temp not in courses_list):
+                            courses_list.append(temp)
                         #print(graphString)
     
                         #splitName = reqName.split(" in ")
@@ -86,7 +88,8 @@ def readCourses():
                                 graphString = "\"" + courseString[i] + "\" -> \"" + course['cc'] + "\" [style=solid]"
                                 temp = graphString.split(">")
                                 temp[0] += ">"
-                                courses_list.append(temp)
+                                if(temp not in courses_list):
+                                    courses_list.append(temp)
                                 #print(graphString)
     
                     else:
@@ -94,7 +97,8 @@ def readCourses():
                         graphString = "\"" + reqName + "\" -> \"" + course['cc'] + "\" [style=solid]"
                         temp = graphString.split(">")
                         temp[0] += ">"
-                        courses_list.append(temp)
+                        if(temp not in courses_list):
+                            courses_list.append(temp)
                         #print(graphString)
             
             elif reqType == "or":
@@ -132,7 +136,8 @@ def readCourses():
                         graphString = "\"" + joinVar + "\" -> \"" + splitName[i] + "\" [style=dashed]"
                         temp = graphString.split(">")
                         temp[0] += ">"
-                        courses_list.append(temp)
+                        if(temp not in courses_list):
+                            courses_list.append(temp)
                         #print(graphString)
     
                         # Looping through all courses binded by "and"
@@ -140,7 +145,8 @@ def readCourses():
                             graphString = "\"" + splitAnd[i].strip() + "\" -> \"" + joinVar + "\" [style=solid]"
                             temp = graphString.split(">")
                             temp[0] += ">"
-                            courses_list.append(temp)
+                            if(temp not in courses_list):
+                                courses_list.append(temp)
                             #print(graphString)
     
                         # Updating joinVar info
@@ -151,7 +157,8 @@ def readCourses():
                     graphString = "\"" + splitName[i] + "\" -> \"" + course['cc'] + "\" [style=dashed]"
                     temp = graphString.split(">")
                     temp[0] += ">"
-                    courses_list.append(temp)
+                    if(temp not in courses_list):
+                        courses_list.append(temp)
                     #print(graphString)
     
             # Splitting by "numOf" type
@@ -194,7 +201,8 @@ def readCourses():
                                             graphString = "\"" + coursesOf[j] + "\" -> \"" + course['cc'] + "\" [style=dashed] [label=\"" + numOf + " of\"]"
                                             temp = graphString.split(">")
                                             temp[0] += ">"
-                                            courses_list.append(temp)
+                                            if(temp not in courses_list):
+                                                courses_list.append(temp)
                                             #print(graphString)
                                     numOf = splitOf[i][length - 1]
     
@@ -210,13 +218,15 @@ def readCourses():
                                             graphString = "\"" + coursesOf[j] + "\" -> \"" + course['cc'] + "\" [style=dashed] [label=\"" + numOf + " of\"]"
                                             temp = graphString.split(">")
                                             temp[0] += ">"
-                                            courses_list.append(temp)
+                                            if(temp not in courses_list):
+                                                courses_list.append(temp)
                                             #print(graphString)
                 else:
                     graphString = "\"" + reqName + "\" -> \"" + course['cc'] + "\" [style=solid]"
                     temp = graphString.split(">")
                     temp[0] += ">"
-                    courses_list.append(temp)
+                    if(temp not in courses_list):
+                        courses_list.append(temp)
                     #print(graphString) 
             elif reqType == "rec":
                 #print(reqName)
@@ -233,7 +243,8 @@ def readCourses():
                 graphString = "\"" + splitRec[0] + "\" -> \"" + course['cc'] + "\" [style=solid] [label=\"recommended\"]"
                 temp = graphString.split(">")
                 temp[0] += ">"
-                courses_list.append(temp)
+                if(temp not in courses_list):
+                    courses_list.append(temp)
                 #print(graphString)
     
     #print(courses_list)
@@ -281,6 +292,8 @@ def getGraphvizInput(user_input):
         # course prefix
         prefix = user_input
         
+
+        # writing to DOT file 
         for mapping in courses_list:
             if prefix in mapping[1]:
                 with open(textFileName, "a") as textFile:
@@ -288,3 +301,16 @@ def getGraphvizInput(user_input):
     
     with open(textFileName, "a") as textFile:
         textFile.write("}\n")
+    
+    
+    
+    # checking that course program exists    
+    with open(textFileName, "r") as textFile:
+        if('->' not in textFile.read()):
+            print('empty')
+            return -1
+    
+    
+    cmd = "dot -Tpdf " + textFileName + " > output.pdf"
+    os.system(cmd)
+

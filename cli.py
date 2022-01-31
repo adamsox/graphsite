@@ -37,8 +37,12 @@ def main():
             exit = True
 
         elif len(arguments) == 2:
-            make_graph(arguments)
-            print("makegraph success!")
+            retVal = make_graph(arguments)
+            if(retVal == -1):
+                print("error: course code does not exist")
+            else:
+                print("makegraph success!")
+            
             
         elif len(arguments) == 4:
             courseSearch(arguments)
@@ -60,7 +64,7 @@ def main():
 
 # call the Graphviz courseParser
 def make_graph(args_list):
-    courseParser.getGraphvizInput(args_list[1].upper())
+    return courseParser.getGraphvizInput(args_list[1].upper())
 
 
 # Initializing variables
