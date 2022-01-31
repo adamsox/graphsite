@@ -10,6 +10,7 @@ import json
 
 # List of courses from the courses.json file
 courses = []
+unit_test = False
 
 # Main
 def main():
@@ -127,7 +128,8 @@ def courseSearch(args_list):
         else:
             filtered_courses = sorted(filtered_courses, key=lambda x : x['cc'])
             for course in filtered_courses:
-                print(str(course['cc']) + " " + str(course['cred']) + " " + str(course['desc']) + " " +  str(course['off']))
+                if unit_test == False:
+                    print(str(course['cc']) + " " + str(course['cred']) + " " + str(course['desc']) + " " +  str(course['off']))
             return filtered_courses
 
 def filterCode(check_code, filtered_courses):
