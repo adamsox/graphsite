@@ -31,16 +31,18 @@ Assumptions:
 
 Functionality: 
     - a python script that presents a Command Line Interface that allows users to search for courses based on:
-        course code, year, weight, and time it is offered 
+        course code, year, weight, and time it is offered; or make a graph based on a course prefix or course code
 
 Requirements:
     - "courses.json" data file
+    - "courseParser.py" for creating the graphviz data
     - python 3
 
 Instructions:
     - simply run "python cli.py" in your command line and it will prompt you to enter your search parameters
     - to enter parameters correctly, they must use the following order: coursesearch course_code course_year credit_count season
     - if you do not wish to use a certain parameter, enter 'x' to leave it blank
+    - or makegraph (course prefix or course code)
     - to exit simply use keywords 'exit', 'quit', or 'q' 
 
 Limitations:
@@ -49,4 +51,5 @@ Limitations:
 Assumptions:
     - user has successfully ran the at least once scraper before using the CLI & has the 'courses.json' file
     - data is pulled from "courses.json" 
+
 
