@@ -7,6 +7,7 @@
 
 #Importing required objects
 import json
+import courseParser
 
 # List of courses from the courses.json file
 courses = []
@@ -19,33 +20,48 @@ def main():
 
     # Taking user input until user inputs exit command.
     while not(exit):
-        print('coursesearch: ', end="")
         val = input()
         val = val.lower()
         # spliting the user inputed string by the whitespaces and populating a list with those values.
         arguments = val.split()
+        if "coursesearch" in arguments[0]:
+            arguments.pop(0)
 
         # If user enters blank string as input.
         if val == "":
-            print("Critical Error please input a valid command!")
+            print("Error please input a valid command!")
             return None
 
         # If user quits/exits program.
         if val == "exit" or val == "quit" or val == "q":
             exit = True
 
+        elif len(arguments) == 2:
+            make_graph(arguments)
+            print("makegraph success!")
+            
         elif len(arguments) == 4:
             courseSearch(arguments)
             print()
 
-        # If user enters a command other than exit or coursesearch.
+        # If user enters a command other than exit or coursesearch or makegraph.
         else:
+            print("Invalid command or number of parameters")
             print("usage: coursesearch course_code course_year credit_count season")
             print("Put \'x\' for anything you do not wish to specify.")
-            print ("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
-            print ("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
-            # return None
+            print("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
+            print("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
+            print("or")
+            print("usage: makegraph (course prefix or course code)")
+            print("or")
+            print("usage: exit")
+            
     return None
+
+# call the Graphviz courseParser
+def make_graph(args_list):
+    courseParser.getGraphvizInput(args_list[1].upper())
+
 
 # Initializing variables
 code = ""
@@ -92,7 +108,7 @@ def check_semester(course):
         
 # courseSearch function
 def courseSearch(args_list):
-
+    print(args_list)
     # case where the only argument is the program name
     if len(args_list) < 4 or len(args_list) > 4:
         print("usage: coursesearch course_code course_year credit_count season")
@@ -165,10 +181,13 @@ def openCourses():
 
 
 if __name__ == "__main__":
-    print("Close the program by inputing exit or search for a course by inputing coursesearch.\n")
-    print("usage: coursesearch: course_code course_year credit_count season")
-    print("Put x for anything you do not wish to specify.")
-    print ("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
-    print ("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
+    print("usage: coursesearch course_code course_year credit_count season")
+    print("Put \'x\' for anything you do not wish to specify.")
+    print("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
+    print("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
+    print("or")
+    print("usage: makegraph (course prefix or course code)")
+    print("or")
+    print("usage: exit")
     openCourses()
     main()
