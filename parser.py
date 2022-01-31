@@ -7,7 +7,7 @@
 
 # Importing required objects
 import json
-from re import I
+import re
 
 f = open('courses.json')
 
@@ -227,5 +227,48 @@ for course in courses:
             courses_list.append(temp)
             #print(graphString)
 
-print(courses_list)
+#print(courses_list)
 f.close()
+
+# gathering graphviz input based on input
+
+# example user input
+user_input_example = "CIS" #or "CIS*2750"
+
+textFileName = "output.txt"
+
+# clear output file
+open(textFileName, 'w').close()
+
+if "*" in user_input_example:
+    # course code
+    courseStack = []
+    courseStack.append(user_input_example)
+    
+    for course in courseStack:
+        courseStack.pop(0)
+        
+        for mapping in courses_list:
+            # iterate through all the course mappings
+            
+            if course in mapping[1]:
+                # if course matches the course we're searching for
+                
+                # full graphviz line
+                # print(mapping[0] + mapping[1])
+                
+                # add all of these to a file for graphviz
+                with open(textFileName, "a") as textFile:
+                    textFile.write(mapping[0] + mapping[1] + "\n")
+                
+                # add the prerequisite to the stack to search for its prerequisities
+                courseStack.append((re.findall('"([^"]*)"', mapping[0]))[0])
+    
+else:
+    # course prefix
+    prefix = user_input_example
+    
+    for mapping in courses_list:
+        if prefix in mapping[1]:
+            with open(textFileName, "a") as textFile:
+                textFile.write(mapping[0] + mapping[1] + "\n")
