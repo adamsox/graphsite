@@ -7,6 +7,8 @@ const browser = await playwright.chromium.launch();
 const page = await browser.newPage();
 await page.goto("https://calendar.uoguelph.ca/undergraduate-calendar/degree-programs/");
 
+let all_programs_data = []
+
 const degree_urls = await page.$eval(".page_content", all_items => {
 
     const links = all_items.getElementsByTagName('a'); 
@@ -28,16 +30,17 @@ await browser.close();
 // Iterating through links to each degree
 degree_urls.forEach(async (url) => {
     if (!url.includes("#") && url.length > 0) {
-        // console.log(url);
         let program_urls = await scrape_program_links(url);
         if (program_urls !== null){
             program_urls.forEach( async program_url => {
                 let tmp_data = await scrape_programs(program_url);
-                console.log(tmp_data);
+                all_programs_data.push(tmp_data);
+                fs.writeFile("programs.json", JSON.stringify(all_programs_data), err => {if (err) throw err});
             });
         }
     }
 });
+
 
 /**
  * scrapes all program/requirement urls
@@ -93,7 +96,7 @@ async function scrape_programs(url) {
     });
 
     let courses = "";
-    if (!program_name.includes(" Co-op ")){
+    if (!program_name.includes(" Co-op ") || !program_name.includes("Hospitality and Tourism Management (HTM)")){
         courses = await page_program.$eval(".sc_courselist", all_items => {
 
             const courses_html = all_items.getElementsByClassName('codecol');
