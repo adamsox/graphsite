@@ -30,9 +30,7 @@ def readReqs(reqArray, courseCode):
         reqName = reqName.strip()
     
         # Dealing with "mand" types
-        if reqType == "mand" :
-            #print(reqName)
-    
+        if reqType == "mand" :   
             # Dealing with credit pre-requisites
             if "credit" in reqName:
     
@@ -41,30 +39,18 @@ def readReqs(reqArray, courseCode):
                 if " in " in reqName:
                     # Creating string
                     graphString = "\"" + reqName + "\" -> \"" + courseCode + "\""
-                    #temp = graphString.split(">")
-                    #temp[0] += ">"
-                    #if(temp not in courses_list):
-                    #    courses_list.append(temp)
                     writeToFile(graphString)
-                    #print(graphString)
-    
-                    #splitName = reqName.split(" in ")
                 #else:
                     #graphString = "skip"
                         
             else:
                 # Removing unnecessary brackets
-                reqName = reqName.replace("(", "")
-                reqName = reqName.replace(")", "")
-                reqName = reqName.replace("[", "")
-                reqName = reqName.replace("]", "")
+                reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
                 numCourses = reqName.count("*")
                     
                 # If more than 1 course is present
                 if numCourses > 1:
-                    #print(reqName)
-    
                     courseString = reqName.split(" ")
     
                     # Looping through text
@@ -72,40 +58,26 @@ def readReqs(reqArray, courseCode):
                         if "*" in courseString[i]:
                             # Creating string
                             graphString = "\"" + courseString[i] + "\" -> \"" + courseCode + "\" [style=solid]"
-                            #temp = graphString.split(">")
-                            #temp[0] += ">"
-                            #if(temp not in courses_list):
-                            #    courses_list.append(temp)
                             writeToFile(graphString)
-                            #print(graphString)
-    
                 else:
                     # Creating string
                     graphString = "\"" + reqName + "\" -> \"" + courseCode + "\" [style=solid]"
-                    #temp = graphString.split(">")
-                    #temp[0] += ">"
-                    #if(temp not in courses_list):
-                    #    courses_list.append(temp)
                     writeToFile(graphString)
-                    #print(graphString)
-            
+
+        # Dealing with "or" type
         elif reqType == "or":
             if "OR" in reqType:
                 reqType.replace("OR", "or")
-            #print(reqName)
-    
+
+            # Checking for "including" cases
             if "including" in reqName:
                 splitIncluding = reqName.split(" including ")
     
                 if len(splitIncluding) > 1:
                     reqName = splitIncluding[1]
-                #NEED TO COME BACK FOR ELSE CASE!
     
             # Removing unnecessary brackets
-            reqName = reqName.replace("(", "")
-            reqName = reqName.replace(")", "")
-            reqName = reqName.replace("[", "")
-            reqName = reqName.replace("]", "")
+            reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
             # Splitting by "or"
             splitName = reqName.split(" or ")
@@ -115,31 +87,19 @@ def readReqs(reqArray, courseCode):
             for i in range (0, numCourses):
                 # Removing excess white spaces
                 splitName[i] = splitName[i].strip()
+                if(splitName[i] != "equivalent"):
+                    graphString = "\"" + splitName[i] + "\" -> \"" + courseCode + "\" [style=dashed]"
+                    writeToFile(graphString)
     
-                #lcaseCheck = splitName[i].lower()
-                #REMOVED CODE
-                # Creating string
-                graphString = "\"" + splitName[i] + "\" -> \"" + courseCode + "\" [style=dashed]"
-                #temp = graphString.split(">")
-                #temp[0] += ">"
-                #if(temp not in courses_list):
-                #    courses_list.append(temp)
-                writeToFile(graphString)
-                #print(graphString)
-    
-        # Splitting by "numOf" type
+        # Dealing with "numOf" type
         elif reqType == "numOf":
-            #print(reqName)
-    
-            reqName = reqName.replace("(", "")
-            reqName = reqName.replace(")", "")
-            reqName = reqName.replace("[", "")
-            reqName = reqName.replace("]", "")
+            reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
             if " of " in reqName:
                 splitOf = reqName.split(" of ")
                 numSplits = len(splitOf)
-    
+
+                # If list includes course code
                 if "*" in splitOf[1]:
                     
                     # For loop to search through string for "# of" format
@@ -165,12 +125,8 @@ def readReqs(reqArray, courseCode):
                                     # If current word is a course
                                     if("*" in coursesOf[j]):
                                         graphString = "\"" + coursesOf[j] + "\" -> \"" + courseCode + "\" [style=dashed] [label=\"" + numOf + " of\"]"
-                                        #temp = graphString.split(">")
-                                        #temp[0] += ">"
-                                        #if(temp not in courses_list):
-                                        #    courses_list.append(temp)
-                                        #print(graphString)
                                         writeToFile(graphString)
+
                                 numOf = splitOf[i][length - 1]
     
                             else:
@@ -183,43 +139,22 @@ def readReqs(reqArray, courseCode):
                                     # If current word is a course
                                     if("*" in coursesOf[j]):
                                         graphString = "\"" + coursesOf[j] + "\" -> \"" + courseCode + "\" [style=dashed] [label=\"" + numOf + " of\"]"
-                                        #temp = graphString.split(">")
-                                        #temp[0] += ">"
-                                        #if(temp not in courses_list):
-                                        #    courses_list.append(temp)
                                         writeToFile(graphString)
-                                        #print(graphString)
+                # If list does not include course code
                 else:
                     graphString = "\"" + reqName + "\" -> \"" + courseCode + "\" [style=solid]"
                     writeToFile(graphString)
-                    #print(graphString)
-            else:
-                graphString = "\"" + reqName + "\" -> \"" + courseCode + "\" [style=solid]"
-                writeToFile(graphString)
-                #temp = graphString.split(">")
-                #temp[0] += ">"
-                #if(temp not in courses_list):
-                #    courses_list.append(temp)
-                #print(graphString) 
+
+        # Dealing with "recommended" type:        
         elif reqType == "rec":
-            #print(reqName)
-    
             # Removing unnecessary brackets
-            reqName = reqName.replace("(", "")
-            reqName = reqName.replace(")", "")
-            reqName = reqName.replace("[", "")
-            reqName = reqName.replace("]", "")
+            reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
             # Splitting string by spaces
             splitRec = reqName.strip().split(" ")
     
             graphString = "\"" + splitRec[0] + "\" -> \"" + courseCode + "\" [style=solid] [label=\"recommended\"]"
             writeToFile(graphString)
-            #temp = graphString.split(">")
-            #temp[0] += ">"
-            #if(temp not in courses_list):
-            #    courses_list.append(temp)
-            print(graphString)
 
 def readCourses(cCode):
     f = open('courses.json')
@@ -230,12 +165,13 @@ def readCourses(cCode):
     
     # For loop to go through courses
     for course in courses:
-        #print(course['cc'])
-        
-        # Creating array to store pre-requisites
-        reqArray = course['preqArr']
-
         if(cCode == course['cc']):
+            # Plotting course code alone
+            writeToFile("\"" + course['cc'] + "\"")
+
+            # Creating array to store pre-requisites
+            reqArray = course['preqArr']
+
             readReqs(reqArray, course['cc'])
 
     #print(courses_list)
@@ -308,9 +244,9 @@ def writeToFile(mapping):
         textFile.write(mapping + "\n")
 
 
-def readMajor(courseList):
-    #f = open('courseList.json')
-    #courseList = json.load(f)
+def readMajor(majorCode):
+    f = open('programs.json')
+    majorList = json.load(f)
     
     # clear output file
     open(textFileName, 'w').close()
@@ -320,8 +256,21 @@ def readMajor(courseList):
         textFile.write("digraph CourseMap {\n")
 
     # For loop to go through each course code in major
-    for cCode in courseList:
-        preReqs = readCourses(cCode)
+
+    flag = 0
+    for item in majorList:
+        mCode = re.search(r"\((.*?)\)", item['program'])
+
+        if(majorCode == mCode.group(1)):
+            flag = 1
+            courseArray = item['reqs']
+
+            # For loop to traverse course array
+            for courseCode in courseArray:
+                readCourses(courseCode)
+        
+    if(flag == 0):
+        print("Major not found!")
     
     # Closing bracket of dot file
     with open(textFileName, "a") as textFile:
@@ -329,9 +278,10 @@ def readMajor(courseList):
 
 def main():
     
-    cList = ["CIS*1300", "CIS*1910", "MATH*1200", "CIS*2500", "CIS*2910", "MATH*1160"]
+    print("Please enter major code:")
+    mCode = input()
     
-    readMajor(cList)
+    readMajor(mCode)
 
 if __name__ == "__main__":
     main()
