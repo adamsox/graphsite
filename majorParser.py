@@ -239,11 +239,12 @@ def get_graphviz_input(user_input):
     cmd = "dot -Tpdf " + text_file_name + " > output.pdf"
     os.system(cmd)
 
+# Function used to write each mapping to its corresponding DOT file
 def write_to_file(mapping):
     with open(text_file_name, "a") as text_file:
         text_file.write(mapping + "\n")
 
-
+# Function used to parse major data stored in json file using major input
 def read_major(major_code):
     f = open('programs.json')
     major_list = json.load(f)
@@ -257,6 +258,7 @@ def read_major(major_code):
 
     # For loop to go through each course code in major
 
+    # FLag used to check if major entered exists
     flag = 0
     for item in major_list:
         m_code = re.search(r"\((.*?)\)", item['program'])
