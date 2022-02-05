@@ -30,7 +30,7 @@ def read_reqs(req_array, course_code):
         req_name = req_name.strip()
     
         # Dealing with "mand" types
-        if req_type == "mand" :   
+        if req_type == "mand" :
             # Dealing with credit pre-requisites
             if "credit" in req_name:
     
@@ -92,7 +92,7 @@ def read_reqs(req_array, course_code):
                     write_to_file(graph_string)
     
         # Dealing with "num_of" type
-        elif req_type == "num_of":
+        elif req_type == "numOf":
             req_name = req_name.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
             if " of " in req_name:
@@ -101,7 +101,6 @@ def read_reqs(req_array, course_code):
 
                 # If list includes course code
                 if "*" in split_of[1]:
-                    
                     # For loop to search through string for "# of" format
                     for i in range(0, num_splits):
     
@@ -208,6 +207,8 @@ def read_major(major_code):
             # For loop to traverse course array
             for course_code in course_array:
                 read_courses(course_code)
+            
+            break
         
     if(flag == 0):
         print("Major not found!")
