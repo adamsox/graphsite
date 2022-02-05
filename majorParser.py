@@ -5,158 +5,158 @@
 # Program to parse courses.json file and create a list of GraphViz rules
 #
 
-# Importing required objects
+# Importing required modules
 import json
 import re
 import os
 
 
 courses_list = []
-textFileName = "output.dot"
+text_file_name = "output.dot"
 
-def readReqs(reqArray, courseCode):
+def read_reqs(req_array, course_code):
     # Going through pre-requisites list
-    for req in reqArray:
+    for req in req_array:
     
         # Dictionaries to store pre-requisite information
-        reqType = req['type']
-        reqName = req['preq']
+        req_type = req['type']
+        req_name = req['preq']
     
         # Making sure pre-requisite isn't blank
-        if reqName == " ":
+        if req_name == " ":
             break
             
         # Removing excess white spaces
-        reqName = reqName.strip()
+        req_name = req_name.strip()
     
         # Dealing with "mand" types
-        if reqType == "mand" :   
+        if req_type == "mand" :   
             # Dealing with credit pre-requisites
-            if "credit" in reqName:
+            if "credit" in req_name:
     
                 # Deciding not to graph if they do not specify credits in what, may change.
     
-                if " in " in reqName:
+                if " in " in req_name:
                     # Creating string
-                    graphString = "\"" + reqName + "\" -> \"" + courseCode + "\""
-                    writeToFile(graphString)
+                    graph_string = "\"" + req_name + "\" -> \"" + course_code + "\""
+                    write_to_file(graph_string)
                 #else:
-                    #graphString = "skip"
+                    #graph_string = "skip"
                         
             else:
                 # Removing unnecessary brackets
-                reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
+                req_name = req_name.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
-                numCourses = reqName.count("*")
+                num_courses = req_name.count("*")
                     
                 # If more than 1 course is present
-                if numCourses > 1:
-                    courseString = reqName.split(" ")
+                if num_courses > 1:
+                    course_string = req_name.split(" ")
     
                     # Looping through text
-                    for i in range(0, len(courseString)) :
-                        if "*" in courseString[i]:
+                    for i in range(0, len(course_string)) :
+                        if "*" in course_string[i]:
                             # Creating string
-                            graphString = "\"" + courseString[i] + "\" -> \"" + courseCode + "\" [style=solid]"
-                            writeToFile(graphString)
+                            graph_string = "\"" + course_string[i] + "\" -> \"" + course_code + "\" [style=solid]"
+                            write_to_file(graph_string)
                 else:
                     # Creating string
-                    graphString = "\"" + reqName + "\" -> \"" + courseCode + "\" [style=solid]"
-                    writeToFile(graphString)
+                    graph_string = "\"" + req_name + "\" -> \"" + course_code + "\" [style=solid]"
+                    write_to_file(graph_string)
 
         # Dealing with "or" type
-        elif reqType == "or":
-            if "OR" in reqType:
-                reqType.replace("OR", "or")
+        elif req_type == "or":
+            if "OR" in req_type:
+                req_type.replace("OR", "or")
 
             # Checking for "including" cases
-            if "including" in reqName:
-                splitIncluding = reqName.split(" including ")
+            if "including" in req_name:
+                split_including = req_name.split(" including ")
     
-                if len(splitIncluding) > 1:
-                    reqName = splitIncluding[1]
+                if len(split_including) > 1:
+                    req_name = split_including[1]
     
             # Removing unnecessary brackets
-            reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
+            req_name = req_name.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
             # Splitting by "or"
-            splitName = reqName.split(" or ")
-            numCourses = len(splitName)
+            split_name = req_name.split(" or ")
+            num_courses = len(split_name)
     
             # For loop to go through courses
-            for i in range (0, numCourses):
+            for i in range (0, num_courses):
                 # Removing excess white spaces
-                splitName[i] = splitName[i].strip()
-                if(splitName[i] != "equivalent"):
-                    graphString = "\"" + splitName[i] + "\" -> \"" + courseCode + "\" [style=dashed]"
-                    writeToFile(graphString)
+                split_name[i] = split_name[i].strip()
+                if(split_name[i] != "equivalent"):
+                    graph_string = "\"" + split_name[i] + "\" -> \"" + course_code + "\" [style=dashed]"
+                    write_to_file(graph_string)
     
-        # Dealing with "numOf" type
-        elif reqType == "numOf":
-            reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
+        # Dealing with "num_of" type
+        elif req_type == "num_of":
+            req_name = req_name.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
-            if " of " in reqName:
-                splitOf = reqName.split(" of ")
-                numSplits = len(splitOf)
+            if " of " in req_name:
+                split_of = req_name.split(" of ")
+                num_splits = len(split_of)
 
                 # If list includes course code
-                if "*" in splitOf[1]:
+                if "*" in split_of[1]:
                     
                     # For loop to search through string for "# of" format
-                    for i in range(0, numSplits):
+                    for i in range(0, num_splits):
     
-                        length = len(splitOf[i])
+                        length = len(split_of[i])
     
                         # First iteration, extract number
                         if i == 0:
-                            numOf = splitOf[i][length - 1]
+                            num_of = split_of[i][length - 1]
                             
                         # Otherwise, extract courses
                         else:
     
                             # Extracting number for next iteration
-                            if(i != numSplits - 1):
-                                coursesOf = splitOf[i]
-                                coursesOf = coursesOf.split(" ")
-                                numCoursesOf = len(coursesOf)
+                            if(i != num_splits - 1):
+                                courses_of = split_of[i]
+                                courses_of = courses_of.split(" ")
+                                num_courses_of = len(courses_of)
     
                                 # Looping through courses
-                                for j in range (0, numCoursesOf):
+                                for j in range (0, num_courses_of):
                                     # If current word is a course
-                                    if("*" in coursesOf[j]):
-                                        graphString = "\"" + coursesOf[j] + "\" -> \"" + courseCode + "\" [style=dashed] [label=\"" + numOf + " of\"]"
-                                        writeToFile(graphString)
+                                    if("*" in courses_of[j]):
+                                        graph_string = "\"" + courses_of[j] + "\" -> \"" + course_code + "\" [style=dashed] [label=\"" + num_of + " of\"]"
+                                        write_to_file(graph_string)
 
-                                numOf = splitOf[i][length - 1]
+                                num_of = split_of[i][length - 1]
     
                             else:
-                                coursesOf = splitOf[i]
-                                coursesOf = coursesOf.split(" ")
-                                numCoursesOf = len(coursesOf)
+                                courses_of = split_of[i]
+                                courses_of = courses_of.split(" ")
+                                num_courses_of = len(courses_of)
     
                                 # Looping through courses
-                                for j in range (0, numCoursesOf):
+                                for j in range (0, num_courses_of):
                                     # If current word is a course
-                                    if("*" in coursesOf[j]):
-                                        graphString = "\"" + coursesOf[j] + "\" -> \"" + courseCode + "\" [style=dashed] [label=\"" + numOf + " of\"]"
-                                        writeToFile(graphString)
+                                    if("*" in courses_of[j]):
+                                        graph_string = "\"" + courses_of[j] + "\" -> \"" + course_code + "\" [style=dashed] [label=\"" + num_of + " of\"]"
+                                        write_to_file(graph_string)
                 # If list does not include course code
                 else:
-                    graphString = "\"" + reqName + "\" -> \"" + courseCode + "\" [style=solid]"
-                    writeToFile(graphString)
+                    graph_string = "\"" + req_name + "\" -> \"" + course_code + "\" [style=solid]"
+                    write_to_file(graph_string)
 
         # Dealing with "recommended" type:        
-        elif reqType == "rec":
+        elif req_type == "rec":
             # Removing unnecessary brackets
-            reqName = reqName.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
+            req_name = req_name.replace("(", "").replace(")", "").replace("[", "").replace("]", "")
     
             # Splitting string by spaces
-            splitRec = reqName.strip().split(" ")
+            split_rec = req_name.strip().split(" ")
     
-            graphString = "\"" + splitRec[0] + "\" -> \"" + courseCode + "\" [style=solid] [label=\"recommended\"]"
-            writeToFile(graphString)
+            graph_string = "\"" + split_rec[0] + "\" -> \"" + course_code + "\" [style=solid] [label=\"recommended\"]"
+            write_to_file(graph_string)
 
-def readCourses(cCode):
+def read_courses(c_code):
     f = open('courses.json')
     
     # Loading json file
@@ -165,37 +165,37 @@ def readCourses(cCode):
     
     # For loop to go through courses
     for course in courses:
-        if(cCode == course['cc']):
+        if(c_code == course['cc']):
             # Plotting course code alone
-            writeToFile("\"" + course['cc'] + "\"")
+            write_to_file("\"" + course['cc'] + "\"")
 
             # Creating array to store pre-requisites
-            reqArray = course['preqArr']
+            req_array = course['preqArr']
 
-            readReqs(reqArray, course['cc'])
+            read_reqs(req_array, course['cc'])
 
     #print(courses_list)
     f.close()
 
     # gathering graphviz input based on input
-def getGraphvizInput(user_input):
+def get_graphviz_input(user_input):
     
     # first read in the courses and put them into graphviz format
-    readCourses()
+    read_courses()
     
     # clear output file
-    open(textFileName, 'w').close()
+    open(text_file_name, 'w').close()
     
-    with open(textFileName, "a") as textFile:
-        textFile.write("digraph CourseMap {\n")
+    with open(text_file_name, "a") as text_file:
+        text_file.write("digraph CourseMap {\n")
     
     if "*" in user_input:
         # course code
-        courseStack = []
-        courseStack.append(user_input.upper())
+        course_stack = []
+        course_stack.append(user_input.upper())
         
-        for course in courseStack:
-            courseStack.pop(0)
+        for course in course_stack:
+            course_stack.pop(0)
             
             for mapping in courses_list:
                 # iterate through all the course mappings
@@ -207,11 +207,11 @@ def getGraphvizInput(user_input):
                     # print(mapping[0] + mapping[1])
                     
                     # add all of these to a file for graphviz
-                    with open(textFileName, "a") as textFile:
-                        textFile.write(mapping[0] + mapping[1] + "\n")
+                    with open(text_file_name, "a") as text_file:
+                        text_file.write(mapping[0] + mapping[1] + "\n")
                     
                     # add the prerequisite to the stack to search for its prerequisities
-                    courseStack.append((re.findall('"([^"]*)"', mapping[0]))[0])
+                    course_stack.append((re.findall('"([^"]*)"', mapping[0]))[0])
         
     else:
         # course prefix
@@ -221,67 +221,67 @@ def getGraphvizInput(user_input):
         # writing to DOT file 
         for mapping in courses_list:
             if prefix in mapping[1]:
-                with open(textFileName, "a") as textFile:
-                    textFile.write(mapping[0] + mapping[1] + "\n")
+                with open(text_file_name, "a") as text_file:
+                    text_file.write(mapping[0] + mapping[1] + "\n")
     
-    with open(textFileName, "a") as textFile:
-        textFile.write("}\n")
+    with open(text_file_name, "a") as text_file:
+        text_file.write("}\n")
     
     
     
     # checking that course program exists    
-    with open(textFileName, "r") as textFile:
-        if('->' not in textFile.read()):
+    with open(text_file_name, "r") as text_file:
+        if('->' not in text_file.read()):
             print('empty')
             return -1
     
     
-    cmd = "dot -Tpdf " + textFileName + " > output.pdf"
+    cmd = "dot -Tpdf " + text_file_name + " > output.pdf"
     os.system(cmd)
 
-def writeToFile(mapping):
-    with open(textFileName, "a") as textFile:
-        textFile.write(mapping + "\n")
+def write_to_file(mapping):
+    with open(text_file_name, "a") as text_file:
+        text_file.write(mapping + "\n")
 
 
-def readMajor(majorCode):
+def read_major(major_code):
     f = open('programs.json')
-    majorList = json.load(f)
+    major_list = json.load(f)
     
     # clear output file
-    open(textFileName, 'w').close()
+    open(text_file_name, 'w').close()
 
     # Writing heading of dot file
-    with open(textFileName, "a") as textFile:
-        textFile.write("digraph CourseMap {\n")
+    with open(text_file_name, "a") as text_file:
+        text_file.write("digraph CourseMap {\n")
 
     # For loop to go through each course code in major
 
     flag = 0
-    for item in majorList:
-        mCode = re.search(r"\((.*?)\)", item['program'])
+    for item in major_list:
+        m_code = re.search(r"\((.*?)\)", item['program'])
 
-        if(majorCode == mCode.group(1)):
+        if(major_code == m_code.group(1)):
             flag = 1
-            courseArray = item['reqs']
+            course_array = item['reqs']
 
             # For loop to traverse course array
-            for courseCode in courseArray:
-                readCourses(courseCode)
+            for course_code in course_array:
+                read_courses(course_code)
         
     if(flag == 0):
         print("Major not found!")
     
     # Closing bracket of dot file
-    with open(textFileName, "a") as textFile:
-        textFile.write("}\n")
+    with open(text_file_name, "a") as text_file:
+        text_file.write("}\n")
 
 def main():
     
     print("Please enter major code:")
-    mCode = input()
+    m_code = input()
     
-    readMajor(mCode)
+    read_major(m_code)
 
 if __name__ == "__main__":
     main()
