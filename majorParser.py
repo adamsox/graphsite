@@ -177,68 +177,6 @@ def read_courses(c_code):
     #print(courses_list)
     f.close()
 
-    # gathering graphviz input based on input
-def get_graphviz_input(user_input):
-    
-    # first read in the courses and put them into graphviz format
-    read_courses()
-    
-    # clear output file
-    open(text_file_name, 'w').close()
-    
-    with open(text_file_name, "a") as text_file:
-        text_file.write("digraph CourseMap {\n")
-    
-    if "*" in user_input:
-        # course code
-        course_stack = []
-        course_stack.append(user_input.upper())
-        
-        for course in course_stack:
-            course_stack.pop(0)
-            
-            for mapping in courses_list:
-                # iterate through all the course mappings
-                
-                if course in mapping[1]:
-                    # if course matches the course we're searching for
-                    
-                    # full graphviz line
-                    # print(mapping[0] + mapping[1])
-                    
-                    # add all of these to a file for graphviz
-                    with open(text_file_name, "a") as text_file:
-                        text_file.write(mapping[0] + mapping[1] + "\n")
-                    
-                    # add the prerequisite to the stack to search for its prerequisities
-                    course_stack.append((re.findall('"([^"]*)"', mapping[0]))[0])
-        
-    else:
-        # course prefix
-        prefix = user_input
-        
-
-        # writing to DOT file 
-        for mapping in courses_list:
-            if prefix in mapping[1]:
-                with open(text_file_name, "a") as text_file:
-                    text_file.write(mapping[0] + mapping[1] + "\n")
-    
-    with open(text_file_name, "a") as text_file:
-        text_file.write("}\n")
-    
-    
-    
-    # checking that course program exists    
-    with open(text_file_name, "r") as text_file:
-        if('->' not in text_file.read()):
-            print('empty')
-            return -1
-    
-    
-    cmd = "dot -Tpdf " + text_file_name + " > output.pdf"
-    os.system(cmd)
-
 # Function used to write each mapping to its corresponding DOT file
 def write_to_file(mapping):
     with open(text_file_name, "a") as text_file:
