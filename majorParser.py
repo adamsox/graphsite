@@ -221,6 +221,10 @@ def read_major(major_code):
     with open(text_file_name, "a") as text_file:
         text_file.write("}\n")
 
+    # Graphing command
+    cmd = "dot -Tpdf " + text_file_name + " > output.pdf"
+    os.system(cmd)
+
 def main():
     
     print("Please enter major code:")
