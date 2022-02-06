@@ -1,8 +1,8 @@
 #
 # CIS*3760 
 # Team 10
-# 3 Feb 2022
-# Program to parse courses.json file and create a list of GraphViz rules
+# 6 Feb 2022
+# Program to parse programs.json file and create a list of GraphViz rules using pre-requisites from courses.json file
 #
 
 # Importing required modules
@@ -206,6 +206,10 @@ def read_major(major_code):
 
             # For loop to traverse course array
             for course_code in course_array:
+
+                # Removing unkown character
+                if "or " in course_code:
+                    course_code = course_code.replace("or ", "")
                 read_courses(course_code)
             
             break
