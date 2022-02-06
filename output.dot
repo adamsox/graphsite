@@ -1,22 +1,26 @@
 digraph CourseMap {
-"CIS*1300"
-"CIS*1910"
-"CIS*2170"
-"CIS*1200" -> "CIS*2170" [style=dashed] [label="1 of"]
-"CIS*1300" -> "CIS*2170" [style=dashed] [label="1 of"]
-"CIS*1500" -> "CIS*2170" [style=dashed] [label="1 of"]
-"CIS*2430"
-"CIS*2500" -> "CIS*2430" [style=solid]
-"CIS*2500"
-"CIS*1300" -> "CIS*2500" [style=solid]
-"CIS*2520"
-"CIS*2500" -> "CIS*2520" [style=dashed]
-"ENGG*1420" -> "CIS*2520" [style=dashed]
-"CIS*1910" -> "CIS*2520" [style=dashed] [label="1 of"]
-"ENGG*1500" -> "CIS*2520" [style=dashed] [label="1 of"]
-"MATH*2000" -> "CIS*2520" [style=dashed] [label="1 of"]
-"CIS*2750"
-"CIS*2520" -> "CIS*2750" [style=solid]
-"CIS*2430" -> "CIS*2750" [style=dashed]
-"ENGG*1420" -> "CIS*2750" [style=dashed]
+"ANTH*1150"
+"ANTH*2180"
+"ANTH*1150" -> "ANTH*2180" [style=dashed] [label="1 of"]
+"IDEV*1000" -> "ANTH*2180" [style=dashed] [label="1 of"]
+"SOC*1100" -> "ANTH*2180" [style=dashed] [label="1 of"]
+"ANTH*2230"
+"ANTH*1150" -> "ANTH*2230" [style=solid]
+"ANTH*3690"
+"ANTH*2230" -> "ANTH*3690" [style=solid]
+"ANTH*2160" -> "ANTH*3690" [style=dashed]
+"ANTH*2180" -> "ANTH*3690" [style=dashed]
+"SOAN*2120" -> "ANTH*3690" [style=solid]
+"ANTH*3770"
+"ANTH*2230" -> "ANTH*3770" [style=solid]
+"ANTH*2160" -> "ANTH*3770" [style=dashed]
+"ANTH*2180" -> "ANTH*3770" [style=dashed]
+"SOAN*2120" -> "ANTH*3770" [style=solid]
+"SOAN*2120"
+"ANTH*1150" -> "SOAN*2120" [style=dashed] [label="1 of"]
+"SOC*1100" -> "SOAN*2120" [style=dashed] [label="1 of"]
+"SOC*1500" -> "SOAN*2120" [style=dashed] [label="1 of"]
+"SOAN*2400"
+"ANTH*1150" -> "SOAN*2400" [style=dashed]
+"SOC*1100" -> "SOAN*2400" [style=dashed]
 }

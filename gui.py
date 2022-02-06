@@ -84,10 +84,10 @@ def course_search_page():
 
 
     
-
+# function for the create graphviz function page
 def graphviz_page():
 
-    
+    # function to destroy curr page when moving to a new page
     def destroy_page2():
         back_button.destroy()
         page2text.pack_forget()
@@ -133,6 +133,7 @@ def graphviz_page():
 def graph_course_page():
     page2text.pack()
 
+    # function to destroy curr page when moving to a new page
     def destroy_page3():
         back_button.destroy()
         page2text.pack_forget()
@@ -146,10 +147,12 @@ def graph_course_page():
     course_entry = tk.Entry (root) 
     course_entry.pack()
 
+    # function which will be called when graph create button is pressed
     def create_graph():
         course_info = course_entry.get().lower()
         courseParser.getGraphvizInput(course_info)
 
+    # Button to complete creation of graph
     create_button = ttk.Button(
         root,
         text='Create!',
@@ -179,7 +182,7 @@ def graph_course_page():
 def graph_major_page():
     page2text.pack()
     
-
+    # function to destroy curr page when moving to a new page
     def destroy_page4():
         back_button.destroy()
         page2text.pack_forget()
@@ -193,10 +196,12 @@ def graph_major_page():
     major_entry = tk.Entry (root) 
     major_entry.pack()
 
+    # function which will be called when graph create button is pressed
     def create_graph():
         major_info = major_entry.get().upper()
         majorParser.read_major(major_info)
 
+    # Button to complete creation of graph
     create_button = ttk.Button(
         root,
         text='Create!',
@@ -225,7 +230,7 @@ def graph_major_page():
 
 
 def main():
-    # exit button
+    # Course Search Button
     cs_button = ttk.Button(
         root,
         text='CourseSearch',
@@ -238,7 +243,7 @@ def main():
         expand=True
     )
 
-    # exit button
+    # Graphviz button
     gv_button = ttk.Button(
         root,
         text='Graphviz',
