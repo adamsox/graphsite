@@ -8,6 +8,7 @@
 #Importing required objects
 import json
 import courseParser
+import majorParser
 
 # List of courses from the courses.json file
 courses = []
@@ -36,8 +37,15 @@ def main():
         if val == "exit" or val == "quit" or val == "q":
             exit = True
 
-        elif len(arguments) == 2:
-            retVal = make_graph(arguments)
+        elif len(arguments) == 2 and arguments[0] == "makecoursegraph":
+            retVal = make_graph_course(arguments)
+            if(retVal == -1):
+                print("error: course code does not exist")
+            else:
+                print("makegraph success!")
+        
+        elif len(arguments) == 2 and arguments[0] == "makemajorgraph":
+            retVal = make_graph_course(arguments)
             if(retVal == -1):
                 print("error: course code does not exist")
             else:
@@ -56,15 +64,20 @@ def main():
             print("e.g., 'coursesearch: cis 3 0.75 f' searches for a cis 3rd year 0.75 fall course")
             print("e.g., 'coursesearch: hist x 1.00 x' searches for a hist 1.00 course regardless of year or semester")
             print("or")
-            print("usage: makegraph (course prefix or course code)")
+            print("usage: makemajorgraph (course prefix or course code)")
+            print("or")
+            print("usage: makecoursegraph (course prefix or course code)")
             print("or")
             print("usage: exit")
             
     return None
 
 # call the Graphviz courseParser
-def make_graph(args_list):
+def make_graph_course(args_list):
     return courseParser.getGraphvizInput(args_list[1].upper())
+
+def make_graph_major(args_list):
+    return majorParser.read_major(args_list[1].upper())
 
 
 # Initializing variables
