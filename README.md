@@ -90,7 +90,7 @@ and courses within those links
 - User has successfully run "program_scrape.js" successfully at least once  & has the 'programs.json' file before trying to map the majors
 - Data is pulled from "courses.json" and "programs.json"
 
-#gui.py
+# gui.py
 **Functionality**: 
     A python script that presents a Graphical User Interface which is offered as a more user-friendly, bonus alternative to the Command Line Interface (cli.py). This allows users to:
 - Search for courses, which would be based on: course code, year, weight, and time it is offered
