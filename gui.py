@@ -1,7 +1,16 @@
+#
+# Author: Team 10
+# Course: CIS*3760
+# Date: 7 Feb 2022
+# Description: a gui for a user to interact with various features
+#
+
 import tkinter as tk
 from tkinter import ttk
-import courseParser
-import majorParser
+
+import course_searcher
+import course_graphviz_writer
+import major_graphviz_writer
 
 # root window
 root = tk.Tk()
@@ -58,10 +67,38 @@ def course_search_page():
         semester_entry.pack_forget()
         search_button.destroy()
 
+    def search_course():
+        code_info = code_entry.get().lower()
+        year_info = year_entry.get().lower()
+        credit_info = credit_entry.get().lower()
+        semester_info = semester_entry.get().lower()
+        
+        # prepare input for course_searcher
+        if not code_info:
+            code_info = "x"
+        if not year_info:
+            year_info = "x"
+        if not credit_info:
+            credit_info = "x"
+        if not semester_info:
+            semester_info = "x"
+            
+        args_list = [code_info, year_info, credit_info, semester_info]
+        
+        ret_val = course_searcher.search_course(args_list)
+        if ret_val == -1:
+            print("Error while searching for course code")
+        elif ret_val == None:
+            print("No courses found that match the description given")
+        else: 
+            # print courses found
+            for course in ret_val:
+                print(str(course['cc']) + " " + str(course['cred']) + " " + str(course['desc']) + " " +  str(course['off']))
+
     search_button = ttk.Button(
         root,
         text='Search!',
-        command =lambda:[]
+        command =lambda:[search_course()]
     )
 
     search_button.pack(
@@ -150,7 +187,7 @@ def graph_course_page():
     # function which will be called when graph create button is pressed
     def create_graph():
         course_info = course_entry.get().lower()
-        courseParser.getGraphvizInput(course_info)
+        course_graphviz_writer.getGraphvizInput(course_info)
 
     # Button to complete creation of graph
     create_button = ttk.Button(
@@ -199,7 +236,7 @@ def graph_major_page():
     # function which will be called when graph create button is pressed
     def create_graph():
         major_info = major_entry.get().upper()
-        majorParser.read_major(major_info)
+        major_graphviz_writer.read_major(major_info)
 
     # Button to complete creation of graph
     create_button = ttk.Button(

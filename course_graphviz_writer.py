@@ -1,15 +1,14 @@
 #
-# CIS*3760 
-# Team 10
-# 30 Jan 2022
-# Program to parse courses.json file and create a list of GraphViz rules
+# Author: Team 10
+# Course: CIS*3760
+# Date: 7 Feb 2022
+# Description: a library to create a graph(viz) file given a course
+#              prefix or code
 #
 
-# Importing required objects
 import json
 import re
 import os
-
 
 courses_list = []
 
