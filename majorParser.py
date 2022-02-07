@@ -12,7 +12,10 @@ import os
 
 
 courses_list = []
+#text_file_name = "output.txt"
 text_file_name = "output.dot"
+# Flag used to prevent using repeated courses from scraper
+#flag_course = 0
 
 def read_reqs(req_array, course_code):
     # Going through pre-requisites list
@@ -178,6 +181,12 @@ def read_courses(c_code):
 
 # Function used to write each mapping to its corresponding DOT file
 def write_to_file(mapping):
+
+    # If mapping is already found in text file, exit
+    with open(text_file_name, "r") as text_file:
+        if mapping in text_file.read():
+            return 0
+
     with open(text_file_name, "a") as text_file:
         text_file.write(mapping + "\n")
 
@@ -193,10 +202,10 @@ def read_major(major_code):
     with open(text_file_name, "a") as text_file:
         text_file.write("digraph CourseMap {\n")
 
-    # For loop to go through each course code in major
-
-    # FLag used to check if major entered exists
+    # Flag initialization
     flag = 0
+
+    # For loop to go through each course code in major
     for item in major_list:
         m_code = re.search(r"\((.*?)\)", item['program'])
 
@@ -210,8 +219,11 @@ def read_major(major_code):
                 # Removing unkown character
                 if "or " in course_code:
                     course_code = course_code.replace("or ", "")
+                
                 read_courses(course_code)
+
             
+            # Breaking outer for loop to ensure no other matches with majors are made
             break
         
     if(flag == 0):
@@ -225,12 +237,17 @@ def read_major(major_code):
     cmd = "dot -Tpdf " + text_file_name + " > output.pdf"
     os.system(cmd)
 
+    
+    
+
 def main():
-    
-    print("Please enter major code:")
-    m_code = input()
-    
-    read_major(m_code)
+    m_code = "hi"
+    while m_code != "exit":
+        print("Please enter major code:")
+        m_code = input()
+
+        if m_code != "exit":
+            read_major(m_code)
 
 if __name__ == "__main__":
     main()
