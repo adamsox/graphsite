@@ -3,10 +3,10 @@
 # scraper.js
 
 Functionality:
-    - a javascript application that scrapes all undergraduate course data from all programs 
+    a javascript application that scrapes all undergraduate course data from all programs 
         offered at the University of Guelph
-    - starts by scraping the URLs to each program then scraping the courses from each of those URLs
-    - creates "courses.json" file that makes pulling data very easy
+    starts by scraping the URLs to each program then scraping the courses from each of those URLs
+    creates "courses.json" file that makes pulling data very easy
 
 Requirements:
     - OS that is supported by playwright e.g. Windows, MacOS, Ubuntu 
