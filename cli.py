@@ -45,7 +45,7 @@ def main():
                 print("makegraph success!")
         
         elif len(arguments) == 2 and arguments[0] == "makemajorgraph":
-            retVal = make_graph_course(arguments)
+            retVal = make_graph_major(arguments)
             if(retVal == -1):
                 print("error: course code does not exist")
             else:
