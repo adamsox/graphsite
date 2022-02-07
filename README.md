@@ -57,10 +57,10 @@ Assumptions:
 
 Functionality: 
     - a python script that presents a Command Line Interface that allows users to:
-    - search for courses, which would be  based on:
-        course code, year, weight, and time it is offered
-    - enter a specific undergraduate course code (e.g. CIS*2750), or a general course prefix (e.g. CIS) and have those courses mapped out using GraphViz, with lines connecting them to their pre-requisites. 
-    - enter an undergraduate major code (e.g. CS), and have all of the required courses in that major mapped out using GraphViz, with lines connecting courses to their pre-requisites.
+
+- search for courses, which would be  based on the course code, year, weight, and time it is offered.
+- enter a specific undergraduate course code (e.g. CIS*2750), or a general course prefix (e.g. CIS) and have those courses mapped out using GraphViz, with lines connecting them to their pre-requisites. 
+- enter an undergraduate major code (e.g. CS), and have all of the required courses in that major mapped out using GraphViz, with lines connecting courses to their pre-requisites.
 
 Requirements:
     - "courses.json" data file
