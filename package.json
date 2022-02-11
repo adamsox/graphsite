@@ -1,0 +1,21 @@
+{
+  "name": "w22_cis3760_team10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.socs.uoguelph.ca/rnguye03/w22_cis3760_team10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "playwright": "^1.18.0"
+  }
+}
