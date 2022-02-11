@@ -1,7 +1,64 @@
 digraph CourseMap {
+"CIS*1250"
+"CIS*1300"
+"CIS*1910"
+"CIS*2250"
+"CIS*1250" -> "CIS*2250" [style=solid]
+"CIS*1300" -> "CIS*2250" [style=solid]
+"CIS*2500"
+"CIS*1300" -> "CIS*2500" [style=solid]
+"MATH*1160"
+"4U Calculus and Vectors" -> "MATH*1160" [style=dashed]
+"4U Advanced Functions" -> "MATH*1160" [style=dashed]
+"CIS*2030"
+"CIS*1910" -> "CIS*2030" [style=solid]
+"CIS*2500" -> "CIS*2030" [style=solid]
+"CIS*2430"
+"CIS*2500" -> "CIS*2430" [style=solid]
+"CIS*2520"
+"CIS*2500" -> "CIS*2520" [style=dashed]
+"ENGG*1420" -> "CIS*2520" [style=dashed]
+"CIS*1910" -> "CIS*2520" [style=dashed] [label="1 of"]
+"ENGG*1500" -> "CIS*2520" [style=dashed] [label="1 of"]
+"MATH*2000" -> "CIS*2520" [style=dashed] [label="1 of"]
+"CIS*3250"
+"CIS*2250" -> "CIS*3250" [style=solid]
+"CIS*2500" -> "CIS*3250" [style=solid]
+"CIS*2750"
 "CIS*2520" -> "CIS*2750" [style=solid]
 "CIS*2430" -> "CIS*2750" [style=dashed]
 "ENGG*1420" -> "CIS*2750" [style=dashed]
-"CIS*2500" -> "CIS*2430" [style=solid]
-"CIS*1300" -> "CIS*2500" [style=solid]
+"CIS*3110"
+"CIS*2520" -> "CIS*3110" [style=solid]
+"CIS*2030" -> "CIS*3110" [style=dashed]
+"ENGG*2410." -> "CIS*3110" [style=dashed]
+"CIS*3490"
+"CIS*1910" -> "CIS*3490" [style=dashed]
+"CIS*2910 and ENGG*1500" -> "CIS*3490" [style=dashed]
+"CIS*2520" -> "CIS*3490" [style=solid]
+"CIS*3750"
+"CIS*2520" -> "CIS*3750" [style=solid]
+"CIS*2430" -> "CIS*3750" [style=dashed]
+"ENGG*1420" -> "CIS*3750" [style=dashed]
+"STAT*2040"
+"MATH*1080" -> "STAT*2040" [style=dashed] [label="1 of"]
+"CIS*3760"
+"CIS*2750" -> "CIS*3760" [style=solid]
+"CIS*3750" -> "CIS*3760" [style=solid]
+"CIS*3260"
+"CIS*2750" -> "CIS*3260" [style=solid]
+"CIS*3250" -> "CIS*3260" [style=solid]
+"CIS*3760" -> "CIS*3260" [style=solid]
+"CIS*4150"
+"CIS*3750" -> "CIS*4150" [style=dashed] [label="1 of"]
+"CIS*3760" -> "CIS*4150" [style=dashed] [label="1 of"]
+"ENGG*4450" -> "CIS*4150" [style=dashed] [label="1 of"]
+"CIS*4300"
+"CIS*3110" -> "CIS*4300" [style=solid]
+"CIS*3750" -> "CIS*4300" [style=dashed] [label="1 of"]
+"CIS*3760" -> "CIS*4300" [style=dashed] [label="1 of"]
+"ENGG*4450" -> "CIS*4300" [style=dashed] [label="1 of"]
+"CIS*4250"
+"CIS*2750" -> "CIS*4250" [style=solid]
+"CIS*3260" -> "CIS*4250" [style=solid]
 }
