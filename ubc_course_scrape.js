@@ -43,7 +43,7 @@ for(let i = 0; i < course_urls.length; i++){
         courses_info.push(course_data);
     });
 
-    fs.writeFile('uvic_courses.json', JSON.stringify(courses_info), err => {if (err) throw err});
+    fs.writeFile('ubc_courses.json', JSON.stringify(courses_info), err => {if (err) throw err});
 }
 
 
