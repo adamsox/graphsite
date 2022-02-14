@@ -1,0 +1,30 @@
+digraph ARTC {
+labelloc = "t";
+label = "ARTC"
+fontsize = 27;
+"Completion of Writing Component of Arts Writing and Research Requirement strongly recommended." -> "ARTC*100" [style=solid]
+"ARTC*100" -> "ARTC*110" [style=solid]
+"ARTC*110" -> "ARTC*200" [style=solid]
+"ARTC*200" -> "ARTC*210" [style=solid]
+"ARTC*110" -> "ARTC*211" [style=solid]
+"ARTC*210" -> "ARTC*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*211" -> "ARTC*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*300" -> "ARTC*310" [style=solid]
+"ARTC*210" -> "ARTC*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*211" -> "ARTC*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*310" -> "ARTC*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*311" -> "ARTC*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*400" -> "ARTC*410" [style=solid]
+"ARTC*310" -> "ARTC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*311" -> "ARTC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*410" -> "ARTC*445" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*411" -> "ARTC*445" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*445" -> "ARTC*450" [style=solid]
+"ARTC*410" -> "ARTC*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*411" -> "ARTC*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*450" -> "ARTC*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*451" -> "ARTC*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*456" -> "ARTC*460" [style=solid]
+"ARTC*450" -> "ARTC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARTC*451" -> "ARTC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+}

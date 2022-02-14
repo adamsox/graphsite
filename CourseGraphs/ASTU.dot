@@ -1,0 +1,36 @@
+digraph ASTU {
+labelloc = "t";
+label = "ASTU"
+fontsize = 27;
+"ASTU*100"
+"ASTU*101"
+"ASTU*160"
+"ASTU*201"
+"ASTU*202"
+"ASTU*204"
+"ASTU*210"
+"ASTU*210" -> "ASTU*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*211" -> "ASTU*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTU*260"
+"6 credits first-year English or Arts I; 6 credits of science; 6 credits of literature; satisfaction of Faculty language requirement." -> "ASTU*310" [style=solid]
+"ASTU*310" -> "ASTU*311" [style=solid]
+"Third-year standing." -> "ASTU*360" [style=solid]
+"ASTU*400"
+"ASTU*401"
+"APSC*402" -> "ASTU*402" [style=solid]
+"FRST*402" -> "ASTU*402" [style=solid]
+"LFS*402" -> "ASTU*402" [style=solid]
+"LLED*402" -> "ASTU*402" [style=solid]
+"PHAR*402" -> "ASTU*402" [style=solid]
+"ASTU*311" -> "ASTU*410" [style=solid]
+"ASTU*410" -> "ASTU*411" [style=solid]
+"ASTU*411" -> "ASTU*412" [style=solid]
+"Restricted to students in the Sciences Po-UBC Dual Degree." -> "ASTU*460" [style=solid]
+"ASTU*501"
+"ASTU*501" -> "ASTU*502" [style=solid]
+"ASTU*502" -> "ASTU*503" [style=solid]
+"ASTU*610"
+"ASTU*610" -> "ASTU*611" [style=solid]
+"ASTU*611" -> "ASTU*612" [style=solid]
+"ASTU*612" -> "ASTU*613" [style=solid]
+}

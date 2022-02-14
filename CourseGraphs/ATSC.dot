@@ -1,0 +1,60 @@
+digraph ATSC {
+labelloc = "t";
+label = "ATSC"
+fontsize = 27;
+"ATSC*113"
+"Completion of first-year science." -> "ATSC*201" [style=solid]
+"CPSC*103" -> "ATSC*212" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "ATSC*212" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*102" -> "ATSC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "ATSC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*118" -> "ATSC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*158" -> "ATSC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "ATSC*303" [style=solid]
+"ATSC*201" -> "ATSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*200" -> "ATSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*160" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*103" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"DSCI*100" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "ATSC*313" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ATSC*201" -> "ATSC*398"
+"GEOB*300" -> "ATSC*398"
+"ATSC*398" -> "ATSC*399" [style=solid]
+"PHYS*312" -> "ATSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "ATSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*250" -> "ATSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "ATSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*317" -> "ATSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "ATSC*405" [style=solid]
+"PHYS*203" -> "ATSC*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "ATSC*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ATSC*201" -> "ATSC*406" [style=solid]
+"MATH*215" -> "ATSC*409" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "ATSC*409" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "ATSC*409" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*265" -> "ATSC*409" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ATSC*448"
+"ATSC*449"
+"Third-year standing." -> "ATSC*490" [style=solid]
+"ATSC*399" -> "ATSC*498" [style=solid]
+"ATSC*303" -> "ATSC*498" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*304" -> "ATSC*498" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ATSC*498" -> "ATSC*499" [style=solid]
+"ATSC*500"
+"ATSC*506"
+"ATSC*548"
+"ATSC*595"
+"ATSC*597"
+"ATSC*597" -> "ATSC*598" [style=solid]
+"ATSC*599"
+"ATSC*699"
+}

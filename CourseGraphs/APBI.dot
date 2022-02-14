@@ -1,0 +1,123 @@
+digraph APBI {
+labelloc = "t";
+label = "APBI"
+fontsize = 27;
+"APBI*100"
+"APBI*200"
+"BIOL*121" -> "APBI*210"
+"BIOL*140" -> "APBI*210"
+"SCIE*001" -> "APBI*210"
+"BIOL*210" -> "APBI*210"
+"APBI*222"
+"BIOL*112" -> "APBI*235"
+"BIOL*121" -> "APBI*235"
+"BIOL*140" -> "APBI*235"
+"APBI*244"
+"APBI*260"
+"APBI*265"
+"APBI*290"
+"BIOL*204" -> "APBI*311" [style=solid]
+"BIOL*260" -> "APBI*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*361" -> "APBI*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*364" -> "APBI*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*204" -> "APBI*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*260" -> "APBI*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"At least third-year standing in any faculty." -> "APBI*314" [style=solid]
+"At least third-year standing in any faculty." -> "APBI*315" [style=solid]
+"APBI*316"
+"APBI*317"
+"APBI*318"
+"BIOL*230" -> "APBI*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*260" -> "APBI*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*265" -> "APBI*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CONS*330" -> "APBI*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVR*200" -> "APBI*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVR*300" -> "APBI*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*322"
+"BIOL*324" -> "APBI*324" [style=solid]
+"APBI*326"
+"BIOL*327" -> "APBI*327" [style=solid]
+"APBI*328"
+"FRST*310" -> "APBI*342" [style=solid]
+"BIOL*121" -> "APBI*351" [style=solid]
+"CHEM*123" -> "APBI*351" [style=solid]
+"CHEM*111" -> "APBI*351"
+"CHEM*113" -> "APBI*351"
+"CHEM*233" -> "APBI*351"
+"BIOL*351" -> "APBI*351"
+"FRST*311" -> "APBI*351"
+"APBI*260" -> "APBI*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*265" -> "APBI*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*361"
+"APBI*260" -> "APBI*365" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*265" -> "APBI*365" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third-year standing in the Applied Biology program or permission of the instructor." -> "APBI*398" [style=solid]
+"APBI*200" -> "APBI*401" [style=solid]
+"APBI*200" -> "APBI*402" [style=solid]
+"APBI*200" -> "APBI*403" [style=solid]
+"BIOL*201" -> "APBI*410" [style=solid]
+"APBI*311" -> "APBI*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CAPS*301" -> "APBI*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "APBI*411" [style=solid]
+"Fourth year standing in a Bachelor of Science Program. Permission is required for registration." -> "APBI*412" [style=solid]
+"APBI*315" -> "APBI*413" [style=solid]
+"APBI*314" -> "APBI*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*315" -> "APBI*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*415"
+"APBI*315" -> "APBI*416" [style=solid]
+"BIOL*416" -> "APBI*416" [style=solid]
+"CONS*330" -> "APBI*416" [style=solid]
+"APBI*417"
+"APBI*311" -> "APBI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*204" -> "APBI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*260" -> "APBI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*312" -> "APBI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*311" -> "APBI*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*204" -> "APBI*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*260" -> "APBI*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*312" -> "APBI*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*418" -> "APBI*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*200" -> "APBI*423" [style=solid]
+"FRST*201" -> "APBI*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*260" -> "APBI*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"UFOR*403" -> "APBI*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "APBI*426" [style=solid]
+"BIOC*202" -> "APBI*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*203" -> "APBI*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "APBI*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*233" -> "APBI*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*234" -> "APBI*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*421" -> "APBI*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*205" -> "APBI*427" [style=solid]
+"BIOL*327" -> "APBI*427"
+"BIOL*411" -> "APBI*427"
+"BIOL*121" -> "APBI*428" [style=solid]
+"APBI*440"
+"BIOL*112" -> "APBI*442"
+"BIOL*121" -> "APBI*442"
+"BIOL*200" -> "APBI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "APBI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*210" -> "APBI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*210" -> "APBI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "APBI*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "APBI*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*444" -> "APBI*444" [style=solid]
+"APBI*360" -> "APBI*460" [style=solid]
+"APBI*461"
+"BIOL*300" -> "APBI*462" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*374" -> "APBI*462" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "APBI*462" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*260" -> "APBI*462" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*365" -> "APBI*465" [style=solid]
+"3rd year standing or higher." -> "APBI*490" [style=solid]
+"BIOL*230" -> "APBI*495" [style=solid]
+"FRST*395" -> "APBI*495" [style=solid]
+"APBI*315" -> "APBI*495" [style=solid]
+"APBI*416" -> "APBI*495" [style=solid]
+"CONS*495" -> "APBI*495" [style=solid]
+"APBI*314" -> "APBI*496" [style=solid]
+"APBI*315" -> "APBI*496" [style=solid]
+"Approval of program advisor." -> "APBI*497" [style=solid]
+"APBI*498"
+"Approval of a program advisor; consult before the end of classes in third year." -> "APBI*499" [style=solid]
+}

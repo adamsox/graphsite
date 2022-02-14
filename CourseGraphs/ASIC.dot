@@ -1,0 +1,7 @@
+digraph ASIC {
+labelloc = "t";
+label = "ASIC"
+fontsize = 27;
+"Second year standing in the Faculty of Arts or Faculty of Science." -> "ASIC*200" [style=solid]
+"Second-year standing." -> "ASIC*220" [style=solid]
+}

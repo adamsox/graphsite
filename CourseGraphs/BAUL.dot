@@ -1,0 +1,6 @@
+digraph BAUL {
+labelloc = "t";
+label = "BAUL"
+fontsize = 27;
+"BAUL*500"
+"BAUL*501"

@@ -1,0 +1,7 @@
+digraph ASL {
+labelloc = "t";
+label = "ASL"
+fontsize = 27;
+"ASL*100"
+"ASL  100 or by placement." -> "ASL*101" [style=solid]
+}

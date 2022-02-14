@@ -1,0 +1,24 @@
+digraph BAMA {
+labelloc = "t";
+label = "BAMA"
+fontsize = 27;
+"BAMA*503"
+"BAMA*504"
+"BAMA*505"
+"BAMA*506"
+"BAMA*508"
+"BAMA*509"
+"BAMA*510"
+"BAMA*511"
+"BAMA*513"
+"BAMA*514"
+"BAMA*515"
+"BAMA*516"
+"BAMA*517"
+"BAMA*519"
+"BAMA*520"
+"BAMA*521"
+"BAMA*550"
+"BAMA*580"
+"BAMA*590"
+}

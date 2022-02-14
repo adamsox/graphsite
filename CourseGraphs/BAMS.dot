@@ -1,0 +1,22 @@
+digraph BAMS {
+labelloc = "t";
+label = "BAMS"
+fontsize = 27;
+"BAMS*500"
+"BAMS*501"
+"BAMS*501" -> "BAMS*502" [style=solid]
+"BAMS*503"
+"BAMS*503" -> "BAMS*504" [style=solid]
+"BAMS*506"
+"BAMS*506" -> "BAMS*507" [style=solid]
+"BAMS*506" -> "BAMS*508" [style=solid]
+"BAMS*508" -> "BAMS*509" [style=solid]
+"BAMS*517"
+"BAMS*517" -> "BAMS*518" [style=solid]
+"BAMS*521"
+"BAMS*522"
+"BAMS*523"
+"BAMS*550"
+"BAMS*580"
+"BAMS*590"
+}

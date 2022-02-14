@@ -1,0 +1,103 @@
+digraph ASTR {
+labelloc = "t";
+label = "ASTR"
+fontsize = 27;
+"PHYS*100" -> "ASTR*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*100" -> "ASTR*102" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "ASTR*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*200" -> "ASTR*205" [style=solid]
+"PHYS*210" -> "ASTR*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "ASTR*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*302" -> "ASTR*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*303" -> "ASTR*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*205" -> "ASTR*300" [style=solid]
+"PHYS*210" -> "ASTR*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "ASTR*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*302" -> "ASTR*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "ASTR*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*227" -> "ASTR*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*317" -> "ASTR*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*310"
+"ASTR*311"
+"PHYS*101" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*102" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*118" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*158" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*203" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*482" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*483" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*374" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*380" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*217" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*277" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*278" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*366" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*328" -> "ASTR*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*349"
+"PHYS*200" -> "ASTR*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*250" -> "ASTR*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*300" -> "ASTR*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*210" -> "ASTR*404"
+"PHYS*408" -> "ASTR*404"
+"PHYS*312" -> "ASTR*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "ASTR*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*404" -> "ASTR*405" [style=solid]
+"PHYS*203" -> "ASTR*406"
+"PHYS*301" -> "ASTR*406"
+"MATH*215" -> "ASTR*406"
+"ASTR*300" -> "ASTR*406"
+"PHYS*210" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*227" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*317" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*200" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*206" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*216" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*306" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*352" -> "ASTR*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTR*449"
+"ASTR*500"
+"ASTR*502"
+"ASTR*505"
+"ASTR*506"
+"ASTR*507"
+"ASTR*508"
+"ASTR*509"
+"ASTR*514"
+"ASTR*520"
+"ASTR*530"
+"ASTR*536"
+"ASTR*549"
+"ASTR*649"
+}

@@ -1,0 +1,12 @@
+digraph BALA {
+labelloc = "t";
+label = "BALA"
+fontsize = 27;
+"BALA*500"
+"BALA*501"
+"BALA*502"
+"BALA*503"
+"BALA*530"
+"BALA*580"
+"BALA*590"
+}

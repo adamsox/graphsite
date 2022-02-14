@@ -1,0 +1,18 @@
+digraph BASC {
+labelloc = "t";
+label = "BASC"
+fontsize = 27;
+"BASC*500"
+"BASC*510"
+"BASC*512"
+"BASC*515"
+"BASC*517"
+"BASC*521"
+"BASC*523"
+"BASC*524"
+"BASC*525"
+"BASC*540"
+"BASC*550"
+"BASC*580"
+"BASC*590"
+}

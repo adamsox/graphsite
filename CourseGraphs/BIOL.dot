@@ -1,0 +1,94 @@
+digraph BIOL {
+labelloc = "t";
+label = "BIOL"
+fontsize = 27;
+"BIOL*111"
+"CHEM*100" -> "BIOL*112" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "BIOL*112" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "BIOL*112" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*111" -> "BIOL*112" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*111" -> "BIOL*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*111" -> "BIOL*140" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*100" -> "BIOL*153" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "BIOL*153" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "BIOL*153" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*111" -> "BIOL*153" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*100" -> "BIOL*155" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "BIOL*155" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "BIOL*155" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*111" -> "BIOL*155" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*200" [style=solid]
+"CHEM*123" -> "BIOL*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "BIOL*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*203" -> "BIOL*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "BIOL*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "BIOL*201" [style=solid]
+"CHEM*233" -> "BIOL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "BIOL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*313" -> "BIOL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*330" -> "BIOL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*140" -> "BIOL*203" [style=solid]
+"BIOL*121" -> "BIOL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "BIOL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "BIOL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*204"
+"BIOL*140" -> "BIOL*204"
+"SCIE*001" -> "BIOL*204"
+"BIOL*121" -> "BIOL*205"
+"BIOL*140" -> "BIOL*205"
+"SCIE*001" -> "BIOL*205"
+"BIOL*121" -> "BIOL*209" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "BIOL*209" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "BIOL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*210" -> "BIOL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "BIOL*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*233"
+"BIOL*121" -> "BIOL*233"
+"CHEM*203" -> "BIOL*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "BIOL*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*234"
+"BIOL*121" -> "BIOL*234"
+"CHEM*203" -> "BIOL*234" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "BIOL*234" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*234" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*234" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "BIOL*260"
+"BIOL*121" -> "BIOL*260"
+"SCIE*001" -> "BIOL*260"
+"BIOL*121" -> "BIOL*300" [style=solid]
+"MATH*101" -> "BIOL*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "BIOL*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "BIOL*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "BIOL*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*301"
+"BIOL*230" -> "BIOL*306" [style=solid]
+"BIOL*121" -> "BIOL*310" [style=solid]
+"APBI*260" -> "BIOL*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "BIOL*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*201" -> "BIOL*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CONS*314" -> "BIOL*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*317"
+"BIOL*121" -> "BIOL*320" [style=solid]
+"BIOL*121" -> "BIOL*321" [style=solid]
+"BIOL*121" -> "BIOL*322" [style=solid]
+"BIOL*121" -> "BIOL*323" [style=solid]
+"APBI*324" -> "BIOL*324" [style=solid]
+"BIOL*121" -> "BIOL*325" [style=solid]
+"STAT*200" -> "BIOL*326" [style=solid]
+"BIOL*300" -> "BIOL*326" [style=solid]
+"BIOL*121" -> "BIOL*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*327" -> "BIOL*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BIOL*328" [style=solid]
+"BIOL*201" -> "BIOL*330" [style=solid]
+"BIOL*200" -> "BIOL*330"
+"BIOL*260" -> "BIOL*330"
+"BIOL*233" -> "BIOL*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*234" -> "BIOL*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "BIOL*331" [style=solid]
+"BIOL*200" -> "BIOL*331"

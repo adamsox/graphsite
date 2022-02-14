@@ -7,6 +7,11 @@
 
 import tkinter as tk
 from tkinter import ttk
+import tkinter.scrolledtext as st
+import os
+from PIL import ImageTk,Image
+from tkinter import filedialog
+
 
 import course_searcher
 import course_graphviz_writer
@@ -28,7 +33,6 @@ page2text.config(font=('helvetica', 20))
 # function for the course search function page
 def course_search_page():
     page1text.pack()
-
     code = tk.Label(root, text='Course Code')
     code.pack()
 
@@ -72,6 +76,10 @@ def course_search_page():
         year_info = year_entry.get().lower()
         credit_info = credit_entry.get().lower()
         semester_info = semester_entry.get().lower()
+
+        window = tk.Toplevel(root)
+        window.title('CourseSearch Results')
+        window.geometry('600x1000')
         
         # prepare input for course_searcher
         if not code_info:
@@ -86,15 +94,34 @@ def course_search_page():
         args_list = [code_info, year_info, credit_info, semester_info]
         
         ret_val = course_searcher.search_course(args_list)
+
+        content = ''
         if ret_val == -1:
-            print("Error while searching for course code")
+
+            content = "Error while searching for course code"
         elif ret_val == None:
-            print("No courses found that match the description given")
+
+            content = "No courses found that match the description given"
         else: 
             # print courses found
             for course in ret_val:
-                print(str(course['cc']) + " " + str(course['cred']) + " " + str(course['desc']) + " " +  str(course['off']))
+                content = content + str(course['cc']) + " " + str(course['cred']) + " " + str(course['desc']) + " " +  str(course['off']) + "\n"
 
+        # Preparing the area within the window to designate as a scrollable text area
+        text_area = st.ScrolledText(window,
+                            width = 57, 
+                            height = 45, 
+                            font = ("Times New Roman",
+                                    15))
+  
+        text_area.grid(column = 0, pady = 10, padx = 10)
+        
+        # Inserting Text which is read only
+        text_area.insert(tk.INSERT, content)
+        
+        # Making the text read only
+        text_area.configure(state ='disabled')
+        
     search_button = ttk.Button(
         root,
         text='Search!',
@@ -235,8 +262,26 @@ def graph_major_page():
 
     # function which will be called when graph create button is pressed
     def create_graph():
+
+        # creating a new window for the graph
+        window = tk.Toplevel(root)
+
+        window.title('Course Graphviz Result')
+        window.geometry('1300x800')
+
         major_info = major_entry.get().upper()
         major_graphviz_writer.read_major(major_info)
+
+        #using the graphviz system command line to convert dot to png. Works on windows os and linux
+        os.system("dot output.dot -Tpng -o output.png")
+
+        #opening the image and displaying it on the non-root windows page
+        img = Image.open("output.png")
+        #img = img.resize((1000, 600), Image.ANTIALIAS)
+        img = ImageTk.PhotoImage(img)
+        panel = tk.Label(window, image=img)
+        panel.image = img
+        panel.pack()
 
     # Button to complete creation of graph
     create_button = ttk.Button(

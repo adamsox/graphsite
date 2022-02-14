@@ -1,0 +1,10 @@
+digraph ARBC {
+labelloc = "t";
+label = "ARBC"
+fontsize = 27;
+"ARBC*101"
+"ARBC*101" -> "ARBC*102" [style=solid]
+"ARBC*102" -> "ARBC*201" [style=solid]
+"ARBC*201" -> "ARBC*202" [style=solid]
+"ARBC*202" -> "ARBC*420" [style=solid]
+}

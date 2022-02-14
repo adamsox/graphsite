@@ -1,0 +1,11 @@
+digraph ACAM {
+labelloc = "t";
+label = "ACAM"
+fontsize = 27;
+"ACAM*250"
+"ACAM*300"
+"Restricted to students with at least Second year standing; a previous course in Asian Canadian and Asian Migration Studies is recommended." -> "ACAM*320" [style=solid]
+"ACAM*350"
+"Minimum 2nd year standing, 3rd year standing recommended." -> "ACAM*390" [style=solid]
+"Permission of the Chair of the ACAM program." -> "ACAM*447" [style=solid]
+}

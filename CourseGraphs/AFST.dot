@@ -1,0 +1,19 @@
+digraph AFST {
+labelloc = "t";
+label = "AFST"
+fontsize = 27;
+"AFST*250"
+"AFST*308"
+"AFST*309"
+"AFST*351"
+"AFST*352"
+"ARTS*001" -> "AFST*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTU*100" -> "AFST*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTU*101" -> "AFST*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "AFST*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*350" -> "AFST*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*370" -> "AFST*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"AFST*380"
+"AFST*410"
+"AFST*450"
+}
