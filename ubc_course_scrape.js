@@ -1,3 +1,12 @@
+/**
+ * Team 10
+ * CIS*3760
+ * Sprint #4
+ * Feb 13, 2022
+ * Description:
+ *      scraper for all undergrad courses at UBC
+ */
+
 import playwright from 'playwright'
 import fs from 'fs'
 
@@ -27,19 +36,21 @@ browser.close();
 
 
 // CODE FOR GETTING ALL COURSE INFORMATION 
-// for(let i = 0; i < course_urls.length; i++){
-//     let tmp = await scrape_courses(course_urls[i]);
+for(let i = 0; i < course_urls.length; i++){
+    let tmp = await scrape_courses(course_urls[i]);
 
-//     tmp.forEach (course_data => {
-//         courses_info.push(course_data);
-//     });
+    tmp.forEach (course_data => {
+        courses_info.push(course_data);
+    });
 
-//     fs.writeFile('uvic_courses.json', JSON.stringify(courses_info), err => {if (err) throw err});
-// }
+    fs.writeFile('uvic_courses.json', JSON.stringify(courses_info), err => {if (err) throw err});
+}
 
-let tmp = await scrape_courses("http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code=MATH");
 
-console.log(JSON.stringify(tmp));
+// CODE FOR GETTING ONE COURSE'S INFOMATION
+// let tmp = await scrape_courses("http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code&code=MATH");
+
+// console.log(JSON.stringify(tmp));
 
 /**
  * Simple function for scraping program-specific courses' web pages
@@ -56,11 +67,12 @@ async function scrape_courses(url) {
     await page_link.goto(url);
 
     
-
+    // Accessing content within scope of HTML dom by using tag UbcMainContent
     const courses = await page_link.$eval("#UbcMainContent", (all_items) => {
 
         let tmp = [];
 
+        // getting all dt (course titles) and dd (course data) components
         let tmpArr = all_items.querySelectorAll('dt, dd');
 
 
@@ -78,28 +90,30 @@ async function scrape_courses(url) {
 
 
             let tmp_title = title_data.split(' ');
-            
+            // getting course code 
             let cc = tmp_title[0] + tmp_title[1];
-
+            // getting credits
             let cred = tmp_title[2];
 
             let desc = ""
 
+            // getting course name 
             for (let c = 3; c < tmp_title.length; c++){
                 desc += tmp_title[c] + " ";
             }
 
-
+            // getting prerequisites 
             let tmp_preq = preq.split("Prerequisite: ");
             let all_preq = ""; 
 
+            // removing all unneccessary characters
             if (tmp_preq.length > 1){
                 all_preq = tmp_preq[tmp_preq.length-1].replace(/[^a-zA-Z0-9~@#$^*()_+=[\]{}|\\,.?: -]/g, "");
             }else{
                 all_preq = "";
             }
 
-
+            // pushing course structure 
             tmp.push({ cc, cred, desc, all_preq});
         }
 
