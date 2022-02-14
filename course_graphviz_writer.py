@@ -133,7 +133,7 @@ def type_find(preq_str, c_code, text_file_name):
         # Dealing with "one of"
         elif one_of_marker == 1:
             if "*" in array_spaces[i]:
-                mapping = "\"" + array_spaces[i] + "\" -> \"" + c_code + "\" [style=dashed] [label=\"1 of\", fontcolor=darkred] [color=red3]"
+                mapping = "\"" + array_spaces[i] + "\" -> \"" + c_code + "\" [style=dashed] [label=\"1 of\", fontcolor=firebrick4] [color=red3]"
                 write_to_file(mapping, text_file_name)
                 #print(mapping)
         # Dealing with "two of"
@@ -186,6 +186,9 @@ def read_courses(subject):
 
     with open(text_file_name, "a") as text_file:
         text_file.write("digraph " + subject + " {\n")
+
+        # title
+        text_file.write("labelloc = \"t\";\nlabel = \""+ subject + "\"\nfontsize = 27;\n")
     
     
     # For loop to go through courses
@@ -253,6 +256,10 @@ def get_subject():
 
 def main():
     get_subject()
+
+    # Combining all pdfs into a single pdf
+    cmd = "pdftk CourseGraphs/*.pdf cat output merged_courses.pdf"
+    os.system(cmd)
 
 if __name__ == "__main__":
     main()
