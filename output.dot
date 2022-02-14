@@ -1,21 +1,2 @@
 digraph CourseMap {
-"CIS*1300"
-"CIS*1910"
-"CIS*2170"
-"CIS*1200" -> "CIS*2170" [style=dashed] [label="1 of"]
-"CIS*1300" -> "CIS*2170" [style=dashed] [label="1 of"]
-"CIS*1500" -> "CIS*2170" [style=dashed] [label="1 of"]
-"CIS*2430"
-"CIS*2500" -> "CIS*2430" [style=solid]
-"CIS*1300" -> "CIS*2500" [style=solid]
-"CIS*2520"
-"CIS*2500" -> "CIS*2520" [style=dashed]
-"ENGG*1420" -> "CIS*2520" [style=dashed]
-"CIS*1910" -> "CIS*2520" [style=dashed] [label="1 of"]
-"ENGG*1500" -> "CIS*2520" [style=dashed] [label="1 of"]
-"MATH*2000" -> "CIS*2520" [style=dashed] [label="1 of"]
-"CIS*2750"
-"CIS*2520" -> "CIS*2750" [style=solid]
-"CIS*2430" -> "CIS*2750" [style=dashed]
-"ENGG*1420" -> "CIS*2750" [style=dashed]
 }
