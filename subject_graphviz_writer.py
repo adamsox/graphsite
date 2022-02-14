@@ -174,7 +174,7 @@ def type_find(preq_str, c_code, text_file_name):
 
 
 def read_courses(subject):
-    f = open('uvic_courses.json')
+    f = open('ubc_courses.json')
     
     # Loading json file
     courses = json.load(f)
@@ -229,7 +229,7 @@ def read_courses(subject):
 
 def get_subject():
     subject_list = []
-    f = open('uvic_courses.json')
+    f = open('ubc_courses.json')
     
     # Loading json file
     courses = json.load(f)
