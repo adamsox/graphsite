@@ -1,0 +1,36 @@
+digraph BA {
+labelloc = "t";
+label = "BA"
+fontsize = 27;
+"BA*500"
+"BA*501"
+"BA   501." -> "BA*502" [style=solid]
+"BA   502." -> "BA*503" [style=solid]
+"BA*504"
+"BA*505"
+"BA*506"
+"BA*507"
+"BA*508"
+"BA*509"
+"BA*510"
+"BA*511"
+"BA*512"
+"BA*513"
+"BA*514"
+"BA*515"
+"BA*520"
+"BA*530"
+"BA*531"
+"BA*532"
+"BA*535"
+"BA*540"
+"BA*541"
+"BA*550"
+"BA*551"
+"BA*560"
+"BA*561"
+"BA*562"
+"BA*563"
+"BA*564"
+"BA*580"
+}

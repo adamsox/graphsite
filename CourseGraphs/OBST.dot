@@ -1,0 +1,16 @@
+digraph OBST {
+labelloc = "t";
+label = "OBST"
+fontsize = 27;
+"OBST*501"
+"OBST*502"
+"Knowledge of fetal growth and development, physiology, pathology of labour." -> "OBST*503" [style=solid]
+"OBST*504"
+"OBST*505"
+"OBST*506"
+"OBST*507"
+"OBST*510"
+"OBST*511"
+"OBST*549"
+"OBST*649"
+}

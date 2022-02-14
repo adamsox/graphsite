@@ -1,0 +1,30 @@
+digraph ANAT {
+labelloc = "t";
+label = "ANAT"
+fontsize = 27;
+"ANAT*392"
+"Registration in Rehabilitation Sciences (RSPT) is required." -> "ANAT*393" [style=solid]
+"ANAT*400"
+"ANAT*401"
+"ANAT*425"
+"ANAT*448"
+"ANAT*500"
+"ANAT*501"
+"ANAT*401" -> "ANAT*502" [style=solid]
+"ANAT*504"
+"ANAT*505"
+"ANAT*510"
+"ANAT*511"
+"ANAT*512"
+"ANAT*513"
+"ANAT*514"
+"ANAT*515"
+"ANAT*516"
+"ANAT*517"
+"ANAT*527"
+"ANAT*548"
+"ANAT*549"
+"Students must be registered in graduate-level studies in Anatomy &amp; Cell Biology." -> "ANAT*550" [style=solid]
+"ANAT*590"
+"ANAT*649"
+}

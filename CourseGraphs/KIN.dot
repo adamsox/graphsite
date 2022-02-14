@@ -1,0 +1,101 @@
+digraph KIN {
+labelloc = "t";
+label = "KIN"
+fontsize = 27;
+"KIN*110"
+"KIN*120"
+"KIN*131"
+"KIN*132"
+"KIN*140"
+"KIN*148"
+"KIN*150"
+"KIN*160"
+"KIN*170"
+"KIN*373" -> "KIN*205" [style=solid]
+"KIN*371" -> "KIN*206" [style=solid]
+"Second-year standing." -> "KIN*211" [style=solid]
+"Second-year standing." -> "KIN*216" [style=solid]
+"KIN*131" -> "KIN*232"
+"KIN*132" -> "KIN*232"
+"Second-year standing." -> "KIN*235" [style=solid]
+"KIN*248"
+"Second-year standing." -> "KIN*262" [style=solid]
+"KIN*270"
+"Second-year standing." -> "KIN*300" [style=solid]
+"Third-year standing. Restricted to students in the BHK and BKIN programs." -> "KIN*310" [style=solid]
+"Third-year standing." -> "KIN*311" [style=solid]
+"Third-year standing." -> "KIN*313" [style=solid]
+"Third-year standing." -> "KIN*316" [style=solid]
+"Third-year standing." -> "KIN*320" [style=solid]
+"Third-year standing." -> "KIN*321" [style=solid]
+"Third-year standing." -> "KIN*322" [style=solid]
+"Third-year standing." -> "KIN*335" [style=solid]
+"KIN  140. And third-year standing." -> "KIN*341" [style=solid]
+"KIN  140. And third-year standing." -> "KIN*342" [style=solid]
+"Third-year standing." -> "KIN*344" [style=solid]
+"Third-year standing." -> "KIN*345" [style=solid]
+"KIN  140. And third-year standing." -> "KIN*355" [style=solid]
+"Third-year standing." -> "KIN*360" [style=solid]
+"Third-year standing." -> "KIN*363" [style=solid]
+"Third-year standing." -> "KIN*364" [style=solid]
+"Third-year standing." -> "KIN*368" [style=solid]
+"KIN*370"
+"Third-year standing." -> "KIN*411" [style=solid]
+"Restricted to students registered in the BKIN program, third-year standing." -> "KIN*419" [style=solid]
+"Third-year standing." -> "KIN*420" [style=solid]
+"Third-year standing." -> "KIN*424" [style=solid]
+"KIN*131" -> "KIN*432"
+"KIN*132" -> "KIN*432"
+"KIN*232" -> "KIN*432"
+"Third-year standing." -> "KIN*435" [style=solid]
+"KIN  335 and third-year standing." -> "KIN*438" [style=solid]
+"Third-year standing." -> "KIN*442" [style=solid]
+"KIN  140. And third-year standing." -> "KIN*444" [style=solid]
+"Third-year standing." -> "KIN*459" [style=solid]
+"Third-year standing." -> "KIN*460" [style=solid]
+"Third-year standing." -> "KIN*464" [style=solid]
+"Fourth-year standing." -> "KIN*465" [style=solid]
+"Third-year standing." -> "KIN*466" [style=solid]
+"Third-year standing." -> "KIN*467" [style=solid]
+"KIN*470"
+"KIN*472"
+"KIN*474"
+"Third-year standing." -> "KIN*476" [style=solid]
+"KIN  342. Third-year standing. Restricted to students in the BKIN program." -> "KIN*478" [style=solid]
+"Restricted to students in the BKIN program with third- or fourth-year standing." -> "KIN*484" [style=solid]
+"Restricted to students in the BKIN program with third- or fourth-year standing." -> "KIN*485" [style=solid]
+"Restricted to students in the BKIN program with third- or fourth-year standing." -> "KIN*486" [style=solid]
+"Restricted to students in the BKIN program with fourth-year standing." -> "KIN*488" [style=solid]
+"Third-year standing and permission of the Associate Director, Undergraduate Program." -> "KIN*490" [style=solid]
+"Third-year standing and permission of the Associate Director, Undergraduate Program." -> "KIN*492" [style=solid]
+"Fourth-year standing and permission of the Associate Director, Undergraduate Program.)" -> "KIN*499" [style=solid]
+"KIN*500"
+"KIN*515"
+"KIN*516"
+"KIN*517"
+"KIN*530"
+"KIN*562"
+"KIN*563"
+"KIN*564"
+"KIN*565"
+"KIN*567"
+"KIN*568"
+"KIN*570"
+"KIN*571"
+"KIN*572"
+"KIN*573"
+"KIN*574"
+"KIN*580"
+"KIN*581"
+"KIN*583"
+"KIN*585"
+"KIN*586"
+"KIN*591"
+"KIN*595"
+"KIN  572." -> "KIN*596" [style=solid]
+"KIN*597"
+"KIN*598"
+"KIN*599"
+"KIN*601"
+"KIN*699"
+}

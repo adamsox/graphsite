@@ -1,0 +1,80 @@
+digraph APSC {
+labelloc = "t";
+label = "APSC"
+fontsize = 27;
+"APSC*100"
+"APSC*100" -> "APSC*101" [style=solid]
+"APSC*107"
+"APSC*110"
+"APSC*122"
+"APSC*150"
+"APSC*151"
+"APSC*160"
+"APSC*172"
+"APSC*172" -> "APSC*173" [style=solid]
+"APSC*176"
+"APSC*173" -> "APSC*178" [style=solid]
+"APSC*179"
+"APSC*180"
+"APSC*182"
+"APSC*183"
+"APSC*176" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "APSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*176" -> "APSC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "APSC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "APSC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "APSC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "APSC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENPH*259" -> "APSC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENPH*253" -> "APSC*203" [style=solid]
+"APSC*110" -> "APSC*210" [style=solid]
+"APSC*211"
+"APSC*212"
+"APSC*261"
+"APSC*262"
+"APSC*263"
+"APSC*278"
+"APSC*278" -> "APSC*279" [style=solid]
+"APSC*310"
+"APSC*311"
+"APSC*312"
+"APSC*331"
+"APSC*331" -> "APSC*332" [style=solid]
+"Third-year standing." -> "APSC*364" [style=solid]
+"APSC*366"
+"POLI*371" -> "APSC*367" [style=solid]
+"POLI*377" -> "APSC*377" [style=solid]
+"APSC*380"
+"APSC*383"
+"ASTU*402" -> "APSC*402" [style=solid]
+"FRST*402" -> "APSC*402" [style=solid]
+"LFS*402" -> "APSC*402" [style=solid]
+"LLED*402" -> "APSC*402" [style=solid]
+"PHAR*402" -> "APSC*402" [style=solid]
+"APSC*410"
+"APSC*411"
+"APSC*412"
+"Fourth-year standing in Engineering." -> "APSC*440" [style=solid]
+"APSC*450"
+"Completion of third year." -> "APSC*461" [style=solid]
+"APSC*461" -> "APSC*462" [style=solid]
+"APSC*486"
+"APSC*496"
+"APSC*498"
+"APSC*510"
+"APSC*511"
+"APSC*512"
+"APSC*520"
+"APSC*521"
+"APSC*522"
+"APSC*540"
+"APSC*541"
+"APSC*542"
+"APSC*597"
+"APSC*598"
+}

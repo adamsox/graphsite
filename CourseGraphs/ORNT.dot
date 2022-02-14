@@ -1,0 +1,6 @@
+digraph ORNT {
+labelloc = "t";
+label = "ORNT"
+fontsize = 27;
+"ORNT*400"
+}

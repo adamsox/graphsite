@@ -1,0 +1,14 @@
+digraph PLNT {
+labelloc = "t";
+label = "PLNT"
+fontsize = 27;
+"PLNT*523"
+"PLNT*530"
+"BIOL*335" -> "PLNT*540" [style=solid]
+"BOTA*544" -> "PLNT*540" [style=solid]
+"FRST*503" -> "PLNT*540" [style=solid]
+"PLNT*542"
+"PLNT*549"
+"PLNT*590"
+"PLNT*649"
+}

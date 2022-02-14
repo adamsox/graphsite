@@ -1,0 +1,21 @@
+digraph BAAC {
+labelloc = "t";
+label = "BAAC"
+fontsize = 27;
+"BAAC*500"
+"BAAC*550" -> "BAAC*501"
+"BAAC*551" -> "BAAC*501"
+"BAAC*505"
+"BAAC*510"
+"BAAC*550" -> "BAAC*511"
+"BAAC*551" -> "BAAC*511"
+"BAFI*500" -> "BAAC*520" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*541" -> "BAAC*520" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*500" -> "BAAC*521" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*541" -> "BAAC*521" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAAC*540"
+"BAAC*550" -> "BAAC*551" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*320" -> "BAAC*551" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAAC*580"
+"BAAC*590"
+}

@@ -1,0 +1,121 @@
+digraph LING {
+labelloc = "t";
+label = "LING"
+fontsize = 27;
+"LING*100"
+"LING*101"
+"LING*140"
+"LING*170"
+"LING*200"
+"LING*201"
+"LING*209"
+"LING*222"
+"LING*100" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*101" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*140" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*170" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*200" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*201" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*330" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*331" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*103" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "LING*242" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*100" -> "LING*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*101" -> "LING*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*140" -> "LING*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*170" -> "LING*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*201" -> "LING*300" [style=solid]
+"LING*308"
+"LING*200" -> "LING*311" [style=solid]
+"LING*200" -> "LING*313" [style=solid]
+"LING*100" -> "LING*313"
+"PSYC*100" -> "LING*313"
+"PSYC*101" -> "LING*313"
+"PSYC*217" -> "LING*313"
+"PHYS*341" -> "LING*313"
+"LING*313" -> "LING*314" [style=solid]
+"LING*100" -> "LING*314"
+"PSYC*100" -> "LING*314"
+"PSYC*101" -> "LING*314"
+"PSYC*217" -> "LING*314"
+"PHYS*341" -> "LING*314"
+"LING*200" -> "LING*319" [style=solid]
+"LING*201" -> "LING*319" [style=solid]
+"LING*201" -> "LING*327" [style=solid]
+"LING*200" -> "LING*333"
+"LING*201" -> "LING*333"
+"LING*201" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*331" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*203" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "LING*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*201" -> "LING*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*331" -> "LING*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*220" -> "LING*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*300" -> "LING*405"
+"LING*311" -> "LING*405"
+"LING*327" -> "LING*405"
+"LING*311" -> "LING*410" [style=solid]
+"LING*319" -> "LING*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*445" -> "LING*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*318" -> "LING*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*319" -> "LING*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*324" -> "LING*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*300" -> "LING*415" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"LING*311" -> "LING*415" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"LING*313" -> "LING*415" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"LING*327" -> "LING*415" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"LING*420"
+"LING*300" -> "LING*421" [style=solid]
+"LING*327" -> "LING*425" [style=solid]
+"PHIL*220" -> "LING*425" [style=solid]
+"LING*100" -> "LING*425" [style=solid]
+"LING*201" -> "LING*425" [style=solid]
+"LING*430"
+"LING*300" -> "LING*431"
+"LING*311" -> "LING*431"
+"LING*431" -> "LING*432" [style=solid]
+"LING*433"
+"LING*436"
+"LING*200" -> "LING*440"
+"LING*201" -> "LING*440"
+"LING*200" -> "LING*445"
+"LING*201" -> "LING*445"
+"LING*447"
+"LING*448"
+"LING*449"
+"LING*222" -> "LING*451"
+"LING*311" -> "LING*451"
+"LING*222" -> "LING*452"
+"LING*300" -> "LING*452"
+"LING*469"
+"LING*520" -> "LING*502" [style=solid]
+"LING*503"
+"LING*505"
+"LING*508" -> "LING*507" [style=solid]
+"LING*510"
+"LING*510" -> "LING*511" [style=solid]
+"LING*508" -> "LING*512" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*510" -> "LING*512" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*508" -> "LING*513" [style=solid]
+"LING*512" -> "LING*518" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*522" -> "LING*518" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*519"
+"LING*520" -> "LING*521" [style=solid]
+"LING*520" -> "LING*522" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*525" -> "LING*522" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*525" -> "LING*527" [style=solid]
+"LING*530"
+"LING*531"
+"LING*531" -> "LING*532" [style=solid]
+"LING*533"
+"LING*538"
+"LING*545"
+"LING*546"
+"LING*548"
+"LING*549"
+"LING*649"
+}

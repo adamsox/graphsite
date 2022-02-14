@@ -1,0 +1,67 @@
+digraph FRE {
+labelloc = "t";
+label = "FRE"
+fontsize = 27;
+"ECON*101" -> "FRE*290" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*290" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*295"
+"ECON*102" -> "FRE*295"
+"MATH*105" -> "FRE*295"
+"ECON*101" -> "FRE*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "FRE*326" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "FRE*326" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*374" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*374" -> "FRE*374" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*385" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*385" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "FRE*385" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "FRE*385" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "FRE*385" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "FRE*394" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*394" -> "FRE*394" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "FRE*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "FRE*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*326" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*474" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "FRE*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "FRE*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Approval of program advisor." -> "FRE*497" [style=solid]
+"Approval of a program advisor; consult before the end of classes in third year." -> "FRE*499" [style=solid]
+"FRE*500"
+"FRE*501"
+"FRE*502"
+"FRE*504"
+"FRE*505"
+"FRE*515"
+"FRE*516"
+"FRE*517"
+"FRE*518"
+"FRE*520"
+"FRE*521"
+"FRE  502." -> "FRE*522" [style=solid]
+"FRE*523"
+"FRE*524"
+"FRE*526"
+"FRE*527"
+"FRE*528"
+"FRE*529"
+"FRE*530"
+"FRE*541"
+"FRE*547"
+"FRE*585"
+"FRE*600"
+}

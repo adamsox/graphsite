@@ -1,0 +1,21 @@
+digraph FISH {
+labelloc = "t";
+label = "FISH"
+fontsize = 27;
+"FISH*500"
+"FISH*501"
+"FISH*502"
+"FISH*503"
+"FISH*504"
+"FISH*505"
+"FISH*506"
+"FISH*507"
+"FISH*508"
+"FISH*509"
+"FISH*510"
+"FISH*520"
+"FISH*548"
+"FISH*549"
+"FISH*599"
+"FISH*699"
+}

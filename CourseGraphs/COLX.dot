@@ -1,0 +1,21 @@
+digraph COLX {
+labelloc = "t";
+label = "COLX"
+fontsize = 27;
+"COLX*521"
+"DSCI*511" -> "COLX*523"
+"COLX*521" -> "COLX*523"
+"COLX*525"
+"COLX*525" -> "COLX*527" [style=solid]
+"DSCI*571" -> "COLX*531" [style=solid]
+"COLX*531" -> "COLX*533" [style=solid]
+"DSCI*511" -> "COLX*535"
+"DSCI*551" -> "COLX*535"
+"COLX*521" -> "COLX*535"
+"COLX*535" -> "COLX*561" [style=solid]
+"COLX*561" -> "COLX*563" [style=solid]
+"COLX*563" -> "COLX*565" [style=solid]
+"COLX*535" -> "COLX*581" [style=solid]
+"COLX*585"
+"24 credits of DSCI and COLX courses." -> "COLX*595" [style=solid]
+}

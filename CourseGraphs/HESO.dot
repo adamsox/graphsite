@@ -1,0 +1,7 @@
+digraph HESO {
+labelloc = "t";
+label = "HESO"
+fontsize = 27;
+"HESO*400"
+"HESO*449"
+}

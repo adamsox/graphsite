@@ -1,0 +1,226 @@
+digraph SOCI {
+labelloc = "t";
+label = "SOCI"
+fontsize = 27;
+"SOCI*100"
+"SOCI*101"
+"SOCI*102"
+"SOCI*200"
+"SOCI*201"
+"SOCI*204"
+"SOCI*210"
+"SOCI*100" -> "SOCI*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*220"
+"SOCI*224"
+"SOCI*230"
+"SOCI*240"
+"SOCI*250"
+"SOCI*260"
+"SOCI*270"
+"SOCI*280"
+"SOCI*285"
+"SOCI*290"
+"SOCI*100" -> "SOCI*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*324" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*324" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*324" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*324" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*352" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*352" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*352" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*364" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*364" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*364" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*369" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*369" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*369" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*369" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*370" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*371" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*371" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*371" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*217" -> "SOCI*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*217" -> "SOCI*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*217" -> "SOCI*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*383" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*383" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*383" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*217" -> "SOCI*383" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*384" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*384" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*384" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*387" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*387" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*387" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*328" -> "SOCI*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*430"
+"SOCI*100" -> "SOCI*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*430" -> "SOCI*435" [style=solid]
+"SOCI*100" -> "SOCI*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "SOCI*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*449" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*449" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*449" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*469" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*469" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*469" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*369" -> "SOCI*469" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*479" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*479" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*479" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ANTH*480" -> "SOCI*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*100" -> "SOCI*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*101" -> "SOCI*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*102" -> "SOCI*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*500"
+"SOCI*501"
+"SOCI*502"
+"SOCI*503"
+"SOCI*504"
+"SOCI*500" -> "SOCI*505" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*501" -> "SOCI*505" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*502" -> "SOCI*506" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*503" -> "SOCI*506" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*500" -> "SOCI*507" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*501" -> "SOCI*507" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*502" -> "SOCI*508" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*503" -> "SOCI*508" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*509"
+"SOCI*510"
+"SOCI*511"
+"SOCI*512"
+"SOCI*513"
+"SOCI*502" -> "SOCI*514" [style=solid]
+"SOCI*503" -> "SOCI*515" [style=solid]
+"SOCI*520"
+"SOCI*530"
+"SOCI*540"
+"SOCI*549"
+"SOCI*550"
+"SOCI*560"
+"SOCI*562"
+"SOCI*570"
+"SOCI*580"
+"SOCI*584"
+"SOCI*590"
+"SOCI*596"
+"SOCI*598"
+"SOCI*599"
+"SOCI*649"
+}

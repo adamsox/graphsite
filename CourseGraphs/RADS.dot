@@ -1,0 +1,6 @@
+digraph RADS {
+labelloc = "t";
+label = "RADS"
+fontsize = 27;
+"Third-year standing." -> "RADS*301" [style=solid]
+}

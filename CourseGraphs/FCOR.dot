@@ -1,0 +1,10 @@
+digraph FCOR {
+labelloc = "t";
+label = "FCOR"
+fontsize = 27;
+"FCOR*500"
+"FCOR*501"
+"FCOR*502"
+"FCOR*503"
+"FCOR*599"
+}

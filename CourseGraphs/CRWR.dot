@@ -1,0 +1,113 @@
+digraph CRWR {
+labelloc = "t";
+label = "CRWR"
+fontsize = 27;
+"CRWR*200"
+"CRWR*201"
+"CRWR*203"
+"CRWR*205"
+"CRWR*206"
+"CRWR*208"
+"CRWR*209"
+"CRWR*213"
+"CRWR*216"
+"CRWR*220"
+"CRWR*230"
+"CRWR*201" -> "CRWR*301" [style=solid]
+"CRWR*213" -> "CRWR*302" [style=solid]
+"CRWR*203" -> "CRWR*303" [style=solid]
+"CRWR*205" -> "CRWR*305" [style=solid]
+"CRWR*206" -> "CRWR*306" [style=solid]
+"CRWR*200" -> "CRWR*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CRWR*202" -> "CRWR*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CRWR*208" -> "CRWR*308" [style=solid]
+"CRWR*209" -> "CRWR*309" [style=solid]
+"CRWR*200" -> "CRWR*310" [style=solid]
+"CRWR*200" -> "CRWR*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CRWR*202" -> "CRWR*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CRWR*213" -> "CRWR*312" [style=solid]
+"CRWR*206" -> "CRWR*316" [style=solid]
+"CRWR*200" -> "CRWR*319"
+"CRWR*209" -> "CRWR*319"
+"CRWR*301" -> "CRWR*351" [style=solid]
+"CRWR*303" -> "CRWR*353" [style=solid]
+"CRWR*305" -> "CRWR*355" [style=solid]
+"CRWR*306" -> "CRWR*356" [style=solid]
+"CRWR*308" -> "CRWR*358" [style=solid]
+"CRWR*309" -> "CRWR*359" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*401" [style=solid]
+"CRWR*402"
+"Restricted to Majors in Creative Writing." -> "CRWR*403" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*404" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*405" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*406" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*407" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*408" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*409" [style=solid]
+"CRWR*410"
+"Restricted to Majors in Creative Writing." -> "CRWR*411" [style=solid]
+"Proficiency in a language other than English." -> "CRWR*415" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*416" [style=solid]
+"Manuscript submission or equivalent theatre experience." -> "CRWR*417" [style=solid]
+"CRWR*200" -> "CRWR*419" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*420" [style=solid]
+"CRWR*430"
+"THTR*469" -> "CRWR*440" [style=solid]
+"VISA*469" -> "CRWR*440" [style=solid]
+"MUSC*469" -> "CRWR*440" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*451" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*452" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*453" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*454" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*455" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*456" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*457" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*458" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*459" [style=solid]
+"CRWR*415" -> "CRWR*460" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*461" [style=solid]
+"Restricted to Majors in Creative Writing." -> "CRWR*466" [style=solid]
+"CRWR*470"
+"CRWR*471"
+"CRWR*473"
+"CRWR*474"
+"CRWR*475"
+"CRWR*476"
+"CRWR*477"
+"CRWR*479"
+"CRWR*480"
+"CRWR*490"
+"CRWR*501"
+"CRWR*502"
+"CRWR*503"
+"CRWR*504"
+"CRWR*505"
+"CRWR*506"
+"CRWR*507"
+"CRWR*508"
+"CRWR*509"
+"CRWR*511"
+"CRWR*514"
+"Proficiency in a language other than English." -> "CRWR*515" [style=solid]
+"Manuscript submission or equivalent theatre experience." -> "CRWR*517" [style=solid]
+"CRWR*519"
+"Permission of the instructor is required." -> "CRWR*520" [style=solid]
+"CRWR*521"
+"CRWR*530"
+"CRWR*550"
+"CRWR*551"
+"CRWR*552"
+"CRWR*503" -> "CRWR*553" [style=solid]
+"CRWR*504" -> "CRWR*554" [style=solid]
+"CRWR*505" -> "CRWR*555" [style=solid]
+"CRWR*556"
+"CRWR*557"
+"CRWR*558"
+"CRWR*559"
+"CRWR*515" -> "CRWR*560" [style=solid]
+"CRWR*561"
+"CRWR*514" -> "CRWR*566" [style=solid]
+"CRWR*570"
+"CRWR*590"
+"CRWR*599"
+}

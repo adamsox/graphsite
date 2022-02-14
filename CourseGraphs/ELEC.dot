@@ -1,0 +1,184 @@
+digraph ELEC {
+labelloc = "t";
+label = "ELEC"
+fontsize = 27;
+"MATH*101" -> "ELEC*201" [style=solid]
+"PHYS*102" -> "ELEC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "ELEC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "ELEC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*265" -> "ELEC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*158" -> "ELEC*202"
+"MATH*101" -> "ELEC*202"
+"ELEC*201" -> "ELEC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*203" -> "ELEC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "ELEC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "ELEC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "ELEC*204" [style=solid]
+"PHYS*102" -> "ELEC*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*158" -> "ELEC*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "ELEC*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "ELEC*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*205"
+"MATH*263" -> "ELEC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "ELEC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*102" -> "ELEC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "ELEC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*264" -> "ELEC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "ELEC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "ELEC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*271"
+"APSC*176" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "ELEC*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*201" -> "ELEC*291"
+"CPEN*211" -> "ELEC*291"
+"ELEC*292"
+"ELEC*201" -> "ELEC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*203" -> "ELEC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*204" -> "ELEC*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*201" -> "ELEC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*203" -> "ELEC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "ELEC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*211" -> "ELEC*311" [style=solid]
+"MATH*101" -> "ELEC*311"
+"MATH*263" -> "ELEC*311"
+"MATH*265" -> "ELEC*311"
+"MATH*267" -> "ELEC*311"
+"MATH*253" -> "ELEC*311"
+"MATH*264" -> "ELEC*311"
+"MATH*256" -> "ELEC*311"
+"ELEC*211" -> "ELEC*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENPH*253" -> "ELEC*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*221" -> "ELEC*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*305" -> "ELEC*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*321" -> "ELEC*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*221" -> "ELEC*331" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*261" -> "ELEC*331" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "ELEC*331" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*202" -> "ELEC*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*204" -> "ELEC*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*170" -> "ELEC*342"
+"ELEC*202" -> "ELEC*342"
+"ELEC*202" -> "ELEC*343" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*302" -> "ELEC*343" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*201" -> "ELEC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*203" -> "ELEC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "ELEC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*202" -> "ELEC*352"
+"ELEC*342" -> "ELEC*352"
+"ELEC*361"
+"MATH*265" -> "ELEC*371"
+"MATH*267" -> "ELEC*371"
+"ELEC*202" -> "ELEC*371"
+"ELEC*292" -> "ELEC*371"
+"BMEG*220" -> "ELEC*371"
+"BMEG*321" -> "ELEC*371"
+"CPEN*291" -> "ELEC*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*291" -> "ELEC*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*292" -> "ELEC*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*315" -> "ELEC*391" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"ELEC*301" -> "ELEC*391" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"ELEC*341" -> "ELEC*391" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"ELEC*311" -> "ELEC*391" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"ELEC*342" -> "ELEC*391" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"ELEC*400"
+"ELEC*301" -> "ELEC*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*302" -> "ELEC*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*311" -> "ELEC*402" [style=solid]
+"ELEC*402" -> "ELEC*403" [style=solid]
+"ELEC*401" -> "ELEC*404" [style=solid]
+"ELEC*311" -> "ELEC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*301" -> "ELEC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*354" -> "ELEC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*412"
+"ELEC*413"
+"ELEC*315" -> "ELEC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*304" -> "ELEC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*416"
+"ELEC*221" -> "ELEC*421" [style=solid]
+"ELEC*371" -> "ELEC*422"
+"ELEC*341" -> "ELEC*422"
+"ELEC*221" -> "ELEC*422"
+"CPSC*260" -> "ELEC*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*259" -> "ELEC*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "ELEC*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*318" -> "ELEC*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "ELEC*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "ELEC*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*221" -> "ELEC*431" [style=solid]
+"ELEC*321" -> "ELEC*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "ELEC*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*318" -> "ELEC*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "ELEC*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "ELEC*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*357" -> "ELEC*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*431" -> "ELEC*432" [style=solid]
+"ELEC*433"
+"ELEC*221" -> "ELEC*434" [style=solid]
+"ELEC*341" -> "ELEC*441" [style=solid]
+"PHYS*170" -> "ELEC*442" [style=solid]
+"ELEC*301" -> "ELEC*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*344" -> "ELEC*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*342" -> "ELEC*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*342" -> "ELEC*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*343" -> "ELEC*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*342" -> "ELEC*453" [style=solid]
+"ELEC*453" -> "ELEC*454" [style=solid]
+"ELEC*453" -> "ELEC*455"
+"ELEC*342" -> "ELEC*455"
+"ELEC*456"
+"ELEC*457"
+"CHEM*312" -> "ELEC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*315" -> "ELEC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*250" -> "ELEC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*201" -> "ELEC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*478" -> "ELEC*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*462"
+"ELEC*463"
+"ELEC*464"
+"ELEC*465"
+"ELEC*371" -> "ELEC*471"
+"ELEC*341" -> "ELEC*471"
+"ELEC*311" -> "ELEC*471"
+"BMEG*420" -> "ELEC*471"
+"ELEC*201" -> "ELEC*472"
+"ELEC*202" -> "ELEC*472"
+"CPEN*211" -> "ELEC*472"
+"ELEC*341" -> "ELEC*472"
+"ELEC*473"
+"ELEC*474"
+"ELEC*481"
+"ELEC*391" -> "ELEC*491" [style=solid]
+"ELEC*391" -> "ELEC*494" [style=solid]
+"Third-year standing." -> "ELEC*497" [style=solid]
+"ELEC*499"
+"ELEC*501"
+"ELEC*502"
+"ELEC*503"
+"ELEC*504"
+"ELEC*505"
+"ELEC*506"
+"ELEC*507"
+"ELEC*521"
+"ELEC*522"
+"ELEC*523"
+"ELEC*524"
+"ELEC*541"
+"ELEC*542"
+"ELEC*543"
+"ELEC*544"
+"ELEC*545"
+"ELEC*546"
+"ELEC*571"
+"MECH*466" -> "ELEC*572" [style=solid]
+"MECH*468" -> "ELEC*572" [style=solid]
+"EECE*360" -> "ELEC*572" [style=solid]
+"ELEC*574"
+"EECE*584" -> "ELEC*581" [style=solid]
+"ELEC*582"
+"ELEC*584"
+}

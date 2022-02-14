@@ -1,0 +1,332 @@
+digraph POLI {
+labelloc = "t";
+label = "POLI"
+fontsize = 27;
+"POLI*100"
+"POLI*101"
+"POLI*110"
+"POLI*220"
+"POLI*240"
+"Recommended for prospective students of POLI 360-373." -> "POLI*260" [style=solid]
+"POLI*101" -> "POLI*301" [style=solid]
+"POLI*101" -> "POLI*302" [style=solid]
+"POLI*101" -> "POLI*303" [style=solid]
+"POLI*101" -> "POLI*304" [style=solid]
+"POLI*101" -> "POLI*305" [style=solid]
+"POLI*101" -> "POLI*306" [style=solid]
+"POLI*101" -> "POLI*307" [style=solid]
+"POLI*101" -> "POLI*308" [style=solid]
+"POLI*101" -> "POLI*309" [style=solid]
+"POLI*101" -> "POLI*310" [style=solid]
+"POLI*316"
+"POLI*320"
+"POLI*321"
+"POLI*322"
+"POLI*323"
+"POLI*324"
+"POLI*325"
+"POLI*326"
+"POLI*327"
+"POLI*328"
+"POLI*329"
+"POLI*330"
+"POLI*331"
+"POLI*332"
+"POLI*333"
+"POLI*334"
+"POLI*335"
+"POLI*336"
+"POLI*337"
+"POLI*338"
+"POLI*340"
+"POLI*341"
+"POLI*342"
+"POLI*343"
+"POLI*344"
+"POLI*345"
+"POLI*346"
+"POLI*347"
+"POLI*348"
+"POLI*350"
+"POLI*351"
+"POLI*352"
+"POLI*360"
+"POLI*361"
+"POLI*362"
+"POLI*363"
+"POLI*364"
+"POLI*365"
+"POLI*366"
+"POLI*367"
+"POLI*368"
+"POLI*369"
+"POLI*370"
+"APSC*367" -> "POLI*371" [style=solid]
+"POLI*260" -> "POLI*372" [style=solid]
+"POLI*373"
+"POLI*374"
+"POLI*375"
+"POLI*376"
+"APSC*377" -> "POLI*377" [style=solid]
+"POLI*378"
+"POLI*321" -> "POLI*379" [style=solid]
+"POLI*380"
+"POLI*380" -> "POLI*381" [style=solid]
+"POLI*385"
+"POLI*390"
+"POLI*101" -> "POLI*401" [style=solid]
+"POLI*301" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*302" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*303" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*304" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*305" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*306" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*307" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*308" -> "POLI*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*101" -> "POLI*402" [style=solid]
+"POLI*301" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*302" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*303" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*304" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*305" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*306" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*307" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*308" -> "POLI*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*101" -> "POLI*403" [style=solid]
+"POLI*301" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*302" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*303" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*304" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*305" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*306" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*307" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*308" -> "POLI*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*101" -> "POLI*404" [style=solid]
+"POLI*301" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*302" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*303" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*304" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*305" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*306" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*307" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*308" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*350" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*351" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*352" -> "POLI*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*101" -> "POLI*405" [style=solid]
+"POLI*301" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*302" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*303" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*304" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*305" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*306" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*307" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*308" -> "POLI*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*101" -> "POLI*406" [style=solid]
+"POLI*220" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*320" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*321" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*322" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*323" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*324" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*325" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*326" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*327" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*328" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*329" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*330" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*331" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*332" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*333" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*350" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*351" -> "POLI*420" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*220" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*320" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*321" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*322" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*323" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*324" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*325" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*326" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*327" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*328" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*329" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*330" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*331" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*332" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*333" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*350" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*351" -> "POLI*421" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*220" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*320" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*321" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*322" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*323" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*324" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*325" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*326" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*327" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*328" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*329" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*330" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*331" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*332" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*333" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*350" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*351" -> "POLI*422" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*220" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*320" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*321" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*322" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*323" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*324" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*325" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*326" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*327" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*328" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*329" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*330" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*331" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*332" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*333" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*350" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*351" -> "POLI*423" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"Third year standing." -> "POLI*424" [style=solid]
+"POLI*220" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*320" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*321" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*322" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*323" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*324" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*325" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*326" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*327" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*328" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*329" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*330" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*331" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*332" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*333" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*350" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*351" -> "POLI*426" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*220" -> "POLI*427" [style=solid]
+"Restricted to Major/Honour POLI or Combined Major with POLI." -> "POLI*428" [style=solid]
+"POLI*220" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*320" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*321" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*322" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*323" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*324" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*325" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*326" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*327" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*328" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*329" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*330" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*331" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*332" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*333" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*345" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*350" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*351" -> "POLI*429" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*439"
+"POLI*240" -> "POLI*440" [style=solid]
+"POLI*240" -> "POLI*441" [style=solid]
+"POLI*240" -> "POLI*442" [style=solid]
+"POLI*240" -> "POLI*443" [style=solid]
+"POLI*240" -> "POLI*445" [style=solid]
+"POLI*240" -> "POLI*446" [style=solid]
+"POLI*240" -> "POLI*448" [style=solid]
+"POLI*449"
+"POLI*101" -> "POLI*450" [style=solid]
+"POLI*302" -> "POLI*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*306" -> "POLI*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*350" -> "POLI*450"
+"POLI*352" -> "POLI*450"
+"POLI*260" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*360" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*361" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*362" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*363" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*364" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*365" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*366" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*367" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*368" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*369" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*370" -> "POLI*460" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*260" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*360" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*361" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*362" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*363" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*364" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*365" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*366" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*367" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*368" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*369" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*370" -> "POLI*461" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*260" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*360" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*361" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*362" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*363" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*364" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*365" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*366" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*367" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*368" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*369" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*370" -> "POLI*462" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"POLI*260" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*360" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*361" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*362" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*363" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*364" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*365" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*366" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*367" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*368" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*369" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*370" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*375" -> "POLI*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*464"
+"POLI*466"
+"POLI*492"
+"POLI*501"
+"POLI*502"
+"POLI*503"
+"POLI*504"
+"POLI*511"
+"POLI*512"
+"POLI*513"
+"POLI*514"
+"POLI*515"
+"POLI*516"
+"POLI*517"
+"POLI*521"
+"POLI*523"
+"POLI*531"
+"POLI*532"
+"POLI*533"
+"POLI*540"
+"POLI*547"
+"POLI*549"
+"POLI*551"
+"POLI*552"
+"POLI*553"
+"POLI*561"
+"POLI*562"
+"POLI*563"
+"POLI*564"
+"POLI*565"
+"POLI*567"
+"POLI*571"
+"POLI*572"
+"POLI*573"
+"POLI*574"
+"POLI*580"
+"POLI*649"
+}

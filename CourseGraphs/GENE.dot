@@ -1,0 +1,11 @@
+digraph GENE {
+labelloc = "t";
+label = "GENE"
+fontsize = 27;
+"BIOL*334" -> "GENE*501"
+"BIOL*335" -> "GENE*501"
+"BIOC*334" -> "GENE*502"
+"BIOC*335" -> "GENE*502"
+"GENE*549"
+"GENE*649"
+}

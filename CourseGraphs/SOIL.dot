@@ -1,0 +1,22 @@
+digraph SOIL {
+labelloc = "t";
+label = "SOIL"
+fontsize = 27;
+"SOIL*500"
+"SOIL*501"
+"SOIL*502"
+"SOIL*503"
+"SOIL*321" -> "SOIL*512" [style=solid]
+"SOIL*313" -> "SOIL*513"
+"SOIL*314" -> "SOIL*513"
+"SOIL*514"
+"SOIL*515"
+"SOIL*516"
+"SOIL*517"
+"SOIL*518"
+"SOIL*520"
+"Permission of the instructor is required." -> "SOIL*524" [style=solid]
+"SOIL*530"
+"SOIL*549"
+"SOIL*649"
+}

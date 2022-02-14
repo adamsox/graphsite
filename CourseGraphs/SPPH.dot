@@ -1,0 +1,152 @@
+digraph SPPH {
+labelloc = "t";
+label = "SPPH"
+fontsize = 27;
+"SPPH*200"
+"SPPH*300"
+"SPPH*301"
+"SPPH*302"
+"SPPH*381"
+"Ability to use high school Algebra and simple graphs." -> "SPPH*400" [style=solid]
+"SPPH*404"
+"SPPH*406"
+"SPPH*408"
+"SPPH*409"
+"SPPH*410"
+"SPPH*411"
+"SPPH*481"
+"HCEP*400" -> "SPPH*500"
+"HCEP*502" -> "SPPH*500"
+"SPPH*400" -> "SPPH*500"
+"SPPH*502" -> "SPPH*500"
+"SPPH*567" -> "SPPH*500"
+"HCEP*400" -> "SPPH*501"
+"HCEP*500" -> "SPPH*501"
+"HCEP*502" -> "SPPH*501"
+"SPPH*400" -> "SPPH*501"
+"SPPH*500" -> "SPPH*501"
+"SPPH*502" -> "SPPH*501"
+"SPPH*567" -> "SPPH*501"
+"Enrolment in a Health Care and Epidemiology graduate program, or permission of instructor." -> "SPPH*502" [style=solid]
+"HCEP*400" -> "SPPH*503"
+"HCEP*502" -> "SPPH*503"
+"SPPH*400" -> "SPPH*503"
+"SPPH*502" -> "SPPH*503"
+"HCEP*400" -> "SPPH*504"
+"HCEP*500" -> "SPPH*504"
+"HCEP*502" -> "SPPH*504"
+"SPPH*400" -> "SPPH*504"
+"SPPH*500" -> "SPPH*504"
+"SPPH*502" -> "SPPH*504"
+"SPPH*503" -> "SPPH*504" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*506" -> "SPPH*504" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*519" -> "SPPH*504" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*530" -> "SPPH*504" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*505"
+"SPPH*507"
+"SPPH*400" -> "SPPH*508" [style=solid]
+"SPPH*502" -> "SPPH*508" [style=solid]
+"SPPH*525" -> "SPPH*508" [style=solid]
+"SPPH*502" -> "SPPH*509" [style=solid]
+"HCEP*400" -> "SPPH*510" [style=solid]
+"SPPH*400" -> "SPPH*510" [style=solid]
+"SPPH*502" -> "SPPH*511" [style=solid]
+"HCEP*502" -> "SPPH*512" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HCEP*513" -> "SPPH*512" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*502" -> "SPPH*512" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*513" -> "SPPH*512" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HCEP*400" -> "SPPH*513" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HCEP*502" -> "SPPH*513" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*400" -> "SPPH*513" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPPH*502" -> "SPPH*513" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HCEP*400" -> "SPPH*514"
+"HCEP*502" -> "SPPH*514"
+"SPPH*400" -> "SPPH*514"
+"SPPH*502" -> "SPPH*514"
+"HCEP*400" -> "SPPH*515"
+"HCEP*502" -> "SPPH*515"
+"SPPH*400" -> "SPPH*515"
+"SPPH*502" -> "SPPH*515"
+"SPPH*516"
+"SPPH*517"
+"SPPH*518"
+"HCEP*400" -> "SPPH*520"
+"HCEP*502" -> "SPPH*520"
+"SPPH*400" -> "SPPH*520"
+"SPPH*502" -> "SPPH*520"
+"SPPH*522"
+"SPPH*523"
+"SPPH*524"
+"SPPH*526"
+"SPPH*527"
+"SPPH*400" -> "SPPH*528" [style=solid]
+"SPPH*500" -> "SPPH*528" [style=solid]
+"SPPH*529"
+"SPPH*502" -> "SPPH*530" [style=solid]
+"SPPH*531"
+"SPPH*532"
+"Permission of instructor." -> "SPPH*533" [style=solid]
+"SPPH*534"
+"SPPH*535"
+"SPPH*536"
+"SPPH*400" -> "SPPH*537" [style=solid]
+"OBST*507" -> "SPPH*537" [style=solid]
+"SPPH*538"
+"SPPH*502" -> "SPPH*539" [style=solid]
+"SPPH*524" -> "SPPH*539" [style=solid]
+"HCEP*400" -> "SPPH*540"
+"HCEP*502" -> "SPPH*540"
+"SPPH*400" -> "SPPH*540"
+"SPPH*502" -> "SPPH*540"
+"SPPH*541"
+"SPPH*542"
+"HCEP*502" -> "SPPH*543" [style=solid]
+"SPPH*502" -> "SPPH*543" [style=solid]
+"SPPH*544"
+"SPPH*545"
+"SPPH*546"
+"SPPH*547"
+"SPPH*541" -> "SPPH*549" [style=solid]
+"PHAR*560" -> "SPPH*549" [style=solid]
+"SPPH*550"
+"SPPH*552"
+"SPPH*400" -> "SPPH*553"
+"SPPH*502" -> "SPPH*553"
+"SPPH*554"
+"SPPH*555"
+"SPPH*559"
+"SPPH*535" -> "SPPH*562" [style=solid]
+"SPPH*535" -> "SPPH*563" [style=solid]
+"SPPH*565"
+"SPPH*563" -> "SPPH*566" [style=solid]
+"Introductory statistics." -> "SPPH*567" [style=solid]
+"SPPH*568"
+"SPPH*569"
+"SPPH*570"
+"SPPH*571"
+"SPPH*576"
+"SPPH*577"
+"SPPH*578"
+"SPPH*579"
+"SPPH*580"
+"SPPH*581"
+"SPPH*586"
+"SPPH*587"
+"SPPH*588"
+"SPPH*589"
+"SPPH*598"
+"SPPH*599"
+"SPPH*607"
+"SPPH*621"
+"SPPH*681"
+"SPPH*699"
+"SPPH*710"
+"SPPH*711"
+"SPPH*712"
+"SPPH*713"
+"SPPH*714"
+"SPPH*715"
+"SPPH*716"
+"SPPH*717"
+"SPPH*718"
+}

@@ -1,0 +1,55 @@
+digraph CONS {
+labelloc = "t";
+label = "CONS"
+fontsize = 27;
+"CONS*101"
+"CONS*127"
+"CONS*200"
+"CONS*210"
+"BIOL*121" -> "CONS*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*207" -> "CONS*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*260" -> "CONS*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "CONS*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*201" -> "CONS*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*314" -> "CONS*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "CONS*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*102" -> "CONS*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*103" -> "CONS*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third- or fourth-year standing." -> "CONS*340" [style=solid]
+"CONS*370"
+"APBI*412" -> "CONS*412" [style=solid]
+"Third-year standing." -> "CONS*415" [style=solid]
+"Third- or fouth-year standing; 100-level MATH course." -> "CONS*425" [style=solid]
+"CONS*200" -> "CONS*440" [style=solid]
+"CONS*449"
+"CONS*451"
+"CONS*340" -> "CONS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*270" -> "CONS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*443" -> "CONS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "CONS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "CONS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*210" -> "CONS*453"
+"FRST*211" -> "CONS*453"
+"BIOL*230" -> "CONS*453"
+"BIOL*306" -> "CONS*453"
+"APBI*260" -> "CONS*453"
+"CONS*481"
+"FRST*386" -> "CONS*486" [style=solid]
+"Third-year standing." -> "CONS*488" [style=solid]
+"UFOR*200" -> "CONS*491" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CONS*481" -> "CONS*491" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "CONS*495" [style=solid]
+"FRST*395" -> "CONS*495" [style=solid]
+"APBI*315" -> "CONS*495" [style=solid]
+"APBI*416" -> "CONS*495" [style=solid]
+"APBI*495" -> "CONS*495" [style=solid]
+"CONS*498"
+"CONS*500"
+"CONS*501"
+"CONS*503"
+"CONS*504"
+"CONS*505"
+"CONS*506"
+"CONS*520"
+"CONS*528"
+}

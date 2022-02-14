@@ -1,0 +1,26 @@
+digraph JRNL {
+labelloc = "t";
+label = "JRNL"
+fontsize = 27;
+"JRNL*100"
+"JRNL*400"
+"Restricted to fourth-year students. Prior to registration, a minimum of 12-credits of 300-level courses related to media, technology and/or communications recommended." -> "JRNL*420" [style=solid]
+"JRNL*503"
+"JRNL*505"
+"JRNL*510"
+"JRNL*515"
+"JRNL*520"
+"JRNL*523"
+"JRNL*525"
+"JRNL*527"
+"JRNL*530"
+"JRNL*533"
+"JRNL*534"
+"JRNL*535"
+"JRNL*539"
+"JRNL*540"
+"JRNL*548"
+"JRNL*549"
+"JRNL*550"
+"JRNL*555"
+}

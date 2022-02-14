@@ -1,0 +1,45 @@
+digraph ENPH {
+labelloc = "t";
+label = "ENPH"
+fontsize = 27;
+"ENPH*259" -> "ENPH*253" [style=solid]
+"SCIE*001" -> "ENPH*257" [style=solid]
+"MATH*200" -> "ENPH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "ENPH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "ENPH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "ENPH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "ENPH*257"
+"PHYS*109" -> "ENPH*257"
+"PHYS*102" -> "ENPH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "ENPH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "ENPH*257"
+"PHYS*158" -> "ENPH*257"
+"PHYS*159" -> "ENPH*257"
+"PHYS*118" -> "ENPH*257"
+"PHYS*119" -> "ENPH*257"
+"APSC*176" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "ENPH*259"
+"PHYS*109" -> "ENPH*259"
+"PHYS*102" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "ENPH*259" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "ENPH*259"
+"PHYS*158" -> "ENPH*259"
+"PHYS*159" -> "ENPH*259"
+"PHYS*118" -> "ENPH*259"
+"PHYS*119" -> "ENPH*259"
+"PHYS*170" -> "ENPH*270" [style=solid]
+"ENPH*352"
+"ENPH*253" -> "ENPH*353"
+"CPEN*221" -> "ENPH*353"
+"ENPH*253" -> "ENPH*459" [style=solid]
+"ENPH*459" -> "ENPH*479" [style=solid]
+"ENPH*479" -> "ENPH*480" [style=solid]
+"ENPH*459" -> "ENPH*481" [style=solid]
+}

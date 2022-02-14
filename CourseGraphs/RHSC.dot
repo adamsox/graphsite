@@ -1,0 +1,31 @@
+digraph RHSC {
+labelloc = "t";
+label = "RHSC"
+fontsize = 27;
+"RHSC*420"
+"RHSC*500"
+"RHSC*501"
+"RHSC*502"
+"RHSC*503"
+"RHSC*504"
+"RHSC*505"
+"RHSC*506"
+"RHSC*507"
+"RHSC*508"
+"RHSC*509"
+"RHSC*510"
+"RHSC*512"
+"RHSC*514"
+"RHSC*515"
+"RHSC*516"
+"RHSC*517"
+"RHSC*520"
+"RHSC*530"
+"RHSC*549"
+"RHSC*581"
+"RHSC*501" -> "RHSC*583" [style=solid]
+"RHSC*501" -> "RHSC*585" [style=solid]
+"Permission of the project coordinator is required." -> "RHSC*587" [style=solid]
+"RHSC*587" -> "RHSC*589" [style=solid]
+"RHSC*699"
+}

@@ -1,0 +1,199 @@
+digraph EDCP {
+labelloc = "t";
+label = "EDCP"
+fontsize = 27;
+"EDCP*150"
+"EDCP*210"
+"EDCP*301"
+"A concentration in art or permission of the Head." -> "EDCP*302" [style=solid]
+"6 credits of introductory art studio or art history courses." -> "EDCP*303" [style=solid]
+"6 credits of introductory art studio or art history courses." -> "EDCP*304" [style=solid]
+"EDCP*305"
+"EDCP*305" -> "EDCP*306" [style=solid]
+"EDCP*308"
+"EDCP*309"
+"EDCP*311"
+"EDCP*312"
+"EDCP*313"
+"EDCP*314"
+"EDCP*315"
+"EDCP*316"
+"EDCP*316" -> "EDCP*317" [style=solid]
+"EDCP*318"
+"EDCP*319"
+"EDCP*320"
+"A completed concentration in physical education or permission of the head." -> "EDCP*322" [style=solid]
+"EDCP*323"
+"EDCP*325"
+"EDCP*326"
+"EDCP*327"
+"EDCP*328"
+"EDCP*329"
+"EDCP*331"
+"EDCP*332"
+"EDCP*333"
+"EDCP*334"
+"EDCP*335"
+"EDCP*340"
+"EDCP*341"
+"A completed concentration in mathematics or permission of the Head." -> "EDCP*342" [style=solid]
+"EDCP*340" -> "EDCP*343" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*342" -> "EDCP*343" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*340" -> "EDCP*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*342" -> "EDCP*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*349"
+"EDCP*350"
+"EDCP*351"
+"A completed concentration in agricultural sciences, biological sciences, chemistry, earth and space science, or physics, or permission of the Head." -> "EDCP*352" [style=solid]
+"A completed concentration in Agricultural Sciences or permission of the Head." -> "EDCP*353" [style=solid]
+"A completed concentration in biological sciences or permission of the Head." -> "EDCP*354" [style=solid]
+"A completed concentration in chemistry or permission of the Head." -> "EDCP*355" [style=solid]
+"A completed concentration in earth and space science or permission of the Head." -> "EDCP*356" [style=solid]
+"A completed concentration in physics or permission of the Head." -> "EDCP*357" [style=solid]
+"EDCP*358"
+"EDCP*360"
+"EDCP*362"
+"EDCP*363"
+"EDCP*370"
+"EDCP*371"
+"EDCP*372"
+"EDCP*373"
+"EDCP*374"
+"EDCP*375"
+"EDCP*376"
+"EDCP*374" -> "EDCP*377" [style=solid]
+"EDCP*378"
+"EDCP*390"
+"EDCP*391"
+"EDCP*392"
+"EDCP*400"
+"EDCP*401"
+"EDCP*402"
+"EDCP*403"
+"EDCP*404"
+"EDCP*405"
+"EDCP*406"
+"EDCP*407"
+"EDCP*408"
+"Art education as a major or minor and completion of a practicum in Art Education." -> "EDCP*409" [style=solid]
+"EDCP*308" -> "EDCP*410" [style=solid]
+"EDCP*308" -> "EDCP*411" [style=solid]
+"Prior experience in teaching music." -> "EDCP*412" [style=solid]
+"EDCP*305" -> "EDCP*413" [style=solid]
+"EDCP*308" -> "EDCP*414" [style=solid]
+"EPSE*312" -> "EDCP*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*317" -> "EDCP*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*416"
+"EDCP*309" -> "EDCP*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*416" -> "EDCP*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*411" -> "EDCP*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*414" -> "EDCP*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*417" -> "EDCP*418" [style=solid]
+"EDCP*418" -> "EDCP*419" [style=solid]
+"EDCP*420"
+"EDCP*423"
+"EDCP*331" -> "EDCP*430" [style=solid]
+"EDCP*431"
+"EDCP*432"
+"EDCP*433"
+"EDCP*440"
+"EDCP*340" -> "EDCP*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*342" -> "EDCP*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDCP*442"
+"EDCP*446"
+"EDCP*447"
+"EDCP*448"
+"EDCP*449"
+"EDCP*450"
+"EDCP*451"
+"EDCP*452"
+"EDCP*453"
+"EDCP*454"
+"EDCP*455"
+"EDCP*456"
+"EDCP*457"
+"EDCP*458"
+"EDCP*460"
+"EDCP*462"
+"EDCP*467"
+"EDCP*468"
+"EDCP*470"
+"EDCP*471"
+"EDCP*472"
+"EDCP*473"
+"EDCP*474"
+"EDCP*475"
+"EDCP*480"
+"EDCP*481"
+"EDCP*391" -> "EDCP*491" [style=solid]
+"EDCP*492"
+"EDCP*493"
+"EDCP*494"
+"EDCP*495"
+"EDCP*496"
+"EDCP*497"
+"EDCP*498"
+"EDCP*501"
+"EDCP*504"
+"EDCP*505"
+"EDCP*508"
+"A qualitative research methods course." -> "EDCP*510" [style=solid]
+"EDCP*512"
+"A qualitative research methods course." -> "EDCP*513" [style=solid]
+"EDCP*514"
+"EDCP*515"
+"EDCP*520"
+"EDCP*521"
+"EDCP*522"
+"EDCP*523"
+"EDCP*524"
+"EDCP*525"
+"EDCP*526"
+"EDCP*530"
+"EDCP*531"
+"EDCP*532"
+"EDCP*533"
+"EDCP*534"
+"EDCP*535"
+"EDCP*536"
+"EDCP*537"
+"EDCP*538"
+"EDCP*539"
+"EDCP*541"
+"EDCP*542"
+"EDCP*544"
+"EDCP*545"
+"EDCP*550"
+"EDCP*551"
+"EDCP*552"
+"EDCP*553"
+"EDCP*555"
+"EDCP*556"
+"EDCP*557"
+"EDCP*558"
+"EDCP*559"
+"EDCP*560"
+"EDCP*561"
+"EDCP*562"
+"EDCP*563"
+"EDCP*564"
+"EDCP*565"
+"EDCP*566"
+"EDCP*567"
+"EDCP*568"
+"EDCP*569"
+"EDCP*570"
+"EDCP*571"
+"EDCP*575"
+"EDCP*580"
+"EDCP*581"
+"EDCP*585"
+"EDCP*590"
+"EDCP*598"
+"EDCP*599"
+"EDCP*601"
+"EDCP*602"
+"EDCP*605"
+"EDCP*606"
+"EDCP*699"
+}

@@ -1,0 +1,52 @@
+digraph CLST {
+labelloc = "t";
+label = "CLST"
+fontsize = 27;
+"CLST*101"
+"CLST*105"
+"CLST*110"
+"CLST*111"
+"CLST*204"
+"CLST*211"
+"CLST*212"
+"CLST*231"
+"CLST*232"
+"CLST*260"
+"CLST*301"
+"CLST*306"
+"CLST*307"
+"CLST*308"
+"CLST*311"
+"CLST*312"
+"CLST*105" -> "CLST*313" [style=solid]
+"CLST*105" -> "CLST*314" [style=solid]
+"CLST*105" -> "CLST*317" [style=solid]
+"CLST*105" -> "CLST*318" [style=solid]
+"CLST*319"
+"CLST*231" -> "CLST*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CLST*232" -> "CLST*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CLST*260" -> "CLST*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CLST*329"
+"CLST*331"
+"CLST*332"
+"CLST*333"
+"CLST*334"
+"CLST*232" -> "CLST*352" [style=solid]
+"CLST*232" -> "CLST*353" [style=solid]
+"CLST*231" -> "CLST*355" [style=solid]
+"CLST*231" -> "CLST*356" [style=solid]
+"CLST*360"
+"CLST*401"
+"CLST*402"
+"CLST*403"
+"at least one 3-credit upper-level course of content appropriate for the topic of the seminar (to be established by individual instructors). Restricted to majors and honours students in CLST, CLAS, CLAH, ARGR, GRNE, CNRS. This course is not eligible for Credit/D/Fail grading." -> "CLST*404" [style=solid]
+"CLST*501"
+"CLST*502"
+"CLST*511"
+"CLST*512"
+"CLST*513"
+"CLST*518"
+"CLST*519"
+"CLST*520"
+"CLST*521"
+}

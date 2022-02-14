@@ -1,0 +1,102 @@
+digraph BUSI {
+labelloc = "t";
+label = "BUSI"
+fontsize = 27;
+"BUSI*100"
+"BUSI*100" -> "BUSI*101" [style=solid]
+"BUSI*111"
+"BUSI*112"
+"Algebra 12 strongly recommended." -> "BUSI*121" [style=solid]
+"BUSI*121" -> "BUSI*221" [style=solid]
+"BUSI*290"
+"BUSI*291"
+"BUSI*293"
+"BUSI*293" -> "BUSI*294" [style=solid]
+"BUSI*295"
+"BUSI*299"
+"BUSI*100" -> "BUSI*300"
+"BUSI*101" -> "BUSI*300"
+"BUSI*329"
+"BUSI*121" -> "BUSI*330" [style=solid]
+"BUSI*121" -> "BUSI*331"
+"BUSI*330" -> "BUSI*331"
+"BUSI*335"
+"BUSI*344"
+"BUSI*330" -> "BUSI*352" [style=solid]
+"BUSI*121" -> "BUSI*352" [style=solid]
+"BUSI*344" -> "BUSI*352" [style=solid]
+"BUSI*293" -> "BUSI*353" [style=solid]
+"BUSI*293" -> "BUSI*354"
+"BUSI*294" -> "BUSI*354"
+"BUSI*370" -> "BUSI*354"
+"BUSI*293" -> "BUSI*355" [style=solid]
+"BUSI*293" -> "BUSI*370" [style=solid]
+"BUSI*391"
+"BUSI*393"
+"BUSI*398"
+"BUSI*290" -> "BUSI*399"
+"BUSI*291" -> "BUSI*399"
+"COMM*299" -> "BUSI*399"
+"BUSI*400"
+"BUSI*401"
+"BUSI*291" -> "BUSI*414"
+"BUSI*335" -> "BUSI*414"
+"BUSI*433"
+"BUSI*330" -> "BUSI*441" [style=solid]
+"BUSI*331" -> "BUSI*441" [style=solid]
+"BUSI*121" -> "BUSI*442"
+"BUSI*330" -> "BUSI*442"
+"BUSI*331" -> "BUSI*442"
+"BUSI*330" -> "BUSI*443" [style=solid]
+"BUSI*121" -> "BUSI*444"
+"BUSI*330" -> "BUSI*444"
+"BUSI*443" -> "BUSI*444"
+"BUSI*330" -> "BUSI*445"
+"BUSI*331" -> "BUSI*445"
+"BUSI*445" -> "BUSI*446" [style=solid]
+"BUSI*294" -> "BUSI*447"
+"BUSI*295" -> "BUSI*447"
+"BUSI*393" -> "BUSI*447"
+"BUSI*293" -> "BUSI*450"
+"BUSI*353" -> "BUSI*450"
+"BUSI*451"
+"BUSI*452"
+"BUSI*450" -> "BUSI*453" [style=solid]
+"BUSI*294" -> "BUSI*454" [style=solid]
+"BUSI*353" -> "BUSI*455"
+"BUSI*450" -> "BUSI*455"
+"BUSI*121" -> "BUSI*460" [style=solid]
+"BUSI*331" -> "BUSI*460" [style=solid]
+"BUSI*444" -> "BUSI*460" [style=solid]
+"BUSI*293" -> "BUSI*465"
+"COMM*465" -> "BUSI*465"
+"COMR*465" -> "BUSI*465"
+"BUSI*370" -> "BUSI*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*473" -> "BUSI*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BUSI*485"
+"BUSI*486"
+"BUSI*291" -> "BUSI*493"
+"BUSI*293" -> "BUSI*493"
+"BUSI*294" -> "BUSI*493"
+"BUSI*295" -> "BUSI*493"
+"BUSI*335" -> "BUSI*493"
+"BUSI*353" -> "BUSI*493"
+"BUSI*370" -> "BUSI*493"
+"BUSI*393" -> "BUSI*493"
+"COMM*493" -> "BUSI*493"
+"BUSI*330" -> "BUSI*497"
+"BUSI*331" -> "BUSI*497"
+"BUSI*442" -> "BUSI*497"
+"BUSI*452" -> "BUSI*497"
+"BUSI*293" -> "BUSI*498" [style=solid]
+"ECON*101" -> "BUSI*498"
+"ECON*102" -> "BUSI*498"
+"BUSI*294" -> "BUSI*498" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"BUSI*329" -> "BUSI*498" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"BUSI*370" -> "BUSI*498" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"COMM*498" -> "BUSI*498" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"BUSI*330" -> "BUSI*499"
+"BUSI*331" -> "BUSI*499"
+"BUSI*442" -> "BUSI*499"
+"BUSI*452" -> "BUSI*499"
+}

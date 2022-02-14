@@ -1,0 +1,91 @@
+digraph PHRM {
+labelloc = "t";
+label = "PHRM"
+fontsize = 27;
+"PHRM*100"
+"PHRM*131" -> "PHRM*111" [style=solid]
+"PHRM*141"
+"PHRM*161"
+"PHRM*170"
+"PHRM*171"
+"PHRM*211"
+"PHRM*231" -> "PHRM*212" [style=solid]
+"PHRM*221"
+"PHRM*241"
+"PHRM*251"
+"PHRM*261"
+"PHRM*270"
+"PHRM*271"
+"PHRM*272"
+"PHRM*300"
+"PHRM*301"
+"PHRM*302"
+"PHRM*303"
+"PHRM*304"
+"PHRM*305"
+"PHRM*306"
+"PHRM*307"
+"PHRM*311"
+"PHRM*311" -> "PHRM*312" [style=solid]
+"PHRM*321"
+"PHRM*322"
+"PHRM*323"
+"PHRM*325"
+"Third-year standing." -> "PHRM*326" [style=solid]
+"PHRM*327"
+"PHRM*328"
+"PHRM*329"
+"PHRM*211" -> "PHRM*330" [style=solid]
+"PHRM*212" -> "PHRM*330" [style=solid]
+"PHRM*332"
+"PHRM*333"
+"Third Year standing." -> "PHRM*340" [style=solid]
+"PHRM*341"
+"PHRM*351"
+"PHRM*361"
+"PHRM*371"
+"PHRM*441"
+"PHRM*450"
+"PHRM*451"
+"PHRM*452"
+"PHRM*453"
+"PHRM*454"
+"PHRM*461"
+"PHRM*461" -> "PHRM*462" [style=solid]
+"PHRM*461" -> "PHRM*463" [style=solid]
+"PHRM*461" -> "PHRM*464" [style=solid]
+"PHRM*461" -> "PHRM*465" [style=solid]
+"PHRM*461" -> "PHRM*466" [style=solid]
+"PHRM*461" -> "PHRM*467" [style=solid]
+"PHRM*461" -> "PHRM*468" [style=solid]
+"PHRM*461" -> "PHRM*469" [style=solid]
+"PHRM*371" -> "PHRM*471" [style=solid]
+"PHRM*371" -> "PHRM*472" [style=solid]
+"PHRM*371" -> "PHRM*473" [style=solid]
+"PHRM*481"
+"PHRM*451" -> "PHRM*491"
+"PHRM*452" -> "PHRM*491"
+"PHRM*453" -> "PHRM*491"
+"PHRM*461" -> "PHRM*491"
+"PHRM*451" -> "PHRM*492"
+"PHRM*452" -> "PHRM*492"
+"PHRM*453" -> "PHRM*492"
+"PHRM*461" -> "PHRM*492"
+"PHRM*451" -> "PHRM*493"
+"PHRM*452" -> "PHRM*493"
+"PHRM*453" -> "PHRM*493"
+"PHRM*461" -> "PHRM*493"
+"PHRM*451" -> "PHRM*494"
+"PHRM*452" -> "PHRM*494"
+"PHRM*453" -> "PHRM*494"
+"PHRM*461" -> "PHRM*494"
+"PHRM*451" -> "PHRM*495"
+"PHRM*452" -> "PHRM*495"
+"PHRM*453" -> "PHRM*495"
+"PHRM*461" -> "PHRM*495"
+"PHRM*451" -> "PHRM*496"
+"PHRM*452" -> "PHRM*496"
+"PHRM*453" -> "PHRM*496"
+"PHRM*461" -> "PHRM*496"
+"Successful completion of all other coursework." -> "PHRM*499" [style=solid]
+}

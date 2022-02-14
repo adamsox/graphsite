@@ -1,0 +1,25 @@
+digraph BAIT {
+labelloc = "t";
+label = "BAIT"
+fontsize = 27;
+"BAIT*501"
+"BAIT*502" -> "BAIT*504" [style=solid]
+"BAIT*506"
+"BAIT*507"
+"BAIT*508"
+"BAIT*509"
+"BAIT*510"
+"BAIT*511"
+"BAIT*513"
+"BAIT*515"
+"BAIT*516"
+"BAIT*517"
+"BABS*550" -> "BAIT*518" [style=solid]
+"BAIT*519"
+"BAIT*521"
+"BAIT*523"
+"BAIT*527"
+"BAIT*550"
+"BAIT*580"
+"BAIT*590"
+}

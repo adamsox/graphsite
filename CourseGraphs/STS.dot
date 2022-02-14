@@ -1,0 +1,10 @@
+digraph STS {
+labelloc = "t";
+label = "STS"
+fontsize = 27;
+"Enrolment in STS Program or permssion of the STS Advisory Committee." -> "STS*501" [style=solid]
+"STS  501." -> "STS*502" [style=solid]
+"STS*597"
+"STS*598"
+"STS*599"
+}

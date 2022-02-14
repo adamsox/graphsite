@@ -1,0 +1,7 @@
+digraph WRIT {
+labelloc = "t";
+label = "WRIT"
+fontsize = 27;
+"WRIT*098"
+"WRIT*099"
+}

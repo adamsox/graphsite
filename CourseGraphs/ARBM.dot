@@ -1,0 +1,7 @@
+digraph ARBM {
+labelloc = "t";
+label = "ARBM"
+fontsize = 27;
+"ARBM*101"
+"ARBM*101" -> "ARBM*102" [style=solid]
+}

@@ -1,0 +1,16 @@
+digraph CEEN {
+labelloc = "t";
+label = "CEEN"
+fontsize = 27;
+"3 credits of thermodynamics at the second- or third-year level." -> "CEEN*501" [style=solid]
+"CEEN*501" -> "CEEN*502" [style=solid]
+"CEEN*503"
+"CEEN*504"
+"CEEN*523"
+"CEEN*525"
+"CEEN*550"
+"CEEN*580"
+"CEEN*590"
+"CEEN*596"
+"CEEN*597"
+}

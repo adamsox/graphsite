@@ -1,0 +1,28 @@
+digraph BEST {
+labelloc = "t";
+label = "BEST"
+fontsize = 27;
+"CHEM*121" -> "BEST*200" [style=solid]
+"BIOL*111" -> "BEST*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BEST*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BEST*202"
+"BIOL*111" -> "BEST*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "BEST*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*203" -> "BEST*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "BEST*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BEST*202" -> "BEST*301" [style=solid]
+"BEST*200" -> "BEST*302" [style=solid]
+"BEST*300" -> "BEST*303" [style=solid]
+"BEST*302" -> "BEST*304" [style=solid]
+"BEST*308"
+"BEST*310"
+"BEST*311"
+"BEST*312"
+"BEST*300" -> "BEST*400" [style=solid]
+"ECON*101" -> "BEST*401" [style=solid]
+"BEST*200" -> "BEST*402" [style=solid]
+"BEST*403"
+"BEST*410"
+"BEST*411"
+"BEST*412"
+}

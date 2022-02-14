@@ -1,0 +1,7 @@
+digraph SOAL {
+labelloc = "t";
+label = "SOAL"
+fontsize = 27;
+"SOAL*100"
+"SOAL*440"
+}

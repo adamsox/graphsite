@@ -1,0 +1,20 @@
+digraph ENVR {
+labelloc = "t";
+label = "ENVR"
+fontsize = 27;
+"Open to all students with second-year, or higher, standing." -> "ENVR*200" [style=solid]
+"Open to all students with third-year, or higher, standing in the Faculty of Science." -> "ENVR*300" [style=solid]
+"ENVR*300" -> "ENVR*400" [style=solid]
+"Fourth-year standing in B.Sc., B.A.Sc. or related programs." -> "ENVR*410" [style=solid]
+"GEOB*305" -> "ENVR*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*329" -> "ENVR*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVR*300" -> "ENVR*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "ENVR*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVR*200" -> "ENVR*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIC*220" -> "ENVR*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*220" -> "ENVR*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*211" -> "ENVR*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third year standing in the Faculty of Science." -> "ENVR*448" [style=solid]
+"ENVR*300" -> "ENVR*449" [style=solid]
+"Third-year standing." -> "ENVR*490" [style=solid]
+}

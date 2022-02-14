@@ -1,0 +1,10 @@
+digraph RGST {
+labelloc = "t";
+label = "RGST"
+fontsize = 27;
+"RGST*200"
+"RGST*200" -> "RGST*300" [style=solid]
+"RGST*200" -> "RGST*330" [style=solid]
+"RGST*300" -> "RGST*400" [style=solid]
+"RGST*499"
+}

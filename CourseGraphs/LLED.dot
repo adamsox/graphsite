@@ -1,0 +1,142 @@
+digraph LLED {
+labelloc = "t";
+label = "LLED"
+fontsize = 27;
+"LLED*200"
+"LLED*201"
+"LLED*206"
+"LLED*210"
+"LLED*211"
+"LLED*212"
+"LLED*213"
+"LLED*220"
+"LLED*221"
+"LLED*222"
+"LLED*223"
+"LLED*226"
+"LLED*300"
+"LLED*301"
+"LLED*310"
+"A completed concentration in French or permission of the Head." -> "LLED*312" [style=solid]
+"A completed concentration in theatre or drama or permission of the Head." -> "LLED*313" [style=solid]
+"LLED*315"
+"LLED*318"
+"LLED*310" -> "LLED*320" [style=solid]
+"LLED*323"
+"French 12, or equivalent prior French experience." -> "LLED*324" [style=solid]
+"A completed concentration in French or permission of the Head." -> "LLED*325" [style=solid]
+"Grade 11 Mandarin or equivalent." -> "LLED*326" [style=solid]
+"LLED*336"
+"LLED*350"
+"LLED*351"
+"LLED*352"
+"LLED*353"
+"LLED*360"
+"LLED*361"
+"LLED*363"
+"LLED*366"
+"LLED*367"
+"LLED*368"
+"A completed concentration in French of permission of the Department Head." -> "LLED*371" [style=solid]
+"LLED*372"
+"LLED*381"
+"LLED*382"
+"LLED*386"
+"LLED*387"
+"LLED*388"
+"LLED*391"
+"LLED*399"
+"APSC*402" -> "LLED*402" [style=solid]
+"ASTU*402" -> "LLED*402" [style=solid]
+"FRST*402" -> "LLED*402" [style=solid]
+"LFS*402" -> "LLED*402" [style=solid]
+"PHAR*402" -> "LLED*402" [style=solid]
+"LLED*420"
+"LLED*421"
+"A completed concentration or major in French or permission of Department Head." -> "LLED*422" [style=solid]
+"A completed concentration or major in French or permission of Department Head." -> "LLED*423" [style=solid]
+"LLED*426"
+"FREN*220" -> "LLED*428" [style=solid]
+"FREN*222" -> "LLED*428"
+"FREN*223" -> "LLED*428"
+"LLED*429"
+"LLED*433"
+"LLED*434"
+"LLED*435"
+"LLED*436"
+"LLED*314" -> "LLED*439" [style=solid]
+"LLED*440"
+"LLED*441"
+"LLED*442"
+"LLED*443"
+"LLED*444"
+"LLED*445"
+"LLED*446"
+"LLED*449"
+"An introductory-level reading or language arts education course" -> "LLED*450" [style=solid]
+"An introductory-level reading or language arts education course." -> "LLED*451" [style=solid]
+"LLED*452"
+"An introductory-level reading or language arts education course." -> "LLED*453" [style=solid]
+"or corequisite: an introductory-level reading, language arts, or English education course." -> "LLED*454" [style=solid]
+"LLED*455"
+"An introductory- level reading or language arts course; successful completion of an extended practicum or one year of teaching experience." -> "LLED*456" [style=solid]
+"LLED*457"
+"An introductory-level reading or language arts education course." -> "LLED*459" [style=solid]
+"LLED*462"
+"LLED*469"
+"LLED*315" -> "LLED*478" [style=solid]
+"LLED*479"
+"LLED*480"
+"LLED*481"
+"LLED*482"
+"LLED*486"
+"An introductory-level reading, language arts, or English education course." -> "LLED*487" [style=solid]
+"LLED*489"
+"LLED*491"
+"LLED*492"
+"LLED*493"
+"LLED*501"
+"LLED*502"
+"LLED*503"
+"Preference to students admitted to TESL graduate program." -> "LLED*510" [style=solid]
+"LLED*511"
+"LLED*512"
+"LLED*513"
+"LLED*520"
+"LLED*521"
+"LLED*522"
+"LLED*523"
+"LLED*525"
+"LLED*526"
+"LLED*527"
+"LLED*534"
+"LLED*535"
+"LLED*536"
+"LLED*540"
+"LLED*541"
+"LLED*550"
+"LLED*552"
+"Admission into the TESL Graduate Program or permission of instructor." -> "LLED*553" [style=solid]
+"LLED*562" -> "LLED*554" [style=solid]
+"LLED*555"
+"LLED*556"
+"LLED*557"
+"LLED*558"
+"LLED*559"
+"LLED*560"
+"LLED*561"
+"LLED*565"
+"Admission into the TESL Graduate Program or permission of instructor." -> "LLED*570" [style=solid]
+"Admission into the TESL Graduate Program or permission of instructor." -> "LLED*571" [style=solid]
+"Admission into the TESL Graduate Program or permission of instructor." -> "LLED*572" [style=solid]
+"Admission into the TESL Graduate Program or permission of instructor." -> "LLED*573" [style=solid]
+"Admission into the TESL Graduate Program or permission of instructor." -> "LLED*574" [style=solid]
+"LLED*577"
+"LLED*580"
+"LLED*590"
+"LLED*598"
+"LLED*599"
+"Admission to the Ph.D. program in LLED." -> "LLED*601" [style=solid]
+"Admission to the Ph.D. program in LLED." -> "LLED*602" [style=solid]
+"LLED*699"
+}

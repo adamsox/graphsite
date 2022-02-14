@@ -1,0 +1,65 @@
+digraph ARCH {
+labelloc = "t";
+label = "ARCH"
+fontsize = 27;
+"ARCH*403"
+"ARCH*404"
+"ARCH*405"
+"ARCH*407"
+"ARCH*410"
+"ARCH*411"
+"ARCH*437"
+"ARCH*502" -> "ARCH*500" [style=solid]
+"ARCH*500" -> "ARCH*501" [style=solid]
+"ARCH*504"
+"ARCH*505"
+"ARCH*511"
+"ARCH*512"
+"ARCH*513"
+"ARCH*515"
+"ARCH*515" -> "ARCH*517" [style=solid]
+"ARCH*501" -> "ARCH*520" [style=solid]
+"ARCH*500" -> "ARCH*521"
+"ARCH*501" -> "ARCH*521"
+"ARCH*520" -> "ARCH*521"
+"ARCH*511" -> "ARCH*521"
+"ARCH*512" -> "ARCH*521"
+"ARCH*531" -> "ARCH*521"
+"ARCH*533" -> "ARCH*521"
+"ARCH*522"
+"ARCH*504" -> "ARCH*523"
+"ARCH*505" -> "ARCH*523"
+"ARCH*511" -> "ARCH*531" [style=solid]
+"ARCH*512" -> "ARCH*532" [style=solid]
+"ARCH*513" -> "ARCH*533" [style=solid]
+"ARCH*537"
+"ARCH*538"
+"ARCH*500" -> "ARCH*539"
+"ARCH*538" -> "ARCH*539"
+"ARCH*521" -> "ARCH*540" [style=solid]
+"ARCH*541"
+"ARCH*543"
+"ARCH*544"
+"ARCH*545"
+"Completion of all second-year requirements." -> "ARCH*548" [style=solid]
+"ARCH*548" -> "ARCH*549" [style=solid]
+"ARCH*549" -> "ARCH*549" [style=solid]
+"ARCH*511" -> "ARCH*551"
+"ARCH*512" -> "ARCH*551"
+"ARCH*555"
+"ARCH*504" -> "ARCH*561"
+"ARCH*505" -> "ARCH*561"
+"ARCH*523" -> "ARCH*561"
+"ARCH*568" -> "ARCH*561"
+"ARCH*511" -> "ARCH*571"
+"ARCH*512" -> "ARCH*571"
+"ARCH*531" -> "ARCH*571"
+"ARCH*512" -> "ARCH*572" [style=solid]
+"ARCH*513" -> "ARCH*573" [style=solid]
+"ARCH*574"
+"ARCH*575"
+"ARCH*515" -> "ARCH*577"
+"ARCH*517" -> "ARCH*577"
+"ARCH*597"
+"ARCH*598"
+}

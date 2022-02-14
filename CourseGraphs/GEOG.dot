@@ -1,0 +1,119 @@
+digraph GEOG {
+labelloc = "t";
+label = "GEOG"
+fontsize = 27;
+"GEOG*121"
+"GEOG*122"
+"GEOG*210"
+"Second-year standing." -> "GEOG*211" [style=solid]
+"GEOG*220"
+"GEOG*250"
+"GEOG*257"
+"GEOG*281"
+"GEOG*290"
+"GEOG*310"
+"GEOG*311"
+"GEOS*102" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*102" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOS*200" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*200" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOS*204" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*204" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ATSC*201" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*112" -> "GEOG*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*314" -> "GEOG*313" [style=solid]
+"GEOG*211" -> "GEOG*314" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"GEOB*102" -> "GEOG*314" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"GEOB*103" -> "GEOG*314" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"GEOS*102" -> "GEOG*314" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"GEOG*313" -> "GEOG*314" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"Permission of the instructor." -> "GEOG*315" [style=solid]
+"GEOB*102" -> "GEOG*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOS*102" -> "GEOG*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*103" -> "GEOG*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOS*103" -> "GEOG*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*310" -> "GEOG*318" [style=solid]
+"GEOG*319"
+"GEOG*321"
+"GEOG*327"
+"GEOG*328"
+"GEOG*329"
+"GEOG*345"
+"GEOG*346"
+"GEOG*350"
+"GEOG*351"
+"GEOG*352"
+"GEOG*353"
+"GEOG*357"
+"GEOG*122" -> "GEOG*361" [style=solid]
+"GEOG*122" -> "GEOG*362" [style=solid]
+"GEOG*260" -> "GEOG*362" [style=solid]
+"GEOG*121" -> "GEOG*364" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*122" -> "GEOG*364" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*371"
+"GEOG*374"
+"The relevant core course(s)." -> "GEOG*379" [style=solid]
+"GEOG*380"
+"GEOG*390"
+"GEOG*391"
+"GEOG*395"
+"GEOG*396"
+"GEOG*310" -> "GEOG*410" [style=solid]
+"GEOG*310" -> "GEOG*412" [style=solid]
+"GEOG*313" -> "GEOG*419" [style=solid]
+"GEOG*423"
+"GEOG*424"
+"GEOG*327" -> "GEOG*426" [style=solid]
+"GEOG*328" -> "GEOG*426" [style=solid]
+"Major or Honours in Geography with at least 75 credits, or permission of the instructor." -> "GEOG*429" [style=solid]
+"GEOG*121" -> "GEOG*432" [style=solid]
+"Third-year standing in human geography." -> "GEOG*442" [style=solid]
+"GEOG*446"
+"Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required." -> "GEOG*447" [style=solid]
+"Open to upper-level students enrolled in the Geography Majors or Honours programs. Permission of the Undergraduate Advisor and supervising faculty member is required." -> "GEOG*448" [style=solid]
+"URST*450" -> "GEOG*450" [style=solid]
+"At least third-year standing." -> "GEOG*453" [style=solid]
+"GEOG*456"
+"GEOG*350" -> "GEOG*457" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*357" -> "GEOG*457" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*361" -> "GEOG*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*364" -> "GEOG*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*380" -> "GEOG*481" [style=solid]
+"GEOG*380" -> "GEOG*484" [style=solid]
+"GEOG*380" -> "GEOG*485" [style=solid]
+"GEOG*391" -> "GEOG*493" [style=solid]
+"LAST*100" -> "GEOG*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*395" -> "GEOG*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*496"
+"At least third-year standing." -> "GEOG*497" [style=solid]
+"GEOG*498"
+"GEOG*512"
+"GEOG*514"
+"GEOG*515"
+"GEOG*517"
+"GEOG*519"
+"GEOG*520"
+"GEOG*521"
+"GEOG*522"
+"GEOG*523"
+"GEOG*524"
+"GEOG*525"
+"GEOG*527"
+"GEOG*528"
+"GEOG*533"
+"GEOG*535"
+"GEOG*545"
+"GEOG*547"
+"GEOG*548"
+"GEOG*551"
+"GEOG*552"
+"GEOG*553"
+"GEOG*554"
+"GEOG*560"
+"GEOG*570"
+"GEOG*520" -> "GEOG*571" [style=solid]
+"GEOG*572"
+"GEOG*520" -> "GEOG*575" [style=solid]
+"GEOG*599"
+"GEOG*699"
+}

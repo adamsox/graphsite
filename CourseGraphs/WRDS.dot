@@ -1,0 +1,7 @@
+digraph WRDS {
+labelloc = "t";
+label = "WRDS"
+fontsize = 27;
+"WRDS*150"
+"Restricted to  students with at least 3rd-year standing." -> "WRDS*350" [style=solid]
+}

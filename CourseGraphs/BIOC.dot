@@ -1,0 +1,80 @@
+digraph BIOC {
+labelloc = "t";
+label = "BIOC"
+fontsize = 27;
+"CHEM*203" -> "BIOC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "BIOC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "BIOC*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "BIOC*203" [style=solid]
+"CHEM*203" -> "BIOC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*213" -> "BIOC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*301"
+"BIOL*201" -> "BIOC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "BIOC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*203" -> "BIOC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*203" -> "BIOC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "BIOC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "BIOC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*203" -> "BIOC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "BIOC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "BIOC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*213" -> "BIOC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*205" -> "BIOC*303"
+"CHEM*233" -> "BIOC*303"
+"BIOC*303" -> "BIOC*304" [style=solid]
+"Completion of academic third year in Biochemistry major or honours program is required." -> "BIOC*398" [style=solid]
+"BIOC*398" -> "BIOC*399" [style=solid]
+"BIOC*302" -> "BIOC*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "BIOC*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "BIOC*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*402" -> "BIOC*403" [style=solid]
+"BIOC*404"
+"BIOC*303" -> "BIOC*410"
+"BIOL*335" -> "BIOC*410"
+"BIOT*380" -> "BIOC*410"
+"BIOC*420"
+"BIOC*301" -> "BIOC*421"
+"BIOC*410" -> "BIOC*421"
+"BIOC*303" -> "BIOC*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "BIOC*440" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*402" -> "BIOC*440"
+"BIOC*410" -> "BIOC*440"
+"Permission of the Department Head is required." -> "BIOC*448" [style=solid]
+"BIOC*449"
+"BIOC*303" -> "BIOC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "BIOC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*402" -> "BIOC*450"
+"BIOC*410" -> "BIOC*450"
+"BIOC*303" -> "BIOC*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "BIOC*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*402" -> "BIOC*460"
+"BIOC*410" -> "BIOC*460"
+"BIOC*302" -> "BIOC*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "BIOC*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*300" -> "BIOC*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*302" -> "BIOC*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "BIOC*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*399" -> "BIOC*498" [style=solid]
+"BIOC*498" -> "BIOC*499" [style=solid]
+"BIOC*501"
+"BIOC*509"
+"BIOC*510"
+"BIOC*511"
+"BIOC*514"
+"BIOC*522"
+"BIOC*530"
+"BIOC*548"
+"BIOC*549"
+"BIOC*410" -> "BIOC*551" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*510" -> "BIOC*551" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*552"
+"BIOC*553"
+"BIOC*554"
+"BIOC*555"
+"BIOC*556"
+"BIOC*557"
+"BIOC*558"
+"BIOC*559"
+"BIOC*560"
+"BIOC*649"
+}

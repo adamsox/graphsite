@@ -1,0 +1,15 @@
+digraph BABS {
+labelloc = "t";
+label = "BABS"
+fontsize = 27;
+"BABS*500"
+"BABS*500" -> "BABS*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BABS*507" -> "BABS*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*581" -> "BABS*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BABS*506"
+"BABS*508"
+"BABS*540"
+"BABS*550"
+"BABS*580"
+"BABS*590"
+}

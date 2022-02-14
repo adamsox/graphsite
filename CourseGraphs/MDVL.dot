@@ -1,0 +1,11 @@
+digraph MDVL {
+labelloc = "t";
+label = "MDVL"
+fontsize = 27;
+"MDVL*210"
+"Third-year standing in the Faculty of Arts." -> "MDVL*301" [style=solid]
+"Third-year standing in the Faculty of Arts." -> "MDVL*302" [style=solid]
+"MDVL*310"
+"MDVL*449"
+"MDVL*490"
+}

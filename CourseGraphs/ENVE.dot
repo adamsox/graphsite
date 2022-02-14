@@ -1,0 +1,18 @@
+digraph ENVE {
+labelloc = "t";
+label = "ENVE"
+fontsize = 27;
+"Second-year standing." -> "ENVE*200" [style=solid]
+"WRDS*150" -> "ENVE*201" [style=solid]
+"(ENGL*100" -> "ENVE*201" [style=solid]
+"ENVE*200" -> "ENVE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVE*202" -> "ENVE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVE*203" -> "ENVE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "ENVE*202"
+"CIVL*204" -> "ENVE*202"
+"CHBE*241" -> "ENVE*202"
+"ENVE*200" -> "ENVE*202"
+"ENVE*200" -> "ENVE*203" [style=solid]
+"Third-year standing." -> "ENVE*301" [style=solid]
+"Fourth-year standing." -> "ENVE*401" [style=solid]
+}

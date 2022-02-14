@@ -1,0 +1,11 @@
+digraph ONCO {
+labelloc = "t";
+label = "ONCO"
+fontsize = 27;
+"ONCO*501"
+"ONCO*502"
+"ONCO*510"
+"ONCO*548"
+"ONCO*549"
+"ONCO*649"
+}

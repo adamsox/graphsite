@@ -1,0 +1,36 @@
+digraph ARCL {
+labelloc = "t";
+label = "ARCL"
+fontsize = 27;
+"ARCL*103"
+"ARCL*140"
+"ARCL*203"
+"ARCL*204"
+"ARCL*228"
+"ARCL*231"
+"ARCL*232"
+"ARCL*235"
+"ARCL*203" -> "ARCL*305" [style=solid]
+"ARCL*305" -> "ARCL*306" [style=solid]
+"ARCL*309"
+"ARCL*318"
+"ARCL*319"
+"ARCL*322"
+"ARCL*323"
+"ARCL*232" -> "ARCL*324" [style=solid]
+"ARCL*140" -> "ARCL*325" [style=solid]
+"ARCL*140" -> "ARCL*326" [style=solid]
+"ARCL*103" -> "ARCL*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARCL*203" -> "ARCL*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FSCT*201" -> "ARCL*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARCL*405"
+"ARCL*305" -> "ARCL*406" [style=solid]
+"ARCL*410"
+"ARCL*305" -> "ARCL*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARCL*321" -> "ARCL*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ARCL*203" -> "ARCL*419" [style=solid]
+"ARCL*420"
+"ARCL*203" -> "ARCL*424" [style=solid]
+"ARCL*425"
+"ARCL*203" -> "ARCL*430" [style=solid]
+}

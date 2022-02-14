@@ -1,0 +1,13 @@
+digraph INFO {
+labelloc = "t";
+label = "INFO"
+fontsize = 27;
+"INFO*100"
+"INFO*200"
+"INFO*250"
+"INFO*200" -> "INFO*300" [style=solid]
+"INFO*100" -> "INFO*300" [style=solid]
+"NFO*200" -> "INFO*303" [style=solid]
+"INFO*250" -> "INFO*419" [style=solid]
+"INFO*250" -> "INFO*456" [style=solid]
+}

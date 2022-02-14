@@ -1,0 +1,62 @@
+digraph CNPS {
+labelloc = "t";
+label = "CNPS"
+fontsize = 27;
+"CNPS*312"
+"CNPS*331"
+"CNPS*362"
+"CNPS*363"
+"CNPS*364"
+"CNPS*365"
+"CNPS*426"
+"CNPS*427"
+"CNPS*433"
+"CNPS*504"
+"Appropriate senior undergraduate introductory or methods course." -> "CNPS*508" [style=solid]
+"CNPS*514"
+"CNPS*523"
+"CNPS*524"
+"CNPS*531"
+"CNPS*532"
+"CNPS*534"
+"CNPS*535"
+"CNPS*544"
+"CNPS*545"
+"CNPS*551"
+"CNPS*561"
+"CNPS*564"
+"CNPS*565"
+"CNPS*564" -> "CNPS*566" [style=solid]
+"CNPS*568"
+"CNPS*569"
+"CNPS*363" -> "CNPS*574" [style=solid]
+"CNPS*362" -> "CNPS*578"
+"CNPS*365" -> "CNPS*578"
+"EDUC*500" -> "CNPS*579" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*481" -> "CNPS*579" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*482" -> "CNPS*579" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*483" -> "CNPS*579" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNPS*580"
+"EDUC*500" -> "CNPS*584" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*481" -> "CNPS*584" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*482" -> "CNPS*584" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*483" -> "CNPS*584" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNPS*586"
+"CNPS*587"
+"CNPS*588"
+"CNPS*594"
+"CNPS*595"
+"CNPS*598"
+"CNPS*599"
+"CNPS*601"
+"PSYC*303" -> "CNPS*632" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*528" -> "CNPS*632" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNPS*532" -> "CNPS*632" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNPS*669"
+"CNPS*677"
+"CNPS*678"
+"A course in Computer Science." -> "CNPS*679" [style=solid]
+"CNPS*688"
+"CNPS*698"
+"CNPS*699"
+}

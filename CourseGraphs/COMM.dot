@@ -1,0 +1,308 @@
+digraph COMM {
+labelloc = "t";
+label = "COMM"
+fontsize = 27;
+"COMM*100"
+"COMM*101"
+"COMM*120"
+"COMM*126"
+"COMM*186"
+"COMM*201"
+"COMM*202"
+"COMM*292" -> "COMM*203" [style=solid]
+"ECON*101" -> "COMM*203"
+"ECON*102" -> "COMM*203"
+"COMM*392" -> "COMM*203"
+"COMM*290" -> "COMM*204"
+"COMM*399" -> "COMM*204"
+"COMM*205"
+"COMM*220"
+"COMM*271"
+"COMM*280"
+"COMM*286"
+"BUSI*291" -> "COMM*291" [style=solid]
+"COMM*293"
+"COEC*293" -> "COMM*294" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COEC*294" -> "COMM*294" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*100" -> "COMM*295" [style=solid]
+"ECON*101" -> "COMM*295"
+"ECON*102" -> "COMM*295"
+"COMM*296"
+"COMM*298"
+"COMM*300"
+"COMM*301"
+"COMM*302"
+"COMM*303"
+"COMM*295" -> "COMM*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "COMM*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*297" -> "COMM*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*298" -> "COMM*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "COMM*310" [style=solid]
+"COMM*311"
+"COMM*312"
+"COMM*314"
+"COMM*320"
+"COMM*321"
+"COMM*329"
+"COMM*205" -> "COMM*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*391" -> "COMM*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "COMM*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*205" -> "COMM*336" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*391" -> "COMM*336" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*205" -> "COMM*337" [style=solid]
+"COMM*342"
+"COMM*343"
+"COMM*344"
+"COMM*345"
+"COMM*349"
+"COMM*293" -> "COMM*353"
+"COMM*297" -> "COMM*353"
+"COMM*397" -> "COMM*353"
+"COMM*298" -> "COMM*353"
+"COMM*290" -> "COMM*354"
+"COMM*291" -> "COMM*354"
+"COMM*293" -> "COMM*354"
+"COMM*294" -> "COMM*354"
+"COMM*293" -> "COMM*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMM*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*296" -> "COMM*362" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*396" -> "COMM*362" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*296" -> "COMM*363" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*396" -> "COMM*363" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*290" -> "COMM*365"
+"COMM*291" -> "COMM*365"
+"COMM*296" -> "COMM*365"
+"COMM*295" -> "COMM*365" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*365" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*205" -> "COMM*365" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*391" -> "COMM*365" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COEC*370" -> "COMM*370" [style=solid]
+"COEC*371" -> "COMM*371" [style=solid]
+"COMM*370" -> "COMM*374"
+"COMM*371" -> "COMM*374"
+"COMM*297" -> "COMM*376" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*298" -> "COMM*376" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*370" -> "COMM*377"
+"COEC*377" -> "COMM*377"
+"COMM*379"
+"COMM*380"
+"COMM*380" -> "COMM*381" [style=solid]
+"COMM*382"
+"COMM*383"
+"COMM*386"
+"COMM*387"
+"COMM*388"
+"COMM*389"
+"ENGL*112" -> "COMM*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTU*150" -> "COMM*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "COMM*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*100" -> "COMM*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "COMM*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "COMM*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*393"
+"COMM*295" -> "COMM*394" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*394" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COEC*394" -> "COMM*394" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*395"
+"COMM*398"
+"COMM*297" -> "COMM*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*298" -> "COMM*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "COMM*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*297" -> "COMM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*298" -> "COMM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "COMM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*300" -> "COMM*411" [style=solid]
+"COMM*412"
+"COMM*204" -> "COMM*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*399" -> "COMM*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "COMM*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*420"
+"COMM*421"
+"COMM*291" -> "COMM*425"
+"COMM*292" -> "COMM*425"
+"COMM*327" -> "COMM*425"
+"COMM*327" -> "COMM*428"
+"COMM*425" -> "COMM*428"
+"COMM*393" -> "COMM*431" [style=solid]
+"COMM*393" -> "COMM*434" [style=solid]
+"COMM*205" -> "COMM*435" [style=solid]
+"COMM*335" -> "COMM*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*310" -> "COMM*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*335" -> "COMM*437" [style=solid]
+"COMM*205" -> "COMM*438" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*391" -> "COMM*438" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*335" -> "COMM*439" [style=solid]
+"COMM*441"
+"COMM*204" -> "COMM*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*399" -> "COMM*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "COMM*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*445"
+"COMM*295" -> "COMM*446" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*201" -> "COMM*446" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*446" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*480" -> "COMM*446" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "COMM*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "COMM*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*204" -> "COMM*448" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*399" -> "COMM*448" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*204" -> "COMM*449" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*399" -> "COMM*449" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*353" -> "COMM*450" [style=solid]
+"COMM*452"
+"COMM*353" -> "COMM*453"
+"COMM*450" -> "COMM*453"
+"COMM*294" -> "COMM*454" [style=solid]
+"COMM*450" -> "COMM*455" [style=solid]
+"COMM*335" -> "COMM*456" [style=solid]
+"COMM*293" -> "COMM*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMM*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*458" -> "COMM*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*293" -> "COMM*459" [style=solid]
+"COMM*297" -> "COMM*459" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*298" -> "COMM*459" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*370" -> "COMM*459" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*397" -> "COMM*459" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*460"
+"COMM*461"
+"COMM*362" -> "COMM*462" [style=solid]
+"COMM*463"
+"COMM*296" -> "COMM*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*396" -> "COMM*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*465"
+"COMM*466"
+"COMM*296" -> "COMM*467" [style=solid]
+"COMM*362" -> "COMM*468"
+"COMM*363" -> "COMM*468"
+"COMM*365" -> "COMM*468"
+"COMM*296" -> "COMM*469" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*396" -> "COMM*469" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*370" -> "COMM*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*387" -> "COMM*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*370" -> "COMM*471" [style=solid]
+"ECON*101" -> "COMM*473"
+"ECON*102" -> "COMM*473"
+"ECON*100" -> "COMM*473"
+"ECON*310" -> "COMM*473"
+"ECON*311" -> "COMM*473"
+"MATH*100" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*293" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*473" -> "COMM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*474"
+"COMM*371" -> "COMM*475" [style=solid]
+"COMM*374" -> "COMM*477" [style=solid]
+"COMM*479"
+"COMM*381" -> "COMM*480" [style=solid]
+"COMM*480" -> "COMM*481" [style=solid]
+"COMM*482"
+"COMM*483"
+"COMM*484"
+"COMM*485"
+"COMM*486"
+"COMM*487"
+"COMM*488"
+"COMM*489"
+"COMM*490"
+"COMM*390" -> "COMM*491"
+"COMM*395" -> "COMM*491"
+"COEC*491" -> "COMM*491"
+"COMM*390" -> "COMM*492"
+"COMM*395" -> "COMM*492"
+"COMM*293" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*457" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "COMM*493"
+"ECON*102" -> "COMM*493"
+"ECON*310" -> "COMM*493"
+"ECON*311" -> "COMM*493"
+"ECON*100" -> "COMM*493"
+"COMM*329" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*329" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*465" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*465" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*473" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BUSI*493" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*493" -> "COMM*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*495"
+"COMM*390" -> "COMM*497"
+"COMM*395" -> "COMM*497"
+"COEC*497" -> "COMM*497"
+"COMR*497" -> "COMM*497"
+"COMM*390" -> "COMM*498"
+"COMM*395" -> "COMM*498"
+"COEC*498" -> "COMM*498"
+"COMM*499"
+"COMM*505"
+"COMM*520"
+"COMM*525"
+"COMM*528"
+"COMM*544"
+"COMM*547"
+"COMM*548"
+"COMM*549"
+"COMM*581"
+"COMM*582"
+"COMM*583"
+"COMM*589"
+"COMM*590"
+"COMM*592"
+"COMM*597"
+"COMM*604"
+"COMM*605"
+"COMM*609"
+"COMM*611"
+"COMM*612"
+"COMM*616"
+"COMM*618"
+"COMM*621"
+"COMM*622"
+"COMM*623"
+"COMM*625"
+"COMM*626"
+"COMM*627"
+"COMM*628"
+"At least nine graduate course credits in information system topics." -> "COMM*633" [style=solid]
+"COMM*634"
+"COMM*635"
+"COMM*636"
+"COMM*644"
+"COMM*649"
+"COMM*651"
+"COMM*654"
+"COMM*655"
+"COMM*657"
+"COMM*658"
+"COMM*659"
+"COMM*660"
+"COMM*661"
+"COMM*662"
+"COMM*663"
+"COMM*671"
+"COMM*672"
+"COMM*673"
+"COMM*674"
+"COMM*675"
+"COMM*682"
+"COMM*691"
+"COMM*692"
+"COMM*693"
+"COMM*695"
+"COMM*696"
+}

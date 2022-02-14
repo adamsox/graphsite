@@ -1,0 +1,9 @@
+digraph SWED {
+labelloc = "t";
+label = "SWED"
+fontsize = 27;
+"SWED*100"
+"SWED*110"
+"SWED*200"
+"SWED*210"
+}

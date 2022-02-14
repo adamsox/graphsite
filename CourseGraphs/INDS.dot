@@ -1,0 +1,10 @@
+digraph INDS {
+labelloc = "t";
+label = "INDS"
+fontsize = 27;
+"INDS*501"
+"INDS*502"
+"INDS*530"
+"INDS*549"
+"INDS*649"
+}

@@ -1,0 +1,60 @@
+digraph SPAN {
+labelloc = "t";
+label = "SPAN"
+fontsize = 27;
+"SPAN*101"
+"SPAN*101" -> "SPAN*102" [style=solid]
+"SPAN*102" -> "SPAN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*201" -> "SPAN*202" [style=solid]
+"SPAN*202" -> "SPAN*206" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*206" -> "SPAN*207" [style=solid]
+"SPAN*202" -> "SPAN*221" [style=solid]
+"SPAN*202" -> "SPAN*222" [style=solid]
+"SPAN*280"
+"SPAN*202" -> "SPAN*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*207" -> "SPAN*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*301" -> "SPAN*302" [style=solid]
+"SPAN*207" -> "SPAN*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*302" -> "SPAN*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*207" -> "SPAN*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*302" -> "SPAN*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*207" -> "SPAN*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*302" -> "SPAN*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SPAN*312"
+"SPAN*202" -> "SPAN*321" [style=solid]
+"SPAN*202" -> "SPAN*322" [style=solid]
+"SPAN*301" -> "SPAN*357" [style=solid]
+"SPAN*301" -> "SPAN*358" [style=solid]
+"SPAN*301" -> "SPAN*364" [style=solid]
+"SPAN*301" -> "SPAN*365" [style=solid]
+"SPAN*302" -> "SPAN*401" [style=solid]
+"SPAN*302" -> "SPAN*402" [style=solid]
+"SPAN*302" -> "SPAN*403" [style=solid]
+"SPAN*301" -> "SPAN*404" [style=solid]
+"SPAN*301" -> "SPAN*405" [style=solid]
+"SPAN*301" -> "SPAN*406" [style=solid]
+"SPAN*301" -> "SPAN*409" [style=solid]
+"SPAN*301" -> "SPAN*410" [style=solid]
+"SPAN*302" -> "SPAN*411" [style=solid]
+"SPAN*301" -> "SPAN*420" [style=solid]
+"SPAN*301" -> "SPAN*430" [style=solid]
+"SPAN*302" -> "SPAN*450" [style=solid]
+"SPAN*301" -> "SPAN*470" [style=solid]
+"SPAN*301" -> "SPAN*490" [style=solid]
+"SPAN*301" -> "SPAN*495" [style=solid]
+"SPAN*301" -> "SPAN*498" [style=solid]
+"SPAN*499"
+"SPAN*501"
+"SPAN*502"
+"SPAN*504"
+"SPAN*505"
+"SPAN*520"
+"SPAN*527"
+"SPAN*530"
+"SPAN*549"
+"SPAN*550"
+"SPAN*570"
+"SPAN*580"
+"SPAN*590"
+"SPAN*649"
+}

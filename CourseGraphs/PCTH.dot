@@ -1,0 +1,48 @@
+digraph PCTH {
+labelloc = "t";
+label = "PCTH"
+fontsize = 27;
+"BIOL*111" -> "PCTH*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "PCTH*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*153" -> "PCTH*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*155" -> "PCTH*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "PCTH*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "PCTH*300"
+"BIOL*201" -> "PCTH*300"
+"CHEM*233" -> "PCTH*300"
+"CHEM*235" -> "PCTH*300"
+"CHEM*203" -> "PCTH*300"
+"CHEM*211" -> "PCTH*300"
+"CHEM*205" -> "PCTH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*201" -> "PCTH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PCTH*302"
+"BIOL*201" -> "PCTH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "PCTH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CAPS*301" -> "PCTH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "PCTH*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "PCTH*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*203" -> "PCTH*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*300" -> "PCTH*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PCTH*300" -> "PCTH*398" [style=solid]
+"PCTH*398" -> "PCTH*399" [style=solid]
+"PCTH*300" -> "PCTH*400" [style=solid]
+"PCTH*300" -> "PCTH*402" [style=solid]
+"PCTH*300" -> "PCTH*404"
+"BIOL*300" -> "PCTH*404"
+"PCTH*425"
+"PCTH*448"
+"PCTH*449"
+"Departmental approval required." -> "PCTH*451" [style=solid]
+"PCTH*453"
+"PCTH*399" -> "PCTH*498" [style=solid]
+"PCTH*498" -> "PCTH*499" [style=solid]
+"PCTH*500"
+"PCTH*501"
+"PCTH*502"
+"PCTH*512"
+"Permission of the department head is required." -> "PCTH*513" [style=solid]
+"PCTH*514"
+"PCTH*548"
+"PCTH*549"
+"PCTH*649"
+}

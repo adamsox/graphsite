@@ -1,0 +1,17 @@
+digraph BOTA {
+labelloc = "t";
+label = "BOTA"
+fontsize = 27;
+"BOTA*501"
+"BOTA*502"
+"BOTA*526"
+"BIOL*407" -> "BOTA*527" [style=solid]
+"BOTA*528"
+"BIOL*335" -> "BOTA*544" [style=solid]
+"PLNT*540" -> "BOTA*544" [style=solid]
+"FRST*503" -> "BOTA*544" [style=solid]
+"BOTA*546"
+"BOTA*548"
+"BOTA*549"
+"BOTA*649"
+}

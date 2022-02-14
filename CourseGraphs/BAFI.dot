@@ -1,0 +1,46 @@
+digraph BAFI {
+labelloc = "t";
+label = "BAFI"
+fontsize = 27;
+"BAFI*500"
+"BAFI*500" -> "BAFI*501" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*541" -> "BAFI*501" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*500" -> "BAFI*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*550" -> "BAFI*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*502" -> "BAFI*503"
+"BAFI*511" -> "BAFI*503"
+"BAFI*504"
+"BAFI*500" -> "BAFI*506" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*541" -> "BAFI*506" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*500" -> "BAFI*507" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*550" -> "BAFI*507" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*508"
+"BAFI*502" -> "BAFI*509"
+"BAFI*511" -> "BAFI*509"
+"BAFI*511" -> "BAFI*510" [style=solid]
+"BAFI*500" -> "BAFI*510" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*540" -> "BAFI*510" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*500" -> "BAFI*511" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*550" -> "BAFI*511" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*421" -> "BAFI*511" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*511" -> "BAFI*512" [style=solid]
+"BAFI*500" -> "BAFI*513" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*550" -> "BAFI*513" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*500" -> "BAFI*514" [style=solid]
+"BAFI*511" -> "BAFI*515"
+"BAFI*520" -> "BAFI*515"
+"BAFI*500" -> "BAFI*516" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*550" -> "BAFI*516" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*517"
+"BAFI*511" -> "BAFI*518"
+"BAFI*520" -> "BAFI*518"
+"BAFI*519"
+"BAFI*502" -> "BAFI*520"
+"BAFI*511" -> "BAFI*520"
+"BAFI*522"
+"BAFI*500" -> "BAFI*530" [style=solid]
+"BAFI*500" -> "BAFI*532" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*550" -> "BAFI*532" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BAFI*580"
+"BAFI*590"
+}

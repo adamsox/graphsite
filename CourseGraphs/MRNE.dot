@@ -1,0 +1,23 @@
+digraph MRNE {
+labelloc = "t";
+label = "MRNE"
+fontsize = 27;
+"MRNE*400"
+"MRNE*401"
+"MRNE*402"
+"MRNE*410"
+"course in invertebrates or embryology." -> "MRNE*411" [style=solid]
+"A course in comparative vertebrate anatomy." -> "MRNE*412" [style=solid]
+"Completion of second year in a biology program." -> "MRNE*415" [style=solid]
+"MRNE*420"
+"Completion of second year in a biology program." -> "MRNE*425" [style=solid]
+"MRNE*430"
+"BIOL*320" -> "MRNE*435"
+"BIOL*205" -> "MRNE*435"
+"Completion of second year in a biology program." -> "MRNE*437" [style=solid]
+"Completion of a course in vertebrate zoology or permission of the instructor." -> "MRNE*440" [style=solid]
+"Introductory vertebrate zoology." -> "MRNE*445" [style=solid]
+"Completion of second year in a biology program." -> "MRNE*480" [style=solid]
+"MRNE*501"
+"MRNE*502"
+}

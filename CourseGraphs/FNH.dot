@@ -1,0 +1,89 @@
+digraph FNH {
+labelloc = "t";
+label = "FNH"
+fontsize = 27;
+"At least second year standing required." -> "FNH*200" [style=solid]
+"BIOL*111" -> "FNH*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "FNH*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*153" -> "FNH*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*155" -> "FNH*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNH*290"
+"PHYS*107" -> "FNH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "FNH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "FNH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*201" -> "FNH*301" [style=solid]
+"CHEM*203" -> "FNH*301" [style=solid]
+"CHEM*233" -> "FNH*301" [style=solid]
+"CHEM*201" -> "FNH*302" [style=solid]
+"CHEM*203" -> "FNH*302" [style=solid]
+"CHEM*233" -> "FNH*302" [style=solid]
+"BIOL*300" -> "FNH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*482" -> "FNH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "FNH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "FNH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNH*301" -> "FNH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "FNH*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "FNH*313" [style=solid]
+"FNH  200.
+	Corequisite: All of FNH  300, FNH  301, FNH  313." -> "FNH*325" [style=solid]
+"FNH  325.
+	Corequisite: All of FNH  302, FNH  303, FNH  309." -> "FNH*326" [style=solid]
+"Third-year standing." -> "FNH*330" [style=solid]
+"FNH  330 and third-year standing or higher." -> "FNH*335" [style=solid]
+"CHEM*111" -> "FNH*340"
+"CHEM*113" -> "FNH*340"
+"CHEM*121" -> "FNH*340"
+"CHEM*123" -> "FNH*340"
+"FNH*341"
+"At least third year standing required." -> "FNH*342" [style=solid]
+"FNH  370." -> "FNH*345" [style=solid]
+"BIOL*201" -> "FNH*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "FNH*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "FNH*351" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "FNH*351" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNH*355"
+"FNH  250." -> "FNH*370" [style=solid]
+"FNH  250." -> "FNH*371" [style=solid]
+"BIOL*153" -> "FNH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*155" -> "FNH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third-year standing in the Dietetics Major." -> "FNH*380" [style=solid]
+"BIOL*300" -> "FNH*398" [style=solid]
+"EPSE*482" -> "FNH*398" [style=solid]
+"FRST*231" -> "FNH*398" [style=solid]
+"STAT*200" -> "FNH*398" [style=solid]
+"BIOL*201" -> "FNH*402" [style=solid]
+"STAT*200" -> "FNH*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "FNH*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "FNH*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*201" -> "FNH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*202" -> "FNH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "FNH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*203" -> "FNH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*203" -> "FNH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*201" -> "FNH*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*202" -> "FNH*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "FNH*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"At least third-year standing in the Faculty of Land and Food Systems." -> "FNH*415" [style=solid]
+"CHBE*487" -> "FNH*419" [style=solid]
+"BIOL*335" -> "FNH*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*325" -> "FNH*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*302" -> "FNH*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*436" -> "FNH*436" [style=solid]
+"FNH  340." -> "FNH*440" [style=solid]
+"BIOC*302" -> "FNH*451"
+"BIOL*153" -> "FNH*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*155" -> "FNH*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CAPS*301" -> "FNH*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNH  350." -> "FNH*454" [style=solid]
+"FNH  355." -> "FNH*455" [style=solid]
+"FNH*460"
+"FNH  350. Third-year standing." -> "FNH*472" [style=solid]
+"FNH  250 and fourth-year standing." -> "FNH*473" [style=solid]
+"BIOC*302" -> "FNH*475"
+"FNH  398." -> "FNH*477" [style=solid]
+"FNH  481." -> "FNH*482" [style=solid]
+"FNH  482." -> "FNH*483" [style=solid]
+"3rd year standing or higher." -> "FNH*490" [style=solid]
+"FNH*497"
+"Approval of a program advisor; consult before the end of classes in third year." -> "FNH*499" [style=solid]
+}

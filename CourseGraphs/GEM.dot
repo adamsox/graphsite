@@ -1,0 +1,12 @@
+digraph GEM {
+labelloc = "t";
+label = "GEM"
+fontsize = 27;
+"GEM*500"
+"GEM*510"
+"GEM*511"
+"GEM*520"
+"GEM*521"
+"GEM*530"
+"GEM*540"
+}

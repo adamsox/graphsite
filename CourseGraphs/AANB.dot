@@ -1,0 +1,13 @@
+digraph AANB {
+labelloc = "t";
+label = "AANB"
+fontsize = 27;
+"AANB*500"
+"AANB*504"
+"Standing as a graduate student." -> "AANB*515" [style=solid]
+"AANB*530"
+"AANB*549"
+"AANB*550"
+"AANB*551"
+"AANB*649"
+}

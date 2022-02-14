@@ -1,0 +1,18 @@
+digraph DMED {
+labelloc = "t";
+label = "DMED"
+fontsize = 27;
+"DMED*500"
+"DMED*501"
+"DMED*502"
+"DMED*503"
+"DMED*510"
+"DMED*520"
+"DMED*520" -> "DMED*521" [style=solid]
+"DMED*522"
+"DMED*523"
+"DMED*530"
+"DMED*540"
+"DMED*541"
+"DMED*550"
+}

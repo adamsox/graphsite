@@ -1,0 +1,34 @@
+digraph DES {
+labelloc = "t";
+label = "DES"
+fontsize = 27;
+"DES*101"
+"DES*110"
+"DES*130"
+"DES*200"
+"VISA*281" -> "DES*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"A score of 60% or higher in DES  201." -> "DES*202" [style=solid]
+"VISA*180" -> "DES*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"DES  211." -> "DES*212" [style=solid]
+"DES*220"
+"DES*230"
+"DES*231"
+"DES*232"
+"A score of 60% or higher in DES  202." -> "DES*301" [style=solid]
+"A score of 60% or higher in DES  301." -> "DES*302" [style=solid]
+"DES*321"
+"DES*322"
+"DES*323"
+"DES*341"
+"DES  302." -> "DES*350" [style=solid]
+"DES  302." -> "DES*401" [style=solid]
+"A score of 60% or higher in DES  401." -> "DES*402" [style=solid]
+"A score of 80% or higher in DES  401." -> "DES*403" [style=solid]
+"DES*421"
+"DES*430"
+"DES  341." -> "DES*442" [style=solid]
+"DES  442." -> "DES*443" [style=solid]
+"DES  443." -> "DES*444" [style=solid]
+"DES*445"
+"DES*450"
+}

@@ -1,0 +1,11 @@
+digraph BRDG {
+labelloc = "t";
+label = "BRDG"
+fontsize = 27;
+"BRDG*500"
+"BRDG*501"
+"BRDG*590"
+"BRDG*600"
+"BRDG*601"
+"BRDG*690"
+}

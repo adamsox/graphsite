@@ -1,0 +1,11 @@
+digraph LWS {
+labelloc = "t";
+label = "LWS"
+fontsize = 27;
+"LWS*501"
+"LWS*510"
+"LWS*515"
+"LWS*517"
+"LWS*548"
+"LWS*550"
+}

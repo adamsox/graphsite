@@ -1,0 +1,10 @@
+digraph BAPA {
+labelloc = "t";
+label = "BAPA"
+fontsize = 27;
+"BAPA*550"
+"BAPA*550" -> "BAPA*551" [style=solid]
+"BAPA*560"
+"BAPA*580"
+"BAPA*590"
+}

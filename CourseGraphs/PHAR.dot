@@ -1,0 +1,95 @@
+digraph PHAR {
+labelloc = "t";
+label = "PHAR"
+fontsize = 27;
+"PHAR*180"
+"PHAR*202"
+"PHAR*203"
+"PHAR*204"
+"STAT*200" -> "PHAR*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "PHAR*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHAR*180" -> "PHAR*280" [style=solid]
+"PHAR*302"
+"PHAR*202" -> "PHAR*303" [style=solid]
+"CHEM*211" -> "PHAR*304"
+"CHEM*233" -> "PHAR*304"
+"CHEM*235" -> "PHAR*304"
+"PHAR*204" -> "PHAR*304"
+"PHAR*205" -> "PHAR*305" [style=solid]
+"CHEM*233" -> "PHAR*306"
+"PHAR*202" -> "PHAR*306"
+"CHEM*211" -> "PHAR*307"
+"CHEM*233" -> "PHAR*307"
+"CHEM*235" -> "PHAR*307"
+"PHAR*204" -> "PHAR*307"
+"PHAR*202" -> "PHAR*308" [style=solid]
+"PHAR*370"
+"PHAR*280" -> "PHAR*380" [style=solid]
+"APSC*402" -> "PHAR*402" [style=solid]
+"ASTU*402" -> "PHAR*402" [style=solid]
+"FRST*402" -> "PHAR*402" [style=solid]
+"LFS*402" -> "PHAR*402" [style=solid]
+"LLED*402" -> "PHAR*402" [style=solid]
+"PHAR*406"
+"PHAR*410"
+"PHAR*415"
+"PHAR*203" -> "PHAR*421" [style=solid]
+"PHAR*305" -> "PHAR*422" [style=solid]
+"PHAR*305" -> "PHAR*423" [style=solid]
+"PHAR*424"
+"PHAR*425"
+"PHAR*308" -> "PHAR*426" [style=solid]
+"CHEM*233" -> "PHAR*427"
+"PHAR*202" -> "PHAR*427"
+"CHEM*211" -> "PHAR*428" [style=solid]
+"PHAR*429"
+"PHAR*430"
+"PHAR*380" -> "PHAR*432" [style=solid]
+"PHAR*302" -> "PHAR*433" [style=solid]
+"PHAR*434"
+"PHAR*450"
+"PHAR*370" -> "PHAR*470" [style=solid]
+"PHAR*380" -> "PHAR*480" [style=solid]
+"PHAR*485"
+"PHAR*491"
+"PHAR*495"
+"PHAR*204" -> "PHAR*497" [style=solid]
+"PHAR*501"
+"PHAR*315" -> "PHAR*502" [style=solid]
+"PHAR*506"
+"PHAR*502" -> "PHAR*508" [style=solid]
+"PHAR*510"
+"PHAR*511"
+"PHAR*515"
+"PHAR*516"
+"PHAR*517"
+"PHAR*518"
+"PHAR*521"
+"PHAR*522"
+"PHAR*523"
+"PHAR*524"
+"PHAR*525"
+"PHAR*526"
+"PHAR*533"
+"PHAR*534"
+"PHAR*535"
+"PHAR*540"
+"PHAR*541"
+"PHAR*542"
+"PHAR*543"
+"PHAR*545"
+"PHAR*546"
+"PHAR*548"
+"PHAR*549"
+"PHAR*550"
+"PHAR*554"
+"SPPH*541" -> "PHAR*560" [style=solid]
+"SPPH*549" -> "PHAR*560" [style=solid]
+"Previous coursework in statistics or biostatistics." -> "PHAR*561" [style=solid]
+"PHAR*570"
+"PHAR*590"
+"PHAR*591"
+"PHAR*592"
+"PHAR*648"
+"PHAR*649"
+}

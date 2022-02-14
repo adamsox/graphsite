@@ -1,0 +1,29 @@
+digraph FOOD {
+labelloc = "t";
+label = "FOOD"
+fontsize = 27;
+"FOOD*500"
+"FOOD*510"
+"FOOD*511"
+"FOOD*512"
+"FOOD*515"
+"MATH*101" -> "FOOD*519" [style=solid]
+"PHYS*108" -> "FOOD*519" [style=solid]
+"CHEM*154" -> "FOOD*519" [style=solid]
+"CHBE*587" -> "FOOD*519" [style=solid]
+"FOOD*520"
+"FOOD*521"
+"FOOD*522"
+"FOOD*523"
+"FOOD*524"
+"FOOD*525"
+"FOOD*526"
+"FOOD*527"
+"FOOD*528"
+"FOOD*529"
+"FOOD*530"
+"FOOD*511" -> "FOOD*531" [style=solid]
+"FOOD*549"
+"FOOD*600"
+"FOOD*649"
+}

@@ -1,0 +1,246 @@
+digraph MUSC {
+labelloc = "t";
+label = "MUSC"
+fontsize = 27;
+"MUSC*100"
+"MUSC*100" -> "MUSC*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*110" -> "MUSC*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*102"
+"MUSC*103"
+"MUSC*103" -> "MUSC*104" [style=solid]
+"MUSC*105"
+"MUSC*105" -> "MUSC*106" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*106" -> "MUSC*106" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*107"
+"MUSC*108"
+"MUSC*110" -> "MUSC*111" [style=solid]
+"MUSC*112"
+"MUSC*119"
+"MUSC*120"
+"MUSC*120" -> "MUSC*121" [style=solid]
+"MUSC*122"
+"MUSC*128"
+"MUSC*131"
+"MUSC*135"
+"MUSC*136"
+"MUSC*141"
+"MUSC*149"
+"MUSC*150"
+"MUSC*151"
+"MUSC*153"
+"MUSC*154"
+"MUSC*156"
+"MUSC*157"
+"MUSC*159"
+"MUSC*160"
+"MUSC*161"
+"MUSC*162"
+"MUSC*163"
+"MUSC*164"
+"MUSC*165"
+"MUSC*167"
+"MUSC*169"
+"MUSC*170"
+"MUSC*171"
+"MUSC*172"
+"MUSC*181"
+"MUSC*182"
+"MUSC*183"
+"MUSC*191"
+"MUSC*192"
+"MUSC*193"
+"MUSC*101" -> "MUSC*200" [style=solid]
+"MUSC*111" -> "MUSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*200" -> "MUSC*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*106" -> "MUSC*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*205" -> "MUSC*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*205" -> "MUSC*206" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*206" -> "MUSC*206" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*107" -> "MUSC*207" [style=solid]
+"MUSC*111" -> "MUSC*210" [style=solid]
+"MUSC*200" -> "MUSC*210" [style=solid]
+"MUSC*121" -> "MUSC*220" [style=solid]
+"MUSC*100" -> "MUSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*110" -> "MUSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*220" -> "MUSC*221" [style=solid]
+"MUSC*100" -> "MUSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*110" -> "MUSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*235"
+"MUSC*236"
+"MUSC*241"
+"MUSC*149" -> "MUSC*249" [style=solid]
+"MUSC*201" -> "MUSC*300" [style=solid]
+"MUSC*210" -> "MUSC*300" [style=solid]
+"MUSC*300" -> "MUSC*301" [style=solid]
+"MUSC*305"
+"MUSC*207" -> "MUSC*307" [style=solid]
+"MUSC*111" -> "MUSC*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*200" -> "MUSC*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*309" -> "MUSC*310" [style=solid]
+"MUSC*111" -> "MUSC*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*200" -> "MUSC*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*311" -> "MUSC*312" [style=solid]
+"MUSC*311" -> "MUSC*313" [style=solid]
+"MUSC*119" -> "MUSC*319" [style=solid]
+"MUSC*100" -> "MUSC*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*103" -> "MUSC*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*110" -> "MUSC*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*319" -> "MUSC*320" [style=solid]
+"MUSC*321"
+"MUSC*322"
+"MUSC*323"
+"MUSC*324"
+"MUSC*326"
+"MUSC*327"
+"MUSC*328"
+"MUSC*330"
+"MUSC*201" -> "MUSC*331" [style=solid]
+"MUSC*333"
+"MUSC*336"
+"MUSC*339"
+"MUSC*340"
+"MUSC*345"
+"MUSC*349"
+"MUSC*120" -> "MUSC*352"
+"MUSC*121" -> "MUSC*352"
+"MUSC*120" -> "MUSC*353" [style=solid]
+"MUSC*121" -> "MUSC*354" [style=solid]
+"MUSC*121" -> "MUSC*355" [style=solid]
+"MUSC*220" -> "MUSC*356" [style=solid]
+"MUSC*221" -> "MUSC*357" [style=solid]
+"MUSC*221" -> "MUSC*358" [style=solid]
+"MUSC*221" -> "MUSC*363" [style=solid]
+"MUSC*364"
+"MUSC*221" -> "MUSC*365" [style=solid]
+"MUSC*402"
+"MUSC*403"
+"MUSC*311" -> "MUSC*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*312" -> "MUSC*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*407"
+"MUSC*201" -> "MUSC*409" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*210" -> "MUSC*409" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*201" -> "MUSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*210" -> "MUSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*201" -> "MUSC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*210" -> "MUSC*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*201" -> "MUSC*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*210" -> "MUSC*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*300" -> "MUSC*413" [style=solid]
+"MUSC*201" -> "MUSC*414" [style=solid]
+"MUSC*201" -> "MUSC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*210" -> "MUSC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*319" -> "MUSC*417" [style=solid]
+"MUSC*320" -> "MUSC*419" [style=solid]
+"MUSC*419" -> "MUSC*420" [style=solid]
+"MUSC*328" -> "MUSC*428" [style=solid]
+"MUSC*120" -> "MUSC*430"
+"MUSC*121" -> "MUSC*430"
+"MUSC*220" -> "MUSC*430"
+"MUSC*221" -> "MUSC*430"
+"MUSC*333" -> "MUSC*433" [style=solid]
+"MUSC*436"
+"MUSC*439"
+"MUSC*340" -> "MUSC*440" [style=solid]
+"MUSC*441"
+"MUSC*442"
+"MUSC*249" -> "MUSC*443" [style=solid]
+"MUSC*444"
+"MUSC*449"
+"MUSC*450"
+"MUSC*121" -> "MUSC*454"
+"MUSC*220" -> "MUSC*454"
+"MUSC*220" -> "MUSC*455"
+"MUSC*221" -> "MUSC*455"
+"MUSC*221" -> "MUSC*465" [style=solid]
+"MUSC*468"
+"THTR*469" -> "MUSC*469" [style=solid]
+"VISA*469" -> "MUSC*469" [style=solid]
+"CRWR*440" -> "MUSC*469" [style=solid]
+"MUSC*410" -> "MUSC*500" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*411" -> "MUSC*500" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*412" -> "MUSC*500" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*413" -> "MUSC*500" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*410" -> "MUSC*501" [style=solid]
+"MUSC*410" -> "MUSC*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*411" -> "MUSC*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*412" -> "MUSC*502" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*503"
+"MUSC*504"
+"MUSC*506"
+"MUSC*507"
+"MUSC*507" -> "MUSC*508" [style=solid]
+"MUSC*509"
+"MUSC*511"
+"MUSC*512"
+"MUSC*520"
+"MUSC*521"
+"MUSC*522"
+"MUSC*523"
+"MUSC*524"
+"MUSC*525"
+"MUSC*526"
+"MUSC*527"
+"MUSC*528"
+"MUSC*529"
+"MUSC*530"
+"MUSC*529" -> "MUSC*531" [style=solid]
+"MUSC*532"
+"MUSC*533"
+"MUSC*535"
+"MUSC*221" -> "MUSC*537"
+"MUSC*301" -> "MUSC*537"
+"MUSC*454" -> "MUSC*537"
+"MUSC*455" -> "MUSC*537"
+"MUSC*520" -> "MUSC*537"
+"Permission of instructor is required." -> "MUSC*538" [style=solid]
+"MUSC*439" -> "MUSC*539" [style=solid]
+"Restricted to M.Mus. Conducting (Choral, Orchestral, Wind) or permission of the instructor." -> "MUSC*544" [style=solid]
+"Restricted to M.Mus. Conducting (Choral, Orchestral, Wind) or permission of the instructor." -> "MUSC*545" [style=solid]
+"MUSC*221" -> "MUSC*547"
+"MUSC*301" -> "MUSC*547"
+"MUSC*365" -> "MUSC*547"
+"MUSC*465" -> "MUSC*547"
+"MUSC*520" -> "MUSC*547"
+"MUSC*549"
+"MUSC*550"
+"MUSC*551"
+"MUSC*553"
+"MUSC*554"
+"MUSC*555"
+"MUSC*556"
+"MUSC*557"
+"MUSC*559"
+"MUSC*560"
+"MUSC*561"
+"MUSC*562"
+"MUSC*563"
+"MUSC*564"
+"MUSC*565"
+"MUSC*566"
+"MUSC*569"
+"MUSC*571"
+"MUSC*572"
+"MUSC*573"
+"MUSC*591"
+"MUSC*592"
+"MUSC*593"
+"MUSC*594"
+"MUSC*595"
+"MUSC*500" -> "MUSC*600" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*410" -> "MUSC*600" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*411" -> "MUSC*600" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*412" -> "MUSC*600" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*413" -> "MUSC*600" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MUSC*606"
+"MUSC*607"
+"MUSC*509" -> "MUSC*609" [style=solid]
+"MUSC*649"
+"MUSC*671"
+"MUSC*672"
+"MUSC*673"
+"MUSC*691"
+"MUSC*692"
+"MUSC*693"
+"MUSC*694"
+"MUSC*695"
+}

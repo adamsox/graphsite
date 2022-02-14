@@ -1,0 +1,17 @@
+digraph RMST {
+labelloc = "t";
+label = "RMST"
+fontsize = 27;
+"RMST*201"
+"RMST*202"
+"RMST*234"
+"A beginners knowledge (A1) in at least of one of the Romance languages is highly recommended." -> "RMST*300" [style=solid]
+"RMST*321"
+"RMST*322"
+"RMST*373"
+"RMST*420"
+"Two years study of each of two Romance languages or two years of one Romance language and one year of Latin." -> "RMST*468" [style=solid]
+"RMST*495"
+"RMST*520"
+"RMST*548"
+}

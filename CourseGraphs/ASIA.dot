@@ -1,0 +1,255 @@
+digraph ASIA {
+labelloc = "t";
+label = "ASIA"
+fontsize = 27;
+"ASIA*100"
+"ASIA*101"
+"ASIA*110"
+"ASIA*150"
+"ASIA*200"
+"ASIA*204"
+"ASIA*206"
+"ASIA*207"
+"ASIA*208"
+"ASIA*209"
+"ASIA*210"
+"ASIA*211"
+"ASIA*212"
+"ASIA*213"
+"ASIA*222"
+"ASIA*223"
+"ASIA*250"
+"ASIA*254"
+"ASIA*258"
+"ASIA*270"
+"ASIA*300"
+"ASIA*301"
+"ASIA*302"
+"ASIA*303"
+"ASIA*304"
+"ASIA*305"
+"ASIA*306"
+"ASIA*307"
+"ASIA*308"
+"ASIA*309"
+"ASIA*310"
+"ASIA*311"
+"ASIA*312"
+"ASIA*313"
+"ASIA*314"
+"ASIA*315"
+"ASIA*316"
+"ASIA*317"
+"ASIA*318"
+"ASIA*319"
+"ASIA*320"
+"ASIA*321"
+"ASIA*323"
+"ASIA*324"
+"ASIA*325"
+"ASIA*326"
+"ASIA*327"
+"ASIA*329"
+"ASIA*330"
+"ASIA*331"
+"ASIA*332"
+"ASIA*333"
+"ASIA*334"
+"ASIA*335"
+"ASIA*336"
+"ASIA*337"
+"ASIA*338"
+"ASIA*339"
+"ASIA*340"
+"ASIA*341"
+"ASIA*342"
+"ASIA*343"
+"ASIA*344"
+"ASIA*345"
+"ASIA*346"
+"ASIA*347"
+"ASIA*348"
+"ASIA*350"
+"ASIA*351"
+"ASIA*352"
+"ASIA*353"
+"ASIA*354"
+"ASIA*355"
+"ASIA*356"
+"ASIA*357"
+"ASIA*358"
+"ASIA*360"
+"ASIA*361"
+"ASIA*362"
+"ASIA*363"
+"ASIA*364"
+"ASIA*365"
+"ASIA*367"
+"ASIA*368"
+"ASIA*369"
+"ASIA*370"
+"ASIA*371"
+"ASIA*372"
+"ASIA*373"
+"ASIA*374"
+"ASIA*375"
+"ASIA*376"
+"ASIA*377"
+"ASIA*378"
+"ASIA*380"
+"ASIA*381"
+"ASIA*382"
+"ASIA*384"
+"ASIA*385"
+"CHIN*207" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*337" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*208" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*338" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*217" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*347" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*218" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*348" -> "ASIA*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*387"
+"ASIA*388"
+"ASIA*389"
+"ASIA*390"
+"ASIA*392"
+"ASIA*393"
+"ASIA*394"
+"ASIA*395"
+"ASIA*386" -> "ASIA*396" [style=solid]
+"ASIA*397"
+"ASIA*398"
+"ASIA*399"
+"ASIA*300" -> "ASIA*400" [style=solid]
+"CHIN*207" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*208" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*337" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*338" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*217" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*218" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*347" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*348" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"JAPN*213" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"JAPN*251" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"JAPN*323" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"JAPN*361" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*300" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*301" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*302" -> "ASIA*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Restricted to fourth-year students. At least 12 credits of any level of CHIN, JAPN, or KORN or placement approval.  A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*402" [style=solid]
+"ASIA*405"
+"Restricted to fourth-year students.  9 credits of 300-level ASIA coursework recommended." -> "ASIA*407" [style=solid]
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*408" [style=solid]
+"ASIA*410"
+"ASIA*411"
+"ASIA*412"
+"ASIA*413"
+"ASIA*414"
+"ASIA*418"
+"ASIA*327" -> "ASIA*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*347" -> "ASIA*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*357" -> "ASIA*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*447" -> "ASIA*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*452" -> "ASIA*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*457" -> "ASIA*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*428"
+"ASIA*430"
+"ASIA*431"
+"Second-year standing." -> "ASIA*433" [style=solid]
+"Second-year standing." -> "ASIA*436" [style=solid]
+"ASIA*438"
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*440" [style=solid]
+"ASIA*441"
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*442" [style=solid]
+"ASIA*444"
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*445" [style=solid]
+"ASIA*347" -> "ASIA*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*357" -> "ASIA*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*369" -> "ASIA*448" [style=solid]
+"ASIA*450"
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*451" [style=solid]
+"ASIA*347" -> "ASIA*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*357" -> "ASIA*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*447" -> "ASIA*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*457" -> "ASIA*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*453" [style=solid]
+"ASIA*454"
+"ASIA*455"
+"ASIA*456"
+"ASIA*357" -> "ASIA*457" [style=solid]
+"ASIA*460"
+"ASIA*461"
+"Restricted to students with 2nd year standing or above." -> "ASIA*463" [style=solid]
+"ASIA*464"
+"Second-year standing." -> "ASIA*465" [style=solid]
+"ASIA*466"
+"ASIA*376" -> "ASIA*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*381" -> "ASIA*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*382" -> "ASIA*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*383" -> "ASIA*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*387" -> "ASIA*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASIA*470"
+"ASIA*474"
+"ASIA*475"
+"Restricted to students with 2nd year standing or above." -> "ASIA*476" [style=solid]
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*477" [style=solid]
+"Restricted to students with 2nd year standing or above." -> "ASIA*478" [style=solid]
+"ASIA*484"
+"ASIA*485"
+"ASIA*488"
+"Permission of Instructor and fourth-year standing." -> "ASIA*490" [style=solid]
+"Third-year standing." -> "ASIA*491" [style=solid]
+"Restricted to 4th year students.  A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*495" [style=solid]
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*498" [style=solid]
+"Restricted to fourth-year students. A minimum of 9 credits of 300-level ASIA coursework recommended." -> "ASIA*499" [style=solid]
+"ASIA*501"
+"ASIA*502"
+"ASIA*503"
+"ASIA*504"
+"CHIN*413" -> "ASIA*506" [style=solid]
+"ASIA*506" -> "ASIA*507" [style=solid]
+"ASIA*508"
+"ASIA*509"
+"ASIA*510"
+"ASIA*511"
+"ASIA*512"
+"ASIA*513"
+"ASIA*514"
+"ASIA*515"
+"ASIA*516"
+"ASIA*521"
+"JAPN*312" -> "ASIA*522" [style=solid]
+"ASIA*523"
+"ASIA*524"
+"ASIA*525"
+"ASIA*528"
+"ASIA*532"
+"ASIA*533"
+"ASIA*535"
+"ASIA*541"
+"ASIA*543"
+"ASIA*546"
+"ASIA*547"
+"ASIA*550"
+"ASIA*561"
+"ASIA*562"
+"ASIA*566"
+"ASIA*570"
+"ASIA*574"
+"ASIA*576"
+"ASIA*577"
+"ASIA*578"
+"ASIA*580"
+"ASIA*581"
+"LING*300" -> "ASIA*582" [style=solid]
+"ASIA*583"
+"ASIA*584"
+"ASIA*506" -> "ASIA*587" [style=solid]
+"ASIA*590"
+"ASIA*591"
+"ASIA*592"
+"ASIA*598"
+"ASIA*599"
+"ASIA*699"
+}

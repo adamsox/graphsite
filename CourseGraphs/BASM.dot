@@ -1,0 +1,16 @@
+digraph BASM {
+labelloc = "t";
+label = "BASM"
+fontsize = 27;
+"BASM*501"
+"BASM*501" -> "BASM*502" [style=solid]
+"BASM*510"
+"BASM*514"
+"BASM*516"
+"BASM*501" -> "BASM*523"
+"BAFI*500" -> "BASM*523"
+"BASM*530"
+"BASM*550"
+"BASM*580"
+"BASM*590"
+}

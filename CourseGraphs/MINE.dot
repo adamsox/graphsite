@@ -1,0 +1,107 @@
+digraph MINE {
+labelloc = "t";
+label = "MINE"
+fontsize = 27;
+"MINE*224"
+"MINE*291"
+"MINE*224" -> "MINE*292" [style=solid]
+"MINE*293"
+"MINE*291" -> "MINE*302" [style=solid]
+"CIVL*210" -> "MINE*303" [style=solid]
+"MECH*260" -> "MINE*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*230" -> "MINE*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*291" -> "MINE*304" [style=solid]
+"MINE*291" -> "MINE*310"
+"MINE*292" -> "MINE*310"
+"MINE*292" -> "MINE*331" [style=solid]
+"MINE*292" -> "MINE*333" [style=solid]
+"STAT*251" -> "MINE*350" [style=solid]
+"CIVL*210" -> "MINE*380" [style=solid]
+"Third-year standing in Mining Engineering." -> "MINE*393" [style=solid]
+"MINE*291" -> "MINE*395"
+"STAT*251" -> "MINE*395"
+"Second-year standing in Engineering." -> "MINE*396" [style=solid]
+"MINE*291" -> "MINE*402" [style=solid]
+"MINE*303" -> "MINE*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*305" -> "MINE*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third- or Fourth-year standing in Mining Engineering." -> "MINE*404" [style=solid]
+"Third-year standing." -> "MINE*405" [style=solid]
+"MINE*396" -> "MINE*406" [style=solid]
+"STAT*251" -> "MINE*420" [style=solid]
+"MINE*432"
+"MINE*331" -> "MINE*434" [style=solid]
+"MINE*331" -> "MINE*435" [style=solid]
+"MATH*255" -> "MINE*436" [style=solid]
+"MECH*280" -> "MINE*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "MINE*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*331" -> "MINE*438" [style=solid]
+"MINE*291" -> "MINE*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*292" -> "MINE*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*292" -> "MINE*462"
+"MINE*331" -> "MINE*462"
+"MINE*302" -> "MINE*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*310" -> "MINE*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third-year standing." -> "MINE*470" [style=solid]
+"Fourth-year standing." -> "MINE*482" [style=solid]
+"MINE*302" -> "MINE*485" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"MINE*303" -> "MINE*485" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"EOSC*323" -> "MINE*485" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"MINE*486"
+"MINE*310" -> "MINE*488" [style=solid]
+"MINE*302" -> "MINE*491"
+"MINE*303" -> "MINE*491"
+"MINE*304" -> "MINE*491"
+"MINE*310" -> "MINE*491"
+"MINE*331" -> "MINE*491"
+"MINE*333" -> "MINE*491"
+"MINE*350" -> "MINE*491"
+"MINE*396" -> "MINE*491"
+"Fourth-year standing in Mining Engineering." -> "MINE*493" [style=solid]
+"MINE*497"
+"MINE*501"
+"MINE*504"
+"MINE*505"
+"MINE*506"
+"MINE*507"
+"MINE*508"
+"MINE*509"
+"MINE*515"
+"MINE*520"
+"MINE*521"
+"MINE*522"
+"MINE*524"
+"MINE*526"
+"MINE*526" -> "MINE*527" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*575" -> "MINE*527" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MINE*529"
+"Permission of instructor is required." -> "MINE*533" [style=solid]
+"MINE*540"
+"MINE*541"
+"MINE*544"
+"MINE*547"
+"MINE*551"
+"MINE*552"
+"MINE*553"
+"MINE*554"
+"MINE*555"
+"MINE*556"
+"MINE*559"
+"MINE*561"
+"MINE*562"
+"MINE*574"
+"MINE*576"
+"MINE*582"
+"MINE*584"
+"MINE*586"
+"MINE*587"
+"MINE*588"
+"MINE*589"
+"Permission of instructor is required." -> "MINE*590" [style=solid]
+"MINE*591"
+"MINE*591" -> "MINE*592" [style=solid]
+"MINE*597"
+"MINE*598"
+"MINE*599"
+"MINE*698"
+"MINE*699"
+}

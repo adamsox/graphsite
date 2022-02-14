@@ -1,0 +1,54 @@
+digraph FNEL {
+labelloc = "t";
+label = "FNEL"
+fontsize = 27;
+"FNEL*101"
+"FNEL*101" -> "FNEL*102" [style=solid]
+"FNEL*111"
+"FNEL*111" -> "FNEL*112" [style=solid]
+"FNEL*121"
+"FNEL*121" -> "FNEL*122" [style=solid]
+"FNEL*131"
+"FNEL*131" -> "FNEL*132" [style=solid]
+"FNEL*141"
+"FNEL*141" -> "FNEL*142" [style=solid]
+"FNEL*151"
+"FNEL*151" -> "FNEL*152" [style=solid]
+"FNEL*161"
+"FNEL*161" -> "FNEL*162" [style=solid]
+"FNEL*180"
+"FNEL*191"
+"FNEL*191" -> "FNEL*192" [style=solid]
+"FNEL102 in the same language." -> "FNEL*201" [style=solid]
+"FNEL*201" -> "FNEL*202" [style=solid]
+"FNEL112 in the same language." -> "FNEL*211" [style=solid]
+"FNEL*211" -> "FNEL*212" [style=solid]
+"FNEL*122" -> "FNEL*221" [style=solid]
+"FNEL*221" -> "FNEL*222" [style=solid]
+"FNEL*132" -> "FNEL*231" [style=solid]
+"FNEL*231" -> "FNEL*232" [style=solid]
+"FNEL*142" -> "FNEL*241" [style=solid]
+"FNEL*241" -> "FNEL*242" [style=solid]
+"FNEL*152" -> "FNEL*251" [style=solid]
+"FNEL*251" -> "FNEL*252" [style=solid]
+"FNEL*162" -> "FNEL*261" [style=solid]
+"FNEL*261" -> "FNEL*262" [style=solid]
+"FNEL*281"
+"FNEL*282"
+"FNEL*192" -> "FNEL*291" [style=solid]
+"FNEL*291" -> "FNEL*292" [style=solid]
+"FNEL*202" -> "FNEL*301" [style=solid]
+"FNEL*301" -> "FNEL*302" [style=solid]
+"FNEL*380"
+"FNEL*381"
+"FNEL*382"
+"FNEL*389"
+"Agreement of Supervisor and approval of Chair of FNEL program." -> "FNEL*448" [style=solid]
+"FNEL*480"
+"FNEL*180" -> "FNEL*481" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNEL*281" -> "FNEL*481" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNEL*282" -> "FNEL*481" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNEL*482"
+"FNEL*483"
+"FNEL*489"
+}

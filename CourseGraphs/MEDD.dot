@@ -1,0 +1,24 @@
+digraph MEDD {
+labelloc = "t";
+label = "MEDD"
+fontsize = 27;
+"MEDD*411"
+"MEDD*412"
+"MEDD*419"
+"MEDD*421"
+"MEDD*422"
+"MEDD*429"
+"MEDD*431"
+"MEDD*439"
+"MEDD*440"
+"MEDD*441"
+"MEDD*442"
+"MEDD*443"
+"MEDD*444"
+"MEDD*445"
+"MEDD*446"
+"MEDD*448"
+"MEDD*449"
+"MEDD*451"
+"Students must have a UBC MD degree and have fully completed applications to residency positions for the first iteration of the postgraduate match in their Year 4 (submission of a Rank Order List to the Canadian Residency Matching Service, CaRMS)." -> "MEDD*499" [style=solid]
+}

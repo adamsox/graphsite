@@ -1,0 +1,23 @@
+digraph GREK {
+labelloc = "t";
+label = "GREK"
+fontsize = 27;
+"GREK*101"
+"GREK*101" -> "GREK*102" [style=solid]
+"GREK*102" -> "GREK*201" [style=solid]
+"GREK*201" -> "GREK*202" [style=solid]
+"GREK*202" -> "GREK*351" [style=solid]
+"GREK*202" -> "GREK*352" [style=solid]
+"GREK*401"
+"GREK*402"
+"GREK*403"
+"GREK*501"
+"GREK*502"
+"GREK*503"
+"GREK*525"
+"GREK*535"
+"GREK*540"
+"GREK*545"
+"GREK*550"
+"GREK*649"
+}

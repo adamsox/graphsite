@@ -1,0 +1,85 @@
+digraph CPEN {
+labelloc = "t";
+label = "CPEN"
+fontsize = 27;
+"APSC*160" -> "CPEN*211" [style=solid]
+"CPEN*211" -> "CPEN*212" [style=solid]
+"CPEN*221" -> "CPEN*212" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*223" -> "CPEN*212" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*259" -> "CPEN*212" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*160" -> "CPEN*221" [style=solid]
+"APSC*160" -> "CPEN*223" [style=solid]
+"APSC*176" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "CPEN*281" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*201" -> "CPEN*291" [style=solid]
+"CPEN*211" -> "CPEN*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*312" -> "CPEN*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*201" -> "CPEN*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*204" -> "CPEN*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*203" -> "CPEN*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "CPEN*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPEN*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "CPEN*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*211" -> "CPEN*322"
+"CPEN*221" -> "CPEN*322"
+"CPSC*261" -> "CPEN*331" [style=solid]
+"CPEN*221" -> "CPEN*331" [style=solid]
+"CPSC*259" -> "CPEN*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*223" -> "CPEN*333" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*291" -> "CPEN*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*291" -> "CPEN*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*292" -> "CPEN*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPEN*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*400"
+"CPEN*311" -> "CPEN*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*312" -> "CPEN*411" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*311" -> "CPEN*412" [style=solid]
+"CPEN*211" -> "CPEN*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*312" -> "CPEN*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*321" -> "CPEN*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*310" -> "CPEN*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPEN*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*321" -> "CPEN*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "CPEN*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*310" -> "CPEN*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPEN*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*321" -> "CPEN*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*310" -> "CPEN*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPEN*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*313" -> "CPEN*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPEN*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*331" -> "CPEN*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*317" -> "CPEN*431" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*333" -> "CPEN*432" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPEN*432" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*313" -> "CPEN*432" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*260" -> "CPEN*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*221" -> "CPEN*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPEN*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "CPEN*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*333" -> "CPEN*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*333" -> "CPEN*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPEN*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*313" -> "CPEN*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*481"
+"CPEN*391" -> "CPEN*491" [style=solid]
+"Third-year standing." -> "CPEN*497" [style=solid]
+"CPEN*499"
+"CPEN*502"
+"CPEN*511"
+"CPEN*512"
+"CPEN*513"
+"CPEN*521"
+"CPEN*522"
+"CPEN*523"
+"CPEN*524"
+"CPEN*533"
+"CPEN*541"
+"CPEN*542"
+"by permission of the instructor." -> "CPEN*642" [style=solid]
+}
