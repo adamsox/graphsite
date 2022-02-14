@@ -1,0 +1,46 @@
+digraph MANU {
+labelloc = "t";
+label = "MANU"
+fontsize = 27;
+"APSC*176" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*201" -> "MANU*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MANU*230"
+"MATH*101" -> "MANU*261"
+"MATH*152" -> "MANU*261"
+"MATH*255" -> "MANU*261"
+"MATH*101" -> "MANU*265"
+"MATH*152" -> "MANU*265"
+"PHYS*158" -> "MANU*265"
+"MATH*255" -> "MANU*265"
+"MANU*270"
+"MANU*230" -> "MANU*330" [style=solid]
+"MANU*270" -> "MANU*370" [style=solid]
+"APSC*278" -> "MANU*378" [style=solid]
+"APSC*278" -> "MANU*380"
+"APSC*279" -> "MANU*380"
+"MTRL*264" -> "MANU*380"
+"MECH*260" -> "MANU*380"
+"MANU*261" -> "MANU*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*250" -> "MANU*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "MANU*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*263" -> "MANU*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MANU*265" -> "MANU*386"
+"MANU*330" -> "MANU*386"
+"Third-year standing." -> "MANU*399" [style=solid]
+"TBD" -> "MANU*400" [style=solid]
+"MANU*230" -> "MANU*430" [style=solid]
+"MANU*455"
+"MANU*465"
+"MANU*380" -> "MANU*480" [style=solid]
+"MANU*380" -> "MANU*481" [style=solid]
+"MANU*485"
+"MANU*265" -> "MANU*487"
+"MATH*255" -> "MANU*487"
+"MANU*430" -> "MANU*487"
+"Fourth-year standing" -> "MANU*499" [style=solid]
+}

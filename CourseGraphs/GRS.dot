@@ -1,0 +1,15 @@
+digraph GRS {
+labelloc = "t";
+label = "GRS"
+fontsize = 27;
+"Open only to students in the B.Sc. (GRS) program." -> "GRS*290" [style=solid]
+"CHEM*111" -> "GRS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "GRS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "GRS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "GRS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*140" -> "GRS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GRS  290." -> "GRS*390" [style=solid]
+"GRS*397"
+"GRS  390." -> "GRS*490" [style=solid]
+"GRS  397." -> "GRS*497" [style=solid]
+}

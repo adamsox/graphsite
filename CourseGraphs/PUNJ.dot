@@ -1,0 +1,21 @@
+digraph PUNJ {
+labelloc = "t";
+label = "PUNJ"
+fontsize = 27;
+"PUNJ*100"
+"PUNJ*100" -> "PUNJ*101" [style=solid]
+"PUNJ*102"
+"PUNJ*101" -> "PUNJ*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PUNJ*102" -> "PUNJ*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PUNJ*101" -> "PUNJ*201" [style=solid]
+"PUNJ*201" -> "PUNJ*202" [style=solid]
+"PUNJ*205"
+"PUNJ*200" -> "PUNJ*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PUNJ*202" -> "PUNJ*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PUNJ*300" -> "PUNJ*401" [style=solid]
+"PUNJ*300" -> "PUNJ*402" [style=solid]
+"PUNJ*300" -> "PUNJ*403" [style=solid]
+"PUNJ*300" -> "PUNJ*404" [style=solid]
+"PUNJ*300" -> "PUNJ*457" [style=solid]
+"PUNJ*300" -> "PUNJ*475" [style=solid]
+}

@@ -1,0 +1,16 @@
+digraph ZOOL {
+labelloc = "t";
+label = "ZOOL"
+fontsize = 27;
+"ZOOL*500"
+"ZOOL*502"
+"ZOOL*503"
+"ZOOL*521"
+"ZOOL*502" -> "ZOOL*522" [style=solid]
+"ZOOL*524"
+"ZOOL*527"
+"ZOOL*549"
+"ZOOL*553"
+"ZOOL*554"
+"ZOOL*649"
+}

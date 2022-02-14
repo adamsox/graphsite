@@ -1,0 +1,285 @@
+digraph MECH {
+labelloc = "t";
+label = "MECH"
+fontsize = 27;
+"APSC*160" -> "MECH*220"
+"MATH*101" -> "MECH*220"
+"MATH*152" -> "MECH*220"
+"PHYS*158" -> "MECH*220"
+"PHYS*170" -> "MECH*220"
+"APSC*100" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*150" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*151" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*102" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*159" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*176" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "MECH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MECH*221"
+"MATH*152" -> "MECH*221"
+"PHYS*158" -> "MECH*221"
+"PHYS*170" -> "MECH*221"
+"BMEG*102" -> "MECH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*159" -> "MECH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*176" -> "MECH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MECH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*220" -> "MECH*221"
+"MECH*224" -> "MECH*221"
+"MECH*220" -> "MECH*222"
+"MECH*223" -> "MECH*222"
+"MECH*225" -> "MECH*222"
+"MECH*220" -> "MECH*223"
+"MECH*222" -> "MECH*223"
+"ENGL*112" -> "MECH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "MECH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*220" -> "MECH*226"
+"MECH*221" -> "MECH*226"
+"MECH*222" -> "MECH*226"
+"MECH*223" -> "MECH*226"
+"MECH*224" -> "MECH*226"
+"MECH*225" -> "MECH*226"
+"MECH*220" -> "MECH*227" [style=solid]
+"APSC*176" -> "MECH*227" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MECH*227" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "MECH*227" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*160" -> "MECH*230"
+"MATH*101" -> "MECH*230"
+"MATH*152" -> "MECH*230"
+"PHYS*158" -> "MECH*230"
+"PHYS*170" -> "MECH*230"
+"APSC*100" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*150" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*151" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*102" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*159" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*176" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "MECH*230" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*230" -> "MECH*231" [style=solid]
+"APSC*160" -> "MECH*232"
+"MATH*101" -> "MECH*232"
+"MATH*152" -> "MECH*232"
+"PHYS*158" -> "MECH*232"
+"PHYS*170" -> "MECH*232"
+"APSC*100" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*150" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*151" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*102" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*159" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*176" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "MECH*232" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*232" -> "MECH*233" [style=solid]
+"MECH*230" -> "MECH*234" [style=solid]
+"MECH*234" -> "MECH*235" [style=solid]
+"MATH*101" -> "MECH*260"
+"PHYS*170" -> "MECH*260"
+"APSC*172" -> "MECH*260"
+"APSC*173" -> "MECH*260"
+"APSC*180" -> "MECH*260"
+"MATH*152" -> "MECH*280"
+"PHYS*170" -> "MECH*280"
+"MATH*217" -> "MECH*280" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MECH*280" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "MECH*280"
+"PHYS*102" -> "MECH*280"
+"PHYS*153" -> "MECH*280"
+"PHYS*157" -> "MECH*280"
+"PHYS*158" -> "MECH*280"
+"PHYS*159" -> "MECH*280"
+"MECH*220" -> "MECH*305"
+"MECH*223" -> "MECH*305"
+"MECH*224" -> "MECH*305"
+"MECH*225" -> "MECH*305"
+"MECH*220" -> "MECH*306"
+"MECH*223" -> "MECH*306"
+"MECH*224" -> "MECH*306"
+"MECH*225" -> "MECH*306"
+"MECH*223" -> "MECH*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*360" -> "MECH*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*225" -> "MECH*327" [style=solid]
+"CHBE*241" -> "MECH*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENPH*257" -> "MECH*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*251" -> "MECH*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "MECH*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "MECH*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*223" -> "MECH*328" [style=solid]
+"MECH*224" -> "MECH*329" [style=solid]
+"APSC*278" -> "MECH*329"
+"MECH*260" -> "MECH*329"
+"MECH*224" -> "MECH*358"
+"MECH*225" -> "MECH*358"
+"MECH*224" -> "MECH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*260" -> "MECH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*220" -> "MECH*366"
+"MECH*223" -> "MECH*366"
+"MECH*224" -> "MECH*366"
+"MECH*225" -> "MECH*366"
+"MECH*220" -> "MECH*368" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"MECH*224" -> "MECH*368" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"ELEC*203" -> "MECH*368" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"EECE*263" -> "MECH*368" [style=dashed] [label="2 of", fontcolor=darkgreen] [color=green3]
+"MANU*230" -> "MECH*368"
+"MECH*225" -> "MECH*375" [style=solid]
+"CHBE*241" -> "MECH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENPH*257" -> "MECH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*251" -> "MECH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "MECH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "MECH*375" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*225" -> "MECH*380" [style=solid]
+"MATH*255" -> "MECH*380" [style=solid]
+"CHBE*251" -> "MECH*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "MECH*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "MECH*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*241" -> "MECH*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENPH*257" -> "MECH*380" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*380" -> "MECH*386" [style=solid]
+"MECH*392"
+"MECH*410"
+"MECH*360" -> "MECH*420"
+"MECH*463" -> "MECH*420"
+"MECH*366" -> "MECH*420"
+"ELEC*343" -> "MECH*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*376" -> "MECH*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*420" -> "MECH*421" [style=solid]
+"ELEC*302" -> "MECH*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*363" -> "MECH*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*344" -> "MECH*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*365" -> "MECH*422" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*360" -> "MECH*422"
+"MECH*463" -> "MECH*422"
+"MECH*366" -> "MECH*423"
+"ELEC*302" -> "MECH*423"
+"CPEN*312" -> "MECH*423"
+"CPEN*333" -> "MECH*423"
+"MECH*223" -> "MECH*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*360" -> "MECH*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*430"
+"MECH*431"
+"MECH*225" -> "MECH*433" [style=solid]
+"MATH*255" -> "MECH*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MECH*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*251" -> "MECH*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "MECH*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "MECH*433" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "MECH*435" [style=solid]
+"APSC*278" -> "MECH*435"
+"MECH*260" -> "MECH*435"
+"MECH*360" -> "MECH*436" [style=solid]
+"MECH*224" -> "MECH*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*330" -> "MECH*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*439"
+"MECH*327" -> "MECH*445"
+"MECH*375" -> "MECH*445"
+"MECH*327" -> "MECH*453"
+"MECH*328" -> "MECH*453"
+"MECH*360" -> "MECH*453"
+"MECH*325" -> "MECH*454"
+"MECH*327" -> "MECH*454"
+"MECH*328" -> "MECH*454"
+"MECH*360" -> "MECH*454"
+"MECH*325" -> "MECH*457"
+"MECH*328" -> "MECH*457"
+"MECH*329" -> "MECH*457"
+"MECH*360" -> "MECH*457"
+"MECH*327" -> "MECH*457"
+"MECH*426" -> "MECH*457"
+"MECH*325" -> "MECH*458"
+"MECH*328" -> "MECH*458"
+"MECH*360" -> "MECH*458"
+"MECH*325" -> "MECH*459"
+"MECH*328" -> "MECH*459"
+"MECH*360" -> "MECH*459"
+"MECH*426" -> "MECH*459"
+"MECH*360" -> "MECH*460" [style=solid]
+"MECH*360" -> "MECH*462"
+"MECH*375" -> "MECH*462"
+"MTRL*264" -> "MECH*462"
+"MECH*224" -> "MECH*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*260" -> "MECH*463" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*464"
+"MECH*220" -> "MECH*466"
+"MECH*221" -> "MECH*466"
+"MECH*463" -> "MECH*466"
+"MATH*255" -> "MECH*466"
+"ELEC*201" -> "MECH*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*202" -> "MECH*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*204" -> "MECH*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*251" -> "MECH*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*221" -> "MECH*466"
+"ENPH*270" -> "MECH*466"
+"MECH*366" -> "MECH*467" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MANU*386" -> "MECH*467" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*468"
+"MECH*469"
+"MECH*327" -> "MECH*470"
+"MECH*375" -> "MECH*470"
+"MECH*375" -> "MECH*473" [style=solid]
+"MECH*327" -> "MECH*477"
+"MECH*375" -> "MECH*477"
+"MECH*380" -> "MECH*477"
+"MECH*327" -> "MECH*478" [style=solid]
+"MECH*380" -> "MECH*479" [style=solid]
+"MECH*380" -> "MECH*481" [style=solid]
+"MECH*484"
+"MECH*485"
+"MECH*380" -> "MECH*488" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*315" -> "MECH*488" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*375" -> "MECH*489"
+"MECH*380" -> "MECH*489"
+"MECH*491"
+"Fourth-year standing and at least 80% average in third-year courses and permission of instructor." -> "MECH*493" [style=solid]
+"MECH*495"
+"MECH*496"
+"Third-year standing." -> "MECH*497" [style=solid]
+"MECH*498"
+"MECH*500"
+"MECH*501"
+"MECH*502"
+"MECH*503"
+"MECH*506"
+"MECH*507"
+"MECH*509"
+"MECH*512"
+"MECH*514"
+"MECH*515"
+"MECH*520"
+"MECH*521"
+"MECH*421" -> "MECH*526"
+"MECH*467" -> "MECH*526"
+"MECH*551" -> "MECH*527" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*526" -> "MECH*527" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Prior undergraduate coursework in dynamics, vibration, or electrical circuits." -> "MECH*529" [style=solid]
+"MECH*530"
+"MECH*533"
+"MECH*535"
+"MECH*536"
+"MECH*540"
+"MECH*541"
+"MECH*542"
+"MECH*392" -> "MECH*544"
+"MECH*466" -> "MECH*544"
+"MECH*466" -> "MECH*562" [style=solid]
+"MECH*468" -> "MECH*562" [style=solid]
+"ELEC*341" -> "MECH*562" [style=solid]
+"MECH*563"
+"MECH*570"
+"MECH*572"
+"MECH*576"
+"MECH*327" -> "MECH*577"
+"MECH*375" -> "MECH*577"
+"MECH*578"
+"MECH*581"
+"MECH*582"
+"MECH*586"
+"MECH*587"
+"MECH*510" -> "MECH*588" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*587" -> "MECH*588" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*590"
+"MECH*591"
+"MECH*597"
+"MECH*598"
+"MECH*599"
+"MECH*698"
+"MECH*699"
+}

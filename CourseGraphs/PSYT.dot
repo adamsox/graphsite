@@ -1,0 +1,6 @@
+digraph PSYT {
+labelloc = "t";
+label = "PSYT"
+fontsize = 27;
+"PSYT*550"
+}

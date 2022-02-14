@@ -1,0 +1,260 @@
+digraph CHEM {
+labelloc = "t";
+label = "CHEM"
+fontsize = 27;
+"Not open to students with credit for Chemistry 12.  Permission of the department head." -> "CHEM*100" [style=solid]
+"Not open to students with credit for Chemistry 12. A satisfactory score on the UBC Chemistry Basic Skills Test." -> "CHEM*110" [style=solid]
+"Not open to students with credit for CHEM 12. A satisfactory score on the UBC Chemistry Basic Skills Test." -> "CHEM*111" [style=solid]
+"CHEM*110" -> "CHEM*115" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "CHEM*115" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*100" -> "CHEM*120" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*100" -> "CHEM*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "CHEM*123" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "CHEM*123" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "CHEM*130" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "CHEM*130" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "CHEM*130" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "CHEM*130" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "CHEM*135" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*115" -> "CHEM*135" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "CHEM*135" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM 12." -> "CHEM*154" [style=solid]
+"CHEM*123" -> "CHEM*203" [style=solid]
+"CHEM*130" -> "CHEM*203"
+"CHEM*135" -> "CHEM*203"
+"SCIE*001" -> "CHEM*203"
+"SCIE*001" -> "CHEM*205" [style=solid]
+"MATH*100" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CHEM*205" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*208" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*208" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*208" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*211" [style=solid]
+"CHEM*130" -> "CHEM*211"
+"CHEM*135" -> "CHEM*211"
+"SCIE*001" -> "CHEM*211"
+"CHEM*203" -> "CHEM*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "CHEM*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "CHEM*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*210" -> "CHEM*215" [style=solid]
+"CHEM*123" -> "CHEM*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*135" -> "CHEM*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*208" -> "CHEM*218" [style=solid]
+"CHEM*123" -> "CHEM*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*225" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*135" -> "CHEM*225" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*233" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*235" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*135" -> "CHEM*235" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "CHEM*235" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*203" -> "CHEM*245" [style=solid]
+"CHEM*223" -> "CHEM*245"
+"CHEM*225" -> "CHEM*245"
+"CHEM*233" -> "CHEM*245"
+"CHEM*213" -> "CHEM*245"
+"CHEM*123" -> "CHEM*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CHEM*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CHEM*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*260" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*260" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CHEM*260" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*260" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third year standing" -> "CHEM*300" [style=solid]
+"CHEM*123" -> "CHEM*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*220" -> "CHEM*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*220" -> "CHEM*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*263" -> "CHEM*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*205" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*203" -> "CHEM*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*210" -> "CHEM*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*211" -> "CHEM*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*113" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*263" -> "CHEM*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*213" -> "CHEM*313" [style=solid]
+"CHEM*203" -> "CHEM*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*208" -> "CHEM*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*211" -> "CHEM*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*215" -> "CHEM*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*225" -> "CHEM*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*235" -> "CHEM*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*218" -> "CHEM*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*250" -> "CHEM*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*319"
+"CHEM*211" -> "CHEM*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*215" -> "CHEM*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*208" -> "CHEM*325"
+"CHEM*213" -> "CHEM*325"
+"CHEM*245" -> "CHEM*325"
+"CHEM*208" -> "CHEM*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*250" -> "CHEM*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*203" -> "CHEM*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "CHEM*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "CHEM*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*260" -> "CHEM*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*329"
+"CHEM*213" -> "CHEM*330" [style=solid]
+"CHEM*315" -> "CHEM*335" [style=solid]
+"CHEM*203" -> "CHEM*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*223" -> "CHEM*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "CHEM*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*260" -> "CHEM*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*325" -> "CHEM*345" [style=solid]
+"CHEM*203" -> "CHEM*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*211" -> "CHEM*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*235" -> "CHEM*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*398"
+"CHEM*398" -> "CHEM*399" [style=solid]
+"MATH*152" -> "CHEM*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CHEM*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CHEM*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*312" -> "CHEM*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*304" -> "CHEM*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*208" -> "CHEM*402" [style=solid]
+"CHEM*304" -> "CHEM*403" [style=solid]
+"MATH*200" -> "CHEM*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CHEM*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CHEM*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CHEM*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*263" -> "CHEM*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CHEM*404" [style=solid]
+"CHEM*123" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*118" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*170" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "CHEM*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "CHEM*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*305" -> "CHEM*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*203" -> "CHEM*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*213" -> "CHEM*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*260" -> "CHEM*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*205" -> "CHEM*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "CHEM*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*220" -> "CHEM*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "CHEM*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*203" -> "CHEM*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "CHEM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*203" -> "CHEM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*312" -> "CHEM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*304" -> "CHEM*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*304" -> "CHEM*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*203" -> "CHEM*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*312" -> "CHEM*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*304" -> "CHEM*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*460" -> "CHEM*411" [style=solid]
+"CHEM*312" -> "CHEM*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*304" -> "CHEM*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "CHEM*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CHEM*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CHEM*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*313" -> "CHEM*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*330" -> "CHEM*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*218" -> "CHEM*414" [style=solid]
+"CHEM*313" -> "CHEM*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*330" -> "CHEM*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "CHEM*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "CHEM*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*312" -> "CHEM*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*318" -> "CHEM*418" [style=solid]
+"CHEM*419"
+"CHEM*327" -> "CHEM*427" [style=solid]
+"CHEM*430"
+"CHEM*311" -> "CHEM*434" [style=solid]
+"CHEM*218" -> "CHEM*435"
+"CHEM*304" -> "CHEM*435"
+"CHEM*345" -> "CHEM*445" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*335" -> "CHEM*445" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*448"
+"CHEM*449"
+"CHEM*330" -> "CHEM*460" [style=solid]
+"CHEM*313" -> "CHEM*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*330" -> "CHEM*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*245" -> "CHEM*473" [style=solid]
+"CHEM*313" -> "CHEM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*318" -> "CHEM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*330" -> "CHEM*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third-year standing in a Chemistry specialization and permission of the Department." -> "CHEM*488" [style=solid]
+"CHEM*399" -> "CHEM*498" [style=solid]
+"CHEM*498" -> "CHEM*499" [style=solid]
+"CHEM*501"
+"CHEM*502"
+"CHEM*503"
+"CHEM*506"
+"CHEM*507"
+"CHEM*508"
+"CHEM*512"
+"CHEM*513"
+"CHEM*514"
+"CHEM*516"
+"CHEM*517"
+"CHEM*518"
+"CHEM*519"
+"CHEM*521"
+"CHEM*524"
+"CHEM*525"
+"CHEM*526"
+"CHEM*527"
+"CHEM*528"
+"CHEM*529"
+"CHEM*533"
+"CHEM*534"
+"CHEM*535"
+"CHEM*540"
+"CHEM*548"
+"CHEM*549"
+"CHEM*560"
+"CHEM*561"
+"CHEM*563"
+"CHEM*566"
+"CHEM*568"
+"CHEM*569"
+"CHEM*573"
+"CHEM*649"
+}

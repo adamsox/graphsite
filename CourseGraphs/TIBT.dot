@@ -1,0 +1,10 @@
+digraph TIBT {
+labelloc = "t";
+label = "TIBT"
+fontsize = 27;
+"TIBT*100"
+"TIBT*100" -> "TIBT*101" [style=solid]
+"TIBT*100" -> "TIBT*300" [style=solid]
+"TIBT*390" -> "TIBT*300" [style=solid]
+"TIBT*300" -> "TIBT*301" [style=solid]
+}

@@ -1,0 +1,13 @@
+digraph HUNU {
+labelloc = "t";
+label = "HUNU"
+fontsize = 27;
+"HUNU*500"
+"HUNU*503"
+"HUNU*505"
+"HUNU*531"
+"HUNU*547"
+"HUNU*549"
+"HUNU*631"
+"HUNU*649"
+}

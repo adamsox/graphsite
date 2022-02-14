@@ -1,0 +1,29 @@
+digraph IGEN {
+labelloc = "t";
+label = "IGEN"
+fontsize = 27;
+"APSC*176" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*201" -> "IGEN*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"IGEN*230"
+"Third-year standing in the Integrated Engineering program." -> "IGEN*330" [style=solid]
+"IGEN*340"
+"IGEN*430"
+"MECH*221" -> "IGEN*450" [style=solid]
+"APSC*278" -> "IGEN*450" [style=solid]
+"CIVL*215" -> "IGEN*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*263" -> "IGEN*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*230" -> "IGEN*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*260" -> "IGEN*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "IGEN*451" [style=solid]
+"APSC*278" -> "IGEN*451" [style=solid]
+"CIVL*215" -> "IGEN*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*263" -> "IGEN*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*230" -> "IGEN*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*260" -> "IGEN*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"IGEN*450" -> "IGEN*452" [style=solid]
+}

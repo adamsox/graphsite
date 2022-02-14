@@ -1,0 +1,25 @@
+digraph ISCI {
+labelloc = "t";
+label = "ISCI"
+fontsize = 27;
+"Registration in Integrated Sciences Program" -> "ISCI*300" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*311" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*312" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*320" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*322" [style=solid]
+"Third-year standing in the Faculty of Science" -> "ISCI*330" [style=solid]
+"Third-year standing." -> "ISCI*344" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*345" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*350" [style=solid]
+"Third-year or higher standing in the Faculty of Science." -> "ISCI*360" [style=solid]
+"ISCI*360" -> "ISCI*361" [style=solid]
+"One term in ISP." -> "ISCI*398" [style=solid]
+"ISCI*398" -> "ISCI*399" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*422" [style=solid]
+"Third-year standing in any faculty." -> "ISCI*433" [style=solid]
+"ISCI*448"
+"ISCI*361" -> "ISCI*461" [style=solid]
+"Third-year standing in the Faculty of Science." -> "ISCI*490" [style=solid]
+"ISCI*399" -> "ISCI*498" [style=solid]
+"ISCI*498" -> "ISCI*499" [style=solid]
+}

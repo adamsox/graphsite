@@ -1,0 +1,11 @@
+digraph COGS {
+labelloc = "t";
+label = "COGS"
+fontsize = 27;
+"second-year standing in the Faculty of Arts or Science." -> "COGS*200" [style=solid]
+"COGS*200" -> "COGS*300" [style=solid]
+"COGS*200" -> "COGS*303" [style=solid]
+"COGS*300" -> "COGS*401" [style=solid]
+"COGS*300" -> "COGS*402" [style=solid]
+"COGS*401" -> "COGS*402" [style=solid]
+}

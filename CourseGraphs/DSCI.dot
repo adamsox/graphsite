@@ -1,0 +1,54 @@
+digraph DSCI {
+labelloc = "t";
+label = "DSCI"
+fontsize = 27;
+"MATH 12." -> "DSCI*100" [style=solid]
+"CPSC*203" -> "DSCI*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "DSCI*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "DSCI*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*201" -> "DSCI*320" [style=solid]
+"CPSC*203" -> "DSCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "DSCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "DSCI*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"DSCI*511"
+"DSCI*511" -> "DSCI*512"
+"DSCI*521" -> "DSCI*512"
+"DSCI*513"
+"DSCI*511" -> "DSCI*522"
+"DSCI*521" -> "DSCI*522"
+"DSCI*523"
+"DSCI*522" -> "DSCI*524" [style=solid]
+"DSCI*522" -> "DSCI*525"
+"DSCI*523" -> "DSCI*525"
+"DSCI*511" -> "DSCI*531"
+"DSCI*521" -> "DSCI*531"
+"DSCI*531" -> "DSCI*532" [style=solid]
+"DSCI*541"
+"DSCI*542"
+"DSCI*551"
+"DSCI*551" -> "DSCI*552" [style=solid]
+"DSCI*552" -> "DSCI*553" [style=solid]
+"DSCI*553" -> "DSCI*554"
+"DSCI*561" -> "DSCI*554"
+"DSCI*552" -> "DSCI*561" [style=solid]
+"DSCI*561" -> "DSCI*562" [style=solid]
+"DSCI*511" -> "DSCI*563"
+"DSCI*521" -> "DSCI*563"
+"DSCI*511" -> "DSCI*571"
+"DSCI*521" -> "DSCI*571"
+"DSCI*571" -> "DSCI*572" [style=solid]
+"DSCI*571" -> "DSCI*573" [style=solid]
+"DSCI*572" -> "DSCI*574" [style=solid]
+"DSCI*572" -> "DSCI*575" [style=solid]
+"DSCI*513" -> "DSCI*591"
+"DSCI*524" -> "DSCI*591"
+"DSCI*525" -> "DSCI*591"
+"DSCI*532" -> "DSCI*591"
+"DSCI*541" -> "DSCI*591"
+"DSCI*542" -> "DSCI*591"
+"DSCI*554" -> "DSCI*591"
+"DSCI*563" -> "DSCI*591"
+"DSCI*573" -> "DSCI*591"
+"DSCI*574" -> "DSCI*591"
+"DSCI*575" -> "DSCI*591"
+}

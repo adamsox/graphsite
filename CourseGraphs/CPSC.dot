@@ -1,0 +1,261 @@
+digraph CPSC {
+labelloc = "t";
+label = "CPSC"
+fontsize = 27;
+"CPSC*100"
+"CPSC*101"
+"CPSC*103"
+"CPSC*103" -> "CPSC*107" [style=solid]
+"CPSC*110"
+"CPSC*107" -> "CPSC*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "CPSC*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*103" -> "CPSC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "CPSC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "CPSC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*210" -> "CPSC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*210" -> "CPSC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*337" -> "CPSC*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*107" -> "CPSC*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "CPSC*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*121" -> "CPSC*213"
+"CPSC*210" -> "CPSC*213"
+"CPSC*210" -> "CPSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*210" -> "CPSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*121" -> "CPSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "CPSC*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*160" -> "CPSC*259" [style=solid]
+"EECE*259" -> "CPSC*261" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*211" -> "CPSC*261" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*210" -> "CPSC*261" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*261" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*298"
+"CPSC*298" -> "CPSC*299" [style=solid]
+"Third-year standing or higher." -> "CPSC*301" [style=solid]
+"CPSC*103" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*210" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CPSC*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*103" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*210" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CPSC*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*221" -> "CPSC*304" [style=solid]
+"CPSC*213" -> "CPSC*310"
+"CPSC*221" -> "CPSC*310"
+"CPSC*210" -> "CPSC*311" [style=solid]
+"CPSC*210" -> "CPSC*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*210" -> "CPSC*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*309" -> "CPSC*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*213" -> "CPSC*313"
+"CPSC*221" -> "CPSC*313"
+"CPSC*221" -> "CPSC*314" [style=solid]
+"MATH*200" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CPSC*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*213" -> "CPSC*317"
+"CPSC*221" -> "CPSC*317"
+"CPSC*310" -> "CPSC*319" [style=solid]
+"CPSC*221" -> "CPSC*320" [style=solid]
+"COMM*291" -> "CPSC*320" [style=solid]
+"BIOL*300" -> "CPSC*320" [style=solid]
+"EECE*320" -> "CPSC*320" [style=solid]
+"CPSC*221" -> "CPSC*322" [style=solid]
+"CPSC*203" -> "CPSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "CPSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*210" -> "CPSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*107" -> "CPSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "CPSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*221" -> "CPSC*340" [style=solid]
+"MATH*152" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*318" -> "CPSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "CPSC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*210" -> "CPSC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*309" -> "CPSC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*349"
+"CPSC*203" -> "CPSC*368" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "CPSC*368" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*221" -> "CPSC*368" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*398"
+"CPSC*399"
+"CPSC*302" -> "CPSC*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*303" -> "CPSC*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*307" -> "CPSC*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*304" -> "CPSC*404" [style=solid]
+"CPSC*213" -> "CPSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*261" -> "CPSC*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*302" -> "CPSC*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*303" -> "CPSC*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*307" -> "CPSC*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*310" -> "CPSC*410" [style=solid]
+"EECE*310" -> "CPSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*321" -> "CPSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*315" -> "CPSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*213" -> "CPSC*411"
+"CPSC*221" -> "CPSC*411"
+"CPSC*311" -> "CPSC*411"
+"CPSC*313" -> "CPSC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*315" -> "CPSC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPSC*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*313" -> "CPSC*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*315" -> "CPSC*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*331" -> "CPSC*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*317" -> "CPSC*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*358" -> "CPSC*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*331" -> "CPSC*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*313" -> "CPSC*417"
+"CPSC*317" -> "CPSC*417"
+"STAT*200" -> "CPSC*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "CPSC*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*261" -> "CPSC*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*313" -> "CPSC*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*476" -> "CPSC*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*411" -> "CPSC*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*320" -> "CPSC*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EECE*320" -> "CPSC*418" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*320" -> "CPSC*420" [style=solid]
+"CPSC*221" -> "CPSC*421" [style=solid]
+"CPSC*320" -> "CPSC*421" [style=solid]
+"CPSC*322" -> "CPSC*422" [style=solid]
+"CPSC*320" -> "CPSC*424" [style=solid]
+"MATH*152" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CPSC*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*221" -> "CPSC*425"
+"MATH*200" -> "CPSC*425"
+"MATH*221" -> "CPSC*425"
+"CPSC*314" -> "CPSC*426" [style=solid]
+"CPSC*221" -> "CPSC*427" [style=solid]
+"MATH*200" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "CPSC*427" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"3 credits of Computer Science and at least third-year standing." -> "CPSC*430" [style=solid]
+"Third-year standing in a Computer Science or Computer Engineering specialization, and permission of the department." -> "CPSC*436" [style=solid]
+"CPSC*320" -> "CPSC*440"
+"CPSC*340" -> "CPSC*440"
+"CPSC*344" -> "CPSC*444" [style=solid]
+"STAT*200" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*203" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOG*374" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*380" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*278" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*366" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*328" -> "CPSC*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*320" -> "CPSC*445" [style=solid]
+"BMEG*250" -> "CPSC*445" [style=solid]
+"BIOL*111" -> "CPSC*445" [style=solid]
+"CPSC*448"
+"CPSC*349" -> "CPSC*449" [style=solid]
+"CPSC*310" -> "CPSC*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*321" -> "CPSC*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*490"
+"CPSC*221" -> "CPSC*491"
+"CPSC*310" -> "CPSC*491"
+"CPSC*344" -> "CPSC*491"
+"CPSC*499"
+"CPSC*500"
+"CPSC*501"
+"CPSC*502"
+"CPSC*503"
+"CPSC*504"
+"CPSC*505"
+"CPSC*506"
+"CPSC*507"
+"CPSC*508"
+"CPSC*509"
+"CPSC*511"
+"CPSC*513"
+"CPSC*514"
+"CPSC*515"
+"CPSC*516"
+"CPSC*517"
+"CPSC*519"
+"CPSC*520"
+"CPSC*521"
+"CPSC*522"
+"CPSC*524"
+"CPSC*525"
+"CPSC*526"
+"CPSC*527"
+"CPSC*529"
+"CPSC*530"
+"CPSC*531"
+"CPSC*532"
+"CPSC*533"
+"CPSC*534"
+"CPSC*535"
+"CPSC*536"
+"CPSC*537"
+"CPSC*538"
+"CPSC*539"
+"CPSC*540"
+"CPSC*542"
+"CPSC*543"
+"CPSC*544"
+"CPSC*545"
+"CPSC*546"
+"CPSC*547"
+"CPSC*548"
+"CPSC*549"
+"CPSC*550"
+"CPSC*554"
+"CPSC*564"
+"CPSC*589"
+"CPSC*590"
+"CPSC*649"
+}

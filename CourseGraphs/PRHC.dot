@@ -1,0 +1,15 @@
+digraph PRHC {
+labelloc = "t";
+label = "PRHC"
+fontsize = 27;
+"PRHC*501"
+"PRHC*501" -> "PRHC*503" [style=solid]
+"PRHC*501" -> "PRHC*505"
+"PRHC*503" -> "PRHC*505"
+"PRHC*501" -> "PRHC*507"
+"PRHC*503" -> "PRHC*507"
+"PRHC*505" -> "PRHC*507"
+"PRHC*501" -> "PRHC*509"
+"PRHC*503" -> "PRHC*509"
+"PRHC*505" -> "PRHC*509"
+}

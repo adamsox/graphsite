@@ -1,0 +1,21 @@
+digraph ENDS {
+labelloc = "t";
+label = "ENDS"
+fontsize = 27;
+"ENDS*101"
+"ENDS*110"
+"ENDS*211"
+"ENDS*220"
+"ENDS*221"
+"ENDS*231"
+"ENDS*281"
+"ENDS*301"
+"ENDS*301" -> "ENDS*302" [style=solid]
+"ENDS*320"
+"ENDS*302" -> "ENDS*401" [style=solid]
+"ENDS*401" -> "ENDS*402" [style=solid]
+"ENDS*404"
+"ENDS*420"
+"ENDS*440"
+"ENDS*482"
+}

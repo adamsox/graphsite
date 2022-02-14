@@ -1,0 +1,11 @@
+digraph HEBR {
+labelloc = "t";
+label = "HEBR"
+fontsize = 27;
+"HEBR*101"
+"HEBR*101" -> "HEBR*102" [style=solid]
+"HEBR*102" -> "HEBR*201" [style=solid]
+"HEBR*201" -> "HEBR*202" [style=solid]
+"HEBR*202" -> "HEBR*479" [style=solid]
+"HEBR*509"
+}

@@ -1,0 +1,158 @@
+digraph STAT {
+labelloc = "t";
+label = "STAT"
+fontsize = 27;
+"MATH*101" -> "STAT*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "STAT*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "STAT*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "STAT*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "STAT*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"DSCI*100" -> "STAT*201" [style=solid]
+"MATH 11. Or Pre-calculus 11." -> "STAT*203" [style=solid]
+"MATH*101" -> "STAT*241" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "STAT*241" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "STAT*241" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "STAT*241" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "STAT*241" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "STAT*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "STAT*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "STAT*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "STAT*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "STAT*251" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*203" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*380" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*278" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*411" -> "STAT*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*201" -> "STAT*301" [style=solid]
+"MATH*100" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "STAT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "STAT*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "STAT*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "STAT*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "STAT*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "STAT*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*203" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*366" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "STAT*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*300" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*278" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*366" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "STAT*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*307"
+"STAT*308"
+"EECE*269" -> "STAT*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*221" -> "STAT*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*305" -> "STAT*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*321" -> "STAT*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "STAT*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "STAT*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "STAT*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "STAT*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*278" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "STAT*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Registration in Statistics Honours or Major Program." -> "STAT*398" [style=solid]
+"STAT*398" -> "STAT*399" [style=solid]
+"STAT*306" -> "STAT*404" [style=solid]
+"STAT*306" -> "STAT*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*340" -> "STAT*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*318" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*300" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*231" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"POLI*380" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*218" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*278" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*305" -> "STAT*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*306" -> "STAT*445" [style=solid]
+"STAT*305" -> "STAT*447" [style=solid]
+"STAT*306" -> "STAT*450" [style=solid]
+"MATH*320" -> "STAT*460"
+"STAT*305" -> "STAT*460"
+"MATH*152" -> "STAT*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "STAT*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "STAT*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*460" -> "STAT*461" [style=solid]
+"STAT*498"
+"STAT*499"
+"STAT*518"
+"STAT*520"
+"STAT*521"
+"STAT*522"
+"STAT*526"
+"STAT*527"
+"STAT*530"
+"STAT*533"
+"STAT*535"
+"STAT*536"
+"STAT*538"
+"STAT*540"
+"STAT*541"
+"STAT*543"
+"STAT*545"
+"STAT*547"
+"STAT*548"
+"STAT*549"
+"STAT*550"
+"STAT*551"
+"STAT*560"
+"STAT*561"
+"STAT*589"
+"STAT*598"
+"STAT*598" -> "STAT*599" [style=solid]
+"STAT*649"
+}

@@ -1,0 +1,22 @@
+digraph FMST {
+labelloc = "t";
+label = "FMST"
+fontsize = 27;
+"FMST*210"
+"FMST*238"
+"SOCI*200" -> "FMST*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FMST*210" -> "FMST*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "FMST*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*100" -> "FMST*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*101" -> "FMST*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*102" -> "FMST*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*240" -> "FMST*314" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*200" -> "FMST*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*100" -> "FMST*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*101" -> "FMST*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PSYC*102" -> "FMST*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SOCI*240" -> "FMST*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FMST*441"
+"FMST*524"
+"FMST*549"
+}

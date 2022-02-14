@@ -1,0 +1,8 @@
+digraph URST {
+labelloc = "t";
+label = "URST"
+fontsize = 27;
+"URST*200"
+"Fourth-year standing." -> "URST*400" [style=solid]
+"GEOG*450" -> "URST*450" [style=solid]
+}

@@ -1,0 +1,128 @@
+digraph THTR {
+labelloc = "t";
+label = "THTR"
+fontsize = 27;
+"THTR*120"
+"THTR*130"
+"THTR*150"
+"THTR*205"
+"THTR*210"
+"THTR*211"
+"THTR*230"
+"THTR*245"
+"THTR*254" -> "THTR*250" [style=solid]
+"At least one theatre course." -> "THTR*271" [style=solid]
+"THTR*272"
+"At least one theatre course." -> "THTR*273" [style=solid]
+"THTR*274"
+"THTR*299"
+"THTR*301"
+"THTR*205" -> "THTR*305" [style=solid]
+"THTR*306"
+"THTR*307"
+"THTR*308"
+"THTR*310"
+"THTR*311"
+"THTR*130" -> "THTR*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*230" -> "THTR*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*299" -> "THTR*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*399" -> "THTR*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*320"
+"THTR*323"
+"THTR*325"
+"THTR*130" -> "THTR*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*230" -> "THTR*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*130" -> "THTR*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*230" -> "THTR*335" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*130" -> "THTR*339" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*230" -> "THTR*339" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*340"
+"THTR*350"
+"THTR*352"
+"THTR*354"
+"THTR*356"
+"THTR*271" -> "THTR*371"
+"THTR*272" -> "THTR*371"
+"THTR*273" -> "THTR*371"
+"THTR*274" -> "THTR*371"
+"THTR*372"
+"THTR*271" -> "THTR*373"
+"THTR*272" -> "THTR*373"
+"THTR*273" -> "THTR*373"
+"THTR*274" -> "THTR*373"
+"THTR*374"
+"THTR*271" -> "THTR*391"
+"THTR*272" -> "THTR*391"
+"THTR*273" -> "THTR*391"
+"THTR*274" -> "THTR*391"
+"THTR*305" -> "THTR*405" [style=solid]
+"THTR*306" -> "THTR*406" [style=solid]
+"THTR*307" -> "THTR*407" [style=solid]
+"THTR*408"
+"THTR*410"
+"THTR*317" -> "THTR*417" [style=solid]
+"THTR*415" -> "THTR*420" [style=solid]
+"THTR*421"
+"THTR*425"
+"THTR*430"
+"THTR*439"
+"6 credits of THTR at the 300-level or above." -> "THTR*440" [style=solid]
+"THTR*443"
+"THTR*445"
+"THTR*448"
+"THTR*449"
+"THTR*350" -> "THTR*450" [style=solid]
+"THTR*352" -> "THTR*452" [style=solid]
+"THTR*354" -> "THTR*454" [style=solid]
+"THTR*356" -> "THTR*456" [style=solid]
+"CRWR*440" -> "THTR*469" [style=solid]
+"VISA*469" -> "THTR*469" [style=solid]
+"MUSC*469" -> "THTR*469" [style=solid]
+"THTR*371" -> "THTR*471"
+"THTR*372" -> "THTR*471"
+"THTR*373" -> "THTR*471"
+"THTR*374" -> "THTR*471"
+"THTR*391" -> "THTR*471"
+"THTR*472"
+"THTR*371" -> "THTR*473" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*372" -> "THTR*473" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*373" -> "THTR*473" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*374" -> "THTR*473" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*391" -> "THTR*473" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*474"
+"THTR*371" -> "THTR*491" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*372" -> "THTR*491" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*373" -> "THTR*491" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*374" -> "THTR*491" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*391" -> "THTR*491" [style=dashed] [label="3 of", fontcolor=blue4] [color=blue1]
+"THTR*405" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*406" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*407" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*408" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*450" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*452" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*454" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*456" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*470" -> "THTR*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"THTR*500"
+"THTR*505"
+"THTR*506"
+"THTR*507"
+"THTR*508"
+"THTR*510"
+"THTR*515"
+"THTR*520"
+"THTR*520" -> "THTR*521" [style=solid]
+"THTR*525"
+"THTR*530"
+"THTR*547"
+"THTR*549"
+"THTR*550"
+"THTR*551"
+"THTR*555"
+"THTR*555" -> "THTR*556" [style=solid]
+"THTR*560"
+"THTR*561"
+"THTR*562"
+"THTR*649"
+}

@@ -1,0 +1,20 @@
+digraph HINU {
+labelloc = "t";
+label = "HINU"
+fontsize = 27;
+"HINU*100"
+"HINU*100" -> "HINU*101" [style=solid]
+"HINU*102"
+"HINU*101" -> "HINU*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HINU*102" -> "HINU*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HINU*101" -> "HINU*201" [style=solid]
+"HINU*201" -> "HINU*202" [style=solid]
+"HINU*205"
+"HINU*200" -> "HINU*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HINU*202" -> "HINU*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"HINU*202" -> "HINU*301" [style=solid]
+"HINU*301" -> "HINU*302" [style=solid]
+"HINU*305"
+"HINU*300" -> "HINU*400" [style=solid]
+"HINU*200" -> "HINU*450" [style=solid]
+}

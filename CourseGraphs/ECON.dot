@@ -1,0 +1,471 @@
+digraph ECON {
+labelloc = "t";
+label = "ECON"
+fontsize = 27;
+"ECON*101"
+"ECON*102"
+"ECON*101" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*204" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*210"
+"ECON*102" -> "ECON*210"
+"ECON*101" -> "ECON*211"
+"ECON*102" -> "ECON*211"
+"ECON*101" -> "ECON*221"
+"ECON*102" -> "ECON*221"
+"ECON*101" -> "ECON*226"
+"ECON*102" -> "ECON*226"
+"ECON*101" -> "ECON*234"
+"ECON*102" -> "ECON*234"
+"ECON*101" -> "ECON*255"
+"ECON*102" -> "ECON*255"
+"ECON*101" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*304" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*306" [style=solid]
+"ECON*305" -> "ECON*307" [style=solid]
+"ECON*101" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third-year, fourth-year, or graduate standing." -> "ECON*310" [style=solid]
+"Third-year, fourth-year or graduate standing." -> "ECON*311" [style=solid]
+"ECON*101" -> "ECON*312"
+"ECON*102" -> "ECON*312"
+"ECON*101" -> "ECON*313"
+"ECON*102" -> "ECON*313"
+"ECON*101" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*317"
+"ECON*102" -> "ECON*317"
+"ECON*101" -> "ECON*318"
+"PHIL*362" -> "ECON*318"
+"ECON*101" -> "ECON*319"
+"PHIL*363" -> "ECON*319"
+"ECON*101" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "ECON*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "ECON*326" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "ECON*326" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "ECON*327" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "ECON*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "ECON*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*334"
+"ECON*102" -> "ECON*334"
+"ECON*101" -> "ECON*335"
+"ECON*102" -> "ECON*335"
+"ECON*101" -> "ECON*336"
+"ECON*102" -> "ECON*336"
+"ECON*101" -> "ECON*337"
+"ECON*102" -> "ECON*337"
+"ECON*101" -> "ECON*339"
+"ECON*102" -> "ECON*339"
+"ECON*101" -> "ECON*341"
+"ECON*102" -> "ECON*341"
+"ECON*101" -> "ECON*342"
+"ECON*102" -> "ECON*342"
+"ECON*101" -> "ECON*343"
+"ECON*102" -> "ECON*343"
+"ECON*101" -> "ECON*345"
+"ECON*102" -> "ECON*345"
+"ECON*101" -> "ECON*350"
+"ECON*102" -> "ECON*350"
+"ECON*101" -> "ECON*351"
+"ECON*102" -> "ECON*351"
+"ECON*101" -> "ECON*352"
+"ECON*102" -> "ECON*352"
+"ECON*101" -> "ECON*355"
+"ECON*102" -> "ECON*355"
+"ECON*101" -> "ECON*356"
+"ECON*102" -> "ECON*356"
+"ECON*101" -> "ECON*360"
+"ECON*102" -> "ECON*360"
+"ECON*101" -> "ECON*361"
+"ECON*102" -> "ECON*361"
+"ECON*101" -> "ECON*364"
+"ECON*102" -> "ECON*364"
+"ECON*101" -> "ECON*365"
+"ECON*102" -> "ECON*365"
+"ECON*101" -> "ECON*367"
+"ECON*102" -> "ECON*367"
+"ECON*101" -> "ECON*370"
+"ECON*102" -> "ECON*370"
+"ECON*101" -> "ECON*371"
+"ECON*102" -> "ECON*371"
+"ECON*101" -> "ECON*374"
+"FRE*374" -> "ECON*374"
+"ECON*101" -> "ECON*384"
+"ECON*102" -> "ECON*384"
+"ECON*101" -> "ECON*387"
+"ECON*102" -> "ECON*387"
+"ECON*101" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "ECON*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*310" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*102" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*311" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*241" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*291" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*226" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*326" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*390" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*490" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*494" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*499" -> "ECON*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*303" -> "ECON*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*306" -> "ECON*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*316" -> "ECON*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*303" -> "ECON*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*306" -> "ECON*407" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "ECON*420" [style=solid]
+"ECON*301" -> "ECON*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*303" -> "ECON*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*306" -> "ECON*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*316" -> "ECON*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*422"
+"ECON*325" -> "ECON*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "ECON*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*326" -> "ECON*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*328" -> "ECON*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*425" -> "ECON*426" [style=solid]
+"ECON*304" -> "ECON*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*309" -> "ECON*436" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*441" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*309" -> "ECON*447" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*309" -> "ECON*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "ECON*457"
+"ECON*102" -> "ECON*457"
+"ECON*301" -> "ECON*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*309" -> "ECON*460" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*309" -> "ECON*461" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*465" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*466" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*468" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*472" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*472" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*472" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*295" -> "ECON*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*446" -> "ECON*480" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*482" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*482" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*482" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*309" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*327" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*326" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*328" -> "ECON*485" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "ECON*487" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*487" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*315" -> "ECON*487" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*325" -> "ECON*490"
+"ECON*326" -> "ECON*490"
+"ECON*301" -> "ECON*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*304" -> "ECON*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*302" -> "ECON*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*305" -> "ECON*490" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*492"
+"ECON*328" -> "ECON*493" [style=solid]
+"ECON*493" -> "ECON*494" [style=solid]
+"ECON*495"
+"ECON*500"
+"ECON*502"
+"ECON*514"
+"ECON*515"
+"ECON*516"
+"ECON*517"
+"ECON*518"
+"ECON*519"
+"ECON*522"
+"ECON*523"
+"ECON*526"
+"ECON*527"
+"ECON*531"
+"ECON*532"
+"ECON*541"
+"ECON*542"
+"ECON*543"
+"ECON*544"
+"ECON*546"
+"ECON*547"
+"ECON*550"
+"ECON*551"
+"ECON*553"
+"ECON*555"
+"ECON*556"
+"ECON*557"
+"ECON*560"
+"ECON*561"
+"ECON*562"
+"ECON*565"
+"ECON*566"
+"ECON*567"
+"ECON*571"
+"ECON*572"
+"ECON*573"
+"ECON*574"
+"ECON*580"
+"ECON*581"
+"ECON*590"
+"ECON*592"
+"ECON*594"
+"ECON*595"
+"ECON*599"
+"ECON*600"
+"ECON*601"
+"ECON*602"
+"ECON*603"
+"ECON*620"
+"ECON*621"
+"ECON*627" -> "ECON*622" [style=solid]
+"ECON*527" -> "ECON*626" [style=solid]
+"ECON*626" -> "ECON*627" [style=solid]
+"Prior graduate-level work in econometrics is required." -> "ECON*628" [style=solid]
+"Prior graduate-level work in econometrics is required." -> "ECON*629" [style=solid]
+"ECON*640"
+"ECON*690"
+"ECON*699"
+}

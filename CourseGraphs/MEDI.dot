@@ -1,0 +1,23 @@
+digraph MEDI {
+labelloc = "t";
+label = "MEDI"
+fontsize = 27;
+"MEDI*501"
+"MEDI*502"
+"Permission of Experimental Medicine Program Director" -> "MEDI*503" [style=solid]
+"MEDI*504"
+"MEDI*510"
+"MEDI*520"
+"MEDI*530"
+"MEDI*535"
+"MEDI*540"
+"MEDI*548"
+"MEDI*549"
+"MEDI*560"
+"MEDI*570"
+"MEDI*580"
+"MICB*302" -> "MEDI*590" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*402" -> "MEDI*590" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*403" -> "MEDI*590" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MEDI*649"
+}

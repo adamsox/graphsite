@@ -1,0 +1,98 @@
+digraph BMEG {
+labelloc = "t";
+label = "BMEG"
+fontsize = 27;
+"PHYS*157" -> "BMEG*101"
+"BMEG*102" -> "BMEG*101"
+"PHYS*158" -> "BMEG*101"
+"MATH*101" -> "BMEG*101"
+"BMEG*101" -> "BMEG*102"
+"PHYS*158" -> "BMEG*102"
+"APSC*101" -> "BMEG*200"
+"PHYS*159" -> "BMEG*200"
+"APSC*176" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WRDS*150" -> "BMEG*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "BMEG*210" [style=solid]
+"CHEM*123" -> "BMEG*210" [style=solid]
+"PHYS*158" -> "BMEG*220"
+"MATH*253" -> "BMEG*220"
+"MATH*264" -> "BMEG*220"
+"BMEG*101" -> "BMEG*230"
+"PHYS*170" -> "BMEG*230"
+"APSC*101" -> "BMEG*230"
+"BMEG*200" -> "BMEG*230"
+"CHEM*100" -> "BMEG*245" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*245" -> "BMEG*250"
+"MATH*256" -> "BMEG*250"
+"BMEG*101" -> "BMEG*257"
+"BMEG*102" -> "BMEG*257"
+"APSC*101" -> "BMEG*257"
+"BMEG*200" -> "BMEG*257"
+"PHYS*159" -> "BMEG*257"
+"BMEG*245" -> "BMEG*310" [style=solid]
+"CPEN*221" -> "BMEG*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPEN*223" -> "BMEG*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*220" -> "BMEG*320" [style=solid]
+"ELEC*221" -> "BMEG*320"
+"ELEC*201" -> "BMEG*320"
+"ELEC*202" -> "BMEG*320"
+"MATH*256" -> "BMEG*321" [style=solid]
+"MATH*265" -> "BMEG*321"
+"BMEG*220" -> "BMEG*321"
+"ELEC*211" -> "BMEG*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*301" -> "BMEG*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*201" -> "BMEG*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*204" -> "BMEG*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*230" -> "BMEG*330" [style=solid]
+"BMEG*245" -> "BMEG*350"
+"BMEG*250" -> "BMEG*350"
+"BMEG*257" -> "BMEG*357" [style=solid]
+"MATH*253" -> "BMEG*371" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "BMEG*371" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "BMEG*371" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "BMEG*371"
+"CHBE*470" -> "BMEG*371"
+"BMEG*250" -> "BMEG*372"
+"CHEM*123" -> "BMEG*372"
+"CHBE*251" -> "BMEG*373" [style=solid]
+"BMEG*250" -> "BMEG*374" [style=solid]
+"BMEG*400"
+"BMEG*401"
+"BMEG*410"
+"BMEG*220" -> "BMEG*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*250" -> "BMEG*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*321" -> "BMEG*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*471" -> "BMEG*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*455"
+"BMEG*456"
+"BMEG*350" -> "BMEG*457"
+"BMEG*357" -> "BMEG*457"
+"BMEG*245" -> "BMEG*470"
+"BMEG*250" -> "BMEG*470"
+"BMEG*350" -> "BMEG*470"
+"BMEG*245" -> "BMEG*474"
+"BMEG*250" -> "BMEG*474"
+"BMEG*350" -> "BMEG*474"
+"Fourth-year standing and at least 80% average in third-year courses." -> "BMEG*490" [style=solid]
+"BMEG*500"
+"BMEG*501"
+"BMEG*510"
+"BMEG*511"
+"BMEG*550"
+"BMEG*554"
+"BMEG*556"
+"BMEG*557"
+"BMEG*580"
+"BMEG*581"
+"BMEG*590"
+"BMEG*591"
+"BMEG*597"
+"BMEG*598"
+"BMEG*599"
+"BMEG*699"
+}

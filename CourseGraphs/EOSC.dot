@@ -1,0 +1,312 @@
+digraph EOSC {
+labelloc = "t";
+label = "EOSC"
+fontsize = 27;
+"EOSC*110"
+"EOSC*111"
+"EOSC*112"
+"EOSC*114"
+"EOSC*116"
+"EOSC*118"
+"EOSC*210"
+"MATH*101" -> "EOSC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "EOSC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Second-year standing in science or engineering." -> "EOSC*212" [style=solid]
+"MATH*200" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*160" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*103" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "EOSC*213" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "EOSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "EOSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "EOSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "EOSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*220" -> "EOSC*221" [style=solid]
+"1**," -> "EOSC*222" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*210" -> "EOSC*222" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*103" -> "EOSC*222" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*223"
+"CIVL*210" -> "EOSC*240" [style=solid]
+"PHYS*101" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "EOSC*250" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "EOSC*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "EOSC*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "EOSC*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "EOSC*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "EOSC*270" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Second-year standing." -> "EOSC*310" [style=solid]
+"Second-year standing." -> "EOSC*311" [style=solid]
+"Second-year standing." -> "EOSC*314" [style=solid]
+"Second-year standing" -> "EOSC*315" [style=solid]
+"EOSC*221" -> "EOSC*320" [style=solid]
+"EOSC*210" -> "EOSC*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*222" -> "EOSC*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*221" -> "EOSC*321" [style=solid]
+"EOSC*221" -> "EOSC*322" [style=solid]
+"EOSC*221" -> "EOSC*323"
+"EOSC*223" -> "EOSC*323"
+"EOSC*210" -> "EOSC*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*222" -> "EOSC*323" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"3rd year standing in Science, Land and Food Systems or Forestry; and" -> "EOSC*325" [style=solid]
+"Biology 100-level and third-year standing in Science." -> "EOSC*326" [style=solid]
+"CHEM*205" -> "EOSC*327" [style=solid]
+"EOSC*323" -> "EOSC*328"
+"EOSC*330" -> "EOSC*328"
+"EOSC*321" -> "EOSC*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*322" -> "EOSC*328" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "EOSC*329" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*329" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*329" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "EOSC*329" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*329" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*103" -> "EOSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*110" -> "EOSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*210" -> "EOSC*330" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*221" -> "EOSC*331" [style=solid]
+"EOSC*323" -> "EOSC*332" [style=solid]
+"EOSC*221" -> "EOSC*333" [style=solid]
+"SCIE*001" -> "EOSC*340" [style=solid]
+"CHEM*110" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "EOSC*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "EOSC*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "EOSC*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*250" -> "EOSC*352" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*317" -> "EOSC*352" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*352" -> "EOSC*353" [style=solid]
+"SCIE*001" -> "EOSC*354" [style=solid]
+"MATH*101" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "EOSC*354" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*355" [style=solid]
+"MATH*101" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "EOSC*355" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*372" [style=solid]
+"CHEM*110" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*106" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*131" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "EOSC*372" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*372" -> "EOSC*373" [style=solid]
+"EOSC*398"
+"EOSC*399"
+"STAT*200" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*250" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*212" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENVR*300" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*203" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*210" -> "EOSC*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*220" -> "EOSC*420"
+"EOSC*221" -> "EOSC*420"
+"EOSC*320" -> "EOSC*421" [style=solid]
+"EOSC*323" -> "EOSC*422" [style=solid]
+"EOSC*331" -> "EOSC*424" [style=solid]
+"EOSC*222" -> "EOSC*425" [style=solid]
+"BIOL*111" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*110" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*111" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*120" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*110" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*112" -> "EOSC*426" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*325" -> "EOSC*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*329" -> "EOSC*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*325" -> "EOSC*429" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*329" -> "EOSC*429" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*123" -> "EOSC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*130" -> "EOSC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "EOSC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*325" -> "EOSC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*329" -> "EOSC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*429" -> "EOSC*431" [style=solid]
+"EOSC*432"
+"EOSC*329" -> "EOSC*433"
+"CIVL*210" -> "EOSC*433"
+"MINE*303" -> "EOSC*433"
+"EOSC*329" -> "EOSC*434"
+"EOSC*330" -> "EOSC*434"
+"CIVL*210" -> "EOSC*434"
+"EOSC*340" -> "EOSC*442" [style=solid]
+"CPSC*103" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*110" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*301" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*210" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*210" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*201" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "EOSC*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Fourth-year standing in Geological Engineering." -> "EOSC*445" [style=solid]
+"EOSC*447"
+"EOSC*448"
+"EOSC*449"
+"PHYS*312" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*102" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*118" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*158" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "EOSC*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "EOSC*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "EOSC*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*352" -> "EOSC*454"
+"EOSC*353" -> "EOSC*454"
+"EOSC*450" -> "EOSC*454"
+"PHYS*301" -> "EOSC*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*354" -> "EOSC*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*372" -> "EOSC*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*373" -> "EOSC*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*211" -> "EOSC*471" [style=solid]
+"ATSC*201" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*372" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"GEOB*200" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*157" -> "EOSC*471" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*373" -> "EOSC*472" [style=solid]
+"EOSC*372" -> "EOSC*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*373" -> "EOSC*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*474"
+"A minimum of 6 credits of third-year level life science courses." -> "EOSC*475" [style=solid]
+"EOSC*478"
+"Third-year standing." -> "EOSC*490" [style=solid]
+"EOSC*498"
+"EOSC*499"
+"EOSC*510"
+"EOSC*511"
+"EOSC*512"
+"EOSC*513"
+"EOSC*514"
+"EOSC*515"
+"EOSC*516"
+"EOSC*520"
+"EOSC*521"
+"EOSC*522"
+"EOSC*523"
+"EOSC*524"
+"EOSC*525"
+"EOSC*526"
+"EOSC*528"
+"EOSC*529"
+"EOSC*530"
+"EOSC*531"
+"EOSC*533" -> "EOSC*532" [style=solid]
+"EOSC*534"
+"EOSC*535"
+"EOSC*536"
+"EOSC*538"
+"Completion of a course in Economic Geology" -> "EOSC*539" [style=solid]
+"EOSC*540"
+"EOSC*430" -> "EOSC*541" [style=solid]
+"EOSC*533" -> "EOSC*541" [style=solid]
+"EOSC*542"
+"EOSC*543"
+"EOSC*544"
+"EOSC*545"
+"EOSC*546"
+"EOSC*547"
+"EOSC*548"
+"EOSC*549"
+"EOSC*550"
+"EOSC*552"
+"EOSC*554"
+"EOSC*555"
+"EOSC*556"
+"EOSC*561"
+"EOSC*562"
+"EOSC*570"
+"EOSC*571"
+"EOSC*573"
+"EOSC*575"
+"EOSC*576"
+"EOSC*578"
+"EOSC*512" -> "EOSC*579" [style=solid]
+"EOSC*582"
+"EOSC*583"
+"EOSC*584"
+"EOSC*585"
+"EOSC*595"
+"EOSC*598"
+"EOSC*599"
+"EOSC*649"
+"EOSC*699"
+}

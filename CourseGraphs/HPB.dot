@@ -1,0 +1,11 @@
+digraph HPB {
+labelloc = "t";
+label = "HPB"
+fontsize = 27;
+"HPB*501"
+"HPB*502"
+"HPB  504." -> "HPB*503" [style=solid]
+"HPB*504"
+"HPB*505"
+"HPB*506"
+}

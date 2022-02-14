@@ -1,0 +1,88 @@
+digraph MTRL {
+labelloc = "t";
+label = "MTRL"
+fontsize = 27;
+"APSC*176" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*201" -> "MTRL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*250"
+"MTRL*252"
+"MTRL*263"
+"MTRL*264"
+"MTRL*280"
+"MTRL*201" -> "MTRL*320" [style=solid]
+"APSC*278" -> "MTRL*340" [style=solid]
+"MMAT*250" -> "MTRL*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*350" -> "MTRL*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*358"
+"MTRL*359"
+"MTRL*361"
+"MTRL*263" -> "MTRL*363"
+"MTRL*264" -> "MTRL*363"
+"APSC*278" -> "MTRL*365"
+"MECH*260" -> "MTRL*365"
+"MTRL*378"
+"MTRL*381"
+"MTRL*382"
+"APSC*201" -> "MTRL*392" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*201" -> "MTRL*392" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*394"
+"APSC*201" -> "MTRL*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*201" -> "MTRL*398" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*278" -> "MTRL*442" [style=solid]
+"MTRL*451"
+"MTRL*455"
+"MTRL*456"
+"MMAT*358" -> "MTRL*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MMAT*458" -> "MTRL*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*251" -> "MTRL*460"
+"APSC*278" -> "MTRL*460"
+"MTRL*466"
+"MTRL*467"
+"MTRL*471"
+"MTRL*365" -> "MTRL*472"
+"MTRL*378" -> "MTRL*472"
+"MTRL*365" -> "MTRL*475"
+"MTRL*378" -> "MTRL*475"
+"MTRL*478"
+"MECH*260" -> "MTRL*485"
+"MTRL*365" -> "MTRL*485"
+"MTRL*486"
+"MTRL*489"
+"MTRL*494"
+"MMAT*495" -> "MTRL*495" [style=solid]
+"MTRL*250" -> "MTRL*496" [style=solid]
+"MTRL*497"
+"MTRL*512"
+"MTRL*515"
+"MTRL*517"
+"MMAT*350" -> "MTRL*550" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MMAT*550" -> "MTRL*550" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*557"
+"MMAT*456" -> "MTRL*558" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MMAT*558" -> "MTRL*558" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*559"
+"MTRL*562"
+"MTRL*564"
+"MTRL*570"
+"MTRL*571"
+"MTRL*575"
+"MTRL*578"
+"MTRL*579"
+"MTRL*582"
+"MTRL*585"
+"MTRL*588"
+"MTRL*592"
+"MTRL*593"
+"MTRL*594"
+"MTRL*595"
+"MTRL*596"
+"MTRL*597"
+"MTRL*598"
+"MTRL*599"
+"MTRL*699"
+}

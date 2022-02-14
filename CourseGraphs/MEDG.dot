@@ -1,0 +1,45 @@
+digraph MEDG {
+labelloc = "t";
+label = "MEDG"
+fontsize = 27;
+"MICB*302" -> "MEDG*410" [style=solid]
+"BIOL*334" -> "MEDG*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MEDG*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*402" -> "MEDG*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*233" -> "MEDG*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*234" -> "MEDG*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*331" -> "MEDG*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MEDG*419" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MEDG*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*338" -> "MEDG*420" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MEDG*421" [style=solid]
+"BIOC*302" -> "MEDG*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "MEDG*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MEDG*448"
+"BIOL*234" -> "MEDG*505" [style=solid]
+"MEDG*510"
+"BIOL*335" -> "MEDG*515" [style=solid]
+"BIOL*335" -> "MEDG*520" [style=solid]
+"BIOL*234" -> "MEDG*521" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MEDG*521" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "MEDG*521" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PATH*531" -> "MEDG*521" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MEDG*525" [style=solid]
+"BIOL*335" -> "MEDG*530" [style=solid]
+"MEDG*535"
+"MEDG*540"
+"MEDG*545"
+"MEDG*548"
+"MEDG*549"
+"Acceptance into M.Sc. Genetic Counselling program." -> "MEDG*550" [style=solid]
+"Acceptance into M.Sc. Genetic Counselling program." -> "MEDG*560" [style=solid]
+"MEDG*560" -> "MEDG*565" [style=solid]
+"Acceptance into M.Sc. Genetic Counselling program." -> "MEDG*570" [style=solid]
+"MEDG*570" -> "MEDG*575" [style=solid]
+"MEDG*580"
+"MEDG*580" -> "MEDG*585" [style=solid]
+"MEDG*590"
+"MEDG*595"
+"MEDG*649"
+"MEDG*702"
+}

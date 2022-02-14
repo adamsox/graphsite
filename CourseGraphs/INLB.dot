@@ -1,0 +1,17 @@
+digraph INLB {
+labelloc = "t";
+label = "INLB"
+fontsize = 27;
+"INLB*201"
+"INLB*210"
+"INLB*220"
+"INLB*250"
+"INLB*251"
+"INLB*252"
+"INLB*210" -> "INLB*310" [style=solid]
+"INLB*220" -> "INLB*320" [style=solid]
+"INLB*401"
+"INLB*450"
+"INLB*451"
+"INLB*452"
+}

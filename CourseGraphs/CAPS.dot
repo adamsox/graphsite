@@ -1,0 +1,52 @@
+digraph CAPS {
+labelloc = "t";
+label = "CAPS"
+fontsize = 27;
+"BIOL*200" -> "CAPS*200" [style=solid]
+"CAPS*210"
+"SCIE*001" -> "CAPS*301" [style=solid]
+"BIOL*112" -> "CAPS*301"
+"BIOL*121" -> "CAPS*301"
+"MATH*101" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*100" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*101" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*107" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*117" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*203" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*233" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*260" -> "CAPS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CAPS*302"
+"CAPS*303"
+"BIOL*121" -> "CAPS*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CAPS*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "CAPS*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*121" -> "CAPS*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "CAPS*391" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CAPS*301" -> "CAPS*398" [style=solid]
+"CAPS*303" -> "CAPS*398" [style=solid]
+"PHYL*301" -> "CAPS*398" [style=solid]
+"CAPS*398" -> "CAPS*399" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYL*398" -> "CAPS*399" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ANAT*390" -> "CAPS*421"
+"PHYL*301" -> "CAPS*421"
+"CAPS*301" -> "CAPS*421"
+"CAPS*390" -> "CAPS*421"
+"CAPS*301" -> "CAPS*422" [style=solid]
+"PHYL*301" -> "CAPS*422" [style=solid]
+"CAPS*301" -> "CAPS*423" [style=solid]
+"PHYL*301" -> "CAPS*423" [style=solid]
+"CAPS*301" -> "CAPS*424" [style=solid]
+"PHYL*301" -> "CAPS*424" [style=solid]
+"CAPS*301" -> "CAPS*426" [style=solid]
+"PHYL*301" -> "CAPS*426" [style=solid]
+"CAPS*430"
+"CAPS*448"
+"CAPS*449"
+"CAPS*399" -> "CAPS*498" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYL*399" -> "CAPS*498" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CAPS*498" -> "CAPS*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYL*498" -> "CAPS*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+}

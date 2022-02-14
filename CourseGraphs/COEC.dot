@@ -1,0 +1,30 @@
+digraph COEC {
+labelloc = "t";
+label = "COEC"
+fontsize = 27;
+"COEC*126"
+"COEC*293"
+"COEC*293" -> "COEC*294" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*294" -> "COEC*294" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COEC*293" -> "COEC*298"
+"COMM*298" -> "COEC*298"
+"ECON*315" -> "COEC*365"
+"ECON*316" -> "COEC*365"
+"COMM*365" -> "COEC*365"
+"ECON*315" -> "COEC*370"
+"ECON*316" -> "COEC*370"
+"COMM*370" -> "COEC*370"
+"ECON*308" -> "COEC*371" [style=solid]
+"ECON*315" -> "COEC*371"
+"COMM*371" -> "COEC*371"
+"COMM*377" -> "COEC*377" [style=solid]
+"COEC*387"
+"COMM*394" -> "COEC*394" [style=solid]
+"COEC*437"
+"ECON*315" -> "COEC*475" [style=solid]
+"ECON*316" -> "COEC*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*308" -> "COEC*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COEC*491"
+"COEC*497"
+"COEC*498"
+}

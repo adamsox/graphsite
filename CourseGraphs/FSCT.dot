@@ -1,0 +1,30 @@
+digraph FSCT {
+labelloc = "t";
+label = "FSCT"
+fontsize = 27;
+"FSCT*201"
+"FSCT*202"
+"FSCT*203"
+"FSCT*280"
+"FSCT*290"
+"FSCT*301"
+"FSCT*302"
+"FSCT*303"
+"FSCT*310"
+"FSCT*311"
+"FSCT*312"
+"FSCT*314"
+"FSCT*315"
+"FSCT*380"
+"FSCT*390"
+"Completion of academic third year in Biochemistry and Forensic Science Honours program is required." -> "FSCT*398" [style=solid]
+"FSCT*398" -> "FSCT*399" [style=solid]
+"FSCT*401"
+"FSCT*409"
+"FSCT*410"
+"FSCT*412"
+"FSCT*480"
+"FSCT*490"
+"FSCT*399" -> "FSCT*498" [style=solid]
+"FSCT*498" -> "FSCT*499" [style=solid]
+}

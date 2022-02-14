@@ -1,0 +1,17 @@
+digraph PERS {
+labelloc = "t";
+label = "PERS"
+fontsize = 27;
+"PERS*100"
+"PERS*100" -> "PERS*101" [style=solid]
+"PERS*104"
+"PERS*101" -> "PERS*200" [style=solid]
+"PERS*200" -> "PERS*201" [style=solid]
+"PERS*104" -> "PERS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PERS*201" -> "PERS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PERS*300" -> "PERS*301" [style=solid]
+"PERS*104" -> "PERS*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PERS*300" -> "PERS*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PERS*300" -> "PERS*401" [style=solid]
+"PERS*300" -> "PERS*451" [style=solid]
+}

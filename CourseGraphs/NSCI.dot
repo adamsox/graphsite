@@ -1,0 +1,18 @@
+digraph NSCI {
+labelloc = "t";
+label = "NSCI"
+fontsize = 27;
+"Second-year standing in the Neuroscience specialization." -> "NSCI*200" [style=solid]
+"NSCI*200" -> "NSCI*201" [style=solid]
+"Third-year status in the neuroscience specialization." -> "NSCI*300" [style=solid]
+"NSCI*201" -> "NSCI*301"
+"PSYC*277" -> "NSCI*301"
+"NSCI*201" -> "NSCI*302" [style=solid]
+"NSCI*200" -> "NSCI*311" [style=solid]
+"Co-op workshops, and third-year standing in the neuroscience specialization." -> "NSCI*398" [style=solid]
+"NSCI*398" -> "NSCI*399" [style=solid]
+"Restricted to students in the neuroscience specialization." -> "NSCI*400" [style=solid]
+"At least a 70% average in the preceding 30 credits, permission of the supervisor, and permission of the director of the neuroscience specialization." -> "NSCI*448" [style=solid]
+"NSCI*399" -> "NSCI*498" [style=solid]
+"NSCI*498" -> "NSCI*499" [style=solid]
+}

@@ -1,0 +1,20 @@
+digraph PORT {
+labelloc = "t";
+label = "PORT"
+fontsize = 27;
+"PORT*101"
+"PORT*101" -> "PORT*102" [style=solid]
+"PORT*110"
+"PORT*102" -> "PORT*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PORT*110" -> "PORT*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PORT*201" -> "PORT*202" [style=solid]
+"PORT*110" -> "PORT*210" [style=solid]
+"PORT*210" -> "PORT*210" [style=solid]
+"PORT*222"
+"PORT*202" -> "PORT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PORT*210" -> "PORT*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PORT*202" -> "PORT*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PORT*210" -> "PORT*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PORT*392"
+"PORT*405"
+}

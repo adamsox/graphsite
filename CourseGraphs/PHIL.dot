@@ -1,0 +1,129 @@
+digraph PHIL {
+labelloc = "t";
+label = "PHIL"
+fontsize = 27;
+"PHIL*100"
+"PHIL*101"
+"PHIL*102"
+"PHIL*120"
+"PHIL*125"
+"PHIL*211"
+"PHIL*212"
+"PHIL*220"
+"PHIL*230"
+"PHIL*235"
+"PHIL*240"
+"PHIL*250"
+"PHIL*260"
+"PHIL/CLST*211" -> "PHIL*310" [style=solid]
+"PHIL/CLST*212" -> "PHIL*310" [style=solid]
+"PHIL*310" -> "PHIL*311" [style=solid]
+"PHIL*313"
+"PHIL*314"
+"PHIL*314" -> "PHIL*315" [style=solid]
+"PHIL*316"
+"PHIL*220" -> "PHIL*320" [style=solid]
+"PHIL*125" -> "PHIL*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*220" -> "PHIL*321" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*220" -> "PHIL*322" [style=solid]
+"PHIL*220" -> "PHIL*323" [style=solid]
+"PHIL*220" -> "PHIL*324" [style=solid]
+"201/PHIL*220" -> "PHIL*326" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*230" -> "PHIL*330" [style=solid]
+"PHIL*331"
+"PHIL*332"
+"PHIL*333"
+"PHIL*334"
+"PHIL*335"
+"PHIL*337"
+"Restricted to second- or higher-year standing." -> "PHIL*338" [style=solid]
+"PHIL*339"
+"PHIL*240" -> "PHIL*340" [style=solid]
+"PHIL*347"
+"PHIL*348"
+"PHIL*211" -> "PHIL*351" [style=solid]
+"COGS*200" -> "PHIL*351" [style=solid]
+"PHIL*360"
+"PHIL*362"
+"PHIL*363"
+"PHIL*364"
+"PHIL*369"
+"PHIL*371"
+"PHIL*375"
+"PHIL*378"
+"PHIL*385"
+"PHIL*388"
+"PHIL*390"
+"PHIL*400"
+"PHIL*401"
+"PHIL*311" -> "PHIL*410" [style=solid]
+"PHIL*313" -> "PHIL*412" [style=solid]
+"PHIL*314" -> "PHIL*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*315" -> "PHIL*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*316" -> "PHIL*414" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*314" -> "PHIL*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*315" -> "PHIL*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*340" -> "PHIL*415" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*314" -> "PHIL*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*315" -> "PHIL*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*316" -> "PHIL*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*340" -> "PHIL*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHIL*340" -> "PHIL*418" [style=solid]
+"PHIL*419"
+"PHIL*220" -> "PHIL*420" [style=solid]
+"PHIL*326" -> "PHIL*426" [style=solid]
+"Philosophy or mathematics courses totaling 9 credits at the 200-level or above." -> "PHIL*427" [style=solid]
+"9 credits of PHIL/POLI at the 200-level or above." -> "PHIL*431" [style=solid]
+"PHIL*230" -> "PHIL*432" [style=solid]
+"PHIL*240" -> "PHIL*440" [style=solid]
+"PHIL*240" -> "PHIL*441" [style=solid]
+"COGS*200" -> "PHIL*441" [style=solid]
+"PHIL*448"
+"PHIL*340" -> "PHIL*450" [style=solid]
+"PHIL*240" -> "PHIL*451" [style=solid]
+"COGS*200" -> "PHIL*451" [style=solid]
+"PHIL*340" -> "PHIL*452" [style=solid]
+"PHIL*441" -> "PHIL*455" [style=solid]
+"PHIL*451" -> "PHIL*455" [style=solid]
+"PHIL*220" -> "PHIL*455" [style=solid]
+"9 credits at the 200-level or above from philosophy, anthropology, geography, economics, history, political science, psychology or sociology." -> "PHIL*461" [style=solid]
+"PHIL*340" -> "PHIL*462" [style=solid]
+"Fourth-year standing in any degree program or 9 credits of philosophy." -> "PHIL*464" [style=solid]
+"PHIL*369" -> "PHIL*469" [style=solid]
+"PHIL*470"
+"PHIL*485"
+"PHIL*486"
+"PHIL*487"
+"PHIL*488"
+"PHIL*489"
+"PHIL*490"
+"PHIL*491"
+"PHIL*499"
+"PHIL*510"
+"PHIL*512"
+"PHIL*514"
+"PHIL*516"
+"PHIL*518"
+"PHIL*520"
+"PHIL*525"
+"PHIL*527"
+"PHIL*528"
+"PHIL*530"
+"PHIL*531"
+"PHIL*532"
+"PHIL*533"
+"PHIL*534"
+"PHIL*535"
+"PHIL*536"
+"PHIL*539"
+"PHIL*540"
+"PHIL*550"
+"PHIL*551"
+"PHIL*560"
+"PHIL*561"
+"PHIL*581"
+"PHIL*585"
+"PHIL*586"
+"PHIL*599"
+"PHIL*699"
+}

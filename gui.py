@@ -213,8 +213,26 @@ def graph_course_page():
 
     # function which will be called when graph create button is pressed
     def create_graph():
+         # creating a new window for the graph
+        window = tk.Toplevel(root)
+
+        window.title('Course Graphviz Result')
+        window.geometry('1300x800')
+
         course_info = course_entry.get().lower()
         course_graphviz_writer.getGraphvizInput(course_info)
+
+        #using the graphviz system command line to convert dot to png. Works on windows os and linux
+        os.system("dot output.dot -Tpng -o output.png")
+
+        #opening the image and displaying it on the non-root windows page
+        img = Image.open("output.png")
+        #img = img.resize((1000, 600), Image.ANTIALIAS)
+        img = ImageTk.PhotoImage(img)
+        panel = tk.Label(window, image=img)
+        panel.image = img
+        panel.pack()
+
 
     # Button to complete creation of graph
     create_button = ttk.Button(
@@ -266,7 +284,7 @@ def graph_major_page():
         # creating a new window for the graph
         window = tk.Toplevel(root)
 
-        window.title('Course Graphviz Result')
+        window.title('Major Graphviz Result')
         window.geometry('1300x800')
 
         major_info = major_entry.get().upper()

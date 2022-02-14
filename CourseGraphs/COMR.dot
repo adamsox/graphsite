@@ -1,0 +1,64 @@
+digraph COMR {
+labelloc = "t";
+label = "COMR"
+fontsize = 27;
+"COMR*100"
+"COMR*280"
+"COMR*329"
+"ECON*101" -> "COMR*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*280" -> "COMR*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*382" -> "COMR*382" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*280" -> "COMR*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*386" -> "COMR*386" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*387"
+"COMM*280" -> "COMR*388" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*388" -> "COMR*388" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*280" -> "COMR*389" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*389" -> "COMR*389" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*398"
+"COMR*457"
+"COMM*293" -> "COMR*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMR*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*458" -> "COMR*458" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*465"
+"ECON*101" -> "COMR*473"
+"ECON*102" -> "COMR*473"
+"ECON*100" -> "COMR*473"
+"ECON*310" -> "COMR*473"
+"ECON*311" -> "COMR*473"
+"MATH*100" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*293" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*473" -> "COMR*473" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*280" -> "COMR*482" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*482" -> "COMR*482" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*485"
+"COMM*280" -> "COMR*486" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*486" -> "COMR*486" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*293" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*457" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*457" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*101" -> "COMR*493"
+"ECON*102" -> "COMR*493"
+"ECON*310" -> "COMR*493"
+"ECON*311" -> "COMR*493"
+"ECON*100" -> "COMR*493"
+"COMM*329" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*329" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*465" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*465" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*473" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BUSI*493" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*493" -> "COMR*493" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*280" -> "COMR*497" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*382" -> "COMR*497" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMR*382" -> "COMR*497" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*387" -> "COMR*497" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COEC*497" -> "COMR*497" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"COMM*497" -> "COMR*497" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+}

@@ -1,0 +1,24 @@
+digraph CNRS {
+labelloc = "t";
+label = "CNRS"
+fontsize = 27;
+"CNRS*104"
+"CNRS*104" -> "CNRS*206" [style=solid]
+"ARCL*203" -> "CNRS*206" [style=solid]
+"CNRS*207"
+"CNRS*333"
+"CNRS*335"
+"CNRS*370"
+"NEST*101" -> "CNRS*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"NEST*319" -> "CNRS*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CLST*204" -> "CNRS*410" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNRS*449"
+"CNRS*500"
+"CNRS*502"
+"CNRS*503"
+"CNRS*504"
+"CNRS*505"
+"CNRS*535"
+"CNRS*549"
+"CNRS*649"
+}

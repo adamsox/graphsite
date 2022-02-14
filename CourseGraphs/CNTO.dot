@@ -1,0 +1,16 @@
+digraph CNTO {
+labelloc = "t";
+label = "CNTO"
+fontsize = 27;
+"CHIN*107" -> "CNTO*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*233" -> "CNTO*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*108" -> "CNTO*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*234" -> "CNTO*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNTO*301" -> "CNTO*303" [style=solid]
+"CHIN*243" -> "CNTO*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHIN*244" -> "CNTO*311" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNTO*303" -> "CNTO*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNTO*311" -> "CNTO*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNTO*401" -> "CNTO*403" [style=solid]
+"CNTO*401" -> "CNTO*451" [style=solid]
+}

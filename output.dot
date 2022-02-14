@@ -1,2 +1,7 @@
 digraph CourseMap {
+"CIS*2520" -> "CIS*3110" [style=solid]
+"CIS*2030" -> "CIS*3110" [style=dashed]
+"ENGG*2410." -> "CIS*3110" [style=dashed]
+"CIS*1910" -> "CIS*2030" [style=solid]
+"CIS*2500" -> "CIS*2030" [style=solid]
 }

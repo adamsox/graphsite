@@ -1,0 +1,26 @@
+digraph ETEC {
+labelloc = "t";
+label = "ETEC"
+fontsize = 27;
+"ETEC*500"
+"ETEC*510"
+"ETEC*511"
+"ETEC*512"
+"ETEC*520"
+"ETEC*521"
+"ETEC*522"
+"ETEC*523"
+"ETEC*524"
+"ETEC*530"
+"ETEC*531"
+"ETEC*532"
+"ETEC*533"
+"ETEC*540"
+"ETEC*542"
+"ETEC*543"
+"ETEC*544"
+"ETEC*545"
+"ETEC*565"
+"ETEC*580"
+"ETEC*590"
+}

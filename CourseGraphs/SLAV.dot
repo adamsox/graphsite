@@ -1,0 +1,7 @@
+digraph SLAV {
+labelloc = "t";
+label = "SLAV"
+fontsize = 27;
+"SLAV*105"
+"SLAV*307"
+}

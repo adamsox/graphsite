@@ -1,0 +1,12 @@
+digraph CENS {
+labelloc = "t";
+label = "CENS"
+fontsize = 27;
+"CENS*201"
+"CENS*202"
+"CENS*303"
+"CENS*307"
+"CENS*308"
+"CENS*315"
+"CENS*404"
+}

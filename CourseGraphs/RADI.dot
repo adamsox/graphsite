@@ -1,0 +1,14 @@
+digraph RADI {
+labelloc = "t";
+label = "RADI"
+fontsize = 27;
+"RADI*700"
+"Pathology correlated with radiology (one hour per week)." -> "RADI*701" [style=solid]
+"RADI*702"
+"RADI*703"
+"RADI*705"
+"RADI*710"
+"RADI*711"
+"RADI*712"
+"RADI*713"
+}

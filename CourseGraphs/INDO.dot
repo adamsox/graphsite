@@ -1,0 +1,12 @@
+digraph INDO {
+labelloc = "t";
+label = "INDO"
+fontsize = 27;
+"INDO*100"
+"INDO*100" -> "INDO*101" [style=solid]
+"INDO*102"
+"INDO*101" -> "INDO*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"INDO*102" -> "INDO*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"INDO*101" -> "INDO*201" [style=solid]
+"INDO*201" -> "INDO*202" [style=solid]
+}

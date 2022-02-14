@@ -1,0 +1,12 @@
+digraph FOPR {
+labelloc = "t";
+label = "FOPR"
+fontsize = 27;
+"FOPR*261"
+"FOPR*261" -> "FOPR*262" [style=solid]
+"FOPR*264"
+"FRST*318" -> "FOPR*362" [style=solid]
+"FOPR*388"
+"FRST*318" -> "FOPR*459" [style=solid]
+"FOPR*362" -> "FOPR*464" [style=solid]
+}

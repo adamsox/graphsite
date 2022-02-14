@@ -1,0 +1,26 @@
+digraph RES {
+labelloc = "t";
+label = "RES"
+fontsize = 27;
+"Permission of the instructor is required." -> "RES*500" [style=solid]
+"RES*501"
+"RES*502"
+"RES*504"
+"RES*505"
+"RES*506"
+"RES*507"
+"RES*508"
+"RES*510"
+"RES*515"
+"RES*516"
+"RES*517"
+"RES*518"
+"RES*520"
+"RES*530"
+"RES*542"
+"RES*550"
+"RES*586"
+"RES*599"
+"RES*602"
+"RES*699"
+}

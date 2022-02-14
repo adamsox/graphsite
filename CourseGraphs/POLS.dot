@@ -1,0 +1,10 @@
+digraph POLS {
+labelloc = "t";
+label = "POLS"
+fontsize = 27;
+"POLS*200"
+"POLS*200" -> "POLS*300" [style=solid]
+"POLS*210" -> "POLS*345" [style=solid]
+"POLS*424"
+"POLS*426"
+}

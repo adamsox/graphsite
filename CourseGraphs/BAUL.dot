@@ -4,3 +4,10 @@ label = "BAUL"
 fontsize = 27;
 "BAUL*500"
 "BAUL*501"
+"BAUL*503"
+"BAFI*500" -> "BAUL*508"
+"BABS*500" -> "BAUL*508"
+"BAPA*500" -> "BAUL*508"
+"BAUL*509"
+"BAUL*580"
+}

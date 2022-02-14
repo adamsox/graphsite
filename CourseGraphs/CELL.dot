@@ -1,0 +1,19 @@
+digraph CELL {
+labelloc = "t";
+label = "CELL"
+fontsize = 27;
+"BIOL*530" -> "CELL*501" [style=solid]
+"CELL*502"
+"CELL*503"
+"CELL*504"
+"CELL*505"
+"CELL*506"
+"CELL*507"
+"CELL*508"
+"CELL*509"
+"CELL*510"
+"CELL*511"
+"CELL*512"
+"CELL*549"
+"CELL*649"
+}

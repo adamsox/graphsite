@@ -1,0 +1,18 @@
+digraph CCFI {
+labelloc = "t";
+label = "CCFI"
+fontsize = 27;
+"CCFI*501"
+"CCFI*502"
+"Appropriate senior undergraduate introductory or methods course is required." -> "CCFI*508" [style=solid]
+"CCFI*561"
+"CCFI*565"
+"CCFI*567"
+"CCFI*572"
+"CCFI*580"
+"CCFI*590"
+"CCFI*598"
+"CCFI*599"
+"CCFI*601"
+"CCFI*699"
+}

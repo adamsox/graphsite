@@ -1,0 +1,32 @@
+digraph EECE {
+labelloc = "t";
+label = "EECE"
+fontsize = 27;
+"CPSC*260" -> "EECE*478" [style=solid]
+"Enrolment in the PhD degree program in ECE." -> "EECE*500" [style=solid]
+"by permission of the instructor." -> "EECE*502" [style=solid]
+"EECE*510"
+"EECE*541"
+"EECE*549"
+"EECE*493" -> "EECE*550" [style=solid]
+"EECE*553"
+"EECE*554"
+"EECE*555"
+"EECE*560"
+"EECE*561"
+"EECE*562"
+"EECE*563"
+"EECE*564"
+"EECE*565"
+"EECE*566"
+"EECE*567"
+"EECE*569"
+"EECE*570"
+"EECE*571"
+"EECE*581"
+"EECE*585"
+"EECE*589"
+"EECE*597"
+"EECE*599"
+"EECE*699"
+}

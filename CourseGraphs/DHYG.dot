@@ -1,0 +1,28 @@
+digraph DHYG {
+labelloc = "t";
+label = "DHYG"
+fontsize = 27;
+"DHYG*106"
+"DHYG*108"
+"DHYG*110"
+"BIOL*153" -> "DHYG*206"
+"DHYG*108" -> "DHYG*206"
+"DHYG*108" -> "DHYG*208" [style=solid]
+"DHYG*110" -> "DHYG*210" [style=solid]
+"DHYG*208" -> "DHYG*308" [style=solid]
+"DHYG*210" -> "DHYG*310" [style=solid]
+"DHYG*325"
+"DHYG*400"
+"DHYG*401"
+"DHYG*402"
+"DHYG*404"
+"DHYG*405"
+"DHYG*400" -> "DHYG*406"
+"DHYG*401" -> "DHYG*406"
+"DHYG*461" -> "DHYG*406"
+"DHYG*310" -> "DHYG*410" [style=solid]
+"DHYG*462" -> "DHYG*412" [style=solid]
+"DHYG*433"
+"DHYG*435"
+"DHYG*401" -> "DHYG*462" [style=solid]
+}

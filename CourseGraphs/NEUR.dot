@@ -1,0 +1,12 @@
+digraph NEUR {
+labelloc = "t";
+label = "NEUR"
+fontsize = 27;
+"NEUR*512"
+"NEUR*513"
+"NEUR*730"
+"NEUR*731"
+"NEUR*732"
+"NEUR*733"
+"NEUR*734"
+}

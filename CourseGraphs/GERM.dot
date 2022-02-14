@@ -1,0 +1,71 @@
+digraph GERM {
+labelloc = "t";
+label = "GERM"
+fontsize = 27;
+"GERM*100"
+"GERM*105"
+"GERM*100" -> "GERM*110" [style=solid]
+"GERM*100" -> "GERM*112" [style=solid]
+"GERM*121"
+"GERM*110" -> "GERM*200" [style=solid]
+"GERM*206"
+"GERM*200" -> "GERM*210" [style=solid]
+"GERM*210" -> "GERM*300" [style=solid]
+"GERM*301"
+"GERM*302"
+"GERM*303"
+"GERM*304"
+"GERM*305"
+"GERM*300" -> "GERM*310" [style=solid]
+"GERM*210" -> "GERM*313" [style=solid]
+"GERM*210" -> "GERM*314" [style=solid]
+"GERM*210" -> "GERM*318" [style=solid]
+"GERM*210" -> "GERM*325" [style=solid]
+"GERM*339"
+"GERM*360"
+"GERM*370"
+"GERM*380"
+"GERM*390"
+"GERM*310" -> "GERM*400" [style=solid]
+"GERM*402"
+"GERM*403"
+"GERM*404"
+"GERM*406"
+"GERM*408"
+"GERM*409"
+"GERM*400" -> "GERM*410" [style=solid]
+"GERM*411"
+"GERM*412"
+"GERM*300" -> "GERM*414" [style=solid]
+"GERM*420" -> "GERM*420" [style=solid]
+"GERM*310" -> "GERM*425"
+"GERM*325" -> "GERM*425"
+"Third Year Standing or permission of instructor." -> "GERM*426" [style=solid]
+"GERM*433"
+"GERM*433" -> "GERM*434" [style=solid]
+"GERM*439"
+"GERM*449"
+"GERM*500"
+"GERM*501"
+"GERM*505"
+"GERM*506"
+"GERM*510"
+"GERM*511"
+"GERM*512"
+"GERM*513"
+"GERM*514"
+"GERM*515"
+"GERM*516"
+"GERM*517"
+"GERM*518"
+"GERM*519"
+"GERM*520"
+"GERM*521"
+"GERM*522"
+"GERM*531"
+"GERM*532"
+"GERM*547"
+"GERM*548"
+"GERM*549"
+"GERM*649"
+}

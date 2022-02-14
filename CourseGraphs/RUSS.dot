@@ -1,0 +1,41 @@
+digraph RUSS {
+labelloc = "t";
+label = "RUSS"
+fontsize = 27;
+"RUSS*100"
+"RUSS*101"
+"RUSS*102"
+"RUSS*112"
+"RUSS*100" -> "RUSS*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*102" -> "RUSS*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*100" -> "RUSS*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*102" -> "RUSS*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*201" -> "RUSS*202" [style=solid]
+"RUSS*206"
+"RUSS*207"
+"RUSS*100" -> "RUSS*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*102" -> "RUSS*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*200" -> "RUSS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*202" -> "RUSS*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*200" -> "RUSS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*202" -> "RUSS*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*301" -> "RUSS*302" [style=solid]
+"RUSS*303"
+"RUSS*200" -> "RUSS*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*202" -> "RUSS*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*306"
+"RUSS*215" -> "RUSS*315" [style=solid]
+"RUSS*200" -> "RUSS*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*202" -> "RUSS*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*321"
+"Third year standing." -> "RUSS*323" [style=solid]
+"RUSS*300" -> "RUSS*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*302" -> "RUSS*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"RUSS*401"
+"RUSS*300" -> "RUSS*407" [style=solid]
+"RUSS*300" -> "RUSS*408" [style=solid]
+"RUSS*300" -> "RUSS*409" [style=solid]
+"RUSS*410"
+"RUSS*411"
+"RUSS*412"
+}

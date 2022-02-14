@@ -1,0 +1,31 @@
+digraph UFOR {
+labelloc = "t";
+label = "UFOR"
+fontsize = 27;
+"UFOR*100"
+"UFOR*100" -> "UFOR*110" [style=solid]
+"UFOR*200"
+"UFOR*220"
+"UFOR*316" -> "UFOR*300" [style=solid]
+"FRST*200" -> "UFOR*316" [style=solid]
+"Third-year standing." -> "UFOR*330" [style=solid]
+"UFOR*200" -> "UFOR*400" [style=solid]
+"UFOR*300" -> "UFOR*401"
+"UFOR*400" -> "UFOR*401"
+"UFOR*300" -> "UFOR*402" [style=solid]
+"FRST*201" -> "UFOR*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "UFOR*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"UFOR*520" -> "UFOR*420" [style=solid]
+"UFOR*449"
+"FRST*200" -> "UFOR*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "UFOR*495" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"UFOR*500"
+"UFOR*511"
+"UFOR*512"
+"UFOR*521"
+"UFOR*511" -> "UFOR*522" [style=solid]
+"UFOR*500" -> "UFOR*523"
+"UFOR*511" -> "UFOR*523"
+"UFOR*512" -> "UFOR*523"
+"FCOR*599" -> "UFOR*531" [style=solid]
+}

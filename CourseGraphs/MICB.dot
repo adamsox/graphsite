@@ -1,0 +1,99 @@
+digraph MICB {
+labelloc = "t";
+label = "MICB"
+fontsize = 27;
+"BIOL*112" -> "MICB*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "MICB*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MICB*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*121" -> "MICB*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "MICB*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "MICB*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*245" -> "MICB*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*201" -> "MICB*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MICB*202" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*153" -> "MICB*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "MICB*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MICB*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*201" -> "MICB*301"
+"MICB*201" -> "MICB*301"
+"BIOT*380" -> "MICB*301"
+"MICB*202" -> "MICB*302" [style=solid]
+"MICB*202" -> "MICB*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*306" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*202" -> "MICB*308" [style=solid]
+"BIOL*201" -> "MICB*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*202" -> "MICB*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*200" -> "MICB*322"
+"BIOL*201" -> "MICB*322"
+"CHEM*233" -> "MICB*322"
+"MICB*201" -> "MICB*322"
+"MICB*202" -> "MICB*322"
+"MICB*322" -> "MICB*323" [style=solid]
+"MICB*201" -> "MICB*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*234" -> "MICB*325" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "MICB*353" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*201" -> "MICB*353" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MICB*353" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*202" -> "MICB*398" [style=solid]
+"MICB*202" -> "MICB*399" [style=solid]
+"MICB*322" -> "MICB*401" [style=solid]
+"MICB*301" -> "MICB*401" [style=solid]
+"MICB*302" -> "MICB*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*402" -> "MICB*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*234" -> "MICB*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MICB*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*325" -> "MICB*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*302" -> "MICB*404" [style=solid]
+"MICB*308" -> "MICB*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*408" -> "MICB*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*301" -> "MICB*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*325" -> "MICB*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*302" -> "MICB*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOC*303" -> "MICB*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MICB*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*306" -> "MICB*406" [style=solid]
+"MICB*306" -> "MICB*407" [style=solid]
+"MICB*308" -> "MICB*408" [style=solid]
+"MICB*302" -> "MICB*408" [style=solid]
+"MICB*325" -> "MICB*408" [style=solid]
+"MICB*302" -> "MICB*412" [style=solid]
+"MICB*402" -> "MICB*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MEDG*410" -> "MICB*412" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*302" -> "MICB*413" [style=solid]
+"MICB*308" -> "MICB*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*325" -> "MICB*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*418"
+"MICB*323" -> "MICB*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*421" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*335" -> "MICB*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*325" -> "MICB*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOT*380" -> "MICB*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*201" -> "MICB*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*301" -> "MICB*425" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*430"
+"BIOT*380" -> "MICB*447" [style=solid]
+"MICB*323" -> "MICB*447" [style=solid]
+"MICB*322" -> "MICB*447"
+"MICB*398" -> "MICB*447"
+"MICB*323" -> "MICB*448" [style=solid]
+"MICB*322" -> "MICB*448"
+"MICB*399" -> "MICB*448"
+"MICB*323" -> "MICB*449" [style=solid]
+"MICB*322" -> "MICB*449"
+"MICB*399" -> "MICB*449"
+"MICB*398" -> "MICB*498" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*399" -> "MICB*498" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*399" -> "MICB*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*498" -> "MICB*499" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MICB*502"
+"MICB*505"
+"MICB*506"
+"MICB*507"
+"MICB*548"
+"MICB*549"
+"MICB*649"
+}

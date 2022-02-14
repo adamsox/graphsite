@@ -1,0 +1,17 @@
+digraph SANS {
+labelloc = "t";
+label = "SANS"
+fontsize = 27;
+"SANS*300"
+"SANS*301"
+"SANS*301" -> "SANS*302" [style=solid]
+"SANS*300" -> "SANS*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*302" -> "SANS*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*300" -> "SANS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*302" -> "SANS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*401" -> "SANS*402" [style=solid]
+"SANS*200" -> "SANS*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*202" -> "SANS*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*400" -> "SANS*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SANS*402" -> "SANS*450" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+}

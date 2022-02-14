@@ -1,0 +1,166 @@
+digraph CIVL {
+labelloc = "t";
+label = "CIVL"
+fontsize = 27;
+"APSC*176" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*203" -> "CIVL*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*176" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*201" -> "CIVL*203" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CIVL*204" [style=solid]
+"CIVL*230" -> "CIVL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*210" -> "CIVL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "CIVL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "CIVL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EOSC*329" -> "CIVL*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*170" -> "CIVL*215"
+"MATH*101" -> "CIVL*215"
+"PHYS*170" -> "CIVL*230"
+"MATH*101" -> "CIVL*230"
+"MATH*152" -> "CIVL*231"
+"CIVL*203" -> "CIVL*231"
+"CIVL*230" -> "CIVL*231"
+"CIVL*235"
+"CIVL*250"
+"CIVL*203" -> "CIVL*300" [style=solid]
+"MATH*152" -> "CIVL*301"
+"CIVL*201" -> "CIVL*301"
+"STAT*251" -> "CIVL*301"
+"CIVL*201" -> "CIVL*302" [style=solid]
+"CIVL*201" -> "CIVL*303"
+"CIVL*210" -> "CIVL*303"
+"CIVL*215" -> "CIVL*303"
+"CIVL*231" -> "CIVL*303"
+"MATH*255" -> "CIVL*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "CIVL*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*305"
+"CIVL*210" -> "CIVL*311" [style=solid]
+"CIVL*203" -> "CIVL*315"
+"CIVL*215" -> "CIVL*315"
+"MATH*255" -> "CIVL*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "CIVL*315" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*203" -> "CIVL*316"
+"CIVL*215" -> "CIVL*316"
+"APSC*278" -> "CIVL*320"
+"APSC*279" -> "CIVL*320"
+"CIVL*231" -> "CIVL*331" [style=solid]
+"CIVL*231" -> "CIVL*332"
+"MATH*152" -> "CIVL*332"
+"STAT*251" -> "CIVL*340" [style=solid]
+"Fourth-year standing." -> "CIVL*402" [style=solid]
+"Fourth-year standing required." -> "CIVL*403" [style=solid]
+"CIVL*204" -> "CIVL*404" [style=solid]
+"CIVL*305" -> "CIVL*406" [style=solid]
+"CHEM*154" -> "CIVL*407" [style=solid]
+"CIVL*210" -> "CIVL*408" [style=solid]
+"CIVL*315" -> "CIVL*409"
+"CIVL*316" -> "CIVL*409"
+"CIVL*311" -> "CIVL*410" [style=solid]
+"CIVL*311" -> "CIVL*411" [style=solid]
+"CIVL*311" -> "CIVL*413" [style=solid]
+"CIVL*315" -> "CIVL*415"
+"CIVL*316" -> "CIVL*415"
+"STAT*251" -> "CIVL*415"
+"CIVL*316" -> "CIVL*416" [style=solid]
+"MATH*256" -> "CIVL*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "CIVL*416" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*316" -> "CIVL*417" [style=solid]
+"EOSC*213" -> "CIVL*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "CIVL*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "CIVL*417" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*316" -> "CIVL*418" [style=solid]
+"CIVL*320" -> "CIVL*420" [style=solid]
+"CIVL*320" -> "CIVL*422" [style=solid]
+"Fourth-year standing." -> "CIVL*425" [style=solid]
+"CIVL*426"
+"CIVL*332" -> "CIVL*430" [style=solid]
+"CIVL*331" -> "CIVL*432"
+"CIVL*332" -> "CIVL*432"
+"CIVL*430" -> "CIVL*433" [style=solid]
+"CIVL*332" -> "CIVL*435" [style=solid]
+"CIVL*332" -> "CIVL*436" [style=solid]
+"CIVL*332" -> "CIVL*437" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*360" -> "CIVL*437" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*331" -> "CIVL*439" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"WOOD*386" -> "CIVL*439" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*340" -> "CIVL*440" [style=solid]
+"CIVL*340" -> "CIVL*441" [style=solid]
+"CIVL*203" -> "CIVL*445" [style=solid]
+"CIVL*445" -> "CIVL*446" [style=solid]
+"APSC*261" -> "CIVL*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*262" -> "CIVL*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APSC*263" -> "CIVL*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*250" -> "CIVL*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*302" -> "CIVL*475" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Fourth-year standing." -> "CIVL*478" [style=solid]
+"CIVL*492"
+"CIVL*498"
+"CIVL*504"
+"CIVL*505"
+"CIVL*506"
+"CIVL*507"
+"CIVL*508"
+"CIVL*509"
+"CIVL*510"
+"CIVL*511"
+"CIVL*513"
+"CIVL*516"
+"CIVL*517"
+"CIVL*518"
+"STAT*251" -> "CIVL*519" [style=solid]
+"CIVL*520"
+"CIVL*521"
+"CIVL*522"
+"CIVL*523"
+"CIVL*524"
+"CIVL*526"
+"CIVL*420" -> "CIVL*528" [style=solid]
+"CIVL*529"
+"CIVL*537"
+"CIVL*537" -> "CIVL*538" [style=solid]
+"CIVL*539"
+"CIVL*540"
+"CIVL*541"
+"CIVL*542"
+"CIVL*543"
+"CIVL*546"
+"CIVL*547"
+"CIVL*548"
+"CIVL*551"
+"CIVL*555"
+"CIVL*301" -> "CIVL*556" [style=solid]
+"CIVL*558"
+"CIVL*559"
+"CIVL*561"
+"CIVL*407" -> "CIVL*562" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*364" -> "CIVL*562" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*564"
+"CIVL*565"
+"CIVL*566"
+"MICB*300" -> "CIVL*569" [style=solid]
+"CIVL*311" -> "CIVL*570" [style=solid]
+"CIVL*570" -> "CIVL*574" [style=solid]
+"CIVL*575"
+"CIVL*311" -> "CIVL*579" [style=solid]
+"CIVL*580"
+"CIVL*570" -> "CIVL*581" [style=solid]
+"CIVL*582"
+"CIVL*583"
+"CIVL*584"
+"CIVL*586"
+"CIVL*589"
+"CIVL*592"
+"CIVL*597"
+"CIVL*598"
+"CIVL*599"
+"CIVL*699"
+}

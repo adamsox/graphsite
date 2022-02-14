@@ -1,0 +1,28 @@
+digraph ILS {
+labelloc = "t";
+label = "ILS"
+fontsize = 27;
+"ILS*100"
+"ILS*101"
+"ILS*102"
+"ILS*103"
+"ILS*104"
+"ILS*105"
+"ILS  102." -> "ILS*107" [style=solid]
+"ILS*108"
+"ILS  100." -> "ILS*200" [style=solid]
+"ILS*202"
+"ILS*203"
+"ILS  201." -> "ILS*204" [style=solid]
+"ILS*205"
+"ILS*301"
+"ILS  102." -> "ILS*302" [style=solid]
+"ILS  201." -> "ILS*304" [style=solid]
+"ILS*305"
+"ILS*306"
+"ILS*307"
+"ILS*308"
+"ILS  203." -> "ILS*400" [style=solid]
+"ILS*401"
+"ILS  402." -> "ILS*403" [style=solid]
+}

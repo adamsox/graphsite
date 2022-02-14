@@ -1,0 +1,76 @@
+digraph FNIS {
+labelloc = "t";
+label = "FNIS"
+fontsize = 27;
+"FNIS*100"
+"FNIS*100" -> "FNIS*210" [style=solid]
+"FNIS*100" -> "FNIS*220" [style=solid]
+"Permission of the Instructor." -> "FNIS*260" [style=solid]
+"FNSP*200" -> "FNIS*300" [style=solid]
+"FNIS*210" -> "FNIS*300"
+"FNIS*220" -> "FNIS*300"
+"FNSP*210" -> "FNIS*300"
+"FNSP*220" -> "FNIS*300"
+"FNSP*200" -> "FNIS*310" [style=solid]
+"FNIS*210" -> "FNIS*310"
+"FNIS*220" -> "FNIS*310"
+"FNSP*210" -> "FNIS*310"
+"FNSP*220" -> "FNIS*310"
+"FNIS*310" -> "FNIS*320" [style=solid]
+"FNSP*310" -> "FNIS*320" [style=solid]
+"FNSP*200" -> "FNIS*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*310" -> "FNIS*400"
+"FNIS*320" -> "FNIS*400"
+"FNSP*310" -> "FNIS*400"
+"FNSP*320" -> "FNIS*400"
+"FNIS*100" -> "FNIS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*433"
+"FNIS*100" -> "FNIS*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*100" -> "FNIS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*452" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*100" -> "FNIS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*453" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*100" -> "FNIS*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*454" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*100" -> "FNIS*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*455" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*100" -> "FNIS*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*210" -> "FNIS*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*220" -> "FNIS*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*200" -> "FNIS*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*210" -> "FNIS*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNSP*220" -> "FNIS*456" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FNIS*501"
+"FNIS*533"
+"Permission of the instructor" -> "FNIS*560" [style=solid]
+}

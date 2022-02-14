@@ -1,0 +1,25 @@
+digraph LATN {
+labelloc = "t";
+label = "LATN"
+fontsize = 27;
+"LATN*101"
+"LATN*101" -> "LATN*102" [style=solid]
+"LATN*102" -> "LATN*201" [style=solid]
+"LATN*201" -> "LATN*202" [style=solid]
+"LATN*202" -> "LATN*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LATN*200" -> "LATN*350" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LATN*200" -> "LATN*351" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LATN*202" -> "LATN*351" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LATN*401"
+"LATN*402"
+"LATN*403"
+"LATN*501"
+"LATN*502"
+"LATN*503"
+"LATN*525"
+"LATN*535"
+"LATN*540"
+"LATN*545"
+"LATN*550"
+"LATN*649"
+}

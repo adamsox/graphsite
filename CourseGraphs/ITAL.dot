@@ -1,0 +1,43 @@
+digraph ITAL {
+labelloc = "t";
+label = "ITAL"
+fontsize = 27;
+"ITAL*101"
+"ITAL*101" -> "ITAL*102" [style=solid]
+"ITAL*101" -> "ITAL*104" [style=solid]
+"ITAL*102" -> "ITAL*201" [style=solid]
+"ITAL*201" -> "ITAL*202" [style=solid]
+"ITAL*201" -> "ITAL*206" [style=solid]
+"ITAL*202" -> "ITAL*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ITAL*203" -> "ITAL*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ITAL*206" -> "ITAL*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ITAL*301" -> "ITAL*302" [style=solid]
+"ITAL*303"
+"ITAL*304"
+"ITAL*102" -> "ITAL*322" [style=solid]
+"ITAL*202" -> "ITAL*325" [style=solid]
+"Proficiency in another Romance Language or in Latin" -> "ITAL*342" [style=solid]
+"Proficiency in another Romance language or Latin. Not considered a third-year course for purposes of satisfying Italian program requirements." -> "ITAL*343" [style=solid]
+"ITAL*302" -> "ITAL*401" [style=solid]
+"ITAL*401" -> "ITAL*402" [style=solid]
+"ITAL*403"
+"ITAL*404"
+"ITAL*405"
+"ITAL*406"
+"ITAL*407"
+"ITAL*408"
+"ITAL*409"
+"ITAL*420"
+"ITAL*430"
+"ITAL*495"
+"ITAL*499"
+"ITAL*501"
+"ITAL*502"
+"ITAL*505"
+"ITAL*507"
+"ITAL*508"
+"ITAL*515"
+"ITAL*520"
+"ITAL*548"
+"ITAL*549"
+}

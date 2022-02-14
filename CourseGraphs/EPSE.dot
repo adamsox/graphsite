@@ -1,0 +1,170 @@
+digraph EPSE {
+labelloc = "t";
+label = "EPSE"
+fontsize = 27;
+"EPSE*171"
+"EPSE*271"
+"EPSE*301"
+"EPSE*303"
+"EPSE*306"
+"EPSE*307"
+"EPSE*308"
+"EPSE*310"
+"EPSE*312"
+"EPSE*313"
+"EPSE*312" -> "EPSE*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*317" -> "EPSE*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*320"
+"Permission of the department is required." -> "EPSE*342" [style=solid]
+"EPSE*344"
+"EPSE*348"
+"EPSE*312" -> "EPSE*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*317" -> "EPSE*390" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*399"
+"EPSE*403"
+"EPSE*312" -> "EPSE*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*317" -> "EPSE*404" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*406"
+"EPSE*408"
+"EPSE*410"
+"EPSE*411"
+"EPSE*415"
+"EPSE*421"
+"EPSE*306" -> "EPSE*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*313" -> "EPSE*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*425"
+"EPSE*426"
+"EPSE*316" -> "EPSE*431" [style=solid]
+"EPSE*432"
+"EPSE*433"
+"EPSE*436"
+"EPSE*437"
+"EPSE*449"
+"EPSE*425" -> "EPSE*455" [style=solid]
+"EPSE*455" -> "EPSE*456" [style=solid]
+"EPSE*461"
+"EPSE*462"
+"EPSE*482" -> "EPSE*481" [style=solid]
+"Proficiency in modern high school algebra. Please consult the Faculty of Science Credit Exclusion Lists http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 before registering." -> "EPSE*482" [style=solid]
+"Please consult the Faculty of Science Credit Exclusion Lists http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 before registering." -> "EPSE*483" [style=solid]
+"EPSE*482" -> "EPSE*484" [style=solid]
+"EPSE*501"
+"EPSE*502"
+"EPSE*503"
+"EPSE*505"
+"EPSE*506"
+"EPSE*507"
+"EPSE*482" -> "EPSE*508" [style=solid]
+"EPSE*312" -> "EPSE*509" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*317" -> "EPSE*509" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*510"
+"EPSE*511"
+"EPSE*512"
+"EPSE*513"
+"EPSE*514"
+"EPSE*515"
+"EPSE*516"
+"AUDI*598" -> "EPSE*517" [style=solid]
+"AUDI*598" -> "EPSE*518" [style=solid]
+"EPSE*521" -> "EPSE*519" [style=solid]
+"LING*320" -> "EPSE*519" [style=solid]
+"EPSE*519" -> "EPSE*520" [style=solid]
+"EPSE*519" -> "EPSE*522" [style=solid]
+"EPSE*518" -> "EPSE*524"
+"EPSE*522" -> "EPSE*524"
+"EPSE*399" -> "EPSE*525" [style=solid]
+"EPSE*526"
+"EPSE*482" -> "EPSE*528" [style=solid]
+"EPSE*528" -> "EPSE*529" [style=solid]
+"EPSE*530"
+"EPSE*531"
+"EPSE*312" -> "EPSE*533" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*317" -> "EPSE*533" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*534"
+"EPSE*535"
+"EPSE*536"
+"EPSE*537"
+"EPSE*538"
+"EPSE*539"
+"EPSE*540"
+"EPSE*541"
+"EPSE*542"
+"EPSE*543"
+"EPSE*541" -> "EPSE*544" [style=solid]
+"EPSE*545"
+"EPSE*546"
+"EPSE*541" -> "EPSE*547" [style=solid]
+"EPSE*449" -> "EPSE*549" [style=solid]
+"EPSE*550"
+"EPSE*551"
+"EPSE*552"
+"EPSE*553"
+"EPSE*553" -> "EPSE*554" [style=solid]
+"EPSE*481" -> "EPSE*555"
+"EPSE*482" -> "EPSE*555"
+"EPSE*528" -> "EPSE*555"
+"EPSE*556"
+"CNPS*362" -> "EPSE*557"
+"EPSE*552" -> "EPSE*557"
+"EPSE*506" -> "EPSE*557" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CNPS*535" -> "EPSE*557" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*561"
+"EPSE*563"
+"EPSE*565"
+"EPSE*568"
+"EPSE*569"
+"EPSE*501" -> "EPSE*571" [style=solid]
+"EPSE*572"
+"EPSE*573"
+"EPSE*574"
+"EPSE*575"
+"EPSE*576"
+"EPSE*576" -> "EPSE*577" [style=solid]
+"EPSE*572" -> "EPSE*578"
+"EPSE*574" -> "EPSE*578"
+"EPSE*572" -> "EPSE*579"
+"EPSE*574" -> "EPSE*579"
+"EPSE*578" -> "EPSE*579"
+"EPSE*580"
+"Courses appropriate to a specific special topic may be required." -> "EPSE*581" [style=solid]
+"EPSE*583"
+"EPSE*584"
+"EPSE*505" -> "EPSE*585" [style=solid]
+"EPSE*586"
+"EPSE*587"
+"Restricted to students in the School and Applied Child Psychology Master's Program." -> "EPSE*589" [style=solid]
+"EPSE*590"
+"EPSE*591"
+"EPSE*482" -> "EPSE*592" [style=solid]
+"EPSE*483" -> "EPSE*592" [style=solid]
+"EPSE*592" -> "EPSE*592" [style=solid]
+"EPSE*593"
+"EPSE*592" -> "EPSE*594" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*596" -> "EPSE*594" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*595"
+"EPSE*482" -> "EPSE*596" [style=solid]
+"EPSE*483" -> "EPSE*596" [style=solid]
+"EPSE*596" -> "EPSE*597" [style=solid]
+"EPSE*598"
+"EPSE*599"
+"EPSE*601"
+"EPSE*604"
+"EPSE*606"
+"EPSE*630"
+"EPSE*632"
+"EPSE*633"
+"EPSE*528" -> "EPSE*634"
+"EPSE*554" -> "EPSE*634"
+"EPSE*561" -> "EPSE*661" [style=solid]
+"Courses appropriate to a specific advanced topic may be required." -> "EPSE*681" [style=solid]
+"EPSE*592" -> "EPSE*682"
+"EPSE*596" -> "EPSE*682"
+"EPSE*528" -> "EPSE*683"
+"EPSE*592" -> "EPSE*683"
+"EPSE*596" -> "EPSE*683"
+"EPSE*528" -> "EPSE*684" [style=solid]
+"Admission to the School and Applied Child Psychology or Counselling Psychology Ph.D. Program." -> "EPSE*687" [style=solid]
+"EPSE*661" -> "EPSE*688" [style=solid]
+"Restricted to students in the School and Applied Child Psychology Ph.D. Program." -> "EPSE*689" [style=solid]
+"EPSE*699"
+}

@@ -1,0 +1,161 @@
+digraph FRST {
+labelloc = "t";
+label = "FRST"
+fontsize = 27;
+"FRST*100"
+"FRST*101"
+"FRST*110"
+"FRST*150"
+"BIOL*121" -> "FRST*200" [style=solid]
+"FRST*201"
+"FRST*202"
+"FRST*202" -> "FRST*203" [style=solid]
+"FRST*200" -> "FRST*210" [style=solid]
+"FRST*201" -> "FRST*211" [style=solid]
+"FRST*231"
+"FRST*232"
+"FRST*231" -> "FRST*239"
+"FRST*232" -> "FRST*239"
+"FRST*248"
+"FRST*302"
+"FRST*303"
+"FRST*304"
+"FRST*201" -> "FRST*305" [style=solid]
+"FRST*350" -> "FRST*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*351" -> "FRST*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"UFOR*400" -> "FRST*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*210" -> "FRST*307"
+"FRST*211" -> "FRST*307"
+"FRST*308"
+"FRST*309"
+"APBI*342" -> "FRST*310" [style=solid]
+"FRST*311"
+"ECON*101" -> "FRST*318" [style=solid]
+"ECON*101" -> "FRST*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ECON*301" -> "FRST*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*210" -> "FRST*320"
+"FRST*211" -> "FRST*320"
+"FRST*239" -> "FRST*339" [style=solid]
+"FRST*346"
+"FRST*347"
+"FRST*348"
+"FRST*201" -> "FRST*350" [style=solid]
+"FRST*201" -> "FRST*351" [style=solid]
+"FRST*370"
+"Third- or fourth-year standing." -> "FRST*385" [style=solid]
+"Third- or fourth-year standing in Forestry, Science or Applied Science." -> "FRST*386" [style=solid]
+"FRST*201" -> "FRST*395" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*230" -> "FRST*395" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*306" -> "FRST*395" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*399"
+"APSC*402" -> "FRST*402" [style=solid]
+"ASTU*402" -> "FRST*402" [style=solid]
+"LFS*402" -> "FRST*402" [style=solid]
+"LLED*402" -> "FRST*402" [style=solid]
+"PHAR*402" -> "FRST*402" [style=solid]
+"FRST*201" -> "FRST*403" [style=solid]
+"FRST*305" -> "FRST*404" [style=solid]
+"FRST*406"
+"FRST*307" -> "FRST*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*327" -> "FRST*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*327" -> "FRST*408" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Fourth-year standing" -> "FRST*410" [style=solid]
+"Third-year standing" -> "FRST*411" [style=solid]
+"BIOL*200" -> "FRST*413"
+"BIOL*201" -> "FRST*413"
+"BIOL*209" -> "FRST*413" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*200" -> "FRST*413"
+"BIOL*462" -> "FRST*413"
+"Third- or fourth-year standing." -> "FRST*415" [style=solid]
+"FRST*421"
+"Fourth-year standing." -> "FRST*422" [style=solid]
+"FRST*422" -> "FRST*423" [style=solid]
+"FRST*231" -> "FRST*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*300" -> "FRST*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*200" -> "FRST*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*399" -> "FRST*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*432"
+"FRST*339" -> "FRST*436" [style=solid]
+"FRST*439"
+"FRST*443"
+"FRST*201" -> "FRST*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*444" -> "FRST*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*446"
+"FRST*447"
+"FRST*448"
+"FRST*449"
+"Third or fourth year-standing in the B.S.F. program." -> "FRST*452" [style=solid]
+"Third-year standing" -> "FRST*456" [style=solid]
+"Third- or fourth-year standing." -> "FRST*470" [style=solid]
+"FRST*385" -> "FRST*485" [style=solid]
+"LARC*542" -> "FRST*490" [style=solid]
+"Third- or fourth-year standing." -> "FRST*491" [style=solid]
+"Third-year standing" -> "FRST*492" [style=solid]
+"FRST*201" -> "FRST*495"
+"FRST*395" -> "FRST*495"
+"Fourth-year standing." -> "FRST*497" [style=solid]
+"FRST*498"
+"FRST*499"
+"FRST*500"
+"FRST*502"
+"FRST*503"
+"FRST*504"
+"FRST*505"
+"FRST*506"
+"FRST*507"
+"FRST*508"
+"FRST*510"
+"FRST*512"
+"BIOL*335" -> "FRST*513" [style=solid]
+"FRST*311" -> "FRST*516" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*351" -> "FRST*516" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"APBI*351" -> "FRST*516" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"FRST*519"
+"FRST*520"
+"FRST*521"
+"FRST*522"
+"FRST*523"
+"FRST*524"
+"FRST*525"
+"FRST*526"
+"FRST*527"
+"FRST*528"
+"ECON*301" -> "FRST*529" [style=solid]
+"FRST*530"
+"FRST*531"
+"FRST*532"
+"FRST*533"
+"FRST*534"
+"FRST*535"
+"FRST*536"
+"FRST*537"
+"FRST*538"
+"FRST*539"
+"FRST*540"
+"FRST*542"
+"FRST*543"
+"FRST*544"
+"FRST*545"
+"FRST*546"
+"FRST*547"
+"FRST*548"
+"FRST*549"
+"FRST*550"
+"FRST*551"
+"FRST*552"
+"FRST*553"
+"FRST*554"
+"FRST*555"
+"FRST*556"
+"FRST*557"
+"FRST*558"
+"FRST*559"
+"FRST*560"
+"FRST*562"
+"FRST*578"
+"FRST*580"
+"FRST*588"
+"FRST*590"
+"FRST*592"
+"FRST*649"
+}

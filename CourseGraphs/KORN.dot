@@ -1,0 +1,27 @@
+digraph KORN {
+labelloc = "t";
+label = "KORN"
+fontsize = 27;
+"KORN*100"
+"KORN*100" -> "KORN*101" [style=solid]
+"KORN*102"
+"KORN*104"
+"KORN*161"
+"KORN*101" -> "KORN*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*102" -> "KORN*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*101" -> "KORN*201" [style=solid]
+"KORN*201" -> "KORN*202" [style=solid]
+"KORN*200" -> "KORN*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*202" -> "KORN*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"KORN*202" -> "KORN*301" [style=solid]
+"KORN*301" -> "KORN*302" [style=solid]
+"Permission of instructor." -> "KORN*351" [style=solid]
+"KORN*300" -> "KORN*410" [style=solid]
+"KORN*301" -> "KORN*410"
+"KORN*302" -> "KORN*410"
+"KORN*300" -> "KORN*411" [style=solid]
+"KORN*412"
+"KORN*300" -> "KORN*415" [style=solid]
+"KORN*410" -> "KORN*420" [style=solid]
+"KORN*410" -> "KORN*440" [style=solid]
+}

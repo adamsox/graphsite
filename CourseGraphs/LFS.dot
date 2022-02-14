@@ -1,0 +1,40 @@
+digraph LFS {
+labelloc = "t";
+label = "LFS"
+fontsize = 27;
+"LFS*100"
+"LFS*101"
+"LFS*110"
+"LFS*150"
+"LFS*250"
+"MATH*100" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "LFS*252" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LFS*301"
+"LFS*302"
+"Third year standing and permission of instructor. 9 credits of upper level ECON, FRE or COMM courses are strongly recommended." -> "LFS*303" [style=solid]
+"LFS*340"
+"LFS  250." -> "LFS*350" [style=solid]
+"Must attend all Co-op pre-employment workshops." -> "LFS*398" [style=solid]
+"LFS  398." -> "LFS*399" [style=solid]
+"Third-year standing or higher." -> "LFS*400" [style=solid]
+"APSC*402" -> "LFS*402" [style=solid]
+"ASTU*402" -> "LFS*402" [style=solid]
+"FRST*402" -> "LFS*402" [style=solid]
+"LLED*402" -> "LFS*402" [style=solid]
+"PHAR*402" -> "LFS*402" [style=solid]
+"LFS*450"
+"LFS*490"
+"LFS*496"
+"LFS  399." -> "LFS*498" [style=solid]
+"LFS  498." -> "LFS*499" [style=solid]
+"LFS*500"
+"LFS*501"
+"LFS*530"
+"LFS*549"
+"LFS*649"
+}

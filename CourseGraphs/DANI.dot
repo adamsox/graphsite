@@ -1,0 +1,9 @@
+digraph DANI {
+labelloc = "t";
+label = "DANI"
+fontsize = 27;
+"DANI*100"
+"DANI*110"
+"DANI*200"
+"DANI*210"
+}

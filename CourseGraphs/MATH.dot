@@ -1,0 +1,485 @@
+digraph MATH {
+labelloc = "t";
+label = "MATH"
+fontsize = 27;
+"Mathematics 11 is recommended." -> "MATH*001" [style=solid]
+"MATH*001" -> "MATH*002" [style=solid]
+"High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12." -> "MATH*100" [style=solid]
+"MATH*100" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "MATH*101" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12." -> "MATH*102" [style=solid]
+"MATH*100" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "MATH*103" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"High-school calculus and a score of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12." -> "MATH*104" [style=solid]
+"MATH*100" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "MATH*105" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12." -> "MATH*110" [style=solid]
+"High-school calculus and one of (a) a score of 95% or higher in BC Principles of Mathematics 12 or Pre-calculus 12; or (b) permission from the Mathematics Department Head." -> "MATH*120" [style=solid]
+"MATH*120" -> "MATH*121" [style=solid]
+"MATH*100" -> "MATH*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "MATH*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "MATH*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "MATH*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "MATH*121" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152"
+"A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12." -> "MATH*180" [style=solid]
+"A grade of 80% or higher in BC Principles of Mathematics 12 or Pre-calculus 12." -> "MATH*184" [style=solid]
+"Principles of Mathematics 12 or Pre-calculus 12 and registration in the B.S.F. or B.Sc.N. programs." -> "MATH*190" [style=solid]
+"MATH*101" -> "MATH*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*200" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*258" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*210" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*215" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*102" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*108" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*118" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*153" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*158" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*217" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*220" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*100" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*102" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*104" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*110" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*120" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*180" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*184" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*221" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*223" [style=solid]
+"MATH*101" -> "MATH*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*223" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*226" [style=solid]
+"MATH*101" -> "MATH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*226" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*227" [style=solid]
+"Principles of Mathematics 11." -> "MATH*230" [style=solid]
+"MATH*101" -> "MATH*253" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*253" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*253" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*253" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*253" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*254" [style=solid]
+"MATH*152" -> "MATH*254" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*254" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*222" -> "MATH*254"
+"MECH*225" -> "MATH*254"
+"MATH*101" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*255" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*263" -> "MATH*256" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*258" -> "MATH*257" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "MATH*258" [style=solid]
+"MATH*152" -> "MATH*258" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*258" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*221" -> "MATH*258"
+"MECH*224" -> "MATH*258"
+"MATH*200" -> "MATH*264" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*264" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*264" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*264" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*220" -> "MATH*264" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ELEC*211" -> "MATH*264" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*227" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*317" -> "MATH*300" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*300" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*305" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*301" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "MATH*302" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*302" -> "MATH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"STAT*302" -> "MATH*303" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*305" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*307" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*308" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*309" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*121" -> "MATH*310" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*121" -> "MATH*312" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*312" -> "MATH*313" [style=solid]
+"MATH*215" -> "MATH*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*258" -> "MATH*316" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*200" -> "MATH*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*317" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*318" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*319" [style=solid]
+"MATH*223" -> "MATH*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*319" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*320" [style=solid]
+"MATH*200" -> "MATH*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*253" -> "MATH*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*320" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*320" -> "MATH*321" [style=solid]
+"MATH*223" -> "MATH*322" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*310" -> "MATH*322" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*322" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*322" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*322" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*322" -> "MATH*323" [style=solid]
+"MATH*335"
+"MATH*152" -> "MATH*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*340" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*121" -> "MATH*341" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*152" -> "MATH*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*221" -> "MATH*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*344" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*258" -> "MATH*345" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*224" -> "MATH*358"
+"MECH*358" -> "MATH*358"
+"MATH*101" -> "MATH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "MATH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "MATH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*121" -> "MATH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"SCIE*001" -> "MATH*360" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*301" -> "MATH*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*215" -> "MATH*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*258" -> "MATH*361" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*398"
+"MATH*398" -> "MATH*399" [style=solid]
+"MATH*300" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*305" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*400" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*400" -> "MATH*401" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*301" -> "MATH*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*320" -> "MATH*402" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*301" -> "MATH*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*320" -> "MATH*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*402" -> "MATH*403" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*300" -> "MATH*404" [style=solid]
+"MATH*420" -> "MATH*404" [style=solid]
+"MATH*256" -> "MATH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*405" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*307" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*302" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*358" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*358" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*312" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*400" -> "MATH*406" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*320" -> "MATH*412"
+"MATH*322" -> "MATH*412"
+"24 credits in MATH." -> "MATH*414" [style=solid]
+"MATH*321" -> "MATH*418" [style=solid]
+"MATH*418" -> "MATH*419" [style=solid]
+"MATH*321" -> "MATH*420" [style=solid]
+"MATH*420" -> "MATH*421" [style=solid]
+"MATH*323" -> "MATH*422" [style=solid]
+"MATH*323" -> "MATH*423" [style=solid]
+"MATH*412" -> "MATH*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*422" -> "MATH*423" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*424" [style=solid]
+"MATH*152" -> "MATH*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*227" -> "MATH*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*217" -> "MATH*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*254" -> "MATH*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*264" -> "MATH*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*317" -> "MATH*424" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*424" -> "MATH*425" [style=solid]
+"MATH*321" -> "MATH*426"
+"MATH*322" -> "MATH*426"
+"MATH*426" -> "MATH*427" [style=solid]
+"MATH*215" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*258" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*216" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"PHYS*306" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*320" -> "MATH*428" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*430"
+"MATH*432"
+"MATH*437"
+"MATH*300" -> "MATH*440" [style=solid]
+"MATH*320" -> "MATH*440" [style=solid]
+"MATH*340" -> "MATH*441" [style=solid]
+"MATH*220" -> "MATH*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*221" -> "MATH*442" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*223" -> "MATH*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CPSC*121" -> "MATH*443" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*220" -> "MATH*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*226" -> "MATH*444" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"27 credits of MATH." -> "MATH*446" [style=solid]
+"Third- or fourth-year standing and permission of the Department Head." -> "MATH*448" [style=solid]
+"Permission of the Department Head" -> "MATH*449" [style=solid]
+"MATH*301" -> "MATH*450"
+"MATH*400" -> "MATH*450"
+"MATH*361" -> "MATH*462" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*345" -> "MATH*462" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*399" -> "MATH*498" [style=solid]
+"MATH*498" -> "MATH*499" [style=solid]
+"MATH*501"
+"MATH*502"
+"MATH*503"
+"MATH*507"
+"MATH*508"
+"MATH*510"
+"MATH*511"
+"MATH*512"
+"MATH*513"
+"MATH*514"
+"MATH*515"
+"MATH*516"
+"MATH*517"
+"MATH*519"
+"MATH*520"
+"MATH*521"
+"MATH*522"
+"MATH*523"
+"MATH*525"
+"MATH*526"
+"MATH*527"
+"MATH*528"
+"MATH*529"
+"MATH*530"
+"MATH*532"
+"MATH*533"
+"MATH*534"
+"MATH*535"
+"MATH*537"
+"MATH*538"
+"MATH*539"
+"MATH*541"
+"MATH*542"
+"MATH*543"
+"MATH*544"
+"MATH*545"
+"MATH*544" -> "MATH*546"
+"MATH*545" -> "MATH*546"
+"MATH*547"
+"MATH*544" -> "MATH*548"
+"MATH*545" -> "MATH*548"
+"MATH*549"
+"(MATH*301" -> "MATH*550" [style=solid]
+"(MATH*400" -> "MATH*550" [style=solid]
+"MATH*550" -> "MATH*551" [style=solid]
+"(MATH*400" -> "MATH*551" [style=solid]
+"MATH*215" -> "MATH*552" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*255" -> "MATH*552" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "MATH*552" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*257" -> "MATH*552" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*316" -> "MATH*552" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*552" -> "MATH*553" [style=solid]
+"Elementary courses in differential equations and linear algebra." -> "MATH*554" [style=solid]
+"MATH*555"
+"MATH*556"
+"MATH*400" -> "MATH*557" [style=solid]
+"MATH*559"
+"MATH*560"
+"MATH*561"
+"MATH*562"
+"MATH*563"
+"MATH*564"
+"MATH*566"
+"MATH*567"
+"MATH*589"
+"MATH*590"
+"MATH*591"
+"MATH*592"
+"MATH*599"
+"MATH*600"
+"MATH*601"
+"MATH*602"
+"MATH*603"
+"MATH*604"
+"MATH*605"
+"MATH*606"
+"MATH*607"
+"MATH*608"
+"MATH*609"
+"MATH*610"
+"MATH*612"
+"MATH*613"
+"MATH*615"
+"MATH*616"
+"MATH*620"
+"MATH*649"
+}

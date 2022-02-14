@@ -1,0 +1,73 @@
+digraph EDUC {
+labelloc = "t";
+label = "EDUC"
+fontsize = 27;
+"EDUC*140"
+"EDUC*141"
+"EDUC*143"
+"EDUC*170"
+"EDUC*172"
+"EDUC*173"
+"EDUC*174"
+"EDUC*175"
+"EDUC*176"
+"EDUC*177"
+"EDUC*179"
+"EDUC*210"
+"ASTU*210" -> "EDUC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ASTU*211" -> "EDUC*211" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*240"
+"EDUC*244"
+"EDUC*270"
+"EDUC*272"
+"EDUC*273"
+"EDUC*274"
+"EDUC*275"
+"EDUC*276"
+"EDUC*277"
+"EDUC*278"
+"EDUC*279"
+"EDUC*280"
+"EDUC*315"
+"EDUC*316"
+"EDUC*319"
+"EDUC*315" -> "EDUC*321" [style=solid]
+"EDUC*315" -> "EDUC*323" [style=solid]
+"LLED*489" -> "EDUC*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*200" -> "EDUC*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*400" -> "EDUC*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LLED*486" -> "EDUC*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"LING*433" -> "EDUC*342" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*143" -> "EDUC*344"
+"EDUC*244" -> "EDUC*344"
+"EDUC*390"
+"12 credits of coursework approved by the Associate Dean (Teacher Education) as being appropriate to the particular study." -> "EDUC*395" [style=solid]
+"EDUC*399"
+"EDUC*401"
+"Normally all requirements set to precede this practicum" -> "EDUC*418" [style=solid]
+"Normally all requirements set to precede this practicum." -> "EDUC*419" [style=solid]
+"EDUC*420"
+"Normally all requirements set to precede this practicum." -> "EDUC*421" [style=solid]
+"EDUC*418" -> "EDUC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*419" -> "EDUC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*421" -> "EDUC*430" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*432"
+"EDUC*440"
+"EDUC*442"
+"EDUC*449"
+"EDUC*450"
+"EDUC*450" -> "EDUC*451" [style=solid]
+"EDUC*451" -> "EDUC*452" [style=solid]
+"EDUC*480"
+"EDUC*490"
+"EDUC*492"
+"Completion of recent elementary teaching methods courses in the subjects to be taught." -> "EDUC*495" [style=solid]
+"Recent completion of secondary teaching methods courses in the subjects to be taught." -> "EDUC*496" [style=solid]
+"EDUC*500"
+"EDUC*500" -> "EDUC*503" [style=solid]
+"EDUC*503" -> "EDUC*504" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EPSE*595" -> "EDUC*504" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"EDUC*566"
+"EDUC*601"
+"EDUC*699"
+}

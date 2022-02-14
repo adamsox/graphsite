@@ -1,0 +1,193 @@
+digraph CHBE {
+labelloc = "t";
+label = "CHBE"
+fontsize = 27;
+"APSC*176" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*110" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*111" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*112" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*120" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"ENGL*121" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*220" -> "CHBE*201" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHEM*154" -> "CHBE*220"
+"CHBE*201" -> "CHBE*220"
+"CHBE*220" -> "CHBE*221" [style=solid]
+"MATH*256" -> "CHBE*230" [style=solid]
+"CHEM*154" -> "CHBE*241"
+"MATH*152" -> "CHBE*241"
+"CHBE*243"
+"CHBE*241" -> "CHBE*244" [style=solid]
+"MATH*256" -> "CHBE*251" [style=solid]
+"CHBE*262"
+"CHBE*263"
+"CHBE*244" -> "CHBE*264"
+"CHBE*251" -> "CHBE*264"
+"CHBE*241" -> "CHBE*344"
+"CHBE*244" -> "CHBE*344"
+"CHBE*346" -> "CHBE*345"
+"CHBE*352" -> "CHBE*345"
+"CHBE*220" -> "CHBE*346"
+"CHBE*241" -> "CHBE*346"
+"CHBE*244" -> "CHBE*346"
+"CHBE*251" -> "CHBE*350"
+"CHBE*351" -> "CHBE*350"
+"MATH*253" -> "CHBE*350"
+"CHBE*251" -> "CHBE*352"
+"MATH*253" -> "CHBE*352"
+"CHBE*230" -> "CHBE*355"
+"CHBE*346" -> "CHBE*355"
+"CHBE*352" -> "CHBE*355"
+"MATH*255" -> "CHBE*356" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*256" -> "CHBE*356" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*201" -> "CHBE*362"
+"CHBE*241" -> "CHBE*362"
+"CHBE*251" -> "CHBE*362"
+"CHBE*370" -> "CHBE*362"
+"CHBE*352" -> "CHBE*362"
+"CHBE*364"
+"CHBE*201" -> "CHBE*365"
+"CHBE*241" -> "CHBE*365"
+"CHBE*264" -> "CHBE*365"
+"CHBE*381" -> "CHBE*365"
+"CHBE*201" -> "CHBE*366"
+"CHBE*241" -> "CHBE*366"
+"CHBE*251" -> "CHBE*366"
+"CHBE*345" -> "CHBE*366"
+"CHBE*356" -> "CHBE*366"
+"CHBE*241" -> "CHBE*370"
+"CHBE*244" -> "CHBE*370"
+"CHBE*251" -> "CHBE*373" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CIVL*215" -> "CHBE*373" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MECH*280" -> "CHBE*373" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*263" -> "CHBE*373" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*345" -> "CHBE*376"
+"CHBE*355" -> "CHBE*376"
+"CHBE*221" -> "CHBE*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*245" -> "CHBE*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*101" -> "CHBE*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*103" -> "CHBE*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MATH*105" -> "CHBE*381" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*401"
+"CHBE*402"
+"CHBE*419"
+"CHBE*346" -> "CHBE*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*350" -> "CHBE*451" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BIOL*112" -> "CHBE*452"
+"CHBE*241" -> "CHBE*452"
+"CHBE*254" -> "CHBE*452"
+"CHBE*344" -> "CHBE*452"
+"CHBE*346" -> "CHBE*452"
+"CHBE*351" -> "CHBE*452"
+"CHBE*356" -> "CHBE*452"
+"CHBE*457" -> "CHBE*452"
+"CHBE*459" -> "CHBE*452"
+"CHBE*485" -> "CHBE*452"
+"CHBE*241" -> "CHBE*453"
+"CHBE*345" -> "CHBE*453"
+"CHBE*356" -> "CHBE*453"
+"CHBE*376" -> "CHBE*453"
+"CHBE*459" -> "CHBE*453"
+"CHBE*481" -> "CHBE*453"
+"CHBE*241" -> "CHBE*454"
+"CHBE*345" -> "CHBE*454"
+"CHBE*356" -> "CHBE*454"
+"CHBE*459" -> "CHBE*454"
+"CHBE*471" -> "CHBE*454"
+"CHEM*251" -> "CHBE*455" [style=solid]
+"CHBE*230" -> "CHBE*456"
+"CHBE*352" -> "CHBE*456"
+"CHBE*355" -> "CHBE*456"
+"CHBE*241" -> "CHBE*457"
+"CHBE*346" -> "CHBE*457"
+"CHBE*376" -> "CHBE*457"
+"CHBE*344" -> "CHBE*457"
+"CHBE*345" -> "CHBE*464"
+"CHBE*355" -> "CHBE*464"
+"CHBE*356" -> "CHBE*464"
+"CHBE*362" -> "CHBE*464"
+"CHBE*365" -> "CHBE*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*366" -> "CHBE*464" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*221" -> "CHBE*465" [style=solid]
+"CHBE*221" -> "CHBE*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"BMEG*245" -> "CHBE*470" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*345" -> "CHBE*471"
+"CHBE*352" -> "CHBE*471"
+"CHBE*355" -> "CHBE*471"
+"CHBE*376" -> "CHBE*471"
+"CHBE*356" -> "CHBE*474"
+"CHBE*376" -> "CHBE*474"
+"CHBE*344" -> "CHBE*476"
+"CHBE*376" -> "CHBE*476"
+"CHBE*220" -> "CHBE*477"
+"CHBE*241" -> "CHBE*477"
+"CHBE*346" -> "CHBE*477"
+"CHEM*260" -> "CHBE*478" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*251" -> "CHBE*478" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"Third-year Chemical and Biological Engineering." -> "CHBE*479" [style=solid]
+"Third year Chemical and Biological Engineering." -> "CHBE*480" [style=solid]
+"CHBE*381" -> "CHBE*481" [style=solid]
+"CHBE*345" -> "CHBE*482"
+"CHBE*355" -> "CHBE*482"
+"CHBE*376" -> "CHBE*482"
+"Third-year Chemical and Biological Engineering." -> "CHBE*483" [style=solid]
+"CHBE*241" -> "CHBE*484"
+"CHBE*244" -> "CHBE*484"
+"CHBE*241" -> "CHBE*486"
+"CHBE*244" -> "CHBE*486"
+"CHBE*370" -> "CHBE*486"
+"CHBE*241" -> "CHBE*487" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*346" -> "CHBE*488" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*350" -> "CHBE*488" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*352" -> "CHBE*488" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"MTRL*263" -> "CHBE*488" [style=dashed] [label="1 of", fontcolor=firebrick4] [color=red3]
+"CHBE*489"
+"CHBE*362" -> "CHBE*491"
+"CHBE*366" -> "CHBE*491"
+"CHBE*491" -> "CHBE*492" [style=solid]
+"CHBE*362" -> "CHBE*493"
+"CHBE*364" -> "CHBE*493"
+"CHBE*493" -> "CHBE*494" [style=solid]
+"CHBE*362" -> "CHBE*495"
+"CHBE*365" -> "CHBE*495"
+"CHBE*495" -> "CHBE*496" [style=solid]
+"CHBE*497"
+"Third-year Chemical and Biological Engineering." -> "CHBE*498" [style=solid]
+"Supervisor and instructor approval required." -> "CHBE*505" [style=solid]
+"CHBE*506"
+"CHBE*510"
+"CHBE*549"
+"CHBE*550"
+"CHBE*551"
+"CHBE*552"
+"CHBE*553"
+"CHBE*554"
+"CHBE*557"
+"CHBE*559"
+"CHBE*560"
+"CHBE*561"
+"CHBE*563"
+"CHBE*564"
+"CHBE*565"
+"BIOL*112" -> "CHBE*566" [style=solid]
+"CHBE*567"
+"BIOL*112" -> "CHBE*570" [style=solid]
+"CHBE*571"
+"CHBE*573"
+"CHBE*574"
+"CHBE*575"
+"CHBE*577"
+"CHBE*580"
+"CHBE*583"
+"MATH*255" -> "CHBE*587" [style=solid]
+"PHYS*108" -> "CHBE*587" [style=solid]
+"CHEM*154" -> "CHBE*587" [style=solid]
+"FOOD*519" -> "CHBE*587" [style=solid]
+"CHBE*588"
+"CHBE*590"
+"CHBE*596"
+"CHBE*597"
+"CHBE*598"
+"CHBE*599"
+"CHBE*697"
+"CHBE*699"
+}
