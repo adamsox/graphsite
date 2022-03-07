@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Configuring NGINX on the server
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Confirm node and npm are installed on the server using 
+ node --version
+ npm --version
+
+2. Check if nginx is installed using the command : nginx -v
+2.1 If installed proceed to the next step otherwise installed nginx via command: sudo apt install nginx
+
+3.Following installation go to the servers IP address located at http://131.104.49.112/ to check for boilplate nginx site
+
+4. Navigate to the react project root and run the command: npm run build
+    -this will take your react project and convert it into a build folder that can be deployed on nginx
+
+5. To get nginx to server the build folder you need to move the build folder using the following command:
+sudo cp -r /locationOfBuildFolder/build/. /var/www/html
+
+6. We need to configure the config file for nginx to host our build folder use the follwing command to open the config file for editing: sudo nano /etc/nginx/sites-available/default . The default configuraiton of NGINX works for our webserver so there need be no modifications.
+
+7. To see changes take effect restart the NGINX service by running the command : sudo service nginx restart
+
+8. Navigate to http://131.104.49.112/ to see the hosted react project
+
+
 
 ## Available Scripts
 
