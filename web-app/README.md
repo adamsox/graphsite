@@ -7,7 +7,9 @@
 2. Check if nginx is installed using the command : nginx -v
 2.1 If installed proceed to the next step otherwise installed nginx via command: sudo apt install nginx
 
-3.Following installation go to the servers IP address located at http://131.104.49.112/ to check for boilplate nginx site
+3.Following installation go to the servers IP address located at your servers IP address in our case its http://131.104.49.112/ to check for boilerplate nginx site
+    -to get the ip address of your server type the command:  curl ifconfig.me
+    
 
 4. Navigate to the react project root and run the command: npm run build
     -this will take your react project and convert it into a build folder that can be deployed on nginx
@@ -22,6 +24,16 @@ sudo cp -r /locationOfBuildFolder/build/. /var/www/html
 8. Navigate to http://131.104.49.112/ to see the hosted react project
 
 
+
+
+
+
+
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -40,13 +52,7 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
