@@ -18,7 +18,7 @@ sudo apt install npm
 # sudo ufw allow 5000
 
 # Commands Dev: 
-python3 myproject.py
+# python3 myproject.py
 
 #(not sure how to run a command in a child directory from a script)
 ( cd myprojectenv ; uwsgi –socket 0.0.0.0:5000 –protocol=http -w wsgi:app )
