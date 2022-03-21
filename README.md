@@ -62,6 +62,67 @@ sudo systemctl reload nginx
 
 sudo cp -r /home/sysadmin/Sprint6/build/. /var/www/html
 
+# WSGI setup
+
+https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-20-04
+
+pip install uwsgi flask
+
+nano ~/myproject/myproject.py
+
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "<h1 style='color:blue'>Hello There!</h1>"
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
+
+sudo ufw allow 5000
+
+nano ~/myproject/wsgi.py
+
+from myproject import app
+
+if __name__ == "__main__":
+    app.run()
+
+uwsgi --socket 0.0.0.0:5000 --protocol=http -w wsgi:app
+
+
+nano ~/myproject/myproject.ini
+
+[uwsgi]
+module = wsgi:app
+
+master = true
+processes = 5
+
+socket = myproject.sock
+chmod-socket = 660
+vacuum = true
+
+die-on-term = true
+
+sudo nano /etc/systemd/system/myproject.service
+
+
+[Unit]
+Description=uWSGI instance to serve myproject
+After=network.target
+
+[Service]
+User=sammy
+Group=www-data
+WorkingDirectory=/home/sammy/myproject
+Environment="PATH=/home/sammy/myproject/myprojectenv/bin"
+ExecStart=/home/sammy/myproject/myprojectenv/bin/uwsgi --ini myproject.ini
+
+[Install]
+WantedBy=multi-user.target
 
 # Helpful commands (Backend)
 sudo apt-get install nginx
@@ -85,6 +146,8 @@ SensesNeighbour
 
 
 # Helpful Resources
+
+
 
 https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
 
