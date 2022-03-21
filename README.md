@@ -50,6 +50,8 @@ post coures search : http://131.104.49.112/api/query
 
 # NGINX setup commands
 
+https://gitlab.socs.uoguelph.ca/rnguye03/w22_cis3760_team10/-/blob/Sprint7/default
+
 sudo rm /etc/nginx/sites-enabled/default
 
 sudo apt-get install nginx
@@ -63,6 +65,8 @@ sudo systemctl reload nginx
 sudo cp -r /home/sysadmin/Sprint6/build/. /var/www/html
 
 # WSGI setup
+
+https://gitlab.socs.uoguelph.ca/rnguye03/w22_cis3760_team10/-/blob/Sprint7/myproject.service
 
 https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uwsgi-and-nginx-on-ubuntu-20-04
 
