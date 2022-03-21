@@ -48,11 +48,23 @@ current time endpoint: http://131.104.49.112/api/time
 post coures search : http://131.104.49.112/api/query
 
 
+# NGINX setup commands
+
+sudo rm /etc/nginx/sites-enabled/default
+
+sudo apt-get install nginx
+
+sudo ln -s /etc/nginx/sites-available/react-flask-app.nginx /etc/nginx/sites-enabled/react-flask-app.nginx
+
+sudo systemctl reload nginx
+
 # Helpful commands (Frontend)
+
+sudo cp -r /home/sysadmin/Sprint6/build/. /var/www/html
 
 
 # Helpful commands (Backend)
-
+sudo apt-get install nginx
 
 sudo nano /etc/systemd/system/myproject.service
 
