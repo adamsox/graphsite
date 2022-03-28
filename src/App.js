@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import SearchResults from './Components/SearchResults';
+import UbcSearchResults from './Components/UbcSearchResults';
 import Graph from "react-graph-vis";
 
 const axios = require('axios').default;
@@ -24,12 +25,16 @@ const options = {
 
 function App() {
   const [currentTime, setCurrentTime] = useState(0);
-  const [cc, setCC] = useState('cis');
   const [name, setName] = useState('CIS');
+  const [cc, setCC] = useState('cis');
   const [year, setYear] = useState('');
   const [weight, setWeight] = useState('');
   const [off, setOff] = useState('');
+  const [ubcCC, setUbcCC] = useState('aanb');
+  const [ubcYear, setUbcYear] = useState('');
+  const [ubcWeight, setUbcWeight] = useState('');
   const [showUog, setShowUog] = useState(true);
+  const [showUbc, setShowUbc] = useState(false);
   const [showGraph, setShowGraph] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [resultGraph, setResultGraph] = useState({
@@ -80,6 +85,7 @@ function App() {
   }
 
   const [course, setCourse] = useState([]);
+  const [ubcCourse, setUbcCourse] = useState([]);
 
 
   function handleGraphQuery(query){
@@ -93,14 +99,55 @@ function App() {
 
 
             .then(function(response){
+                
+                // console.log("posted successfully")
 
                 console.log("Respone")
                 
                 console.log(response)
+                // setCourse(JSON.stringify(response.data));
 
                setResultGraph(response.data);
-
+                // setState({
+                  // graph: response.data,
+              
+                  
+                // })
                 setIsLoading(false);
+                // console.log(JSON.stringify({ x: 5, y: 6 }));
+
+
+  
+                console.log("Course")
+  
+       //Perform action based on response
+        })
+        .catch(function(error){
+            console.log(error);
+       //Perform action based on error
+        });
+    } else {
+        alert("The search query cannot be empty")
+    }
+  }
+
+
+  function handleUbcPost(query){
+
+    var myParams = {
+        data: query
+    }
+  
+    if (query !== "") {
+        axios.post('http://131.104.49.112/api/ubc-search', myParams)
+            .then(async function(response){
+                
+                console.log("posted successfully")
+
+                console.log(response.data)
+                setUbcCourse(response.data);
+                console.log(ubcCourse);
+                // console.log(JSON.stringify({ x: 5, y: 6 }));
 
 
   
@@ -132,6 +179,9 @@ function App() {
                 console.log(response.data)
                 setCourse(response.data);
                 console.log(course);
+                // console.log(JSON.stringify({ x: 5, y: 6 }));
+
+
   
                 console.log("Course")
   
@@ -184,6 +234,38 @@ function App() {
 
     }
 
+    const handleUbcSubmit = (e) => {
+    
+      e.preventDefault();
+
+      console.log(`Form submitted, ${cc}`);
+
+      let input = []
+
+      if(ubcCC === ""){
+        input.push('x')
+      }else {
+        input.push(ubcCC)
+      }
+
+      if(ubcYear === ""){
+        input.push('x')
+      }else {
+        input.push(ubcYear)
+      }
+
+      if(ubcWeight === ""){
+        input.push('x')
+      }else {
+        input.push(ubcWeight)
+      }
+      
+      console.log({input})
+      
+      handleUbcPost({input})
+
+  }
+
     const handleGraphSubmit = (e) => {
       
       e.preventDefault();
@@ -198,11 +280,19 @@ function App() {
     const showUogSearch = () => {
       setShowUog(true);
       setShowGraph(false);
+      setShowUbc(false);
+    }
+
+    const showUbcSearch = () => {
+      setShowUog(false);
+      setShowGraph(false);
+      setShowUbc(true);
     }
 
     const showGraphForm = () => {
       setShowGraph(true);
       setShowUog(false);
+      setShowUbc(false);
     }
 
   useEffect(() => {
@@ -214,9 +304,10 @@ function App() {
   return (
     <div className="App" style={{ background: "#61dafb" }}>
 
-    {/* KEEP FOR MANUAL SERVER TESTING */}
     {/* <p style={{ background: "#61dafb" }}>The current time is {currentTime}.</p> */}
     
+
+    {/* <p>The current data is {JSON.stringify(course)}.</p> */}
 
      <button 
      style={{margin:"10px"}}
@@ -235,13 +326,26 @@ function App() {
       <i className="bi bi-pencil-square m-2"></i>
       </button>
 
+      <button
+      style={{margin:"10px"}}
+      onClick={showUbcSearch}
+      className="btn btn-primary"
+      >
+      Search UBC Courses
+      <i className="bi bi-pencil-square m-2"></i>
+      </button>
+
       <div>
       {showUog && <h1 style={{fontFamily: "Poppins"}}>
-        Example input: cis x x x  
+        Example input: cis 3 0.75 f
       </h1>}
 
       {showGraph && <h1 style={{fontFamily: "Poppins"}}>
         Example input: HIST
+      </h1>}
+
+      {showUbc && <h1 style={{fontFamily: "Poppins"}}>
+        Example input: cpen 4 3
       </h1>}
 
       { showUog && <form  className="shadow p-4" onSubmit = {handleSubmit}>
@@ -258,6 +362,20 @@ function App() {
       courses={course}
       />}
 
+
+    { showUbc && <form  className="shadow p-4" onSubmit = {handleUbcSubmit}>
+            <input className="form-control" onChange = {(e) => {setUbcCC(e.target.value)}} value = {ubcCC}></input><br/>
+            <input className="form-control" onChange = {(e) => setUbcYear(e.target.value)} value = {ubcYear}></input><br/>
+            <input className="form-control" onChange = {(e) => setUbcWeight(e.target.value)} value = {ubcWeight}></input><br/>
+
+            <button className="btn btn-primary mt-2" type = 'submit'>Click to submit</button>
+        </form>
+      }
+
+      {showUbc && <UbcSearchResults 
+      courses={ubcCourse}
+      />}
+
       { showGraph && <form  className="shadow p-4" onSubmit = {handleGraphSubmit}>
             <input className="form-control" onChange = {(e) => {setName(e.target.value.toUpperCase())}} value = {name}></input><br/>
 
@@ -265,7 +383,10 @@ function App() {
         </form>
       }
 
-      {showGraph && (isLoading ? (<div></div>) : <div><Graph graph={resultGraph} options={options} events={events} style={{ height: "640px" }}/></div>)}
+      {showGraph && (isLoading ? (
+  <div></div>         
+        
+      ) : <div><Graph graph={resultGraph} options={options} events={events} style={{ height: "640px" }}/></div>)}
 
       </div>
       
