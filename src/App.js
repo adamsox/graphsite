@@ -13,10 +13,50 @@ function randomColor() {
   return `#${red}${green}${blue}`;
 }
 
+const empty_graph = {
+  nodes: [],
+  edges: [],
+};
+
 const options = {
   layout: {
-    hierarchical: false
+    improvedLayout: true,
+    hierarchical: {
+      enabled: true,
+      nodeSpacing: 10,
+      treeSpacing: 10,
+      direction: 'UD',
+      edgeMinimization: false,
+      levelSeparation: 120,
+      blockShifting: false,
+      sortMethod: "directed",
+      shakeTowards: 'leaves'
+    }
   },
+
+  interaction: {
+    dragNodes: true,
+    dragView: true,
+    hideEdgesOnDrag: false,
+    hideEdgesOnZoom: false,
+    hideNodesOnDrag: false,
+    hover: true,
+    hoverConnectedEdges: true,
+    keyboard: {
+      enabled: false,
+      speed: { x: 10, y: 10, zoom: 0.02 },
+      bindToWindow: true,
+      autoFocus: true,
+    },
+    multiselect: false,
+    navigationButtons: false,
+    selectable: true,
+    selectConnectedEdges: true,
+    tooltipDelay: 300,
+    zoomSpeed: 1,
+    zoomView: true
+  },
+
   edges: {
     color: "#000000"
   }
@@ -49,6 +89,8 @@ function App() {
     ]
   });
 
+  let updateGraph = {}
+
   const createNode = (x, y) => {
     const color = randomColor();
     setResultGraph(({ graph: { nodes, edges }, counter, ...rest }) => {
@@ -71,229 +113,249 @@ function App() {
     });
   }
 
-  const events =  {
+  const events = {
     select: ({ nodes, edges }) => {
       console.log("Selected nodes:");
       console.log(nodes);
       console.log("Selected edges:");
       console.log(edges);
       alert("Selected node: " + nodes);
+
+      updateGraph = resultGraph;
+      
+      
+      for (let i = 0; i < updateGraph.nodes.length; i++){
+        if(updateGraph.nodes[i].id === nodes[0]){
+          updateGraph.nodes[i].color = "#FF0000";
+        }
+      }
+      
+      setResultGraph(empty_graph);
+      setResultGraph(updateGraph);
+      console.log(updateGraph);
+
+
     },
-    doubleClick: ({ pointer: { canvas } }) => {
-      createNode(canvas.x, canvas.y);
-    }
+    // doubleClick: ({ pointer: { canvas } }) => {
+    //   createNode(canvas.x, canvas.y);
+    // }
+  }
+
+  function dropCourse(course) {
+
   }
 
   const [course, setCourse] = useState([]);
   const [ubcCourse, setUbcCourse] = useState([]);
 
 
-  function handleGraphQuery(query){
-
-        var myParams = {
-        data: query
-    }
-  
-    if (query !== "") {
-        axios.post('http://131.104.49.112/api/graph', myParams)
-
-
-            .then(function(response){
-                
-                // console.log("posted successfully")
-
-                console.log("Respone")
-                
-                console.log(response)
-                // setCourse(JSON.stringify(response.data));
-
-               setResultGraph(response.data);
-                // setState({
-                  // graph: response.data,
-              
-                  
-                // })
-                setIsLoading(false);
-                // console.log(JSON.stringify({ x: 5, y: 6 }));
-
-
-  
-                console.log("Course")
-  
-       //Perform action based on response
-        })
-        .catch(function(error){
-            console.log(error);
-       //Perform action based on error
-        });
-    } else {
-        alert("The search query cannot be empty")
-    }
-  }
-
-
-  function handleUbcPost(query){
+  function handleGraphQuery(query) {
 
     var myParams = {
-        data: query
+      data: query
     }
-  
+
     if (query !== "") {
-        axios.post('http://131.104.49.112/api/ubc-search', myParams)
-            .then(async function(response){
-                
-                console.log("posted successfully")
-
-                console.log(response.data)
-                setUbcCourse(response.data);
-                console.log(ubcCourse);
-                // console.log(JSON.stringify({ x: 5, y: 6 }));
+      axios.post('http://131.104.49.112/api/graph', myParams)
 
 
-  
-                console.log("Course")
-  
-       //Perform action based on response
+        .then(function (response) {
+
+          // console.log("posted successfully")
+
+          console.log("Respone")
+
+          console.log(response)
+          // setCourse(JSON.stringify(response.data));
+          setResultGraph(empty_graph);
+
+          setResultGraph(response.data);
+          // setState({
+          // graph: response.data,
+
+
+          // })
+          setIsLoading(false);
+          // console.log(JSON.stringify({ x: 5, y: 6 }));
+
+
+
+          console.log("Course")
+
+          //Perform action based on response
         })
-        .catch(function(error){
-            console.log(error);
-       //Perform action based on error
+        .catch(function (error) {
+          console.log(error);
+          //Perform action based on error
         });
     } else {
-        alert("The search query cannot be empty")
+      alert("The search query cannot be empty")
     }
   }
 
-  function handlePostQuery(query){
+
+  function handleUbcPost(query) {
 
     var myParams = {
-        data: query
+      data: query
     }
-  
+
     if (query !== "") {
-        axios.post('http://131.104.49.112/api/query', myParams)
-            .then(async function(response){
-                
-                console.log("posted successfully")
+      axios.post('http://131.104.49.112/api/ubc-search', myParams)
+        .then(async function (response) {
 
-                console.log(response.data)
-                setCourse(response.data);
-                console.log(course);
-                // console.log(JSON.stringify({ x: 5, y: 6 }));
+          console.log("posted successfully")
+
+          console.log(response.data)
+          setUbcCourse(response.data);
+          console.log(ubcCourse);
+          // console.log(JSON.stringify({ x: 5, y: 6 }));
 
 
-  
-                console.log("Course")
-  
-       //Perform action based on response
+
+          console.log("Course")
+
+          //Perform action based on response
         })
-        .catch(function(error){
-            console.log(error);
-       //Perform action based on error
+        .catch(function (error) {
+          console.log(error);
+          //Perform action based on error
         });
     } else {
-        alert("The search query cannot be empty")
+      alert("The search query cannot be empty")
     }
   }
-    
-    const handleSubmit = (e) => {
-    
-        e.preventDefault();
 
-        console.log(`Form submitted, ${cc}`);
+  function handlePostQuery(query) {
 
-        let input = []
-
-        if(cc === ""){
-          input.push('x')
-        }else {
-          input.push(cc)
-        }
-
-        if(year === ""){
-          input.push('x')
-        }else {
-          input.push(year)
-        }
-
-        if(weight === ""){
-          input.push('x')
-        }else {
-          input.push(weight)
-        }
-
-        if(off === ""){
-          input.push('x')
-        }else {
-          input.push(off)
-        }
-        
-        console.log({input})
-        
-        handlePostQuery({input})
-
+    var myParams = {
+      data: query
     }
 
-    const handleUbcSubmit = (e) => {
-    
-      e.preventDefault();
+    if (query !== "") {
+      axios.post('http://131.104.49.112/api/query', myParams)
+        .then(async function (response) {
 
-      console.log(`Form submitted, ${cc}`);
+          console.log("posted successfully")
 
-      let input = []
+          console.log(response.data)
+          setCourse(response.data);
+          console.log(course);
+          // console.log(JSON.stringify({ x: 5, y: 6 }));
 
-      if(ubcCC === ""){
-        input.push('x')
-      }else {
-        input.push(ubcCC)
-      }
 
-      if(ubcYear === ""){
-        input.push('x')
-      }else {
-        input.push(ubcYear)
-      }
 
-      if(ubcWeight === ""){
-        input.push('x')
-      }else {
-        input.push(ubcWeight)
-      }
-      
-      console.log({input})
-      
-      handleUbcPost({input})
+          console.log("Course")
+
+          //Perform action based on response
+        })
+        .catch(function (error) {
+          console.log(error);
+          //Perform action based on error
+        });
+    } else {
+      alert("The search query cannot be empty")
+    }
+  }
+
+  const handleSubmit = (e) => {
+
+    e.preventDefault();
+
+    console.log(`Form submitted, ${cc}`);
+
+    let input = []
+
+    if (cc === "") {
+      input.push('x')
+    } else {
+      input.push(cc)
+    }
+
+    if (year === "") {
+      input.push('x')
+    } else {
+      input.push(year)
+    }
+
+    if (weight === "") {
+      input.push('x')
+    } else {
+      input.push(weight)
+    }
+
+    if (off === "") {
+      input.push('x')
+    } else {
+      input.push(off)
+    }
+
+    console.log({ input })
+
+    handlePostQuery({ input })
 
   }
 
-    const handleGraphSubmit = (e) => {
-      
-      e.preventDefault();
+  const handleUbcSubmit = (e) => {
 
-      console.log(`Form submitted, ${name}`);   
-      
-      console.log({name})
-      
-      handleGraphQuery({name})
+    e.preventDefault();
+
+    console.log(`Form submitted, ${cc}`);
+
+    let input = []
+
+    if (ubcCC === "") {
+      input.push('x')
+    } else {
+      input.push(ubcCC)
     }
 
-    const showUogSearch = () => {
-      setShowUog(true);
-      setShowGraph(false);
-      setShowUbc(false);
+    if (ubcYear === "") {
+      input.push('x')
+    } else {
+      input.push(ubcYear)
     }
 
-    const showUbcSearch = () => {
-      setShowUog(false);
-      setShowGraph(false);
-      setShowUbc(true);
+    if (ubcWeight === "") {
+      input.push('x')
+    } else {
+      input.push(ubcWeight)
     }
 
-    const showGraphForm = () => {
-      setShowGraph(true);
-      setShowUog(false);
-      setShowUbc(false);
-    }
+    console.log({ input })
+
+    handleUbcPost({ input })
+
+  }
+
+  const handleGraphSubmit = (e) => {
+
+    e.preventDefault();
+
+    console.log(`Form submitted, ${name}`);
+
+    console.log({ name })
+
+    handleGraphQuery({ name })
+  }
+
+  const showUogSearch = () => {
+    setShowUog(true);
+    setShowGraph(false);
+    setShowUbc(false);
+  }
+
+  const showUbcSearch = () => {
+    setShowUog(false);
+    setShowGraph(false);
+    setShowUbc(true);
+  }
+
+  const showGraphForm = () => {
+    setShowGraph(true);
+    setShowUog(false);
+    setShowUbc(false);
+  }
 
   useEffect(() => {
     fetch('http://131.104.49.112/api/time').then(res => res.json()).then(data => {
@@ -304,92 +366,89 @@ function App() {
   return (
     <div className="App" style={{ background: "#61dafb" }}>
 
-    {/* <p style={{ background: "#61dafb" }}>The current time is {currentTime}.</p> */}
-    
+      {/* <p style={{ background: "#61dafb" }}>The current time is {currentTime}.</p> */}
 
-    {/* <p>The current data is {JSON.stringify(course)}.</p> */}
-
-     <button 
-     style={{margin:"10px"}}
-      onClick={showUogSearch}
-      className="btn btn-primary"
+      <button
+        style={{ margin: "10px" }}
+        onClick={showUogSearch}
+        className="btn btn-primary"
       >
-      Search Uog Courses
-      <i className="bi bi-pencil-square m-2"></i>
-      </button>
-
-      <button 
-      onClick={showGraphForm}
-      className="btn btn-primary"
-      >
-      Create Subject Graph
-      <i className="bi bi-pencil-square m-2"></i>
+        Search Uog Courses
+        <i className="bi bi-pencil-square m-2"></i>
       </button>
 
       <button
-      style={{margin:"10px"}}
-      onClick={showUbcSearch}
-      className="btn btn-primary"
+        onClick={showGraphForm}
+        className="btn btn-primary"
       >
-      Search UBC Courses
-      <i className="bi bi-pencil-square m-2"></i>
+        Create Subject Graph
+        <i className="bi bi-pencil-square m-2"></i>
+      </button>
+
+      <button
+        style={{ margin: "10px" }}
+        onClick={showUbcSearch}
+        className="btn btn-primary"
+      >
+        Search UBC Courses
+        <i className="bi bi-pencil-square m-2"></i>
       </button>
 
       <div>
-      {showUog && <h1 style={{fontFamily: "Poppins"}}>
-        Example input: cis 3 0.75 f
-      </h1>}
+        {showUog && <h1 style={{ fontFamily: "Poppins" }}>
+          Example input: cis 3 0.75 f
+        </h1>}
 
-      {showGraph && <h1 style={{fontFamily: "Poppins"}}>
-        Example input: HIST
-      </h1>}
+        {showGraph && <h1 style={{ fontFamily: "Poppins" }}>
+          Example input: HIST
+        </h1>}
 
-      {showUbc && <h1 style={{fontFamily: "Poppins"}}>
-        Example input: cpen 4 3
-      </h1>}
+        {showUbc && <h1 style={{ fontFamily: "Poppins" }}>
+          Example input: cpen 4 3
+        </h1>}
 
-      { showUog && <form  className="shadow p-4" onSubmit = {handleSubmit}>
-            <input className="form-control" onChange = {(e) => {setCC(e.target.value)}} value = {cc}></input><br/>
-            <input className="form-control" onChange = {(e) => setYear(e.target.value)} value = {year}></input><br/>
-            <input className="form-control" onChange = {(e) => setWeight(e.target.value)} value = {weight}></input><br/>
-            <input className="form-control" onChange = {(e) => setOff(e.target.value)} value = {off}></input><br/>
+        {showUog && <form className="shadow p-4" onSubmit={handleSubmit}>
+          <input className="form-control" onChange={(e) => { setCC(e.target.value) }} value={cc}></input><br />
+          <input className="form-control" onChange={(e) => setYear(e.target.value)} value={year}></input><br />
+          <input className="form-control" onChange={(e) => setWeight(e.target.value)} value={weight}></input><br />
+          <input className="form-control" onChange={(e) => setOff(e.target.value)} value={off}></input><br />
 
-            <button className="btn btn-primary mt-2" type = 'submit'>Click to submit</button>
+          <button className="btn btn-primary mt-2" type='submit'>Click to submit</button>
         </form>
-      }
+        }
 
-      {showUog && <SearchResults 
-      courses={course}
-      />}
+        {showUog && <SearchResults
+          courses={course}
+        />}
 
 
-    { showUbc && <form  className="shadow p-4" onSubmit = {handleUbcSubmit}>
-            <input className="form-control" onChange = {(e) => {setUbcCC(e.target.value)}} value = {ubcCC}></input><br/>
-            <input className="form-control" onChange = {(e) => setUbcYear(e.target.value)} value = {ubcYear}></input><br/>
-            <input className="form-control" onChange = {(e) => setUbcWeight(e.target.value)} value = {ubcWeight}></input><br/>
+        {showUbc && <form className="shadow p-4" onSubmit={handleUbcSubmit}>
+          <input className="form-control" onChange={(e) => { setUbcCC(e.target.value) }} value={ubcCC}></input><br />
+          <input className="form-control" onChange={(e) => setUbcYear(e.target.value)} value={ubcYear}></input><br />
+          <input className="form-control" onChange={(e) => setUbcWeight(e.target.value)} value={ubcWeight}></input><br />
 
-            <button className="btn btn-primary mt-2" type = 'submit'>Click to submit</button>
+          <button className="btn btn-primary mt-2" type='submit'>Click to submit</button>
         </form>
-      }
+        }
 
-      {showUbc && <UbcSearchResults 
-      courses={ubcCourse}
-      />}
+        {showUbc && <UbcSearchResults
+          courses={ubcCourse}
+        />}
 
-      { showGraph && <form  className="shadow p-4" onSubmit = {handleGraphSubmit}>
-            <input className="form-control" onChange = {(e) => {setName(e.target.value.toUpperCase())}} value = {name}></input><br/>
+        {showGraph && <form className="shadow p-4" onSubmit={handleGraphSubmit}>
+          <input className="form-control" onChange={(e) => { setName(e.target.value.toUpperCase()) }} value={name}></input><br />
 
-            <button className="btn btn-primary mt-2" type = 'submit'>Click to submit</button>
+          <button className="btn btn-primary mt-2" type='submit'>Click to submit</button>
         </form>
-      }
+        }
 
-      {showGraph && (isLoading ? (
-  <div></div>         
-        
-      ) : <div><Graph graph={resultGraph} options={options} events={events} style={{ height: "640px" }}/></div>)}
+        {showGraph && (isLoading ? (
+          <div></div>
+
+        ) : <div><Graph graph={resultGraph} options={options} events={events} style={{ height: "640px" }} /></div>)}
 
       </div>
-      
+
 
     </div>
   );
