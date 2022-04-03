@@ -90,58 +90,62 @@ function App() {
   });
 
   let updateGraph = {}
-
-  const createNode = (x, y) => {
-    const color = randomColor();
-    setResultGraph(({ graph: { nodes, edges }, counter, ...rest }) => {
-      const id = counter + 1;
-      const from = Math.floor(Math.random() * (counter - 1)) + 1;
-      return {
-        graph: {
-          nodes: [
-            ...nodes,
-            { id, label: `Node ${id}`, color, x, y }
-          ],
-          edges: [
-            ...edges,
-            { from, to: id }
-          ]
-        },
-        counter: id,
-        ...rest
-      }
-    });
-  }
+  const [resetGraph, setResetGraph] = useState({});
 
   const events = {
     select: ({ nodes, edges }) => {
-      console.log("Selected nodes:");
-      console.log(nodes);
-      console.log("Selected edges:");
-      console.log(edges);
-      alert("Selected node: " + nodes);
 
-      updateGraph = resultGraph;
-      
-      
-      for (let i = 0; i < updateGraph.nodes.length; i++){
-        if(updateGraph.nodes[i].id === nodes[0]){
-          updateGraph.nodes[i].color = "#FF0000";
-        }
-      }
-      
-      setResultGraph(empty_graph);
-      setResultGraph(updateGraph);
-      console.log(updateGraph);
-
+      dropCourse(nodes[0])
 
     },
-    // doubleClick: ({ pointer: { canvas } }) => {
-    //   createNode(canvas.x, canvas.y);
-    // }
+    doubleClick: () => {
+      
+    }
   }
 
   function dropCourse(course) {
+
+    console.log("RESET GRAPH: ");
+    console.log(resetGraph);
+    updateGraph = structuredClone(resetGraph);
+    
+    let connected = [];
+
+    let affected = [];
+  
+
+    for (let i = 0; i < updateGraph.nodes.length; i++){
+      if(updateGraph.nodes[i].id === course){
+        updateGraph.nodes[i].color = "#FF0000";
+        connected.push(updateGraph.nodes[i].id);
+        affected.push(updateGraph.nodes[i].id);
+      }
+    }
+
+    while(connected.length !== 0){
+      for (let i = 0; i < updateGraph.edges.length; i++){
+        if( (updateGraph.edges[i].from === connected[0]) && (updateGraph.edges[i].to.includes("*")) ){
+          connected.push(updateGraph.edges[i].to);
+          affected.push(updateGraph.edges[i].to);
+        }
+      }
+      connected.shift();
+    }
+
+    console.log(affected);
+
+    for(let i = 0; i < affected.length; i++){
+      for(let j = 0; j < updateGraph.nodes.length; j++){
+        if(affected[i] === updateGraph.nodes[j].id ){
+
+          updateGraph.nodes[j].color = "#FF0000";
+        }
+      }
+    }
+    
+    setResultGraph(empty_graph);
+    setResultGraph(updateGraph);
+    console.log(updateGraph);
 
   }
 
@@ -156,7 +160,7 @@ function App() {
     }
 
     if (query !== "") {
-      axios.post('http://131.104.49.112/api/graph', myParams)
+      axios.post('https://131.104.49.112/api/graph', myParams)
 
 
         .then(function (response) {
@@ -170,6 +174,9 @@ function App() {
           setResultGraph(empty_graph);
 
           setResultGraph(response.data);
+
+          setResetGraph(empty_graph);
+          setResetGraph(response.data);
           // setState({
           // graph: response.data,
 
@@ -201,7 +208,7 @@ function App() {
     }
 
     if (query !== "") {
-      axios.post('http://131.104.49.112/api/ubc-search', myParams)
+      axios.post('https://131.104.49.112/api/ubc-search', myParams)
         .then(async function (response) {
 
           console.log("posted successfully")
@@ -233,7 +240,7 @@ function App() {
     }
 
     if (query !== "") {
-      axios.post('http://131.104.49.112/api/query', myParams)
+      axios.post('https://131.104.49.112/api/query', myParams)
         .then(async function (response) {
 
           console.log("posted successfully")
@@ -358,7 +365,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('http://131.104.49.112/api/time').then(res => res.json()).then(data => {
+    fetch('https://131.104.49.112/api/time').then(res => res.json()).then(data => {
       setCurrentTime(data.time);
     });
   }, []);
