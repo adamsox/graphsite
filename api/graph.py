@@ -53,7 +53,7 @@ def getColor(nodeName):
 
     # Assigning colour for "and" nodes
     elif("AND" in nodeName):
-        color = "#FF0000"
+        color = "#FBA9FF"
     
     # Assigning colour for remaining nodes
     else:
