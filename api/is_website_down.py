@@ -16,7 +16,7 @@ sent_from = gmail_user
 to = ['cis3760team10dev@gmail.com']
 
 subject = 'Website Error Alert'
-body = 'Urgent error, website is potentially down!'
+body = 'Urgent error, website is potentially down! Automated testing was unable to connect to the website'
 
 email_text = """\
 From: %s
