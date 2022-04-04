@@ -66,7 +66,7 @@ const options = {
 function App() {
   const [currentTime, setCurrentTime] = useState(0);
   const [name, setName] = useState('CIS');
-  const [cc, setCC] = useState('cis');
+  const [cc, setCC] = useState('');
   const [year, setYear] = useState('');
   const [weight, setWeight] = useState('');
   const [off, setOff] = useState('');
@@ -371,7 +371,8 @@ function App() {
   }, []);
 
   return (
-    <div className="App" style={{ background: "#61dafb" }}>
+    <div className="App" 
+    style={{ background: "#7d868a" }}>
 
       {/* <p style={{ background: "#61dafb" }}>The current time is {currentTime}.</p> */}
 
@@ -415,10 +416,10 @@ function App() {
         </h1>}
 
         {showUog && <form className="shadow p-4" onSubmit={handleSubmit}>
-          <input className="form-control" onChange={(e) => { setCC(e.target.value) }} value={cc}></input><br />
-          <input className="form-control" onChange={(e) => setYear(e.target.value)} value={year}></input><br />
-          <input className="form-control" onChange={(e) => setWeight(e.target.value)} value={weight}></input><br />
-          <input className="form-control" onChange={(e) => setOff(e.target.value)} value={off}></input><br />
+          <input className="form-control" placeholder="cis" onChange={(e) => { setCC(e.target.value) }} value={cc}></input><br />
+          <input className="form-control" placeholder="3" onChange={(e) => setYear(e.target.value)} value={year}></input> <br />
+          <input className="form-control" placeholder="0.75" onChange={(e) => setWeight(e.target.value)} value={weight}></input><br />
+          <input className="form-control" placeholder="f"   onChange={(e) => setOff(e.target.value)} value={off}></input><br />
 
           <button className="btn btn-primary mt-2" type='submit'>Click to submit</button>
         </form>
