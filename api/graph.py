@@ -67,8 +67,22 @@ def addNode(nodeId, nodeName):
     # Getting colour based on node name
     color = getColor(nodeName)
 
+    node_label = ""
+    if "*" not in nodeName:
+        split_label = nodeName.split(" ")
+        num_splits = len(split_label)
+
+        for i in range(0, num_splits):
+
+            if i % 3 == 2 and i != (num_splits - 1):
+                split_label[i] = split_label[i] + "\n"
+
+            node_label = node_label + " " + split_label[i]
+    else:
+        node_label = nodeName
+
     # Creating node dictionary
-    nodeDict = { "id": nodeId, "label": nodeName, "color": color }
+    nodeDict = { "id": nodeId, "label": node_label, "color": color }
 
     # Checking to see if node is in list already before adding it
     if(nodeDict not in nodes_list):
@@ -94,10 +108,18 @@ def readCourses(user_input):
     
     # For loop to go through courses
     for course in courses:
+
         # If course code does not match what user is looking for, continue to next iteration
-        if user_input not in course['cc']:
-            continue
+        if "*" in course['cc']:
+            i = 0
+            subj_name = ""
+            while course['cc'][i] != "*":
+                subj_name = subj_name + course['cc'][i]
+                i = i + 1
         
+        if subj_name != user_input:
+            continue
+
         # Adding course node
         addNode(course['cc'], course['cc'])
         
@@ -330,9 +352,6 @@ def readCourses(user_input):
 
 # Putting code into correct graphing format
 def codeFormat(user_input):
-
-   
-    
     
     # Calling readCourses function
     readCourses(user_input)
@@ -356,7 +375,7 @@ def codeFormat(user_input):
     # graph = complete_graph
 
 
-        
+    
     # Writing nodes list to nodes file
     # with open(graphingFile, "a") as textFile:
     #     textFile.write("{\n\t\"nodes\": ")
@@ -365,14 +384,14 @@ def codeFormat(user_input):
     #     json.dump(edges_list, textFile)
     #     textFile.write("\n}")
     
-    # Writing edges list to edges file
-    #with open(edgesFile, "a") as textFile:
-    #    json.dump(edges_list, textFile)  
+    # # Writing edges list to edges file
+    # # with open(edgesFile, "a") as textFile:
+    # #    json.dump(edges_list, textFile)  
     # f = open('graph_info.json')
 
  
-    # returns JSON object as
-    # a dictionary
+    # # returns JSON object as
+    # # a dictionary
     # data = json.load(f)
 
     # print(json.dumps(data))
@@ -385,4 +404,6 @@ def codeFormat(user_input):
         print('empty')
         return -1
 
+# if __name__ == "__main__":
+#     main()
 
