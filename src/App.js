@@ -39,6 +39,7 @@ const options = {
       shakeTowards: "leaves",
     },
   },
+  
 
   interaction: {
     dragNodes: true,
@@ -227,7 +228,7 @@ function App() {
 
     if (query !== "") {
       axios
-        .post("https://131.104.49.112/api/query", myParams)
+        .post("http://131.104.49.112/api/query", myParams)
         .then(async function (response) {
           console.log("posted successfully");
 
@@ -536,7 +537,13 @@ function App() {
                 graph={resultGraph}
                 options={options}
                 events={events}
-                style={{ height: "640px" }}
+                style={{ 
+                  height: "640px",
+                  
+                   
+
+              
+              }}
               />
             </div>
           ))}
