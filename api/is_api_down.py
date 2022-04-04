@@ -12,7 +12,7 @@ sent_from = gmail_user
 to = ['cis3760team10dev@gmail.com']
 
 subject = 'API Error Alert'
-body = 'Urgent error, API is potentially down!'
+body = 'Urgent error, API is potentially down! An error occured when trying to call from the API'
 
 email_text = """\
 From: %s
