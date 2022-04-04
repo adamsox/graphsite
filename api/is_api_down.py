@@ -31,7 +31,7 @@ def send_email():
 
 try:
     from course_searcher import search_course
-    #from ubc
+    from ubc_course_searcher import search_ubc
 except:
     print("API Error.")
     send_email()
@@ -50,18 +50,18 @@ def check_api():
             print("Return Value Error.")
             send_email()
         
-        # do ubc stuff here
-        #api_input = ['cis', 'x', 'x', 'x']
+        # ubc stuff here
+        api_input = ['AANB500', 'x', 'x']
         
-        #ret_val = search_course(api_input)
+        ret_val = search_ubc(api_input)
         
-        #check_list = isinstance(ret_val, list)
+        check_list = isinstance(ret_val, list)
         
-        #if check_list:
-        #    print("Success!")
-        #else:
-        #    print("Return Value Error.")
-        #    send_email()
+        if check_list:
+            print("Success!")
+        else:
+            print("Return Value Error.")
+            send_email()
 
     except:
         print("API Error.")
