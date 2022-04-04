@@ -6,9 +6,14 @@ export default function UbcSearchResults(props) {
       if (props.courses !== null){
   
         return (
-          <div>
-          {/* <p>The current data is {JSON.stringify(props.courses)}.</p> */}
-            {props.courses.map(course => <p> {course.cc} {course.cred} {course.desc}</p>)}
+          <div >
+            
+            {props.courses.map(course => <p style = {
+            {
+              outline: '1px solid black',
+            }
+          }> <h1>{course.cc}
+              </h1> {course.cred} {course.desc}</p>)}
           </div>
         );
       }else {
