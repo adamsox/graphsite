@@ -136,7 +136,7 @@ function App() {
     for (let i = 0; i < affected.length; i++) {
       for (let j = 0; j < updateGraph.nodes.length; j++) {
         if (affected[i] === updateGraph.nodes[j].id) {
-          updateGraph.nodes[j].color = "#FF0000";
+          updateGraph.nodes[j].color = "#FFFFFF";
         }
       }
     }
@@ -352,7 +352,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App" style={{ background: "#78dbff" }}>
+    <div className="App" style={{ background: "#9ea9ad" }}>
       {/* <p style={{ background: "#61dafb" }}>The current time is {currentTime}.</p> */}
 
       <button
