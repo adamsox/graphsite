@@ -1,7 +1,3 @@
-# isAPIDown.py
-
-from course_searcher import search_course
-import smtplib
 import time
 
 # email info
@@ -12,7 +8,7 @@ sent_from = gmail_user
 to = ['cis3760team10dev@gmail.com']
 
 subject = 'API Error Alert'
-body = 'Urgent error, API is potentially down! An error occured when trying to call from the API'
+body = 'Urgent error, API is potentially down! An error occured while trying to call the API'
 
 email_text = """\
 From: %s
@@ -33,9 +29,16 @@ def send_email():
     except Exception as ex:
         print ("Something went wrong while emailing.",ex)
 
+try:
+    from course_searcher import search_course
+    #from ubc
+except:
+    print("API Error.")
+    send_email()
+
 def check_api():
     try:
-        api_input = ['cis', 'x', 'x']
+        api_input = ['cis', 'x', 'x', 'x']
         
         ret_val = search_course(api_input)
         
@@ -47,6 +50,19 @@ def check_api():
             print("Return Value Error.")
             send_email()
         
+        # do ubc stuff here
+        #api_input = ['cis', 'x', 'x', 'x']
+        
+        #ret_val = search_course(api_input)
+        
+        #check_list = isinstance(ret_val, list)
+        
+        #if check_list:
+        #    print("Success!")
+        #else:
+        #    print("Return Value Error.")
+        #    send_email()
+
     except:
         print("API Error.")
         
