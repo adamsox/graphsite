@@ -35,29 +35,29 @@ def getColor(nodeName):
 
         # Assigning colour for each year
         if(courseYear == '1'):
-            color = "#CEFF58"
+            color = "#E69F00"
         elif(courseYear == '2'):
-            color = "#63FF58"
+            color = "#56B4E9"
         elif(courseYear == '3'):
-            color = "#58FFDE"
+            color = "#009E73"
         elif(courseYear == '4'):
-            color = "#D496FF"
+            color = "#F0E442"
 
     # Assigning colour for "or" nodes
     elif("OR" in nodeName):
-        color = "#FFA100"
+        color = "#0072B2"
 
     # Assigning colour for "# of" nodes
     elif("of" in nodeName):
-        color = "#FF00F7"
+        color = "#D55E00"
 
     # Assigning colour for "and" nodes
     elif("AND" in nodeName):
-        color = "#FFAAD2"
+        color = "#CC79A7"
     
     # Assigning colour for remaining nodes
     else:
-        color = "#FF8932"
+        color = "#A0A0A0"
     
     # Returning colour
     return color
