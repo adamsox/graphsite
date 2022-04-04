@@ -1,33 +1,3 @@
-sudo apt-get upgrade
-sudo apt-get update
-
-sudo apt install libssl1.0-dev
-sudo apt install nodejs-dev
-sudo apt install node-gyp
-sudo apt install npm
-
-# Python Deployment Testing
-pip3 install --upgrade pip
-pip3 install playwright
-playwright install
-
-pip3 install asyncio
-
-
-#Python:
-sudo apt install python3-venv
-sudo -m venv myprojectenv
-
-echo 'wheel and uwsgi'
-pip3 install wheel
-pip3 install uwsgi
-
-echo 'python3-pip'
-sudo apt install python3-pip
-
-echo 'npm'
-sudo apt install npm
-
 # Setup:
 # for http testing
 # sudo ufw allow 5000
