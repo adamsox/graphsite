@@ -208,7 +208,7 @@ function App() {
     }
 
     if (query !== "") {
-      axios.post('https://131.104.49.112/api/ubc-search', myParams)
+      axios.post('http://131.104.49.112/api/ubc-search', myParams)
         .then(async function (response) {
 
           console.log("posted successfully")
