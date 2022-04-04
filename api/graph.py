@@ -41,7 +41,7 @@ def getColor(nodeName):
         elif(courseYear == '3'):
             color = "#58FFDE"
         elif(courseYear == '4'):
-            color = "#5872FF"
+            color = "#D496FF"
 
     # Assigning colour for "or" nodes
     elif("OR" in nodeName):
@@ -53,7 +53,7 @@ def getColor(nodeName):
 
     # Assigning colour for "and" nodes
     elif("AND" in nodeName):
-        color = "#FBA9FF"
+        color = "#FFAAD2"
     
     # Assigning colour for remaining nodes
     else:
