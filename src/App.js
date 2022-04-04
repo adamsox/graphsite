@@ -386,8 +386,21 @@ function App() {
         {showUbc}
 
         {showUog && (
-          <form className="shadow p-4" onSubmit={handleSubmit}>
-            <input
+          <form style ={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          
+          className="shadow p-4" onSubmit={handleSubmit}>
+            <input 
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="cis"
               onChange={(e) => {
@@ -397,6 +410,12 @@ function App() {
             ></input>
             <br />
             <input
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="3"
               onChange={(e) => setYear(e.target.value)}
@@ -404,6 +423,12 @@ function App() {
             ></input>{" "}
             <br />
             <input
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="0.75"
               onChange={(e) => setWeight(e.target.value)}
@@ -411,6 +436,12 @@ function App() {
             ></input>
             <br />
             <input
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="f"
               onChange={(e) => setOff(e.target.value)}
@@ -426,8 +457,19 @@ function App() {
         {showUog && <SearchResults courses={course} />}
 
         {showUbc && (
-          <form className="shadow p-4" onSubmit={handleUbcSubmit}>
+          <form style ={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }} className="shadow p-4" onSubmit={handleUbcSubmit}>
             <input
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="cpen"
               onChange={(e) => {
@@ -437,6 +479,12 @@ function App() {
             ></input>
             <br />
             <input
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="4"
               onChange={(e) => setUbcYear(e.target.value)}
@@ -444,6 +492,12 @@ function App() {
             ></input>
             <br />
             <input
+            style={{ 
+              
+              width: "50%",
+
+          
+          }}
               className="form-control"
               placeholder="3"
               onChange={(e) => setUbcWeight(e.target.value)}
@@ -460,8 +514,19 @@ function App() {
         {showUbc && <UbcSearchResults courses={ubcCourse} />}
 
         {showGraph && (
-          <form className="shadow p-4" onSubmit={handleGraphSubmit}>
+          <form style ={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }} className="shadow p-4" onSubmit={handleGraphSubmit}>
             <input
+             style={{ 
+              
+              width: "50%",
+
+    
+          }}
               className="form-control"
               onChange={(e) => {
                 setName(e.target.value.toUpperCase());
